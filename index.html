@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爆走！うんちドリル</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- トップ画面 -->
+        <div id="top-screen" class="screen active">
+            <div class="container">
+                <div class="title-area">
+                    <h1 class="game-title">💩 爆走！うんちドリル 🚽</h1>
+                    <div class="poop-racer">
+                        <div class="racer-emoji">💩</div>
+                        <div class="racer-wheels">🏎️</div>
+                    </div>
+                </div>
+                <div class="menu-buttons">
+                    <button class="menu-btn primary" onclick="showScreen('drill-setup-screen')">
+                        <span class="btn-icon">🏁</span>
+                        <span class="btn-text">ドリル開始</span>
+                    </button>
+                    <button class="menu-btn secondary" onclick="showScreen('stats-screen')">
+                        <span class="btn-icon">📊</span>
+                        <span class="btn-text">成績グラフ</span>
+                    </button>
+                    <button class="menu-btn tertiary" onclick="showScreen('settings-screen')">
+                        <span class="btn-icon">⚙️</span>
+                        <span class="btn-text">設定</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ドリル設定画面 -->
+        <div id="drill-setup-screen" class="screen">
+            <div class="container">
+                <div class="screen-header">
+                    <button class="back-btn" onclick="showScreen('top-screen')">← 戻る</button>
+                    <h2>ドリル設定</h2>
+                </div>
+
+                <!-- ステップ1: 科目選択 -->
+                <div id="subject-selection" class="setup-step active">
+                    <h3>科目を選んでね！</h3>
+                    <div class="subject-grid">
+                        <button class="subject-btn" data-subject="english" onclick="selectSubject('english')">
+                            <div class="subject-icon">📚</div>
+                            <div class="subject-name">英語</div>
+                        </button>
+                        <button class="subject-btn" data-subject="math" onclick="selectSubject('math')">
+                            <div class="subject-icon">🔢</div>
+                            <div class="subject-name">数学</div>
+                        </button>
+                        <button class="subject-btn" data-subject="japanese" onclick="selectSubject('japanese')">
+                            <div class="subject-icon">📖</div>
+                            <div class="subject-name">国語</div>
+                        </button>
+                        <button class="subject-btn" data-subject="science" onclick="selectSubject('science')">
+                            <div class="subject-icon">🔬</div>
+                            <div class="subject-name">理科</div>
+                        </button>
+                        <button class="subject-btn" data-subject="social" onclick="selectSubject('social')">
+                            <div class="subject-icon">🌏</div>
+                            <div class="subject-name">社会</div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ステップ2: 単元選択 -->
+                <div id="unit-selection" class="setup-step">
+                    <h3><span id="selected-subject-name"></span> の単元を選んでね！</h3>
+                    <div id="unit-tree" class="unit-tree"></div>
+                    <button class="next-btn" onclick="showQuestionCountSelection()">次へ →</button>
+                </div>
+
+                <!-- ステップ3: 問題数選択 -->
+                <div id="question-count-selection" class="setup-step">
+                    <h3>問題数を選んでね！</h3>
+                    <div class="count-buttons">
+                        <button class="count-btn" onclick="selectQuestionCount(10)">10問</button>
+                        <button class="count-btn" onclick="selectQuestionCount(20)">20問</button>
+                        <button class="count-btn" onclick="selectQuestionCount(50)">50問</button>
+                        <button class="count-btn" onclick="selectQuestionCount(-1)">全問</button>
+                    </div>
+                    <button class="start-race-btn" onclick="startDrill()">
+                        🏁 レース開始！ 🏁
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- クイズ画面 -->
+        <div id="quiz-screen" class="screen">
+            <div class="container">
+                <!-- レース進捗バー -->
+                <div class="race-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                        <div class="racer-position" id="racer-position">
+                            <span class="racer-icon">💩🏎️</span>
+                        </div>
+                    </div>
+                    <div class="progress-labels">
+                        <span class="start-label">🏁 スタート</span>
+                        <span class="goal-label">🚽 ゴール</span>
+                    </div>
+                    <div class="question-counter">
+                        <span id="current-question-num">1</span> / <span id="total-questions">10</span>
+                    </div>
+                </div>
+
+                <!-- 問題表示エリア -->
+                <div class="question-area">
+                    <div class="question-header">
+                        <span class="subject-badge" id="question-subject"></span>
+                        <span class="unit-badge" id="question-unit"></span>
+                    </div>
+                    <div class="question-text" id="question-text"></div>
+                </div>
+
+                <!-- 解答エリア -->
+                <div class="answer-area" id="answer-area">
+                    <!-- 動的に生成される -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 解説モーダル -->
+        <div id="explanation-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title"></h3>
+                </div>
+                <div class="modal-body">
+                    <div class="explanation-text" id="explanation-text"></div>
+                </div>
+                <button class="modal-btn" onclick="closeExplanationModal()">次の問題へ →</button>
+            </div>
+        </div>
+
+        <!-- リザルト画面 -->
+        <div id="result-screen" class="screen">
+            <div class="container">
+                <div class="result-header">
+                    <h2>🎉 レース完走！ 🎉</h2>
+                </div>
+                <div class="result-content">
+                    <div class="result-poop">💩🏆</div>
+                    <div class="result-stats">
+                        <div class="result-item">
+                            <div class="result-label">正答数</div>
+                            <div class="result-value" id="result-correct">0</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">正答率</div>
+                            <div class="result-value" id="result-rate">0%</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">かかった時間</div>
+                            <div class="result-value" id="result-time">0:00</div>
+                        </div>
+                        <div class="result-item highlight">
+                            <div class="result-label">獲得 U-P</div>
+                            <div class="result-value" id="result-up">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-buttons">
+                    <button class="menu-btn primary" onclick="showScreen('drill-setup-screen')">もう一度挑戦</button>
+                    <button class="menu-btn secondary" onclick="showScreen('stats-screen')">成績を見る</button>
+                    <button class="menu-btn tertiary" onclick="showScreen('top-screen')">トップに戻る</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 成績グラフ画面 -->
+        <div id="stats-screen" class="screen">
+            <div class="container">
+                <div class="screen-header">
+                    <button class="back-btn" onclick="showScreen('top-screen')">← 戻る</button>
+                    <h2>成績グラフ</h2>
+                </div>
+                
+                <div class="stats-tabs">
+                    <button class="stats-tab active" onclick="showStatsTab('calendar')">📅 カレンダー</button>
+                    <button class="stats-tab" onclick="showStatsTab('graph')">📊 グラフ</button>
+                    <button class="stats-tab" onclick="showStatsTab('units')">📚 単元別</button>
+                </div>
+
+                <div id="calendar-tab" class="stats-tab-content active">
+                    <div id="calendar"></div>
+                    <div id="calendar-detail" class="calendar-detail"></div>
+                </div>
+
+                <div id="graph-tab" class="stats-tab-content">
+                    <div class="graph-period-selector">
+                        <button class="period-btn active" onclick="selectGraphPeriod('daily')">日別</button>
+                        <button class="period-btn" onclick="selectGraphPeriod('weekly')">週別</button>
+                        <button class="period-btn" onclick="selectGraphPeriod('monthly')">月別</button>
+                    </div>
+                    <canvas id="stats-chart"></canvas>
+                </div>
+
+                <div id="units-tab" class="stats-tab-content">
+                    <canvas id="radar-chart"></canvas>
+                    <div id="unit-list" class="unit-stats-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 設定画面 -->
+        <div id="settings-screen" class="screen">
+            <div class="container">
+                <div class="screen-header">
+                    <button class="back-btn" onclick="showScreen('top-screen')">← 戻る</button>
+                    <h2>設定</h2>
+                </div>
+
+                <div class="settings-content">
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>🔊 BGM</span>
+                            <label class="switch">
+                                <input type="checkbox" id="bgm-toggle" checked onchange="toggleBGM()">
+                                <span class="slider"></span>
+                            </label>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>🔔 効果音</span>
+                            <label class="switch">
+                                <input type="checkbox" id="sfx-toggle" checked onchange="toggleSFX()">
+                                <span class="slider"></span>
+                            </label>
+                        </label>
+                    </div>
+                    <div class="setting-item danger">
+                        <button class="danger-btn" onclick="confirmResetData()">
+                            🗑️ 学習記録リセット
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 確認ダイアログ -->
+        <div id="confirm-dialog" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="confirm-title">確認</h3>
+                </div>
+                <div class="modal-body">
+                    <p id="confirm-message"></p>
+                </div>
+                <div class="modal-buttons">
+                    <button class="modal-btn cancel" onclick="closeConfirmDialog()">キャンセル</button>
+                    <button class="modal-btn danger" onclick="executeConfirmAction()">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
