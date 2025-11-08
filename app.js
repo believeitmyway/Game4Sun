@@ -330,15 +330,22 @@ function checkAnswer(selectedIndex) {
         }
     });
     
-    // 効果音
+    // 効果音とパーティクル
     playSFX(isCorrect ? 'correct' : 'wrong');
+    
+    // パーティクルエフェクト
+    const buttonRect = buttons[selectedIndex].getBoundingClientRect();
+    createParticles(isCorrect ? 'correct' : 'wrong', buttonRect.left + buttonRect.width / 2, buttonRect.top + buttonRect.height / 2);
     
     // 解答履歴を保存
     recordAnswer(question.id, isCorrect);
     
     if (isCorrect) {
         correctAnswers++;
+        // 画面を揺らす
+        document.querySelector('.container').style.animation = 'shake-celebration 0.5s ease';
         setTimeout(() => {
+            document.querySelector('.container').style.animation = '';
             currentQuestionIndex++;
             displayQuestion();
         }, 1000);
@@ -358,8 +365,12 @@ function checkInputAnswer() {
     
     const isCorrect = userAnswer === correctAnswer;
     
-    // 効果音
+    // 効果音とパーティクル
     playSFX(isCorrect ? 'correct' : 'wrong');
+    
+    // パーティクルエフェクト
+    const inputRect = input.getBoundingClientRect();
+    createParticles(isCorrect ? 'correct' : 'wrong', inputRect.left + inputRect.width / 2, inputRect.top);
     
     // 解答履歴を保存
     recordAnswer(question.id, isCorrect);
@@ -367,12 +378,14 @@ function checkInputAnswer() {
     if (isCorrect) {
         correctAnswers++;
         input.style.borderColor = '#4CAF50';
+        input.style.animation = 'glow-success 0.5s ease';
         setTimeout(() => {
             currentQuestionIndex++;
             displayQuestion();
         }, 1000);
     } else {
         input.style.borderColor = '#f44336';
+        input.style.animation = 'shake 0.5s ease';
         setTimeout(() => {
             showExplanation(question, false);
         }, 1000);
@@ -450,8 +463,15 @@ function showResult() {
     
     showScreen('result-screen');
     
-    // 効果音
+    // 効果音とお祝いパーティクル
     playSFX('finish');
+    
+    // 画面全体にパーティクルを発生
+    for (let i = 0; i < 5; i++) {
+        setTimeout(() => {
+            createParticles('correct', Math.random() * window.innerWidth, Math.random() * window.innerHeight / 2);
+        }, i * 200);
+    }
 }
 
 // 成績グラフ画面
@@ -719,37 +739,114 @@ function playSFX(type) {
         gainNode.connect(audioContext.destination);
         
         if (type === 'correct') {
-            // 正解音（高い音）
-            oscillator.frequency.value = 800;
-            oscillator.type = 'sine';
-            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
-            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.3);
-            oscillator.start(audioContext.currentTime);
-            oscillator.stop(audioContext.currentTime + 0.3);
-        } else if (type === 'wrong') {
-            // 不正解音（低い音）
-            oscillator.frequency.value = 200;
-            oscillator.type = 'sawtooth';
-            gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
-            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
-            oscillator.start(audioContext.currentTime);
-            oscillator.stop(audioContext.currentTime + 0.5);
-        } else if (type === 'finish') {
-            // 完了音（メロディー）
-            [523, 659, 784].forEach((freq, i) => {
+            // 正解音（キラキラした音）
+            [800, 1000, 1200, 1600].forEach((freq, i) => {
                 const osc = audioContext.createOscillator();
                 const gain = audioContext.createGain();
                 osc.connect(gain);
                 gain.connect(audioContext.destination);
                 osc.frequency.value = freq;
                 osc.type = 'sine';
-                gain.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.15);
-                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.3);
+                gain.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.08);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.08 + 0.4);
+                osc.start(audioContext.currentTime + i * 0.08);
+                osc.stop(audioContext.currentTime + i * 0.08 + 0.4);
+            });
+        } else if (type === 'wrong') {
+            // 不正解音（ブザー音）
+            [200, 180, 160].forEach((freq, i) => {
+                const osc = audioContext.createOscillator();
+                const gain = audioContext.createGain();
+                osc.connect(gain);
+                gain.connect(audioContext.destination);
+                osc.frequency.value = freq;
+                osc.type = 'sawtooth';
+                gain.gain.setValueAtTime(0.25, audioContext.currentTime + i * 0.1);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.1 + 0.3);
+                osc.start(audioContext.currentTime + i * 0.1);
+                osc.stop(audioContext.currentTime + i * 0.1 + 0.3);
+            });
+        } else if (type === 'finish') {
+            // 完了音（ファンファーレ）
+            [523, 523, 659, 523, 784, 740].forEach((freq, i) => {
+                const osc = audioContext.createOscillator();
+                const gain = audioContext.createGain();
+                osc.connect(gain);
+                gain.connect(audioContext.destination);
+                osc.frequency.value = freq;
+                osc.type = 'triangle';
+                gain.gain.setValueAtTime(0.35, audioContext.currentTime + i * 0.15);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.4);
                 osc.start(audioContext.currentTime + i * 0.15);
-                osc.stop(audioContext.currentTime + i * 0.15 + 0.3);
+                osc.stop(audioContext.currentTime + i * 0.15 + 0.4);
             });
         }
     } catch (e) {
         console.log('効果音の再生に失敗しました:', e);
     }
+}
+
+// パーティクルエフェクト
+function createParticles(type, x, y) {
+    const particleContainer = document.getElementById('particle-container');
+    if (!particleContainer) {
+        const container = document.createElement('div');
+        container.id = 'particle-container';
+        container.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
+        document.body.appendChild(container);
+    }
+    
+    const count = type === 'correct' ? 30 : 15;
+    const emoji = type === 'correct' ? '✨' : '💩';
+    const colors = type === 'correct' ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00'] : ['#8B4513', '#654321', '#A0522D'];
+    
+    for (let i = 0; i < count; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.textContent = Math.random() > 0.5 ? emoji : '';
+        particle.style.cssText = `
+            position: absolute;
+            font-size: ${Math.random() * 20 + 10}px;
+            color: ${colors[Math.floor(Math.random() * colors.length)]};
+            left: ${x || window.innerWidth / 2}px;
+            top: ${y || window.innerHeight / 2}px;
+            pointer-events: none;
+        `;
+        
+        document.getElementById('particle-container').appendChild(particle);
+        
+        const angle = (Math.PI * 2 * i) / count;
+        const velocity = Math.random() * 150 + 100;
+        const vx = Math.cos(angle) * velocity;
+        const vy = Math.sin(angle) * velocity - 100;
+        
+        animateParticle(particle, vx, vy);
+    }
+}
+
+function animateParticle(particle, vx, vy) {
+    let x = parseFloat(particle.style.left);
+    let y = parseFloat(particle.style.top);
+    let opacity = 1;
+    const gravity = 300;
+    const startTime = Date.now();
+    
+    function update() {
+        const elapsed = (Date.now() - startTime) / 1000;
+        x += vx * elapsed / 10;
+        y += (vy + gravity * elapsed) * elapsed / 10;
+        opacity -= elapsed / 15;
+        
+        particle.style.left = x + 'px';
+        particle.style.top = y + 'px';
+        particle.style.opacity = Math.max(0, opacity);
+        
+        if (opacity > 0 && y < window.innerHeight + 100) {
+            requestAnimationFrame(update);
+        } else {
+            particle.remove();
+        }
+    }
+    
+    update();
 }
