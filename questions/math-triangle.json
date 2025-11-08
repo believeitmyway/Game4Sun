@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "triangle",
+  "unitName": "三角形",
+  "category": "図形",
+  "questions": [
+    {
+      "id": "math-triangle-001",
+      "question": "底辺が 7 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.5 cm²",
+        "20.5 cm²",
+        "15.5 cm²",
+        "22.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 5 ÷ 2 = 17.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-002",
+      "question": "三角形の3辺の長さが 7 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 9 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-003",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40°",
+        "50°",
+        "32°",
+        "46°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 75° = 40° です。"
+    },
+    {
+      "id": "math-triangle-004",
+      "question": "底辺が 10 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "43 cm²",
+        "38 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 8 ÷ 2 = 40 cm² です。"
+    },
+    {
+      "id": "math-triangle-005",
+      "question": "三角形の3辺の長さが 6 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm",
+        "25 cm",
+        "18 cm",
+        "27 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 7 + 8 = 21 cm です。"
+    },
+    {
+      "id": "math-triangle-006",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 70° = 55° です。"
+    },
+    {
+      "id": "math-triangle-007",
+      "question": "底辺が 8 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm²",
+        "23 cm²",
+        "18 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 5 ÷ 2 = 20 cm² です。"
+    },
+    {
+      "id": "math-triangle-008",
+      "question": "三角形の3辺の長さが 5 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 10 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-009",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 65° = 45° です。"
+    },
+    {
+      "id": "math-triangle-010",
+      "question": "底辺が 6 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm²",
+        "27 cm²",
+        "22 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 8 ÷ 2 = 24 cm² です。"
+    },
+    {
+      "id": "math-triangle-011",
+      "question": "三角形の3辺の長さが 8 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 8 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-012",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 60° = 60° です。"
+    },
+    {
+      "id": "math-triangle-013",
+      "question": "底辺が 9 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22.5 cm²",
+        "25.5 cm²",
+        "20.5 cm²",
+        "27.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 5 ÷ 2 = 22.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-014",
+      "question": "三角形の3辺の長さが 7 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "30 cm",
+        "23 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 11 + 8 = 26 cm です。"
+    },
+    {
+      "id": "math-triangle-015",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 75° = 55° です。"
+    },
+    {
+      "id": "math-triangle-016",
+      "question": "底辺が 7 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm²",
+        "31 cm²",
+        "26 cm²",
+        "33 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 8 ÷ 2 = 28 cm² です。"
+    },
+    {
+      "id": "math-triangle-017",
+      "question": "三角形の3辺の長さが 6 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 9 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-018",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 70° = 45° です。"
+    },
+    {
+      "id": "math-triangle-019",
+      "question": "底辺が 10 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "28 cm²",
+        "23 cm²",
+        "30 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 5 ÷ 2 = 25 cm² です。"
+    },
+    {
+      "id": "math-triangle-020",
+      "question": "三角形の3辺の長さが 5 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm",
+        "24 cm",
+        "17 cm",
+        "26 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 7 + 8 = 20 cm です。"
+    },
+    {
+      "id": "math-triangle-021",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 65° = 60° です。"
+    },
+    {
+      "id": "math-triangle-022",
+      "question": "底辺が 8 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm²",
+        "35 cm²",
+        "30 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 8 ÷ 2 = 32 cm² です。"
+    },
+    {
+      "id": "math-triangle-023",
+      "question": "三角形の3辺の長さが 8 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "30 cm",
+        "23 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 10 + 8 = 26 cm です。"
+    },
+    {
+      "id": "math-triangle-024",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 60° = 50° です。"
+    },
+    {
+      "id": "math-triangle-025",
+      "question": "底辺が 6 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "18 cm²",
+        "13 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 5 ÷ 2 = 15 cm² です。"
+    },
+    {
+      "id": "math-triangle-026",
+      "question": "三角形の3辺の長さが 7 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 8 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-027",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 75° = 45° です。"
+    },
+    {
+      "id": "math-triangle-028",
+      "question": "底辺が 9 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "34 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 8 ÷ 2 = 36 cm² です。"
+    },
+    {
+      "id": "math-triangle-029",
+      "question": "三角形の3辺の長さが 6 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm",
+        "29 cm",
+        "22 cm",
+        "31 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 11 + 8 = 25 cm です。"
+    },
+    {
+      "id": "math-triangle-030",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 70° = 60° です。"
+    },
+    {
+      "id": "math-triangle-031",
+      "question": "底辺が 7 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.5 cm²",
+        "20.5 cm²",
+        "15.5 cm²",
+        "22.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 5 ÷ 2 = 17.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-032",
+      "question": "三角形の3辺の長さが 5 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "26 cm",
+        "19 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 9 + 8 = 22 cm です。"
+    },
+    {
+      "id": "math-triangle-033",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 65° = 50° です。"
+    },
+    {
+      "id": "math-triangle-034",
+      "question": "底辺が 10 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "43 cm²",
+        "38 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 8 ÷ 2 = 40 cm² です。"
+    },
+    {
+      "id": "math-triangle-035",
+      "question": "三角形の3辺の長さが 8 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 7 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-036",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "65°",
+        "75°",
+        "57°",
+        "71°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 60° = 65° です。"
+    },
+    {
+      "id": "math-triangle-037",
+      "question": "底辺が 8 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm²",
+        "23 cm²",
+        "18 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 5 ÷ 2 = 20 cm² です。"
+    },
+    {
+      "id": "math-triangle-038",
+      "question": "三角形の3辺の長さが 7 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm",
+        "29 cm",
+        "22 cm",
+        "31 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 10 + 8 = 25 cm です。"
+    },
+    {
+      "id": "math-triangle-039",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35°",
+        "45°",
+        "27°",
+        "41°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 75° = 35° です。"
+    },
+    {
+      "id": "math-triangle-040",
+      "question": "底辺が 6 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm²",
+        "27 cm²",
+        "22 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 8 ÷ 2 = 24 cm² です。"
+    },
+    {
+      "id": "math-triangle-041",
+      "question": "三角形の3辺の長さが 6 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "26 cm",
+        "19 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 8 + 8 = 22 cm です。"
+    },
+    {
+      "id": "math-triangle-042",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 70° = 50° です。"
+    },
+    {
+      "id": "math-triangle-043",
+      "question": "底辺が 9 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22.5 cm²",
+        "25.5 cm²",
+        "20.5 cm²",
+        "27.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 5 ÷ 2 = 22.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-044",
+      "question": "三角形の3辺の長さが 5 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 11 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-045",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "65°",
+        "75°",
+        "57°",
+        "71°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 65° = 65° です。"
+    },
+    {
+      "id": "math-triangle-046",
+      "question": "底辺が 7 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm²",
+        "31 cm²",
+        "26 cm²",
+        "33 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 8 ÷ 2 = 28 cm² です。"
+    },
+    {
+      "id": "math-triangle-047",
+      "question": "三角形の3辺の長さが 8 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm",
+        "29 cm",
+        "22 cm",
+        "31 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 9 + 8 = 25 cm です。"
+    },
+    {
+      "id": "math-triangle-048",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 60° = 55° です。"
+    },
+    {
+      "id": "math-triangle-049",
+      "question": "底辺が 10 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "28 cm²",
+        "23 cm²",
+        "30 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 5 ÷ 2 = 25 cm² です。"
+    },
+    {
+      "id": "math-triangle-050",
+      "question": "三角形の3辺の長さが 7 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "26 cm",
+        "19 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 7 + 8 = 22 cm です。"
+    },
+    {
+      "id": "math-triangle-051",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 75° = 50° です。"
+    },
+    {
+      "id": "math-triangle-052",
+      "question": "底辺が 8 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm²",
+        "35 cm²",
+        "30 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 8 ÷ 2 = 32 cm² です。"
+    },
+    {
+      "id": "math-triangle-053",
+      "question": "三角形の3辺の長さが 6 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 10 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-054",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40°",
+        "50°",
+        "32°",
+        "46°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 70° = 40° です。"
+    },
+    {
+      "id": "math-triangle-055",
+      "question": "底辺が 6 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "18 cm²",
+        "13 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 5 ÷ 2 = 15 cm² です。"
+    },
+    {
+      "id": "math-triangle-056",
+      "question": "三角形の3辺の長さが 5 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm",
+        "25 cm",
+        "18 cm",
+        "27 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 8 + 8 = 21 cm です。"
+    },
+    {
+      "id": "math-triangle-057",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 65° = 55° です。"
+    },
+    {
+      "id": "math-triangle-058",
+      "question": "底辺が 9 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "34 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 8 ÷ 2 = 36 cm² です。"
+    },
+    {
+      "id": "math-triangle-059",
+      "question": "三角形の3辺の長さが 8 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27 cm",
+        "31 cm",
+        "24 cm",
+        "33 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 11 + 8 = 27 cm です。"
+    },
+    {
+      "id": "math-triangle-060",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "80°",
+        "62°",
+        "76°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 60° = 70° です。"
+    },
+    {
+      "id": "math-triangle-061",
+      "question": "底辺が 7 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.5 cm²",
+        "20.5 cm²",
+        "15.5 cm²",
+        "22.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 5 ÷ 2 = 17.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-062",
+      "question": "三角形の3辺の長さが 7 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 9 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-063",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40°",
+        "50°",
+        "32°",
+        "46°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 75° = 40° です。"
+    },
+    {
+      "id": "math-triangle-064",
+      "question": "底辺が 10 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "43 cm²",
+        "38 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 8 ÷ 2 = 40 cm² です。"
+    },
+    {
+      "id": "math-triangle-065",
+      "question": "三角形の3辺の長さが 6 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm",
+        "25 cm",
+        "18 cm",
+        "27 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 7 + 8 = 21 cm です。"
+    },
+    {
+      "id": "math-triangle-066",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 70° = 55° です。"
+    },
+    {
+      "id": "math-triangle-067",
+      "question": "底辺が 8 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm²",
+        "23 cm²",
+        "18 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 5 ÷ 2 = 20 cm² です。"
+    },
+    {
+      "id": "math-triangle-068",
+      "question": "三角形の3辺の長さが 5 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 10 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-069",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 65° = 45° です。"
+    },
+    {
+      "id": "math-triangle-070",
+      "question": "底辺が 6 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm²",
+        "27 cm²",
+        "22 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 8 ÷ 2 = 24 cm² です。"
+    },
+    {
+      "id": "math-triangle-071",
+      "question": "三角形の3辺の長さが 8 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "28 cm",
+        "21 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 8 + 8 = 24 cm です。"
+    },
+    {
+      "id": "math-triangle-072",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 60° = 60° です。"
+    },
+    {
+      "id": "math-triangle-073",
+      "question": "底辺が 9 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22.5 cm²",
+        "25.5 cm²",
+        "20.5 cm²",
+        "27.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 5 ÷ 2 = 22.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-074",
+      "question": "三角形の3辺の長さが 7 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "30 cm",
+        "23 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 11 + 8 = 26 cm です。"
+    },
+    {
+      "id": "math-triangle-075",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "55°",
+        "65°",
+        "47°",
+        "61°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 75° = 55° です。"
+    },
+    {
+      "id": "math-triangle-076",
+      "question": "底辺が 7 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm²",
+        "31 cm²",
+        "26 cm²",
+        "33 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 8 ÷ 2 = 28 cm² です。"
+    },
+    {
+      "id": "math-triangle-077",
+      "question": "三角形の3辺の長さが 6 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 9 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-078",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 70° = 45° です。"
+    },
+    {
+      "id": "math-triangle-079",
+      "question": "底辺が 10 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "28 cm²",
+        "23 cm²",
+        "30 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 5 ÷ 2 = 25 cm² です。"
+    },
+    {
+      "id": "math-triangle-080",
+      "question": "三角形の3辺の長さが 5 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm",
+        "24 cm",
+        "17 cm",
+        "26 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 7 + 8 = 20 cm です。"
+    },
+    {
+      "id": "math-triangle-081",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 65° = 60° です。"
+    },
+    {
+      "id": "math-triangle-082",
+      "question": "底辺が 8 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm²",
+        "35 cm²",
+        "30 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 8 ÷ 2 = 32 cm² です。"
+    },
+    {
+      "id": "math-triangle-083",
+      "question": "三角形の3辺の長さが 8 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "30 cm",
+        "23 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 10 + 8 = 26 cm です。"
+    },
+    {
+      "id": "math-triangle-084",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 60° = 50° です。"
+    },
+    {
+      "id": "math-triangle-085",
+      "question": "底辺が 6 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "18 cm²",
+        "13 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 5 ÷ 2 = 15 cm² です。"
+    },
+    {
+      "id": "math-triangle-086",
+      "question": "三角形の3辺の長さが 7 cm、8 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 8 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-087",
+      "question": "三角形の内角のうち、∠A = 60°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45°",
+        "55°",
+        "37°",
+        "51°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 60° - 75° = 45° です。"
+    },
+    {
+      "id": "math-triangle-088",
+      "question": "底辺が 9 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "34 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 9 × 8 ÷ 2 = 36 cm² です。"
+    },
+    {
+      "id": "math-triangle-089",
+      "question": "三角形の3辺の長さが 6 cm、11 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm",
+        "29 cm",
+        "22 cm",
+        "31 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 6 + 11 + 8 = 25 cm です。"
+    },
+    {
+      "id": "math-triangle-090",
+      "question": "三角形の内角のうち、∠A = 50°、∠B = 70° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "70°",
+        "52°",
+        "66°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 50° - 70° = 60° です。"
+    },
+    {
+      "id": "math-triangle-091",
+      "question": "底辺が 7 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.5 cm²",
+        "20.5 cm²",
+        "15.5 cm²",
+        "22.5 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 7 × 5 ÷ 2 = 17.5 cm² です。"
+    },
+    {
+      "id": "math-triangle-092",
+      "question": "三角形の3辺の長さが 5 cm、9 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "26 cm",
+        "19 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 5 + 9 + 8 = 22 cm です。"
+    },
+    {
+      "id": "math-triangle-093",
+      "question": "三角形の内角のうち、∠A = 65°、∠B = 65° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50°",
+        "60°",
+        "42°",
+        "56°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 65° - 65° = 50° です。"
+    },
+    {
+      "id": "math-triangle-094",
+      "question": "底辺が 10 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "43 cm²",
+        "38 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 10 × 8 ÷ 2 = 40 cm² です。"
+    },
+    {
+      "id": "math-triangle-095",
+      "question": "三角形の3辺の長さが 8 cm、7 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23 cm",
+        "27 cm",
+        "20 cm",
+        "29 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 8 + 7 + 8 = 23 cm です。"
+    },
+    {
+      "id": "math-triangle-096",
+      "question": "三角形の内角のうち、∠A = 55°、∠B = 60° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "65°",
+        "75°",
+        "57°",
+        "71°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 55° - 60° = 65° です。"
+    },
+    {
+      "id": "math-triangle-097",
+      "question": "底辺が 8 cm、高さが 5 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm²",
+        "23 cm²",
+        "18 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 8 × 5 ÷ 2 = 20 cm² です。"
+    },
+    {
+      "id": "math-triangle-098",
+      "question": "三角形の3辺の長さが 7 cm、10 cm、8 cm のとき、周の長さ（周囲）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm",
+        "29 cm",
+        "22 cm",
+        "31 cm"
+      ],
+      "answer": 0,
+      "explanation": "周囲は3辺の和で 7 + 10 + 8 = 25 cm です。"
+    },
+    {
+      "id": "math-triangle-099",
+      "question": "三角形の内角のうち、∠A = 70°、∠B = 75° のとき、∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35°",
+        "45°",
+        "27°",
+        "41°"
+      ],
+      "answer": 0,
+      "explanation": "三角形の内角の和は180°なので、∠C = 180° - 70° - 75° = 35° です。"
+    },
+    {
+      "id": "math-triangle-100",
+      "question": "底辺が 6 cm、高さが 8 cm の三角形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm²",
+        "27 cm²",
+        "22 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "三角形の面積は 底辺×高さ÷2 = 6 × 8 ÷ 2 = 24 cm² です。"
+    }
+  ]
+}

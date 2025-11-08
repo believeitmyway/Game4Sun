@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "congruence-proof",
+  "unitName": "合同と証明",
+  "category": "図形の性質",
+  "questions": [
+    {
+      "id": "math-congruence-001",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 7 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-002",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-003",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-004",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-005",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 6 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-006",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-007",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-008",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-009",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 10 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-010",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-011",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-012",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-013",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 9 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-014",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-015",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-016",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-017",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 8 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-018",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-019",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-020",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-021",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 7 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-022",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-023",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-024",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-025",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 6 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-026",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-027",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-028",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-029",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 10 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-030",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-031",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-032",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-033",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 9 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-034",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-035",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-036",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-037",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 8 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-038",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-039",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-040",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-041",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 7 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-042",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-043",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-044",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-045",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 6 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-046",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-047",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-048",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-049",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 10 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-050",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-051",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-052",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-053",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 9 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-054",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-055",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-056",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-057",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 8 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-058",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-059",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-060",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-061",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 7 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-062",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-063",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-064",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-065",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 6 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-066",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-067",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-068",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-069",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 10 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-070",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-071",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-072",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-073",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 9 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-074",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-075",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-076",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-077",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 8 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-078",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-079",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-080",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-081",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 7 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-082",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-083",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-084",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-085",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 6 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-086",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-087",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-088",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-089",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 10 cm、CA = FD = 9 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-090",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-091",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-092",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-093",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 9 cm、CA = FD = 7 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-094",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-095",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-096",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-097",
+      "question": "三角形ABCと三角形DEFについて、AB = DE = 6 cm、BC = EF = 8 cm、CA = FD = 8 cm のとき、合同を示すのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "対応する三辺がすべて等しいため、SSS の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-098",
+      "question": "三角形ABCと三角形DEFで、AB = DE、AC = DF、∠A = ∠D のとき、合同を証明するのに適切な条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "SAS（2辺とその間の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "AAS（2つの角と1つの辺が対応して等しい）"
+      ],
+      "answer": 0,
+      "explanation": "二つの辺とその間の角が等しいので、SAS で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-099",
+      "question": "三角形ABCと三角形DEFで、∠A = ∠D、∠B = ∠E、AB = DE のとき、合同が成り立つ条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "ASA（1辺とその両端の角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "SAS（2辺とその間の角が等しい）",
+        "RHS（直角三角形で斜辺と1つの辺が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "1辺とその両端の角が等しいので、ASA の条件で合同が言えます。"
+    },
+    {
+      "id": "math-congruence-100",
+      "question": "直角三角形ABC（∠C = 90°）と直角三角形DEF（∠F = 90°）で、斜辺AB = DE、1つの鋭角∠A = ∠D のとき、合同を言える条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "HL（直角三角形で斜辺と1つの鋭角が等しい）",
+        "SSS（三辺がそれぞれ等しい）",
+        "ASA（1辺とその両端の角が等しい）",
+        "SAS（2辺とその間の角が等しい）"
+      ],
+      "answer": 0,
+      "explanation": "直角三角形で斜辺と1つの鋭角が等しいとき、HL の条件で合同が言えます。"
+    }
+  ]
+}

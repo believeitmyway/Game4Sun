@@ -2,6 +2,18 @@
   "files": [
     "english-grammar-basic.json",
     "math-polynomial.json",
+    "math-literal-calculation.json",
+    "math-literal-application.json",
+    "math-simultaneous-equations.json",
+    "math-simultaneous-application.json",
+    "math-linear-function.json",
+    "math-linear-function-application.json",
+    "math-parallel-angles.json",
+    "math-congruence-proof.json",
+    "math-triangle.json",
+    "math-quadrilateral.json",
+    "math-probability.json",
+    "math-interquartile-range.json",
     "japanese-kanji-reading.json",
     "science-force.json",
     "social-japan-geography.json"

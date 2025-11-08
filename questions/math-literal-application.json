@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "literal-application",
+  "unitName": "文字式の利用",
+  "category": "式の利用",
+  "questions": [
+    {
+      "id": "math-literal-app-001",
+      "question": "x = 3、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17",
+        "20",
+        "13",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 3 + 2 × 4 = 9 + 8 = 17 です。"
+    },
+    {
+      "id": "math-literal-app-002",
+      "question": "x = 4、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "11",
+        "16",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 4 - 5 = 16 - 5 = 11 です。"
+    },
+    {
+      "id": "math-literal-app-003",
+      "question": "x = 5、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "46",
+        "35",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 5 × 6 + 2 × 5 = 30 + 10 = 40 です。"
+    },
+    {
+      "id": "math-literal-app-004",
+      "question": "x = 6、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "35",
+        "28",
+        "38"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 6 + 2 × 7 = 18 + 14 = 32 です。"
+    },
+    {
+      "id": "math-literal-app-005",
+      "question": "x = 7、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25",
+        "30",
+        "22",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 7 - 3 = 28 - 3 = 25 です。"
+    },
+    {
+      "id": "math-literal-app-006",
+      "question": "x = 8、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "54",
+        "43",
+        "57"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 8 × 4 + 2 × 8 = 32 + 16 = 48 です。"
+    },
+    {
+      "id": "math-literal-app-007",
+      "question": "x = 2、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "19",
+        "12",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 2 + 2 × 5 = 6 + 10 = 16 です。"
+    },
+    {
+      "id": "math-literal-app-008",
+      "question": "x = 3、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "11",
+        "3",
+        "13"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 3 - 6 = 12 - 6 = 6 です。"
+    },
+    {
+      "id": "math-literal-app-009",
+      "question": "x = 4、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36",
+        "42",
+        "31",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 4 × 7 + 2 × 4 = 28 + 8 = 36 です。"
+    },
+    {
+      "id": "math-literal-app-010",
+      "question": "x = 5、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "24",
+        "17",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 5 + 2 × 3 = 15 + 6 = 21 です。"
+    },
+    {
+      "id": "math-literal-app-011",
+      "question": "x = 6、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "17",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 6 - 4 = 24 - 4 = 20 です。"
+    },
+    {
+      "id": "math-literal-app-012",
+      "question": "x = 7、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49",
+        "55",
+        "44",
+        "58"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 7 × 5 + 2 × 7 = 35 + 14 = 49 です。"
+    },
+    {
+      "id": "math-literal-app-013",
+      "question": "x = 8、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36",
+        "39",
+        "32",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 8 + 2 × 6 = 24 + 12 = 36 です。"
+    },
+    {
+      "id": "math-literal-app-014",
+      "question": "x = 2、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "1",
+        "6",
+        "-2",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 2 - 7 = 8 - 7 = 1 です。"
+    },
+    {
+      "id": "math-literal-app-015",
+      "question": "x = 3、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "21",
+        "10",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 3 × 3 + 2 × 3 = 9 + 6 = 15 です。"
+    },
+    {
+      "id": "math-literal-app-016",
+      "question": "x = 4、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "23",
+        "16",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 4 + 2 × 4 = 12 + 8 = 20 です。"
+    },
+    {
+      "id": "math-literal-app-017",
+      "question": "x = 5、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "20",
+        "12",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 5 - 5 = 20 - 5 = 15 です。"
+    },
+    {
+      "id": "math-literal-app-018",
+      "question": "x = 6、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "54",
+        "43",
+        "57"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 6 × 6 + 2 × 6 = 36 + 12 = 48 です。"
+    },
+    {
+      "id": "math-literal-app-019",
+      "question": "x = 7、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35",
+        "38",
+        "31",
+        "41"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 7 + 2 × 7 = 21 + 14 = 35 です。"
+    },
+    {
+      "id": "math-literal-app-020",
+      "question": "x = 8、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "29",
+        "34",
+        "26",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 8 - 3 = 32 - 3 = 29 です。"
+    },
+    {
+      "id": "math-literal-app-021",
+      "question": "x = 2、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "7",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 2 × 4 + 2 × 2 = 8 + 4 = 12 です。"
+    },
+    {
+      "id": "math-literal-app-022",
+      "question": "x = 3、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "22",
+        "15",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 3 + 2 × 5 = 9 + 10 = 19 です。"
+    },
+    {
+      "id": "math-literal-app-023",
+      "question": "x = 4、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "10",
+        "15",
+        "7",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 4 - 6 = 16 - 6 = 10 です。"
+    },
+    {
+      "id": "math-literal-app-024",
+      "question": "x = 5、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45",
+        "51",
+        "40",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 5 × 7 + 2 × 5 = 35 + 10 = 45 です。"
+    },
+    {
+      "id": "math-literal-app-025",
+      "question": "x = 6、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "27",
+        "20",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 6 + 2 × 3 = 18 + 6 = 24 です。"
+    },
+    {
+      "id": "math-literal-app-026",
+      "question": "x = 7、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "29",
+        "21",
+        "31"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 7 - 4 = 28 - 4 = 24 です。"
+    },
+    {
+      "id": "math-literal-app-027",
+      "question": "x = 8、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "62",
+        "51",
+        "65"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 8 × 5 + 2 × 8 = 40 + 16 = 56 です。"
+    },
+    {
+      "id": "math-literal-app-028",
+      "question": "x = 2、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "21",
+        "14",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 2 + 2 × 6 = 6 + 12 = 18 です。"
+    },
+    {
+      "id": "math-literal-app-029",
+      "question": "x = 3、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "5",
+        "10",
+        "2",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 3 - 7 = 12 - 7 = 5 です。"
+    },
+    {
+      "id": "math-literal-app-030",
+      "question": "x = 4、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "26",
+        "15",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 4 × 3 + 2 × 4 = 12 + 8 = 20 です。"
+    },
+    {
+      "id": "math-literal-app-031",
+      "question": "x = 5、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "26",
+        "19",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 5 + 2 × 4 = 15 + 8 = 23 です。"
+    },
+    {
+      "id": "math-literal-app-032",
+      "question": "x = 6、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "24",
+        "16",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 6 - 5 = 24 - 5 = 19 です。"
+    },
+    {
+      "id": "math-literal-app-033",
+      "question": "x = 7、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "62",
+        "51",
+        "65"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 7 × 6 + 2 × 7 = 42 + 14 = 56 です。"
+    },
+    {
+      "id": "math-literal-app-034",
+      "question": "x = 8、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "38",
+        "41",
+        "34",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 8 + 2 × 7 = 24 + 14 = 38 です。"
+    },
+    {
+      "id": "math-literal-app-035",
+      "question": "x = 2、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "5",
+        "10",
+        "2",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 2 - 3 = 8 - 3 = 5 です。"
+    },
+    {
+      "id": "math-literal-app-036",
+      "question": "x = 3、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "13",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 3 × 4 + 2 × 3 = 12 + 6 = 18 です。"
+    },
+    {
+      "id": "math-literal-app-037",
+      "question": "x = 4、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "25",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 4 + 2 × 5 = 12 + 10 = 22 です。"
+    },
+    {
+      "id": "math-literal-app-038",
+      "question": "x = 5、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "19",
+        "11",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 5 - 6 = 20 - 6 = 14 です。"
+    },
+    {
+      "id": "math-literal-app-039",
+      "question": "x = 6、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "54",
+        "60",
+        "49",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 6 × 7 + 2 × 6 = 42 + 12 = 54 です。"
+    },
+    {
+      "id": "math-literal-app-040",
+      "question": "x = 7、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "30",
+        "23",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 7 + 2 × 3 = 21 + 6 = 27 です。"
+    },
+    {
+      "id": "math-literal-app-041",
+      "question": "x = 8、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "33",
+        "25",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 8 - 4 = 32 - 4 = 28 です。"
+    },
+    {
+      "id": "math-literal-app-042",
+      "question": "x = 2、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "20",
+        "9",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 2 × 5 + 2 × 2 = 10 + 4 = 14 です。"
+    },
+    {
+      "id": "math-literal-app-043",
+      "question": "x = 3、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "24",
+        "17",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 3 + 2 × 6 = 9 + 12 = 21 です。"
+    },
+    {
+      "id": "math-literal-app-044",
+      "question": "x = 4、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "9",
+        "14",
+        "6",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 4 - 7 = 16 - 7 = 9 です。"
+    },
+    {
+      "id": "math-literal-app-045",
+      "question": "x = 5、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25",
+        "31",
+        "20",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 5 × 3 + 2 × 5 = 15 + 10 = 25 です。"
+    },
+    {
+      "id": "math-literal-app-046",
+      "question": "x = 6、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26",
+        "29",
+        "22",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 6 + 2 × 4 = 18 + 8 = 26 です。"
+    },
+    {
+      "id": "math-literal-app-047",
+      "question": "x = 7、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "28",
+        "20",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 7 - 5 = 28 - 5 = 23 です。"
+    },
+    {
+      "id": "math-literal-app-048",
+      "question": "x = 8、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64",
+        "70",
+        "59",
+        "73"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 8 × 6 + 2 × 8 = 48 + 16 = 64 です。"
+    },
+    {
+      "id": "math-literal-app-049",
+      "question": "x = 2、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "23",
+        "16",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 2 + 2 × 7 = 6 + 14 = 20 です。"
+    },
+    {
+      "id": "math-literal-app-050",
+      "question": "x = 3、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "9",
+        "14",
+        "6",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 3 - 3 = 12 - 3 = 9 です。"
+    },
+    {
+      "id": "math-literal-app-051",
+      "question": "x = 4、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "19",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 4 × 4 + 2 × 4 = 16 + 8 = 24 です。"
+    },
+    {
+      "id": "math-literal-app-052",
+      "question": "x = 5、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25",
+        "28",
+        "21",
+        "31"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 5 + 2 × 5 = 15 + 10 = 25 です。"
+    },
+    {
+      "id": "math-literal-app-053",
+      "question": "x = 6、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "23",
+        "15",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 6 - 6 = 24 - 6 = 18 です。"
+    },
+    {
+      "id": "math-literal-app-054",
+      "question": "x = 7、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "63",
+        "69",
+        "58",
+        "72"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 7 × 7 + 2 × 7 = 49 + 14 = 63 です。"
+    },
+    {
+      "id": "math-literal-app-055",
+      "question": "x = 8、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "33",
+        "26",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 8 + 2 × 3 = 24 + 6 = 30 です。"
+    },
+    {
+      "id": "math-literal-app-056",
+      "question": "x = 2、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "9",
+        "1",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 2 - 4 = 8 - 4 = 4 です。"
+    },
+    {
+      "id": "math-literal-app-057",
+      "question": "x = 3、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "27",
+        "16",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 3 × 5 + 2 × 3 = 15 + 6 = 21 です。"
+    },
+    {
+      "id": "math-literal-app-058",
+      "question": "x = 4、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "27",
+        "20",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 4 + 2 × 6 = 12 + 12 = 24 です。"
+    },
+    {
+      "id": "math-literal-app-059",
+      "question": "x = 5、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "13",
+        "18",
+        "10",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 5 - 7 = 20 - 7 = 13 です。"
+    },
+    {
+      "id": "math-literal-app-060",
+      "question": "x = 6、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "36",
+        "25",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 6 × 3 + 2 × 6 = 18 + 12 = 30 です。"
+    },
+    {
+      "id": "math-literal-app-061",
+      "question": "x = 7、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "29",
+        "32",
+        "25",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 7 + 2 × 4 = 21 + 8 = 29 です。"
+    },
+    {
+      "id": "math-literal-app-062",
+      "question": "x = 8、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "32",
+        "24",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 8 - 5 = 32 - 5 = 27 です。"
+    },
+    {
+      "id": "math-literal-app-063",
+      "question": "x = 2、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "22",
+        "11",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 2 × 6 + 2 × 2 = 12 + 4 = 16 です。"
+    },
+    {
+      "id": "math-literal-app-064",
+      "question": "x = 3、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "26",
+        "19",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 3 + 2 × 7 = 9 + 14 = 23 です。"
+    },
+    {
+      "id": "math-literal-app-065",
+      "question": "x = 4、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "13",
+        "18",
+        "10",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 4 - 3 = 16 - 3 = 13 です。"
+    },
+    {
+      "id": "math-literal-app-066",
+      "question": "x = 5、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "36",
+        "25",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 5 × 4 + 2 × 5 = 20 + 10 = 30 です。"
+    },
+    {
+      "id": "math-literal-app-067",
+      "question": "x = 6、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "31",
+        "24",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 6 + 2 × 5 = 18 + 10 = 28 です。"
+    },
+    {
+      "id": "math-literal-app-068",
+      "question": "x = 7、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "27",
+        "19",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 7 - 6 = 28 - 6 = 22 です。"
+    },
+    {
+      "id": "math-literal-app-069",
+      "question": "x = 8、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72",
+        "78",
+        "67",
+        "81"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 8 × 7 + 2 × 8 = 56 + 16 = 72 です。"
+    },
+    {
+      "id": "math-literal-app-070",
+      "question": "x = 2、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "15",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 2 + 2 × 3 = 6 + 6 = 12 です。"
+    },
+    {
+      "id": "math-literal-app-071",
+      "question": "x = 3、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "8",
+        "13",
+        "5",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 3 - 4 = 12 - 4 = 8 です。"
+    },
+    {
+      "id": "math-literal-app-072",
+      "question": "x = 4、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "34",
+        "23",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 4 × 5 + 2 × 4 = 20 + 8 = 28 です。"
+    },
+    {
+      "id": "math-literal-app-073",
+      "question": "x = 5、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "30",
+        "23",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 5 + 2 × 6 = 15 + 12 = 27 です。"
+    },
+    {
+      "id": "math-literal-app-074",
+      "question": "x = 6、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17",
+        "22",
+        "14",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 6 - 7 = 24 - 7 = 17 です。"
+    },
+    {
+      "id": "math-literal-app-075",
+      "question": "x = 7、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35",
+        "41",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 7 × 3 + 2 × 7 = 21 + 14 = 35 です。"
+    },
+    {
+      "id": "math-literal-app-076",
+      "question": "x = 8、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "35",
+        "28",
+        "38"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 8 + 2 × 4 = 24 + 8 = 32 です。"
+    },
+    {
+      "id": "math-literal-app-077",
+      "question": "x = 2、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "8",
+        "0",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 2 - 5 = 8 - 5 = 3 です。"
+    },
+    {
+      "id": "math-literal-app-078",
+      "question": "x = 3、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "19",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 3 × 6 + 2 × 3 = 18 + 6 = 24 です。"
+    },
+    {
+      "id": "math-literal-app-079",
+      "question": "x = 4、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26",
+        "29",
+        "22",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 4 + 2 × 7 = 12 + 14 = 26 です。"
+    },
+    {
+      "id": "math-literal-app-080",
+      "question": "x = 5、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17",
+        "22",
+        "14",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 5 - 3 = 20 - 3 = 17 です。"
+    },
+    {
+      "id": "math-literal-app-081",
+      "question": "x = 6、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36",
+        "42",
+        "31",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 6 × 4 + 2 × 6 = 24 + 12 = 36 です。"
+    },
+    {
+      "id": "math-literal-app-082",
+      "question": "x = 7、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "31",
+        "34",
+        "27",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 7 + 2 × 5 = 21 + 10 = 31 です。"
+    },
+    {
+      "id": "math-literal-app-083",
+      "question": "x = 8、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26",
+        "31",
+        "23",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 8 - 6 = 32 - 6 = 26 です。"
+    },
+    {
+      "id": "math-literal-app-084",
+      "question": "x = 2、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "13",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 2 × 7 + 2 × 2 = 14 + 4 = 18 です。"
+    },
+    {
+      "id": "math-literal-app-085",
+      "question": "x = 3、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "18",
+        "11",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 3 + 2 × 3 = 9 + 6 = 15 です。"
+    },
+    {
+      "id": "math-literal-app-086",
+      "question": "x = 4、y = 4 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "17",
+        "9",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 4 - 4 = 16 - 4 = 12 です。"
+    },
+    {
+      "id": "math-literal-app-087",
+      "question": "x = 5、y = 5 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35",
+        "41",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 5 × 5 + 2 × 5 = 25 + 10 = 35 です。"
+    },
+    {
+      "id": "math-literal-app-088",
+      "question": "x = 6、y = 6 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "33",
+        "26",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 6 + 2 × 6 = 18 + 12 = 30 です。"
+    },
+    {
+      "id": "math-literal-app-089",
+      "question": "x = 7、y = 7 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "26",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 7 - 7 = 28 - 7 = 21 です。"
+    },
+    {
+      "id": "math-literal-app-090",
+      "question": "x = 8、y = 3 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "46",
+        "35",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 8 × 3 + 2 × 8 = 24 + 16 = 40 です。"
+    },
+    {
+      "id": "math-literal-app-091",
+      "question": "x = 2、y = 4 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "17",
+        "10",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 2 + 2 × 4 = 6 + 8 = 14 です。"
+    },
+    {
+      "id": "math-literal-app-092",
+      "question": "x = 3、y = 5 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "7",
+        "12",
+        "4",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 3 - 5 = 12 - 5 = 7 です。"
+    },
+    {
+      "id": "math-literal-app-093",
+      "question": "x = 4、y = 6 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "38",
+        "27",
+        "41"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 4 × 6 + 2 × 4 = 24 + 8 = 32 です。"
+    },
+    {
+      "id": "math-literal-app-094",
+      "question": "x = 5、y = 7 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "29",
+        "32",
+        "25",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 5 + 2 × 7 = 15 + 14 = 29 です。"
+    },
+    {
+      "id": "math-literal-app-095",
+      "question": "x = 6、y = 3 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "26",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 6 - 3 = 24 - 3 = 21 です。"
+    },
+    {
+      "id": "math-literal-app-096",
+      "question": "x = 7、y = 4 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "48",
+        "37",
+        "51"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 7 × 4 + 2 × 7 = 28 + 14 = 42 です。"
+    },
+    {
+      "id": "math-literal-app-097",
+      "question": "x = 8、y = 5 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "34",
+        "37",
+        "30",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 8 + 2 × 5 = 24 + 10 = 34 です。"
+    },
+    {
+      "id": "math-literal-app-098",
+      "question": "x = 2、y = 6 のとき、式 4x - y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "7",
+        "-1",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "4x - y = 4 × 2 - 6 = 8 - 6 = 2 です。"
+    },
+    {
+      "id": "math-literal-app-099",
+      "question": "x = 3、y = 7 のとき、式 xy + 2x の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "33",
+        "22",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "xy + 2x = 3 × 7 + 2 × 3 = 21 + 6 = 27 です。"
+    },
+    {
+      "id": "math-literal-app-100",
+      "question": "x = 4、y = 3 のとき、式 3x + 2y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "21",
+        "14",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 3 × 4 + 2 × 3 = 12 + 6 = 18 です。"
+    }
+  ]
+}
