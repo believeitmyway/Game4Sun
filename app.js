@@ -13,6 +13,112 @@ let settings = {
     sfx: true
 };
 
+// うんちネタの誤答選択肢（100個）
+const POOP_JOKES = [
+    'やわらかいうんち',
+    '硬いうんち',
+    '漏れそうな人',
+    '茶色いソフトクリーム',
+    'コロコロうんち',
+    'バナナ型うんち',
+    '下痢気味の人',
+    'トイレを探す人',
+    'ウォシュレット待ち',
+    'うんちを我慢中',
+    '今すぐトイレが必要',
+    'おなら我慢',
+    'おならが出そう',
+    'ぶりぶりうんち',
+    'もりもりうんち',
+    'するするうんち',
+    'ツルツルうんち',
+    'べちゃべちゃうんち',
+    'こんもりうんち',
+    'とぐろを巻いたうんち',
+    'うんち5秒前',
+    'うんちタイム',
+    'トイレの神様',
+    '便秘3日目',
+    '便秘1週間',
+    'お腹ゴロゴロ',
+    'おなかピーピー',
+    'きばってる人',
+    'いきんでる人',
+    'ふんばり中',
+    'トイレットペーパー10巻',
+    'ウォシュレットMAX',
+    '音姫フル稼働',
+    '個室に駆け込む',
+    '大の方です',
+    'しゃがみこむ人',
+    'くさいうんち',
+    'くさいおなら',
+    'におうやつ',
+    'プンプン丸',
+    'スルッと出た',
+    'スッキリうんち',
+    'お腹の中が大変',
+    '腸内環境最悪',
+    '乳酸菌不足',
+    '食物繊維が必要',
+    'トイレに30分',
+    'トイレから出られない',
+    'ノックされてあせる',
+    'もよおしてきた',
+    '便意が襲う',
+    '腹痛で冷や汗',
+    'お腹グルグル',
+    '消化不良気味',
+    '食あたりかも',
+    '昨日の食事のせい',
+    'カレーの翌日',
+    '焼肉の翌朝',
+    '牛乳でおなか',
+    'お腹ユルユル',
+    'おなかシクシク',
+    '腸が活発',
+    '大腸の大行進',
+    'S字結腸パニック',
+    '直腸からの警告',
+    '肛門が限界',
+    '括約筋がんばる',
+    'ガマンの限界',
+    'もう無理です',
+    '駅のトイレを探す',
+    'コンビニトイレへ',
+    '公園のトイレに走る',
+    'トイレの場所を聞く',
+    '地図でトイレ検索',
+    '次の駅まで我慢',
+    '各駅停車で助かる',
+    'うんち座りの人',
+    '和式でふんばる',
+    '洋式で安心',
+    '温水便座が恋しい',
+    'ペーパーが足りない',
+    '流し忘れ注意',
+    '2度流し必要',
+    'つまりそう',
+    'ラバーカップ待機',
+    '換気扇フル回転',
+    '窓を開けたい',
+    '芳香剤必須',
+    '消臭スプレー3回',
+    'ファブリーズが欲しい',
+    '後の人ごめん',
+    '入った瞬間に後悔',
+    '前の人ひどい',
+    '臭いがこもってる',
+    'マスク必要',
+    '息を止める',
+    '鼻をつまむ',
+    '我慢できない匂い',
+    'うんちハイ',
+    'トイレで至福',
+    '出し切った感',
+    'スッキリ爽快'
+];
+
 // 初期化
 document.addEventListener('DOMContentLoaded', () => {
     loadUserData();
@@ -238,6 +344,55 @@ function shuffleArray(array) {
     return shuffled;
 }
 
+// 選択肢をシャッフルし、ランダムでうんちネタに置き換える
+function shuffleChoicesWithPoopJoke(choices, correctAnswerIndex) {
+    // 選択肢とインデックスのペアを作成
+    const choicesWithIndex = choices.map((choice, index) => ({
+        text: choice,
+        isCorrect: index === correctAnswerIndex
+    }));
+    
+    // 10%の確率でうんちネタを混ぜる
+    const shouldAddPoopJoke = Math.random() < 0.1;
+    
+    if (shouldAddPoopJoke) {
+        // 不正解の選択肢のインデックスを取得
+        const wrongIndices = [];
+        choicesWithIndex.forEach((item, index) => {
+            if (!item.isCorrect) {
+                wrongIndices.push(index);
+            }
+        });
+        
+        // ランダムに不正解の選択肢を1つ選んでうんちネタに置き換え
+        if (wrongIndices.length > 0) {
+            const targetIndex = wrongIndices[Math.floor(Math.random() * wrongIndices.length)];
+            const randomPoopJoke = POOP_JOKES[Math.floor(Math.random() * POOP_JOKES.length)];
+            choicesWithIndex[targetIndex].text = randomPoopJoke;
+        }
+    }
+    
+    // シャッフル
+    for (let i = choicesWithIndex.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [choicesWithIndex[i], choicesWithIndex[j]] = [choicesWithIndex[j], choicesWithIndex[i]];
+    }
+    
+    // 正解のインデックスを見つける
+    let newCorrectIndex = -1;
+    const shuffledChoices = choicesWithIndex.map((item, index) => {
+        if (item.isCorrect) {
+            newCorrectIndex = index;
+        }
+        return item.text;
+    });
+    
+    return {
+        choices: shuffledChoices,
+        correctIndex: newCorrectIndex
+    };
+}
+
 // 問題表示
 function displayQuestion() {
     if (currentQuestionIndex >= currentQuestions.length) {
@@ -283,11 +438,14 @@ function generateAnswerArea(question) {
     
     if (question.type === 'multiple') {
         // 4択問題
-        question.choices.forEach((choice, index) => {
+        // 選択肢をシャッフルし、ランダムでうんちネタに置き換え
+        const shuffledChoices = shuffleChoicesWithPoopJoke(question.choices, question.answer);
+        
+        shuffledChoices.choices.forEach((choice, index) => {
             const btn = document.createElement('button');
             btn.className = 'answer-btn';
             btn.textContent = choice;
-            btn.onclick = () => checkAnswer(index);
+            btn.onclick = () => checkAnswer(index, shuffledChoices.correctIndex);
             answerArea.appendChild(btn);
         });
     } else if (question.type === 'input') {
@@ -315,15 +473,15 @@ function generateAnswerArea(question) {
     }
 }
 
-function checkAnswer(selectedIndex) {
+function checkAnswer(selectedIndex, correctIndex) {
     const question = currentQuestions[currentQuestionIndex];
-    const isCorrect = selectedIndex === question.answer;
+    const isCorrect = selectedIndex === correctIndex;
     
     // ボタンのスタイル更新
     const buttons = document.querySelectorAll('.answer-btn');
     buttons.forEach((btn, index) => {
         btn.disabled = true;
-        if (index === question.answer) {
+        if (index === correctIndex) {
             btn.classList.add('correct');
         } else if (index === selectedIndex && !isCorrect) {
             btn.classList.add('wrong');
