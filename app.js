@@ -14,6 +14,9 @@ let settings = {
     explicitContent: true  // 下ネタあり/なし
 };
 
+// 問題データベース（JSONファイルから読み込む）
+let QUESTION_DATABASE = {};
+
 // うんちネタの誤答選択肢（100個）
 const POOP_JOKES = [
     'やわらかいうんち',
@@ -121,11 +124,54 @@ const POOP_JOKES = [
 ];
 
 // 初期化
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     loadUserData();
     loadSettings();
+    await loadQuestions();  // 問題データを読み込む
     showScreen('top-screen');
 });
+
+// JSONファイルから問題データを読み込む
+async function loadQuestions() {
+    try {
+        // index.jsonを読み込んで、問題ファイルのリストを取得
+        const indexResponse = await fetch('questions/index.json');
+        const index = await indexResponse.json();
+        
+        // 各JSONファイルを読み込む
+        const promises = index.files.map(async (filename) => {
+            const response = await fetch(`questions/${filename}`);
+            return await response.json();
+        });
+        
+        const questionFiles = await Promise.all(promises);
+        
+        // QUESTION_DATABASEを構築
+        questionFiles.forEach(file => {
+            const { subject, subjectName, unitId, unitName, category, questions } = file;
+            
+            // 科目がまだ存在しない場合は初期化
+            if (!QUESTION_DATABASE[subject]) {
+                QUESTION_DATABASE[subject] = {
+                    name: subjectName,
+                    units: {}
+                };
+            }
+            
+            // 単元を追加
+            QUESTION_DATABASE[subject].units[unitId] = {
+                name: unitName,
+                category: category,
+                questions: questions
+            };
+        });
+        
+        console.log('問題データの読み込みが完了しました:', QUESTION_DATABASE);
+    } catch (error) {
+        console.error('問題データの読み込みに失敗しました:', error);
+        alert('問題データの読み込みに失敗しました。ページを再読み込みしてください。');
+    }
+}
 
 // ローカルストレージからデータ読み込み
 function loadUserData() {

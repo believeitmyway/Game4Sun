@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題データ読み込みテスト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #8B4513;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💩 問題データ読み込みテスト</h1>
+        <div id="test-results"></div>
+    </div>
+
+    <script>
+        async function runTests() {
+            const results = document.getElementById('test-results');
+            
+            function addResult(message, type = 'info') {
+                const div = document.createElement('div');
+                div.className = `status ${type}`;
+                div.textContent = message;
+                results.appendChild(div);
+            }
+            
+            try {
+                addResult('📂 index.jsonを読み込んでいます...');
+                const indexResponse = await fetch('questions/index.json');
+                const index = await indexResponse.json();
+                addResult(`✅ index.jsonの読み込みに成功しました。ファイル数: ${index.files.length}`, 'success');
+                
+                addResult('📚 問題ファイルを読み込んでいます...');
+                const promises = index.files.map(async (filename) => {
+                    const response = await fetch(`questions/${filename}`);
+                    return await response.json();
+                });
+                
+                const questionFiles = await Promise.all(promises);
+                addResult(`✅ 全ての問題ファイルの読み込みに成功しました。`, 'success');
+                
+                // QUESTION_DATABASEを構築
+                const QUESTION_DATABASE = {};
+                questionFiles.forEach(file => {
+                    const { subject, subjectName, unitId, unitName, category, questions } = file;
+                    
+                    if (!QUESTION_DATABASE[subject]) {
+                        QUESTION_DATABASE[subject] = {
+                            name: subjectName,
+                            units: {}
+                        };
+                    }
+                    
+                    QUESTION_DATABASE[subject].units[unitId] = {
+                        name: unitName,
+                        category: category,
+                        questions: questions
+                    };
+                });
+                
+                addResult('📊 統計情報:', 'info');
+                
+                let totalQuestions = 0;
+                Object.keys(QUESTION_DATABASE).forEach(subjectId => {
+                    const subject = QUESTION_DATABASE[subjectId];
+                    const unitCount = Object.keys(subject.units).length;
+                    let questionCount = 0;
+                    Object.keys(subject.units).forEach(unitId => {
+                        questionCount += subject.units[unitId].questions.length;
+                    });
+                    totalQuestions += questionCount;
+                    addResult(`  ${subject.name}: ${unitCount}単元, ${questionCount}問`, 'info');
+                });
+                
+                addResult(`✅ 合計: ${totalQuestions}問の読み込みに成功しました！`, 'success');
+                
+                // データベースの構造を表示
+                const pre = document.createElement('pre');
+                pre.textContent = '問題データベースの構造:\n' + JSON.stringify(
+                    Object.keys(QUESTION_DATABASE).reduce((acc, subject) => {
+                        acc[subject] = {
+                            name: QUESTION_DATABASE[subject].name,
+                            units: Object.keys(QUESTION_DATABASE[subject].units).map(unitId => {
+                                return {
+                                    unitId,
+                                    name: QUESTION_DATABASE[subject].units[unitId].name,
+                                    questionCount: QUESTION_DATABASE[subject].units[unitId].questions.length
+                                };
+                            })
+                        };
+                        return acc;
+                    }, {}),
+                    null, 2
+                );
+                results.appendChild(pre);
+                
+            } catch (error) {
+                addResult(`❌ エラーが発生しました: ${error.message}`, 'error');
+                console.error('詳細なエラー:', error);
+            }
+        }
+        
+        runTests();
+    </script>
+</body>
+</html>

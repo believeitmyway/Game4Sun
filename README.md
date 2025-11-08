@@ -20,7 +20,13 @@
 ├── index.html        # メインHTMLファイル
 ├── styles.css        # スタイルシート
 ├── app.js           # メインアプリケーションロジック
-├── data.js          # 問題データベース
+├── questions/       # 問題データフォルダ
+│   ├── index.json   # 問題ファイルのリスト
+│   ├── english-grammar-basic.json     # 英語：be動詞・一般動詞
+│   ├── math-polynomial.json           # 数学：多項式の加法・減法
+│   ├── japanese-kanji-reading.json    # 国語：漢字の読み
+│   ├── science-force.json             # 理科：力と運動
+│   └── social-japan-geography.json    # 社会：日本の地理
 └── README.md        # このファイル
 ```
 
@@ -84,20 +90,63 @@
 
 ## 🎨 カスタマイズ
 
-### 問題の追加
-`data.js` ファイルは非常にシンプルな構造になっています。各単元の `questions` 配列に新しい問題オブジェクトを追加するだけです。
+### 問題の追加（新仕様）
 
-**問題の追加例:**
-```javascript
+**問題データは `questions/` フォルダ内のJSONファイルとして管理されます。**
+
+#### 新しい問題を追加する手順：
+
+1. **新しいJSONファイルを作成**
+   - `questions/` フォルダに新しいJSONファイルを作成します
+   - ファイル名は例えば `english-grammar-tense.json` のように分かりやすい名前にします
+
+2. **JSONファイルの構造**
+```json
 {
-  id: 'eng-grammar-101',  // ユニークなID
-  question: 'I ___ to school every day.',  // 問題文
-  type: 'multiple',  // 'multiple'（4択）または 'input'（入力式）
-  choices: ['go', 'goes', 'went', 'going'],  // 選択肢（multipleの場合）
-  answer: 0,  // 正解（multipleの場合はインデックス、inputの場合は文字列）
-  explanation: 'I の後は動詞の原形を使います。'  // 解説
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "grammar-tense",
+  "unitName": "時制（現在・過去・未来）",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-tense-001",
+      "question": "I ___ TV yesterday.",
+      "type": "multiple",
+      "choices": ["watch", "watched", "watching", "will watch"],
+      "answer": 1,
+      "explanation": "yesterday（昨日）があるので過去形の \"watched\" を使います。"
+    }
+  ]
 }
 ```
+
+3. **index.json に追加**
+   - `questions/index.json` を開いて、`files` 配列に新しいファイル名を追加します
+
+```json
+{
+  "files": [
+    "english-grammar-basic.json",
+    "math-polynomial.json",
+    "japanese-kanji-reading.json",
+    "science-force.json",
+    "social-japan-geography.json",
+    "english-grammar-tense.json"  ← 追加
+  ]
+}
+```
+
+4. **完了！**
+   - ページをリロードすると、新しい問題が自動的に読み込まれます
+
+#### 問題の形式
+
+- **type**: `"multiple"` (4択) または `"input"` (入力式)
+- **answer**: 
+  - `multiple` の場合: 正解選択肢のインデックス (0〜3)
+  - `input` の場合: 正解の文字列
+- **id**: 全問題で一意のID（例: `eng-grammar-001`）
 
 ### スタイルの変更
 `styles.css` ファイルを編集することで、色やデザインをカスタマイズできます。
