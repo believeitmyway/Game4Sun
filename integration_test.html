@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>統合テスト - 実際のアプリケーションコードで検証</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #8B4513;
+            padding-bottom: 10px;
+        }
+        .test-panel {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .control-panel {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #654321;
+        }
+        button.danger {
+            background-color: #f44336;
+        }
+        button.danger:hover {
+            background-color: #d32f2f;
+        }
+        .question-display {
+            border: 2px solid #8B4513;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background: #fff9f0;
+        }
+        .question-text {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .choices {
+            display: grid;
+            gap: 10px;
+        }
+        .choice {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            background: white;
+            transition: all 0.3s;
+        }
+        .choice.poop {
+            background-color: #ffebcd;
+            border-color: #8B4513;
+            font-weight: bold;
+            color: #8B4513;
+        }
+        .choice.correct {
+            background-color: #e8f5e9;
+            border-color: #4CAF50;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #8B4513, #654321);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-on {
+            background-color: #4CAF50;
+        }
+        .status-off {
+            background-color: #f44336;
+        }
+        .log {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #fafafa;
+            font-family: monospace;
+            font-size: 0.85em;
+            margin: 20px 0;
+        }
+        .log-entry {
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        .log-entry.replaced {
+            background-color: #fff3cd;
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #4CAF50;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+    </style>
+</head>
+<body>
+    <h1>💩 統合テスト - 実際のアプリケーションコード検証</h1>
+
+    <div class="test-panel">
+        <h2>📊 リアルタイム統計</h2>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-label">テスト回数</div>
+                <div class="stat-value" id="testCount">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">置換回数</div>
+                <div class="stat-value" id="replaceCount">0</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">置換率</div>
+                <div class="stat-value" id="replaceRate">0%</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">期待値との差</div>
+                <div class="stat-value" id="deviation">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-panel">
+        <h2>⚙️ 設定</h2>
+        <div class="control-panel">
+            <label style="display: flex; align-items: center; gap: 10px;">
+                <span><span class="status-indicator" id="statusIndicator"></span>下ネタ設定:</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="explicitToggle" checked onchange="updateSettings()">
+                    <span class="slider"></span>
+                </label>
+                <span id="statusText">ON</span>
+            </label>
+        </div>
+        <div class="control-panel">
+            <label>
+                科目:
+                <select id="subjectSelect" onchange="loadUnits()">
+                    <option value="">-- 選択してください --</option>
+                </select>
+            </label>
+            <label>
+                単元:
+                <select id="unitSelect">
+                    <option value="">-- 科目を選択してください --</option>
+                </select>
+            </label>
+        </div>
+        <div class="control-panel">
+            <button onclick="testOnce()">🎲 1回テスト</button>
+            <button onclick="testMultiple(10)">⚡ 10回連続テスト</button>
+            <button onclick="testMultiple(100)">⚡⚡ 100回連続テスト</button>
+            <button onclick="testMultiple(1000)">⚡⚡⚡ 1000回連続テスト</button>
+            <button onclick="resetStats()" class="danger">🔄 統計リセット</button>
+        </div>
+    </div>
+
+    <div class="test-panel">
+        <h2>📝 現在の問題</h2>
+        <div id="questionDisplay" class="question-display">
+            <p style="text-align: center; color: #999;">テストボタンをクリックして開始してください</p>
+        </div>
+    </div>
+
+    <div class="test-panel">
+        <h2>📋 実行ログ</h2>
+        <div id="log" class="log"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        // app.jsから必要な部分を複製
+        let settings = { explicitContent: true };
+        let testCount = 0;
+        let replaceCount = 0;
+        const logEntries = [];
+
+        const POOP_JOKES = [
+            'やわらかいうんち', '硬いうんち', '漏れそうな人', '茶色いソフトクリーム',
+            'コロコロうんち', 'バナナ型うんち', '下痢気味の人', 'トイレを探す人',
+            'ウォシュレット待ち', 'うんちを我慢中', '今すぐトイレが必要', 'おなら我慢',
+            'おならが出そう', 'ぶりぶりうんち', 'もりもりうんち', 'するするうんち',
+            'ツルツルうんち', 'べちゃべちゃうんち', 'こんもりうんち', 'とぐろを巻いたうんち',
+            'うんち5秒前', 'うんちタイム', 'トイレの神様', '便秘3日目', '便秘1週間',
+            'お腹ゴロゴロ', 'おなかピーピー', 'きばってる人', 'いきんでる人', 'ふんばり中',
+            'トイレットペーパー10巻', 'ウォシュレットMAX', '音姫フル稼働', '個室に駆け込む',
+            '大の方です', 'しゃがみこむ人', 'くさいうんち', 'くさいおなら', 'におうやつ',
+            'プンプン丸', 'スルッと出た', 'スッキリうんち'
+        ];
+
+        function shuffleChoicesWithPoopJoke(choices, correctAnswerIndex) {
+            const choicesWithIndex = choices.map((choice, index) => ({
+                text: choice,
+                isCorrect: index === correctAnswerIndex
+            }));
+            
+            const shouldAddPoopJoke = settings.explicitContent && Math.random() < 0.5;
+            
+            if (shouldAddPoopJoke) {
+                const wrongIndices = [];
+                choicesWithIndex.forEach((item, index) => {
+                    if (!item.isCorrect) {
+                        wrongIndices.push(index);
+                    }
+                });
+                
+                if (wrongIndices.length > 0) {
+                    const targetIndex = wrongIndices[Math.floor(Math.random() * wrongIndices.length)];
+                    const randomPoopJoke = POOP_JOKES[Math.floor(Math.random() * POOP_JOKES.length)];
+                    choicesWithIndex[targetIndex].text = randomPoopJoke;
+                }
+            }
+            
+            for (let i = choicesWithIndex.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [choicesWithIndex[i], choicesWithIndex[j]] = [choicesWithIndex[j], choicesWithIndex[i]];
+            }
+            
+            let newCorrectIndex = -1;
+            const shuffledChoices = choicesWithIndex.map((item, index) => {
+                if (item.isCorrect) {
+                    newCorrectIndex = index;
+                }
+                return item.text;
+            });
+            
+            return {
+                choices: shuffledChoices,
+                correctIndex: newCorrectIndex,
+                hadPoopJoke: shouldAddPoopJoke
+            };
+        }
+
+        // 初期化
+        window.onload = function() {
+            loadSubjects();
+            updateSettings();
+        };
+
+        function loadSubjects() {
+            const select = document.getElementById('subjectSelect');
+            for (const subjectId in QUESTION_DATABASE) {
+                const option = document.createElement('option');
+                option.value = subjectId;
+                option.textContent = QUESTION_DATABASE[subjectId].name;
+                select.appendChild(option);
+            }
+        }
+
+        function loadUnits() {
+            const subjectId = document.getElementById('subjectSelect').value;
+            const unitSelect = document.getElementById('unitSelect');
+            unitSelect.innerHTML = '<option value="">-- 単元を選択してください --</option>';
+            
+            if (subjectId && QUESTION_DATABASE[subjectId]) {
+                const units = QUESTION_DATABASE[subjectId].units;
+                for (const unitId in units) {
+                    const option = document.createElement('option');
+                    option.value = unitId;
+                    option.textContent = units[unitId].name;
+                    unitSelect.appendChild(option);
+                }
+            }
+        }
+
+        function updateSettings() {
+            settings.explicitContent = document.getElementById('explicitToggle').checked;
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('statusText');
+            
+            if (settings.explicitContent) {
+                indicator.className = 'status-indicator status-on';
+                statusText.textContent = 'ON';
+                statusText.style.color = '#4CAF50';
+            } else {
+                indicator.className = 'status-indicator status-off';
+                statusText.textContent = 'OFF';
+                statusText.style.color = '#f44336';
+            }
+        }
+
+        function getRandomQuestion() {
+            const subjectId = document.getElementById('subjectSelect').value;
+            const unitId = document.getElementById('unitSelect').value;
+            
+            if (!subjectId) {
+                // ランダムに科目を選択
+                const subjects = Object.keys(QUESTION_DATABASE);
+                const randomSubject = subjects[Math.floor(Math.random() * subjects.length)];
+                const units = Object.keys(QUESTION_DATABASE[randomSubject].units);
+                const randomUnit = units[Math.floor(Math.random() * units.length)];
+                
+                const questions = QUESTION_DATABASE[randomSubject].units[randomUnit].questions;
+                const multipleChoice = questions.filter(q => q.type === 'multiple');
+                
+                if (multipleChoice.length > 0) {
+                    return {
+                        question: multipleChoice[Math.floor(Math.random() * multipleChoice.length)],
+                        subject: QUESTION_DATABASE[randomSubject].name,
+                        unit: QUESTION_DATABASE[randomSubject].units[randomUnit].name
+                    };
+                }
+            } else if (unitId) {
+                const questions = QUESTION_DATABASE[subjectId].units[unitId].questions;
+                const multipleChoice = questions.filter(q => q.type === 'multiple');
+                
+                if (multipleChoice.length > 0) {
+                    return {
+                        question: multipleChoice[Math.floor(Math.random() * multipleChoice.length)],
+                        subject: QUESTION_DATABASE[subjectId].name,
+                        unit: QUESTION_DATABASE[subjectId].units[unitId].name
+                    };
+                }
+            } else {
+                // 科目内のランダムな単元
+                const units = Object.keys(QUESTION_DATABASE[subjectId].units);
+                const randomUnit = units[Math.floor(Math.random() * units.length)];
+                const questions = QUESTION_DATABASE[subjectId].units[randomUnit].questions;
+                const multipleChoice = questions.filter(q => q.type === 'multiple');
+                
+                if (multipleChoice.length > 0) {
+                    return {
+                        question: multipleChoice[Math.floor(Math.random() * multipleChoice.length)],
+                        subject: QUESTION_DATABASE[subjectId].name,
+                        unit: QUESTION_DATABASE[subjectId].units[randomUnit].name
+                    };
+                }
+            }
+            
+            return null;
+        }
+
+        function testOnce() {
+            const data = getRandomQuestion();
+            if (!data) {
+                alert('問題が見つかりませんでした');
+                return;
+            }
+            
+            const result = shuffleChoicesWithPoopJoke(data.question.choices, data.question.answer);
+            
+            // 統計更新
+            testCount++;
+            if (result.hadPoopJoke) {
+                replaceCount++;
+            }
+            updateStats();
+            
+            // 問題表示
+            displayQuestion(data, result);
+            
+            // ログ追加
+            addLog(data, result);
+        }
+
+        async function testMultiple(count) {
+            const button = event.target;
+            button.disabled = true;
+            
+            for (let i = 0; i < count; i++) {
+                testOnce();
+                
+                // 10回ごとにUI更新を待つ
+                if (i % 10 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 0));
+                }
+            }
+            
+            button.disabled = false;
+        }
+
+        function displayQuestion(data, result) {
+            const display = document.getElementById('questionDisplay');
+            
+            let html = `
+                <div class="question-text">${data.question.question}</div>
+                <div style="margin-bottom: 15px; color: #666;">
+                    <strong>${data.subject}</strong> - ${data.unit}
+                </div>
+                <div class="choices">
+            `;
+            
+            result.choices.forEach((choice, index) => {
+                const isCorrect = index === result.correctIndex;
+                const isPoop = POOP_JOKES.includes(choice);
+                const classes = ['choice'];
+                if (isPoop) classes.push('poop');
+                if (isCorrect) classes.push('correct');
+                
+                html += `
+                    <div class="${classes.join(' ')}">
+                        ${isPoop ? '💩 ' : ''}${choice}${isCorrect ? ' ✓' : ''}
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            display.innerHTML = html;
+        }
+
+        function updateStats() {
+            document.getElementById('testCount').textContent = testCount;
+            document.getElementById('replaceCount').textContent = replaceCount;
+            
+            if (testCount > 0) {
+                const rate = (replaceCount / testCount) * 100;
+                const dev = Math.abs(rate - 50);
+                document.getElementById('replaceRate').textContent = rate.toFixed(2) + '%';
+                document.getElementById('deviation').textContent = dev.toFixed(2) + '%';
+            }
+        }
+
+        function addLog(data, result) {
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = `[${timestamp}] ${data.subject} - ${data.unit}: ${result.hadPoopJoke ? '置換あり 💩' : '置換なし'}`;
+            
+            logEntries.unshift(entry);
+            if (logEntries.length > 100) logEntries.pop();
+            
+            const log = document.getElementById('log');
+            log.innerHTML = logEntries.map(e => 
+                `<div class="log-entry ${e.includes('💩') ? 'replaced' : ''}">${e}</div>`
+            ).join('');
+        }
+
+        function resetStats() {
+            if (confirm('統計をリセットしますか？')) {
+                testCount = 0;
+                replaceCount = 0;
+                logEntries.length = 0;
+                updateStats();
+                document.getElementById('log').innerHTML = '';
+            }
+        }
+    </script>
+</body>
+</html>
