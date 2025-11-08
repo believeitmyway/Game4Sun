@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "quadrilateral",
+  "unitName": "四角形",
+  "category": "図形",
+  "questions": [
+    {
+      "id": "math-quad-001",
+      "question": "長方形の縦が 7 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35 cm²",
+        "43 cm²",
+        "29 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 5 = 35 cm² です。"
+    },
+    {
+      "id": "math-quad-002",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-003",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-004",
+      "question": "長方形の縦が 10 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "88 cm²",
+        "74 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 8 = 80 cm² です。"
+    },
+    {
+      "id": "math-quad-005",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-006",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-007",
+      "question": "長方形の縦が 8 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "34 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "math-quad-008",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-009",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-010",
+      "question": "長方形の縦が 6 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "56 cm²",
+        "42 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 8 = 48 cm² です。"
+    },
+    {
+      "id": "math-quad-011",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-012",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-013",
+      "question": "長方形の縦が 9 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45 cm²",
+        "53 cm²",
+        "39 cm²",
+        "55 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 5 = 45 cm² です。"
+    },
+    {
+      "id": "math-quad-014",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-015",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-016",
+      "question": "長方形の縦が 7 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56 cm²",
+        "64 cm²",
+        "50 cm²",
+        "66 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 8 = 56 cm² です。"
+    },
+    {
+      "id": "math-quad-017",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-018",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-019",
+      "question": "長方形の縦が 10 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50 cm²",
+        "58 cm²",
+        "44 cm²",
+        "60 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 5 = 50 cm² です。"
+    },
+    {
+      "id": "math-quad-020",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-021",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-022",
+      "question": "長方形の縦が 8 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "72 cm²",
+        "58 cm²",
+        "74 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-quad-023",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-024",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-025",
+      "question": "長方形の縦が 6 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm²",
+        "38 cm²",
+        "24 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 5 = 30 cm² です。"
+    },
+    {
+      "id": "math-quad-026",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-027",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-028",
+      "question": "長方形の縦が 9 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "80 cm²",
+        "66 cm²",
+        "82 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 8 = 72 cm² です。"
+    },
+    {
+      "id": "math-quad-029",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-030",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-031",
+      "question": "長方形の縦が 7 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35 cm²",
+        "43 cm²",
+        "29 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 5 = 35 cm² です。"
+    },
+    {
+      "id": "math-quad-032",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-033",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-034",
+      "question": "長方形の縦が 10 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "88 cm²",
+        "74 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 8 = 80 cm² です。"
+    },
+    {
+      "id": "math-quad-035",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-036",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-037",
+      "question": "長方形の縦が 8 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "34 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "math-quad-038",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-039",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-040",
+      "question": "長方形の縦が 6 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "56 cm²",
+        "42 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 8 = 48 cm² です。"
+    },
+    {
+      "id": "math-quad-041",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-042",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-043",
+      "question": "長方形の縦が 9 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45 cm²",
+        "53 cm²",
+        "39 cm²",
+        "55 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 5 = 45 cm² です。"
+    },
+    {
+      "id": "math-quad-044",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-045",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-046",
+      "question": "長方形の縦が 7 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56 cm²",
+        "64 cm²",
+        "50 cm²",
+        "66 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 8 = 56 cm² です。"
+    },
+    {
+      "id": "math-quad-047",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-048",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-049",
+      "question": "長方形の縦が 10 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50 cm²",
+        "58 cm²",
+        "44 cm²",
+        "60 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 5 = 50 cm² です。"
+    },
+    {
+      "id": "math-quad-050",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-051",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-052",
+      "question": "長方形の縦が 8 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "72 cm²",
+        "58 cm²",
+        "74 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-quad-053",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-054",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-055",
+      "question": "長方形の縦が 6 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm²",
+        "38 cm²",
+        "24 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 5 = 30 cm² です。"
+    },
+    {
+      "id": "math-quad-056",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-057",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-058",
+      "question": "長方形の縦が 9 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "80 cm²",
+        "66 cm²",
+        "82 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 8 = 72 cm² です。"
+    },
+    {
+      "id": "math-quad-059",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-060",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-061",
+      "question": "長方形の縦が 7 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35 cm²",
+        "43 cm²",
+        "29 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 5 = 35 cm² です。"
+    },
+    {
+      "id": "math-quad-062",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-063",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-064",
+      "question": "長方形の縦が 10 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "88 cm²",
+        "74 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 8 = 80 cm² です。"
+    },
+    {
+      "id": "math-quad-065",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-066",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-067",
+      "question": "長方形の縦が 8 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "34 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "math-quad-068",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-069",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-070",
+      "question": "長方形の縦が 6 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "56 cm²",
+        "42 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 8 = 48 cm² です。"
+    },
+    {
+      "id": "math-quad-071",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-072",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-073",
+      "question": "長方形の縦が 9 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "45 cm²",
+        "53 cm²",
+        "39 cm²",
+        "55 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 5 = 45 cm² です。"
+    },
+    {
+      "id": "math-quad-074",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-075",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-076",
+      "question": "長方形の縦が 7 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56 cm²",
+        "64 cm²",
+        "50 cm²",
+        "66 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 8 = 56 cm² です。"
+    },
+    {
+      "id": "math-quad-077",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-078",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-079",
+      "question": "長方形の縦が 10 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50 cm²",
+        "58 cm²",
+        "44 cm²",
+        "60 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 5 = 50 cm² です。"
+    },
+    {
+      "id": "math-quad-080",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-081",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-082",
+      "question": "長方形の縦が 8 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "72 cm²",
+        "58 cm²",
+        "74 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-quad-083",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-084",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-085",
+      "question": "長方形の縦が 6 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm²",
+        "38 cm²",
+        "24 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 5 = 30 cm² です。"
+    },
+    {
+      "id": "math-quad-086",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-087",
+      "question": "正方形の1辺の長さが 7 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "7√2",
+        "8√2",
+        "7√3",
+        "6√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 7√2 です。"
+    },
+    {
+      "id": "math-quad-088",
+      "question": "長方形の縦が 9 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "80 cm²",
+        "66 cm²",
+        "82 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 9 × 8 = 72 cm² です。"
+    },
+    {
+      "id": "math-quad-089",
+      "question": "平行四辺形ABCDの∠Aが 70° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70°",
+        "110°",
+        "90°",
+        "55°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 70° です。"
+    },
+    {
+      "id": "math-quad-090",
+      "question": "正方形の1辺の長さが 5 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "5√2",
+        "6√2",
+        "5√3",
+        "4√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 5√2 です。"
+    },
+    {
+      "id": "math-quad-091",
+      "question": "長方形の縦が 7 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "35 cm²",
+        "43 cm²",
+        "29 cm²",
+        "45 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 7 × 5 = 35 cm² です。"
+    },
+    {
+      "id": "math-quad-092",
+      "question": "平行四辺形ABCDの∠Aが 60° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60°",
+        "120°",
+        "80°",
+        "45°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 60° です。"
+    },
+    {
+      "id": "math-quad-093",
+      "question": "正方形の1辺の長さが 8 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "8√2",
+        "9√2",
+        "8√3",
+        "7√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 8√2 です。"
+    },
+    {
+      "id": "math-quad-094",
+      "question": "長方形の縦が 10 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "88 cm²",
+        "74 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 10 × 8 = 80 cm² です。"
+    },
+    {
+      "id": "math-quad-095",
+      "question": "平行四辺形ABCDの∠Aが 90° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90°",
+        "90°",
+        "110°",
+        "75°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 90° です。"
+    },
+    {
+      "id": "math-quad-096",
+      "question": "正方形の1辺の長さが 6 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "6√2",
+        "7√2",
+        "6√3",
+        "5√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 6√2 です。"
+    },
+    {
+      "id": "math-quad-097",
+      "question": "長方形の縦が 8 cm、横が 5 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "34 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "math-quad-098",
+      "question": "平行四辺形ABCDの∠Aが 80° のとき、対角である ∠C の大きさを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80°",
+        "100°",
+        "100°",
+        "65°"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の向かい合う角は等しいので、∠C も 80° です。"
+    },
+    {
+      "id": "math-quad-099",
+      "question": "正方形の1辺の長さが 9 cm のとき、対角線の長さを求めなさい（√2 を含めて答えなさい）。",
+      "type": "multiple",
+      "choices": [
+        "9√2",
+        "10√2",
+        "9√3",
+        "8√2"
+      ],
+      "answer": 0,
+      "explanation": "正方形の対角線は 1辺×√2 なので 9√2 です。"
+    },
+    {
+      "id": "math-quad-100",
+      "question": "長方形の縦が 6 cm、横が 8 cm のとき、面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "56 cm²",
+        "42 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦×横 = 6 × 8 = 48 cm² です。"
+    }
+  ]
+}

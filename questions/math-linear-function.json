@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "linear-function",
+  "unitName": "一次関数",
+  "category": "関数",
+  "questions": [
+    {
+      "id": "math-linear-func-001",
+      "question": "一次関数 y = 2x - 6 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 2x - 6 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-002",
+      "question": "一次関数 y = 4x + 5 において、x = 3 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17",
+        "19",
+        "14",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 3 + 5 = 17 です。"
+    },
+    {
+      "id": "math-linear-func-003",
+      "question": "一次関数 y = 6x - 5 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-004",
+      "question": "一次関数 y = 5x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-005",
+      "question": "一次関数 y = 1x - 4 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 1x - 4 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-006",
+      "question": "一次関数 y = 4x + 3 において、x = 2 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "11",
+        "13",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 2 + 3 = 11 です。"
+    },
+    {
+      "id": "math-linear-func-007",
+      "question": "一次関数 y = 6x - 4 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-008",
+      "question": "一次関数 y = 4x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-009",
+      "question": "一次関数 y = 5x - 10 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 5x - 10 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-010",
+      "question": "一次関数 y = 4x + 7 において、x = 1 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "11",
+        "13",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 1 + 7 = 11 です。"
+    },
+    {
+      "id": "math-linear-func-011",
+      "question": "一次関数 y = 6x - 3 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-012",
+      "question": "一次関数 y = 3x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-013",
+      "question": "一次関数 y = 4x - 12 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 4x - 12 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-014",
+      "question": "一次関数 y = 4x + 5 において、x = 5 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25",
+        "27",
+        "22",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 5 + 5 = 25 です。"
+    },
+    {
+      "id": "math-linear-func-015",
+      "question": "一次関数 y = 6x - 2 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-016",
+      "question": "一次関数 y = 2x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-017",
+      "question": "一次関数 y = 3x - 12 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 3x - 12 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-018",
+      "question": "一次関数 y = 4x + 3 において、x = 4 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "21",
+        "16",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 4 + 3 = 19 です。"
+    },
+    {
+      "id": "math-linear-func-019",
+      "question": "一次関数 y = 6x - 6 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-020",
+      "question": "一次関数 y = 1x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-021",
+      "question": "一次関数 y = 2x - 4 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 2x - 4 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-022",
+      "question": "一次関数 y = 4x + 7 において、x = 3 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "21",
+        "16",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 3 + 7 = 19 です。"
+    },
+    {
+      "id": "math-linear-func-023",
+      "question": "一次関数 y = 6x - 5 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-024",
+      "question": "一次関数 y = 5x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-025",
+      "question": "一次関数 y = 1x - 3 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 1x - 3 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-026",
+      "question": "一次関数 y = 4x + 5 において、x = 2 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "13",
+        "15",
+        "10",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 2 + 5 = 13 です。"
+    },
+    {
+      "id": "math-linear-func-027",
+      "question": "一次関数 y = 6x - 4 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-028",
+      "question": "一次関数 y = 4x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-029",
+      "question": "一次関数 y = 5x - 20 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 5x - 20 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-030",
+      "question": "一次関数 y = 4x + 3 において、x = 1 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "7",
+        "9",
+        "4",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 1 + 3 = 7 です。"
+    },
+    {
+      "id": "math-linear-func-031",
+      "question": "一次関数 y = 6x - 3 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-032",
+      "question": "一次関数 y = 3x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-033",
+      "question": "一次関数 y = 4x - 8 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 4x - 8 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-034",
+      "question": "一次関数 y = 4x + 7 において、x = 5 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "29",
+        "24",
+        "31"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 5 + 7 = 27 です。"
+    },
+    {
+      "id": "math-linear-func-035",
+      "question": "一次関数 y = 6x - 2 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-036",
+      "question": "一次関数 y = 2x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-037",
+      "question": "一次関数 y = 3x - 9 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 3x - 9 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-038",
+      "question": "一次関数 y = 4x + 5 において、x = 4 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "23",
+        "18",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 4 + 5 = 21 です。"
+    },
+    {
+      "id": "math-linear-func-039",
+      "question": "一次関数 y = 6x - 6 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-040",
+      "question": "一次関数 y = 1x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-041",
+      "question": "一次関数 y = 2x - 8 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 2x - 8 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-042",
+      "question": "一次関数 y = 4x + 3 において、x = 3 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "17",
+        "12",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 3 + 3 = 15 です。"
+    },
+    {
+      "id": "math-linear-func-043",
+      "question": "一次関数 y = 6x - 5 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-044",
+      "question": "一次関数 y = 5x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-045",
+      "question": "一次関数 y = 1x - 2 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 1x - 2 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-046",
+      "question": "一次関数 y = 4x + 7 において、x = 2 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "17",
+        "12",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 2 + 7 = 15 です。"
+    },
+    {
+      "id": "math-linear-func-047",
+      "question": "一次関数 y = 6x - 4 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-048",
+      "question": "一次関数 y = 4x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-049",
+      "question": "一次関数 y = 5x - 15 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 5x - 15 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-050",
+      "question": "一次関数 y = 4x + 5 において、x = 1 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "9",
+        "11",
+        "6",
+        "13"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 1 + 5 = 9 です。"
+    },
+    {
+      "id": "math-linear-func-051",
+      "question": "一次関数 y = 6x - 3 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-052",
+      "question": "一次関数 y = 3x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-053",
+      "question": "一次関数 y = 4x - 16 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 4x - 16 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-054",
+      "question": "一次関数 y = 4x + 3 において、x = 5 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "25",
+        "20",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 5 + 3 = 23 です。"
+    },
+    {
+      "id": "math-linear-func-055",
+      "question": "一次関数 y = 6x - 2 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-056",
+      "question": "一次関数 y = 2x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-057",
+      "question": "一次関数 y = 3x - 6 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 3x - 6 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-058",
+      "question": "一次関数 y = 4x + 7 において、x = 4 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "25",
+        "20",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 4 + 7 = 23 です。"
+    },
+    {
+      "id": "math-linear-func-059",
+      "question": "一次関数 y = 6x - 6 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-060",
+      "question": "一次関数 y = 1x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-061",
+      "question": "一次関数 y = 2x - 6 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 2x - 6 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-062",
+      "question": "一次関数 y = 4x + 5 において、x = 3 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "17",
+        "19",
+        "14",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 3 + 5 = 17 です。"
+    },
+    {
+      "id": "math-linear-func-063",
+      "question": "一次関数 y = 6x - 5 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-064",
+      "question": "一次関数 y = 5x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-065",
+      "question": "一次関数 y = 1x - 4 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 1x - 4 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-066",
+      "question": "一次関数 y = 4x + 3 において、x = 2 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "11",
+        "13",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 2 + 3 = 11 です。"
+    },
+    {
+      "id": "math-linear-func-067",
+      "question": "一次関数 y = 6x - 4 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-068",
+      "question": "一次関数 y = 4x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-069",
+      "question": "一次関数 y = 5x - 10 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 5x - 10 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-070",
+      "question": "一次関数 y = 4x + 7 において、x = 1 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "11",
+        "13",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 1 + 7 = 11 です。"
+    },
+    {
+      "id": "math-linear-func-071",
+      "question": "一次関数 y = 6x - 3 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-072",
+      "question": "一次関数 y = 3x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-073",
+      "question": "一次関数 y = 4x - 12 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 4x - 12 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-074",
+      "question": "一次関数 y = 4x + 5 において、x = 5 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25",
+        "27",
+        "22",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 5 + 5 = 25 です。"
+    },
+    {
+      "id": "math-linear-func-075",
+      "question": "一次関数 y = 6x - 2 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-076",
+      "question": "一次関数 y = 2x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-077",
+      "question": "一次関数 y = 3x - 12 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 3x - 12 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-078",
+      "question": "一次関数 y = 4x + 3 において、x = 4 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "21",
+        "16",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 4 + 3 = 19 です。"
+    },
+    {
+      "id": "math-linear-func-079",
+      "question": "一次関数 y = 6x - 6 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-080",
+      "question": "一次関数 y = 1x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-081",
+      "question": "一次関数 y = 2x - 4 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 2x - 4 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-082",
+      "question": "一次関数 y = 4x + 7 において、x = 3 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "19",
+        "21",
+        "16",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 3 + 7 = 19 です。"
+    },
+    {
+      "id": "math-linear-func-083",
+      "question": "一次関数 y = 6x - 5 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-084",
+      "question": "一次関数 y = 5x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-085",
+      "question": "一次関数 y = 1x - 3 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 1x - 3 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-086",
+      "question": "一次関数 y = 4x + 5 において、x = 2 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "13",
+        "15",
+        "10",
+        "17"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 2 + 5 = 13 です。"
+    },
+    {
+      "id": "math-linear-func-087",
+      "question": "一次関数 y = 6x - 4 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-088",
+      "question": "一次関数 y = 4x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-089",
+      "question": "一次関数 y = 5x - 20 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 5x - 20 = 0 となり、x = 4 です。"
+    },
+    {
+      "id": "math-linear-func-090",
+      "question": "一次関数 y = 4x + 3 において、x = 1 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "7",
+        "9",
+        "4",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 1 + 3 = 7 です。"
+    },
+    {
+      "id": "math-linear-func-091",
+      "question": "一次関数 y = 6x - 3 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-092",
+      "question": "一次関数 y = 3x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-093",
+      "question": "一次関数 y = 4x - 8 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 4x - 8 = 0 となり、x = 2 です。"
+    },
+    {
+      "id": "math-linear-func-094",
+      "question": "一次関数 y = 4x + 7 において、x = 5 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "29",
+        "24",
+        "31"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 5 + 7 = 27 です。"
+    },
+    {
+      "id": "math-linear-func-095",
+      "question": "一次関数 y = 6x - 2 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-096",
+      "question": "一次関数 y = 2x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    },
+    {
+      "id": "math-linear-func-097",
+      "question": "一次関数 y = 3x - 9 のグラフがx軸と交わる点のx座標を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "y = 0 とすると 3x - 9 = 0 となり、x = 3 です。"
+    },
+    {
+      "id": "math-linear-func-098",
+      "question": "一次関数 y = 4x + 5 において、x = 4 のときの y の値を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "23",
+        "18",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "y = 4 × 4 + 5 = 21 です。"
+    },
+    {
+      "id": "math-linear-func-099",
+      "question": "一次関数 y = 6x - 6 の傾きを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の傾きは係数 a に等しいため、傾きは 6 です。"
+    },
+    {
+      "id": "math-linear-func-100",
+      "question": "一次関数 y = 1x + 2 の切片（y切片）を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "2",
+        "4",
+        "1",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
+    }
+  ]
+}

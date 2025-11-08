@@ -1,0 +1,1309 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "simultaneous-equations",
+  "unitName": "連立方程式",
+  "category": "方程式",
+  "questions": [
+    {
+      "id": "math-sim-eq-001",
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 10\n4x + 4y = 16",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 2",
+        "x = 3, y = 1",
+        "x = 1, y = 3",
+        "x = 4, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3y = 10、4x + 4y = 16 を加減法で解くと x = 2、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-002",
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 17\n5x + 5y = 25",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 2",
+        "x = 4, y = 1",
+        "x = 2, y = 3",
+        "x = 5, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "3x + 4y = 17、5x + 5y = 25 を加減法で解くと x = 3、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-003",
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 26\n2x + 1y = 10",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 2",
+        "x = 5, y = 1",
+        "x = 3, y = 3",
+        "x = 6, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "4x + 5y = 26、2x + 1y = 10 を加減法で解くと x = 4、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-004",
+      "question": "次の連立方程式を解きなさい。\n1x + 6y = 17\n3x + 2y = 19",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 2",
+        "x = 6, y = 1",
+        "x = 4, y = 3",
+        "x = 7, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "1x + 6y = 17、3x + 2y = 19 を加減法で解くと x = 5、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-005",
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 16\n4x + 3y = 30",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 2",
+        "x = 7, y = 1",
+        "x = 5, y = 3",
+        "x = 8, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "2x + 2y = 16、4x + 3y = 30 を加減法で解くと x = 6、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-006",
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 27\n5x + 4y = 43",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 2",
+        "x = 8, y = 1",
+        "x = 6, y = 3",
+        "x = 9, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "3x + 3y = 27、5x + 4y = 43 を加減法で解くと x = 7、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-007",
+      "question": "次の連立方程式を解きなさい。\n4x + 4y = 40\n2x + 5y = 26",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 2",
+        "x = 9, y = 1",
+        "x = 7, y = 3",
+        "x = 10, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "4x + 4y = 40、2x + 5y = 26 を加減法で解くと x = 8、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-008",
+      "question": "次の連立方程式を解きなさい。\n1x + 5y = 19\n3x + 1y = 29",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 2",
+        "x = 10, y = 1",
+        "x = 8, y = 3",
+        "x = 11, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "1x + 5y = 19、3x + 1y = 29 を加減法で解くと x = 9、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-009",
+      "question": "次の連立方程式を解きなさい。\n2x + 6y = 14\n4x + 2y = 8",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 2",
+        "x = 2, y = 1",
+        "x = 0, y = 3",
+        "x = 3, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "2x + 6y = 14、4x + 2y = 8 を加減法で解くと x = 1、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-010",
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 12\n5x + 3y = 19",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 3",
+        "x = 3, y = 2",
+        "x = 1, y = 4",
+        "x = 4, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 12、5x + 3y = 19 を加減法で解くと x = 2、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-011",
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 21\n2x + 4y = 18",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 3",
+        "x = 4, y = 2",
+        "x = 2, y = 4",
+        "x = 5, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "4x + 3y = 21、2x + 4y = 18 を加減法で解くと x = 3、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-012",
+      "question": "次の連立方程式を解きなさい。\n1x + 4y = 16\n3x + 5y = 27",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 3",
+        "x = 5, y = 2",
+        "x = 3, y = 4",
+        "x = 6, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "1x + 4y = 16、3x + 5y = 27 を加減法で解くと x = 4、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-013",
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 25\n4x + 1y = 23",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 3",
+        "x = 6, y = 2",
+        "x = 4, y = 4",
+        "x = 7, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "2x + 5y = 25、4x + 1y = 23 を加減法で解くと x = 5、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-014",
+      "question": "次の連立方程式を解きなさい。\n3x + 6y = 36\n5x + 2y = 36",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 3",
+        "x = 7, y = 2",
+        "x = 5, y = 4",
+        "x = 8, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "3x + 6y = 36、5x + 2y = 36 を加減法で解くと x = 6、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-015",
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 34\n2x + 3y = 23",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 3",
+        "x = 8, y = 2",
+        "x = 6, y = 4",
+        "x = 9, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "4x + 2y = 34、2x + 3y = 23 を加減法で解くと x = 7、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-016",
+      "question": "次の連立方程式を解きなさい。\n1x + 3y = 17\n3x + 4y = 36",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 3",
+        "x = 9, y = 2",
+        "x = 7, y = 4",
+        "x = 10, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "1x + 3y = 17、3x + 4y = 36 を加減法で解くと x = 8、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-017",
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 30\n4x + 5y = 51",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 3",
+        "x = 10, y = 2",
+        "x = 8, y = 4",
+        "x = 11, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "2x + 4y = 30、4x + 5y = 51 を加減法で解くと x = 9、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-018",
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 18\n5x + 1y = 8",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 3",
+        "x = 2, y = 2",
+        "x = 0, y = 4",
+        "x = 3, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "3x + 5y = 18、5x + 1y = 8 を加減法で解くと x = 1、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-019",
+      "question": "次の連立方程式を解きなさい。\n4x + 6y = 32\n2x + 2y = 12",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 4",
+        "x = 3, y = 3",
+        "x = 1, y = 5",
+        "x = 4, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "4x + 6y = 32、2x + 2y = 12 を加減法で解くと x = 2、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-020",
+      "question": "次の連立方程式を解きなさい。\n1x + 2y = 11\n3x + 3y = 21",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 4",
+        "x = 4, y = 3",
+        "x = 2, y = 5",
+        "x = 5, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "1x + 2y = 11、3x + 3y = 21 を加減法で解くと x = 3、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-021",
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 20\n4x + 4y = 32",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 4",
+        "x = 5, y = 3",
+        "x = 3, y = 5",
+        "x = 6, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3y = 20、4x + 4y = 32 を加減法で解くと x = 4、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-022",
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 31\n5x + 5y = 45",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 4",
+        "x = 6, y = 3",
+        "x = 4, y = 5",
+        "x = 7, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "3x + 4y = 31、5x + 5y = 45 を加減法で解くと x = 5、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-023",
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 44\n2x + 1y = 16",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 4",
+        "x = 7, y = 3",
+        "x = 5, y = 5",
+        "x = 8, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "4x + 5y = 44、2x + 1y = 16 を加減法で解くと x = 6、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-024",
+      "question": "次の連立方程式を解きなさい。\n1x + 6y = 31\n3x + 2y = 29",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 4",
+        "x = 8, y = 3",
+        "x = 6, y = 5",
+        "x = 9, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "1x + 6y = 31、3x + 2y = 29 を加減法で解くと x = 7、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-025",
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 24\n4x + 3y = 44",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 4",
+        "x = 9, y = 3",
+        "x = 7, y = 5",
+        "x = 10, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "2x + 2y = 24、4x + 3y = 44 を加減法で解くと x = 8、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-026",
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 39\n5x + 4y = 61",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 4",
+        "x = 10, y = 3",
+        "x = 8, y = 5",
+        "x = 11, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "3x + 3y = 39、5x + 4y = 61 を加減法で解くと x = 9、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-027",
+      "question": "次の連立方程式を解きなさい。\n4x + 4y = 20\n2x + 5y = 22",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 4",
+        "x = 2, y = 3",
+        "x = 0, y = 5",
+        "x = 3, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "4x + 4y = 20、2x + 5y = 22 を加減法で解くと x = 1、y = 4 となります。"
+    },
+    {
+      "id": "math-sim-eq-028",
+      "question": "次の連立方程式を解きなさい。\n1x + 5y = 27\n3x + 1y = 11",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 5",
+        "x = 3, y = 4",
+        "x = 1, y = 6",
+        "x = 4, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "1x + 5y = 27、3x + 1y = 11 を加減法で解くと x = 2、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-029",
+      "question": "次の連立方程式を解きなさい。\n2x + 6y = 36\n4x + 2y = 22",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 5",
+        "x = 4, y = 4",
+        "x = 2, y = 6",
+        "x = 5, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "2x + 6y = 36、4x + 2y = 22 を加減法で解くと x = 3、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-030",
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 22\n5x + 3y = 35",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 5",
+        "x = 5, y = 4",
+        "x = 3, y = 6",
+        "x = 6, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 22、5x + 3y = 35 を加減法で解くと x = 4、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-031",
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 35\n2x + 4y = 30",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 5",
+        "x = 6, y = 4",
+        "x = 4, y = 6",
+        "x = 7, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "4x + 3y = 35、2x + 4y = 30 を加減法で解くと x = 5、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-032",
+      "question": "次の連立方程式を解きなさい。\n1x + 4y = 26\n3x + 5y = 43",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 5",
+        "x = 7, y = 4",
+        "x = 5, y = 6",
+        "x = 8, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "1x + 4y = 26、3x + 5y = 43 を加減法で解くと x = 6、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-033",
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 39\n4x + 1y = 33",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 5",
+        "x = 8, y = 4",
+        "x = 6, y = 6",
+        "x = 9, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "2x + 5y = 39、4x + 1y = 33 を加減法で解くと x = 7、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-034",
+      "question": "次の連立方程式を解きなさい。\n3x + 6y = 54\n5x + 2y = 50",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 5",
+        "x = 9, y = 4",
+        "x = 7, y = 6",
+        "x = 10, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "3x + 6y = 54、5x + 2y = 50 を加減法で解くと x = 8、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-035",
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 46\n2x + 3y = 33",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 5",
+        "x = 10, y = 4",
+        "x = 8, y = 6",
+        "x = 11, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "4x + 2y = 46、2x + 3y = 33 を加減法で解くと x = 9、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-036",
+      "question": "次の連立方程式を解きなさい。\n1x + 3y = 16\n3x + 4y = 23",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 5",
+        "x = 2, y = 4",
+        "x = 0, y = 6",
+        "x = 3, y = 5"
+      ],
+      "answer": 0,
+      "explanation": "1x + 3y = 16、3x + 4y = 23 を加減法で解くと x = 1、y = 5 となります。"
+    },
+    {
+      "id": "math-sim-eq-037",
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 28\n4x + 5y = 38",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 6",
+        "x = 3, y = 5",
+        "x = 1, y = 7",
+        "x = 4, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "2x + 4y = 28、4x + 5y = 38 を加減法で解くと x = 2、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-038",
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 39\n5x + 1y = 21",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 6",
+        "x = 4, y = 5",
+        "x = 2, y = 7",
+        "x = 5, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "3x + 5y = 39、5x + 1y = 21 を加減法で解くと x = 3、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-039",
+      "question": "次の連立方程式を解きなさい。\n4x + 6y = 52\n2x + 2y = 20",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 6",
+        "x = 5, y = 5",
+        "x = 3, y = 7",
+        "x = 6, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "4x + 6y = 52、2x + 2y = 20 を加減法で解くと x = 4、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-040",
+      "question": "次の連立方程式を解きなさい。\n1x + 2y = 17\n3x + 3y = 33",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 6",
+        "x = 6, y = 5",
+        "x = 4, y = 7",
+        "x = 7, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "1x + 2y = 17、3x + 3y = 33 を加減法で解くと x = 5、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-041",
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 30\n4x + 4y = 48",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 6",
+        "x = 7, y = 5",
+        "x = 5, y = 7",
+        "x = 8, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3y = 30、4x + 4y = 48 を加減法で解くと x = 6、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-042",
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 45\n5x + 5y = 65",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 6",
+        "x = 8, y = 5",
+        "x = 6, y = 7",
+        "x = 9, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "3x + 4y = 45、5x + 5y = 65 を加減法で解くと x = 7、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-043",
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 62\n2x + 1y = 22",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 6",
+        "x = 9, y = 5",
+        "x = 7, y = 7",
+        "x = 10, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "4x + 5y = 62、2x + 1y = 22 を加減法で解くと x = 8、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-044",
+      "question": "次の連立方程式を解きなさい。\n1x + 6y = 45\n3x + 2y = 39",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 6",
+        "x = 10, y = 5",
+        "x = 8, y = 7",
+        "x = 11, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "1x + 6y = 45、3x + 2y = 39 を加減法で解くと x = 9、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-045",
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 14\n4x + 3y = 22",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 6",
+        "x = 2, y = 5",
+        "x = 0, y = 7",
+        "x = 3, y = 6"
+      ],
+      "answer": 0,
+      "explanation": "2x + 2y = 14、4x + 3y = 22 を加減法で解くと x = 1、y = 6 となります。"
+    },
+    {
+      "id": "math-sim-eq-046",
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 27\n5x + 4y = 38",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 7",
+        "x = 3, y = 6",
+        "x = 1, y = 8",
+        "x = 4, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "3x + 3y = 27、5x + 4y = 38 を加減法で解くと x = 2、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-047",
+      "question": "次の連立方程式を解きなさい。\n4x + 4y = 40\n2x + 5y = 41",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 7",
+        "x = 4, y = 6",
+        "x = 2, y = 8",
+        "x = 5, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "4x + 4y = 40、2x + 5y = 41 を加減法で解くと x = 3、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-048",
+      "question": "次の連立方程式を解きなさい。\n1x + 5y = 39\n3x + 1y = 19",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 7",
+        "x = 5, y = 6",
+        "x = 3, y = 8",
+        "x = 6, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "1x + 5y = 39、3x + 1y = 19 を加減法で解くと x = 4、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-049",
+      "question": "次の連立方程式を解きなさい。\n2x + 6y = 52\n4x + 2y = 34",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 7",
+        "x = 6, y = 6",
+        "x = 4, y = 8",
+        "x = 7, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "2x + 6y = 52、4x + 2y = 34 を加減法で解くと x = 5、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-050",
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 32\n5x + 3y = 51",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 7",
+        "x = 7, y = 6",
+        "x = 5, y = 8",
+        "x = 8, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 32、5x + 3y = 51 を加減法で解くと x = 6、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-051",
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 49\n2x + 4y = 42",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 7",
+        "x = 8, y = 6",
+        "x = 6, y = 8",
+        "x = 9, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "4x + 3y = 49、2x + 4y = 42 を加減法で解くと x = 7、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-052",
+      "question": "次の連立方程式を解きなさい。\n1x + 4y = 36\n3x + 5y = 59",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 7",
+        "x = 9, y = 6",
+        "x = 7, y = 8",
+        "x = 10, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "1x + 4y = 36、3x + 5y = 59 を加減法で解くと x = 8、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-053",
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 53\n4x + 1y = 43",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 7",
+        "x = 10, y = 6",
+        "x = 8, y = 8",
+        "x = 11, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "2x + 5y = 53、4x + 1y = 43 を加減法で解くと x = 9、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-054",
+      "question": "次の連立方程式を解きなさい。\n3x + 6y = 45\n5x + 2y = 19",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 7",
+        "x = 2, y = 6",
+        "x = 0, y = 8",
+        "x = 3, y = 7"
+      ],
+      "answer": 0,
+      "explanation": "3x + 6y = 45、5x + 2y = 19 を加減法で解くと x = 1、y = 7 となります。"
+    },
+    {
+      "id": "math-sim-eq-055",
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 24\n2x + 3y = 28",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 8",
+        "x = 3, y = 7",
+        "x = 1, y = 9",
+        "x = 4, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "4x + 2y = 24、2x + 3y = 28 を加減法で解くと x = 2、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-056",
+      "question": "次の連立方程式を解きなさい。\n1x + 3y = 27\n3x + 4y = 41",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 8",
+        "x = 4, y = 7",
+        "x = 2, y = 9",
+        "x = 5, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "1x + 3y = 27、3x + 4y = 41 を加減法で解くと x = 3、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-057",
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 40\n4x + 5y = 56",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 8",
+        "x = 5, y = 7",
+        "x = 3, y = 9",
+        "x = 6, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "2x + 4y = 40、4x + 5y = 56 を加減法で解くと x = 4、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-058",
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 55\n5x + 1y = 33",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 8",
+        "x = 6, y = 7",
+        "x = 4, y = 9",
+        "x = 7, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "3x + 5y = 55、5x + 1y = 33 を加減法で解くと x = 5、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-059",
+      "question": "次の連立方程式を解きなさい。\n4x + 6y = 72\n2x + 2y = 28",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 8",
+        "x = 7, y = 7",
+        "x = 5, y = 9",
+        "x = 8, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "4x + 6y = 72、2x + 2y = 28 を加減法で解くと x = 6、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-060",
+      "question": "次の連立方程式を解きなさい。\n1x + 2y = 23\n3x + 3y = 45",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 8",
+        "x = 8, y = 7",
+        "x = 6, y = 9",
+        "x = 9, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "1x + 2y = 23、3x + 3y = 45 を加減法で解くと x = 7、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-061",
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 40\n4x + 4y = 64",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 8",
+        "x = 9, y = 7",
+        "x = 7, y = 9",
+        "x = 10, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3y = 40、4x + 4y = 64 を加減法で解くと x = 8、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-062",
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 59\n5x + 5y = 85",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 8",
+        "x = 10, y = 7",
+        "x = 8, y = 9",
+        "x = 11, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "3x + 4y = 59、5x + 5y = 85 を加減法で解くと x = 9、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-063",
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 44\n2x + 1y = 10",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 8",
+        "x = 2, y = 7",
+        "x = 0, y = 9",
+        "x = 3, y = 8"
+      ],
+      "answer": 0,
+      "explanation": "4x + 5y = 44、2x + 1y = 10 を加減法で解くと x = 1、y = 8 となります。"
+    },
+    {
+      "id": "math-sim-eq-064",
+      "question": "次の連立方程式を解きなさい。\n1x + 6y = 56\n3x + 2y = 24",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 9",
+        "x = 3, y = 8",
+        "x = 1, y = 10",
+        "x = 4, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "1x + 6y = 56、3x + 2y = 24 を加減法で解くと x = 2、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-065",
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 24\n4x + 3y = 39",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 9",
+        "x = 4, y = 8",
+        "x = 2, y = 10",
+        "x = 5, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "2x + 2y = 24、4x + 3y = 39 を加減法で解くと x = 3、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-066",
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 39\n5x + 4y = 56",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 9",
+        "x = 5, y = 8",
+        "x = 3, y = 10",
+        "x = 6, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "3x + 3y = 39、5x + 4y = 56 を加減法で解くと x = 4、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-067",
+      "question": "次の連立方程式を解きなさい。\n4x + 4y = 56\n2x + 5y = 55",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 9",
+        "x = 6, y = 8",
+        "x = 4, y = 10",
+        "x = 7, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "4x + 4y = 56、2x + 5y = 55 を加減法で解くと x = 5、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-068",
+      "question": "次の連立方程式を解きなさい。\n1x + 5y = 51\n3x + 1y = 27",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 9",
+        "x = 7, y = 8",
+        "x = 5, y = 10",
+        "x = 8, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "1x + 5y = 51、3x + 1y = 27 を加減法で解くと x = 6、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-069",
+      "question": "次の連立方程式を解きなさい。\n2x + 6y = 68\n4x + 2y = 46",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 9",
+        "x = 8, y = 8",
+        "x = 6, y = 10",
+        "x = 9, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "2x + 6y = 68、4x + 2y = 46 を加減法で解くと x = 7、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-070",
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 42\n5x + 3y = 67",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 9",
+        "x = 9, y = 8",
+        "x = 7, y = 10",
+        "x = 10, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 42、5x + 3y = 67 を加減法で解くと x = 8、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-071",
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 63\n2x + 4y = 54",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 9",
+        "x = 10, y = 8",
+        "x = 8, y = 10",
+        "x = 11, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "4x + 3y = 63、2x + 4y = 54 を加減法で解くと x = 9、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-072",
+      "question": "次の連立方程式を解きなさい。\n1x + 4y = 37\n3x + 5y = 48",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 9",
+        "x = 2, y = 8",
+        "x = 0, y = 10",
+        "x = 3, y = 9"
+      ],
+      "answer": 0,
+      "explanation": "1x + 4y = 37、3x + 5y = 48 を加減法で解くと x = 1、y = 9 となります。"
+    },
+    {
+      "id": "math-sim-eq-073",
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 54\n4x + 1y = 18",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 10",
+        "x = 3, y = 9",
+        "x = 1, y = 11",
+        "x = 4, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "2x + 5y = 54、4x + 1y = 18 を加減法で解くと x = 2、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-074",
+      "question": "次の連立方程式を解きなさい。\n3x + 6y = 69\n5x + 2y = 35",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 10",
+        "x = 4, y = 9",
+        "x = 2, y = 11",
+        "x = 5, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "3x + 6y = 69、5x + 2y = 35 を加減法で解くと x = 3、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-075",
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 36\n2x + 3y = 38",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 10",
+        "x = 5, y = 9",
+        "x = 3, y = 11",
+        "x = 6, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "4x + 2y = 36、2x + 3y = 38 を加減法で解くと x = 4、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-076",
+      "question": "次の連立方程式を解きなさい。\n1x + 3y = 35\n3x + 4y = 55",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 10",
+        "x = 6, y = 9",
+        "x = 4, y = 11",
+        "x = 7, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "1x + 3y = 35、3x + 4y = 55 を加減法で解くと x = 5、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-077",
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 52\n4x + 5y = 74",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 10",
+        "x = 7, y = 9",
+        "x = 5, y = 11",
+        "x = 8, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "2x + 4y = 52、4x + 5y = 74 を加減法で解くと x = 6、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-078",
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 71\n5x + 1y = 45",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 10",
+        "x = 8, y = 9",
+        "x = 6, y = 11",
+        "x = 9, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "3x + 5y = 71、5x + 1y = 45 を加減法で解くと x = 7、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-079",
+      "question": "次の連立方程式を解きなさい。\n4x + 6y = 92\n2x + 2y = 36",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 10",
+        "x = 9, y = 9",
+        "x = 7, y = 11",
+        "x = 10, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "4x + 6y = 92、2x + 2y = 36 を加減法で解くと x = 8、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-080",
+      "question": "次の連立方程式を解きなさい。\n1x + 2y = 29\n3x + 3y = 57",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 10",
+        "x = 10, y = 9",
+        "x = 8, y = 11",
+        "x = 11, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "1x + 2y = 29、3x + 3y = 57 を加減法で解くと x = 9、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-081",
+      "question": "次の連立方程式を解きなさい。\n2x + 3y = 32\n4x + 4y = 44",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 10",
+        "x = 2, y = 9",
+        "x = 0, y = 11",
+        "x = 3, y = 10"
+      ],
+      "answer": 0,
+      "explanation": "2x + 3y = 32、4x + 4y = 44 を加減法で解くと x = 1、y = 10 となります。"
+    },
+    {
+      "id": "math-sim-eq-082",
+      "question": "次の連立方程式を解きなさい。\n3x + 4y = 14\n5x + 5y = 20",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 2",
+        "x = 3, y = 1",
+        "x = 1, y = 3",
+        "x = 4, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "3x + 4y = 14、5x + 5y = 20 を加減法で解くと x = 2、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-083",
+      "question": "次の連立方程式を解きなさい。\n4x + 5y = 22\n2x + 1y = 8",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 2",
+        "x = 4, y = 1",
+        "x = 2, y = 3",
+        "x = 5, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "4x + 5y = 22、2x + 1y = 8 を加減法で解くと x = 3、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-084",
+      "question": "次の連立方程式を解きなさい。\n1x + 6y = 16\n3x + 2y = 16",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 2",
+        "x = 5, y = 1",
+        "x = 3, y = 3",
+        "x = 6, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "1x + 6y = 16、3x + 2y = 16 を加減法で解くと x = 4、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-085",
+      "question": "次の連立方程式を解きなさい。\n2x + 2y = 14\n4x + 3y = 26",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 2",
+        "x = 6, y = 1",
+        "x = 4, y = 3",
+        "x = 7, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "2x + 2y = 14、4x + 3y = 26 を加減法で解くと x = 5、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-086",
+      "question": "次の連立方程式を解きなさい。\n3x + 3y = 24\n5x + 4y = 38",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 2",
+        "x = 7, y = 1",
+        "x = 5, y = 3",
+        "x = 8, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "3x + 3y = 24、5x + 4y = 38 を加減法で解くと x = 6、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-087",
+      "question": "次の連立方程式を解きなさい。\n4x + 4y = 36\n2x + 5y = 24",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 2",
+        "x = 8, y = 1",
+        "x = 6, y = 3",
+        "x = 9, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "4x + 4y = 36、2x + 5y = 24 を加減法で解くと x = 7、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-088",
+      "question": "次の連立方程式を解きなさい。\n1x + 5y = 18\n3x + 1y = 26",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 2",
+        "x = 9, y = 1",
+        "x = 7, y = 3",
+        "x = 10, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "1x + 5y = 18、3x + 1y = 26 を加減法で解くと x = 8、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-089",
+      "question": "次の連立方程式を解きなさい。\n2x + 6y = 30\n4x + 2y = 40",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 2",
+        "x = 10, y = 1",
+        "x = 8, y = 3",
+        "x = 11, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "2x + 6y = 30、4x + 2y = 40 を加減法で解くと x = 9、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-090",
+      "question": "次の連立方程式を解きなさい。\n3x + 2y = 7\n5x + 3y = 11",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 2",
+        "x = 2, y = 1",
+        "x = 0, y = 3",
+        "x = 3, y = 2"
+      ],
+      "answer": 0,
+      "explanation": "3x + 2y = 7、5x + 3y = 11 を加減法で解くと x = 1、y = 2 となります。"
+    },
+    {
+      "id": "math-sim-eq-091",
+      "question": "次の連立方程式を解きなさい。\n4x + 3y = 17\n2x + 4y = 16",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 3",
+        "x = 3, y = 2",
+        "x = 1, y = 4",
+        "x = 4, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "4x + 3y = 17、2x + 4y = 16 を加減法で解くと x = 2、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-092",
+      "question": "次の連立方程式を解きなさい。\n1x + 4y = 15\n3x + 5y = 24",
+      "type": "multiple",
+      "choices": [
+        "x = 3, y = 3",
+        "x = 4, y = 2",
+        "x = 2, y = 4",
+        "x = 5, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "1x + 4y = 15、3x + 5y = 24 を加減法で解くと x = 3、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-093",
+      "question": "次の連立方程式を解きなさい。\n2x + 5y = 23\n4x + 1y = 19",
+      "type": "multiple",
+      "choices": [
+        "x = 4, y = 3",
+        "x = 5, y = 2",
+        "x = 3, y = 4",
+        "x = 6, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "2x + 5y = 23、4x + 1y = 19 を加減法で解くと x = 4、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-094",
+      "question": "次の連立方程式を解きなさい。\n3x + 6y = 33\n5x + 2y = 31",
+      "type": "multiple",
+      "choices": [
+        "x = 5, y = 3",
+        "x = 6, y = 2",
+        "x = 4, y = 4",
+        "x = 7, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "3x + 6y = 33、5x + 2y = 31 を加減法で解くと x = 5、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-095",
+      "question": "次の連立方程式を解きなさい。\n4x + 2y = 30\n2x + 3y = 21",
+      "type": "multiple",
+      "choices": [
+        "x = 6, y = 3",
+        "x = 7, y = 2",
+        "x = 5, y = 4",
+        "x = 8, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "4x + 2y = 30、2x + 3y = 21 を加減法で解くと x = 6、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-096",
+      "question": "次の連立方程式を解きなさい。\n1x + 3y = 16\n3x + 4y = 33",
+      "type": "multiple",
+      "choices": [
+        "x = 7, y = 3",
+        "x = 8, y = 2",
+        "x = 6, y = 4",
+        "x = 9, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "1x + 3y = 16、3x + 4y = 33 を加減法で解くと x = 7、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-097",
+      "question": "次の連立方程式を解きなさい。\n2x + 4y = 28\n4x + 5y = 47",
+      "type": "multiple",
+      "choices": [
+        "x = 8, y = 3",
+        "x = 9, y = 2",
+        "x = 7, y = 4",
+        "x = 10, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "2x + 4y = 28、4x + 5y = 47 を加減法で解くと x = 8、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-098",
+      "question": "次の連立方程式を解きなさい。\n3x + 5y = 42\n5x + 1y = 48",
+      "type": "multiple",
+      "choices": [
+        "x = 9, y = 3",
+        "x = 10, y = 2",
+        "x = 8, y = 4",
+        "x = 11, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "3x + 5y = 42、5x + 1y = 48 を加減法で解くと x = 9、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-099",
+      "question": "次の連立方程式を解きなさい。\n4x + 6y = 22\n2x + 2y = 8",
+      "type": "multiple",
+      "choices": [
+        "x = 1, y = 3",
+        "x = 2, y = 2",
+        "x = 0, y = 4",
+        "x = 3, y = 3"
+      ],
+      "answer": 0,
+      "explanation": "4x + 6y = 22、2x + 2y = 8 を加減法で解くと x = 1、y = 3 となります。"
+    },
+    {
+      "id": "math-sim-eq-100",
+      "question": "次の連立方程式を解きなさい。\n1x + 2y = 10\n3x + 3y = 18",
+      "type": "multiple",
+      "choices": [
+        "x = 2, y = 4",
+        "x = 3, y = 3",
+        "x = 1, y = 5",
+        "x = 4, y = 4"
+      ],
+      "answer": 0,
+      "explanation": "1x + 2y = 10、3x + 3y = 18 を加減法で解くと x = 2、y = 4 となります。"
+    }
+  ]
+}
