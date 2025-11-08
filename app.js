@@ -10,7 +10,8 @@ let startTime = null;
 let userAnswerHistory = {};
 let settings = {
     bgm: true,
-    sfx: true
+    sfx: true,
+    explicitContent: true  // 下ネタあり/なし
 };
 
 // うんちネタの誤答選択肢（100個）
@@ -144,6 +145,7 @@ function loadSettings() {
         settings = JSON.parse(saved);
         document.getElementById('bgm-toggle').checked = settings.bgm;
         document.getElementById('sfx-toggle').checked = settings.sfx;
+        document.getElementById('explicit-toggle').checked = settings.explicitContent !== false;
     }
 }
 
@@ -352,8 +354,8 @@ function shuffleChoicesWithPoopJoke(choices, correctAnswerIndex) {
         isCorrect: index === correctAnswerIndex
     }));
     
-    // 10%の確率でうんちネタを混ぜる
-    const shouldAddPoopJoke = Math.random() < 0.1;
+    // 設定で下ネタが有効な場合のみ置き換え（確率50%）
+    const shouldAddPoopJoke = settings.explicitContent && Math.random() < 0.5;
     
     if (shouldAddPoopJoke) {
         // 不正解の選択肢のインデックスを取得
@@ -843,6 +845,11 @@ function toggleBGM() {
 
 function toggleSFX() {
     settings.sfx = document.getElementById('sfx-toggle').checked;
+    saveSettings();
+}
+
+function toggleExplicitContent() {
+    settings.explicitContent = document.getElementById('explicit-toggle').checked;
     saveSettings();
 }
 
