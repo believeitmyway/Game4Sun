@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下ネタ置換確率検証</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #8B4513;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #ddd;
+        }
+        .test-result.pass {
+            border-left-color: #4CAF50;
+            background-color: #e8f5e9;
+        }
+        .test-result.warning {
+            border-left-color: #FF9800;
+            background-color: #fff3e0;
+        }
+        .test-result.fail {
+            border-left-color: #f44336;
+            background-color: #ffebee;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #8B4513 0%, #654321 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        button {
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background-color: #654321;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .progress {
+            width: 100%;
+            height: 30px;
+            background-color: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #8B4513, #654321);
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        .details {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fafafa;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .example-box {
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>💩 下ネタ置換の確率検証ツール</h1>
+    
+    <div class="test-section">
+        <h2>テスト設定</h2>
+        <p>各単元で複数回テストを実行し、50%確率で置換されるかを検証します</p>
+        <label>
+            反復回数（各単元ごと）:
+            <select id="iterations">
+                <option value="100">100回（高速）</option>
+                <option value="1000" selected>1000回（標準）</option>
+                <option value="5000">5000回（精密）</option>
+                <option value="10000">10000回（最高精度）</option>
+            </select>
+        </label>
+        <br><br>
+        <button onclick="runFullTest()" id="runBtn">🏁 検証開始</button>
+        <button onclick="runQuickTest()" id="quickBtn">⚡ クイック検証（サンプリング）</button>
+    </div>
+
+    <div class="progress" id="progressContainer" style="display: none;">
+        <div class="progress-bar" id="progressBar">0%</div>
+    </div>
+
+    <div class="test-section" id="overallStats" style="display: none;">
+        <h2>📊 全体統計</h2>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-label">総テスト回数</div>
+                <div class="stat-value" id="totalTests">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">置換発生回数</div>
+                <div class="stat-value" id="totalReplacements">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">全体置換率</div>
+                <div class="stat-value" id="overallRate">0%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">期待値との差</div>
+                <div class="stat-value" id="deviation">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section" id="resultsSection" style="display: none;">
+        <h2>📝 科目・単元別結果</h2>
+        <div id="results"></div>
+    </div>
+
+    <div class="test-section" id="issuesSection" style="display: none;">
+        <h2>⚠️ 警告・問題点</h2>
+        <div id="issues"></div>
+    </div>
+
+    <div class="test-section" id="examplesSection" style="display: none;">
+        <h2>🔍 実際の置換例</h2>
+        <div id="examples"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        // 設定を有効化
+        let settings = { explicitContent: true };
+
+        // うんちネタリスト（app.jsから）
+        const POOP_JOKES = [
+            'やわらかいうんち', '硬いうんち', '漏れそうな人', '茶色いソフトクリーム',
+            'コロコロうんち', 'バナナ型うんち', '下痢気味の人', 'トイレを探す人',
+            'ウォシュレット待ち', 'うんちを我慢中', '今すぐトイレが必要', 'おなら我慢',
+            'おならが出そう', 'ぶりぶりうんち', 'もりもりうんち', 'するするうんち',
+            'ツルツルうんち', 'べちゃべちゃうんち', 'こんもりうんち', 'とぐろを巻いたうんち',
+            'うんち5秒前', 'うんちタイム', 'トイレの神様', '便秘3日目', '便秘1週間',
+            'お腹ゴロゴロ', 'おなかピーピー', 'きばってる人', 'いきんでる人', 'ふんばり中',
+            'トイレットペーパー10巻', 'ウォシュレットMAX', '音姫フル稼働', '個室に駆け込む',
+            '大の方です', 'しゃがみこむ人', 'くさいうんち', 'くさいおなら', 'におうやつ',
+            'プンプン丸', 'スルッと出た', 'スッキリうんち', 'お腹の中が大変', '腸内環境最悪',
+            '乳酸菌不足', '食物繊維が必要', 'トイレに30分', 'トイレから出られない',
+            'ノックされてあせる', 'もよおしてきた', '便意が襲う', '腹痛で冷や汗'
+        ];
+
+        function shuffleChoicesWithPoopJoke(choices, correctAnswerIndex) {
+            const choicesWithIndex = choices.map((choice, index) => ({
+                text: choice,
+                isCorrect: index === correctAnswerIndex
+            }));
+            
+            const shouldAddPoopJoke = settings.explicitContent && Math.random() < 0.5;
+            
+            if (shouldAddPoopJoke) {
+                const wrongIndices = [];
+                choicesWithIndex.forEach((item, index) => {
+                    if (!item.isCorrect) {
+                        wrongIndices.push(index);
+                    }
+                });
+                
+                if (wrongIndices.length > 0) {
+                    const targetIndex = wrongIndices[Math.floor(Math.random() * wrongIndices.length)];
+                    const randomPoopJoke = POOP_JOKES[Math.floor(Math.random() * POOP_JOKES.length)];
+                    choicesWithIndex[targetIndex].text = randomPoopJoke;
+                }
+            }
+            
+            for (let i = choicesWithIndex.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [choicesWithIndex[i], choicesWithIndex[j]] = [choicesWithIndex[j], choicesWithIndex[i]];
+            }
+            
+            let newCorrectIndex = -1;
+            const shuffledChoices = choicesWithIndex.map((item, index) => {
+                if (item.isCorrect) {
+                    newCorrectIndex = index;
+                }
+                return item.text;
+            });
+            
+            return {
+                choices: shuffledChoices,
+                correctIndex: newCorrectIndex,
+                hadPoopJoke: shouldAddPoopJoke
+            };
+        }
+
+        async function runFullTest() {
+            const iterations = parseInt(document.getElementById('iterations').value);
+            document.getElementById('runBtn').disabled = true;
+            document.getElementById('quickBtn').disabled = true;
+            
+            document.getElementById('progressContainer').style.display = 'block';
+            document.getElementById('overallStats').style.display = 'none';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('issuesSection').style.display = 'none';
+            document.getElementById('examplesSection').style.display = 'none';
+            
+            const results = [];
+            let totalTests = 0;
+            let totalReplacements = 0;
+            const issues = [];
+            const examples = [];
+            
+            let unitCount = 0;
+            let processedUnits = 0;
+            
+            // 総単元数を計算
+            for (const subjectId in QUESTION_DATABASE) {
+                const subject = QUESTION_DATABASE[subjectId];
+                for (const unitId in subject.units) {
+                    unitCount++;
+                }
+            }
+            
+            // 各科目・単元をテスト
+            for (const subjectId in QUESTION_DATABASE) {
+                const subject = QUESTION_DATABASE[subjectId];
+                const subjectResult = {
+                    name: subject.name,
+                    units: []
+                };
+                
+                for (const unitId in subject.units) {
+                    const unit = subject.units[unitId];
+                    const multipleChoiceQuestions = unit.questions.filter(q => q.type === 'multiple');
+                    
+                    if (multipleChoiceQuestions.length === 0) {
+                        processedUnits++;
+                        continue;
+                    }
+                    
+                    let replacementCount = 0;
+                    let exampleFound = false;
+                    
+                    for (let i = 0; i < iterations; i++) {
+                        const randomQuestion = multipleChoiceQuestions[
+                            Math.floor(Math.random() * multipleChoiceQuestions.length)
+                        ];
+                        
+                        const result = shuffleChoicesWithPoopJoke(
+                            randomQuestion.choices,
+                            randomQuestion.answer
+                        );
+                        
+                        if (result.hadPoopJoke) {
+                            replacementCount++;
+                            
+                            // 例を保存（最初の5個まで）
+                            if (!exampleFound && examples.length < 5) {
+                                const hasPoopJoke = result.choices.some(choice => 
+                                    POOP_JOKES.includes(choice)
+                                );
+                                if (hasPoopJoke) {
+                                    examples.push({
+                                        subject: subject.name,
+                                        unit: unit.name,
+                                        question: randomQuestion.question,
+                                        original: randomQuestion.choices.join(', '),
+                                        modified: result.choices.join(', ')
+                                    });
+                                    exampleFound = true;
+                                }
+                            }
+                        }
+                    }
+                    
+                    const rate = (replacementCount / iterations) * 100;
+                    totalTests += iterations;
+                    totalReplacements += replacementCount;
+                    
+                    const unitResult = {
+                        name: unit.name,
+                        questionCount: multipleChoiceQuestions.length,
+                        replacementCount: replacementCount,
+                        rate: rate,
+                        deviation: Math.abs(rate - 50)
+                    };
+                    
+                    subjectResult.units.push(unitResult);
+                    
+                    // 警告チェック
+                    if (unitResult.deviation > 5) {
+                        issues.push({
+                            subject: subject.name,
+                            unit: unit.name,
+                            rate: rate,
+                            deviation: unitResult.deviation
+                        });
+                    }
+                    
+                    processedUnits++;
+                    const progress = (processedUnits / unitCount) * 100;
+                    document.getElementById('progressBar').style.width = progress + '%';
+                    document.getElementById('progressBar').textContent = Math.round(progress) + '%';
+                    
+                    // UIの更新を待つ
+                    await new Promise(resolve => setTimeout(resolve, 0));
+                }
+                
+                results.push(subjectResult);
+            }
+            
+            // 結果を表示
+            displayResults(results, totalTests, totalReplacements, issues, examples);
+            
+            document.getElementById('runBtn').disabled = false;
+            document.getElementById('quickBtn').disabled = false;
+        }
+
+        async function runQuickTest() {
+            // 各科目から1単元ずつサンプリング
+            const iterations = 1000;
+            document.getElementById('runBtn').disabled = true;
+            document.getElementById('quickBtn').disabled = true;
+            
+            document.getElementById('progressContainer').style.display = 'block';
+            document.getElementById('overallStats').style.display = 'none';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.getElementById('issuesSection').style.display = 'none';
+            document.getElementById('examplesSection').style.display = 'none';
+            
+            const results = [];
+            let totalTests = 0;
+            let totalReplacements = 0;
+            const issues = [];
+            const examples = [];
+            
+            let subjectCount = Object.keys(QUESTION_DATABASE).length;
+            let processedSubjects = 0;
+            
+            for (const subjectId in QUESTION_DATABASE) {
+                const subject = QUESTION_DATABASE[subjectId];
+                const subjectResult = {
+                    name: subject.name,
+                    units: []
+                };
+                
+                // 最初の単元のみテスト
+                const firstUnitId = Object.keys(subject.units)[0];
+                const unit = subject.units[firstUnitId];
+                const multipleChoiceQuestions = unit.questions.filter(q => q.type === 'multiple');
+                
+                if (multipleChoiceQuestions.length > 0) {
+                    let replacementCount = 0;
+                    
+                    for (let i = 0; i < iterations; i++) {
+                        const randomQuestion = multipleChoiceQuestions[
+                            Math.floor(Math.random() * multipleChoiceQuestions.length)
+                        ];
+                        
+                        const result = shuffleChoicesWithPoopJoke(
+                            randomQuestion.choices,
+                            randomQuestion.answer
+                        );
+                        
+                        if (result.hadPoopJoke) {
+                            replacementCount++;
+                            
+                            if (examples.length < 5) {
+                                const hasPoopJoke = result.choices.some(choice => 
+                                    POOP_JOKES.includes(choice)
+                                );
+                                if (hasPoopJoke) {
+                                    examples.push({
+                                        subject: subject.name,
+                                        unit: unit.name,
+                                        question: randomQuestion.question,
+                                        original: randomQuestion.choices.join(', '),
+                                        modified: result.choices.join(', ')
+                                    });
+                                }
+                            }
+                        }
+                    }
+                    
+                    const rate = (replacementCount / iterations) * 100;
+                    totalTests += iterations;
+                    totalReplacements += replacementCount;
+                    
+                    const unitResult = {
+                        name: unit.name,
+                        questionCount: multipleChoiceQuestions.length,
+                        replacementCount: replacementCount,
+                        rate: rate,
+                        deviation: Math.abs(rate - 50)
+                    };
+                    
+                    subjectResult.units.push(unitResult);
+                    
+                    if (unitResult.deviation > 5) {
+                        issues.push({
+                            subject: subject.name,
+                            unit: unit.name,
+                            rate: rate,
+                            deviation: unitResult.deviation
+                        });
+                    }
+                }
+                
+                results.push(subjectResult);
+                
+                processedSubjects++;
+                const progress = (processedSubjects / subjectCount) * 100;
+                document.getElementById('progressBar').style.width = progress + '%';
+                document.getElementById('progressBar').textContent = Math.round(progress) + '%';
+                
+                await new Promise(resolve => setTimeout(resolve, 0));
+            }
+            
+            displayResults(results, totalTests, totalReplacements, issues, examples);
+            
+            document.getElementById('runBtn').disabled = false;
+            document.getElementById('quickBtn').disabled = false;
+        }
+
+        function displayResults(results, totalTests, totalReplacements, issues, examples) {
+            const overallRate = (totalReplacements / totalTests) * 100;
+            const deviation = Math.abs(overallRate - 50);
+            
+            // 全体統計
+            document.getElementById('totalTests').textContent = totalTests.toLocaleString();
+            document.getElementById('totalReplacements').textContent = totalReplacements.toLocaleString();
+            document.getElementById('overallRate').textContent = overallRate.toFixed(2) + '%';
+            document.getElementById('deviation').textContent = deviation.toFixed(2) + '%';
+            document.getElementById('overallStats').style.display = 'block';
+            
+            // 科目・単元別結果
+            let resultsHtml = '';
+            results.forEach(subject => {
+                resultsHtml += `<h3>${subject.name}</h3>`;
+                subject.units.forEach(unit => {
+                    const statusClass = unit.deviation <= 5 ? 'pass' : (unit.deviation <= 10 ? 'warning' : 'fail');
+                    const statusIcon = unit.deviation <= 5 ? '✅' : (unit.deviation <= 10 ? '⚠️' : '❌');
+                    resultsHtml += `
+                        <div class="test-result ${statusClass}">
+                            ${statusIcon} <strong>${unit.name}</strong> (${unit.questionCount}問)<br>
+                            置換率: ${unit.rate.toFixed(2)}% (${unit.replacementCount}/${totalTests / results.reduce((sum, s) => sum + s.units.length, 0)}回)
+                            期待値との差: ${unit.deviation.toFixed(2)}%
+                        </div>
+                    `;
+                });
+            });
+            document.getElementById('results').innerHTML = resultsHtml;
+            document.getElementById('resultsSection').style.display = 'block';
+            
+            // 警告・問題点
+            if (issues.length > 0) {
+                let issuesHtml = '<p>以下の単元で期待値から5%以上乖離しています：</p>';
+                issues.forEach((issue, index) => {
+                    issuesHtml += `
+                        <div class="test-result warning">
+                            ${index + 1}. ${issue.subject} - ${issue.unit}<br>
+                            置換率: ${issue.rate.toFixed(2)}% (期待値から${issue.deviation.toFixed(2)}%乖離)
+                        </div>
+                    `;
+                });
+                issuesHtml += '<p><em>注: これは統計的なばらつきの範囲内である可能性があります。特に反復回数が少ない場合は誤差が大きくなります。</em></p>';
+                document.getElementById('issues').innerHTML = issuesHtml;
+                document.getElementById('issuesSection').style.display = 'block';
+            } else {
+                document.getElementById('issues').innerHTML = '<div class="test-result pass">✅ すべての単元で置換率が期待値の範囲内です！</div>';
+                document.getElementById('issuesSection').style.display = 'block';
+            }
+            
+            // 実際の置換例
+            if (examples.length > 0) {
+                let examplesHtml = '<p>実際に置換が行われた例：</p>';
+                examples.forEach((example, index) => {
+                    examplesHtml += `
+                        <div class="example-box">
+                            <strong>${index + 1}. ${example.subject} - ${example.unit}</strong><br>
+                            問題: ${example.question}<br>
+                            <strong>元の選択肢:</strong> ${example.original}<br>
+                            <strong>置換後の選択肢:</strong> <span style="color: #8B4513; font-weight: bold;">${example.modified}</span>
+                        </div>
+                    `;
+                });
+                document.getElementById('examples').innerHTML = examplesHtml;
+                document.getElementById('examplesSection').style.display = 'block';
+            }
+            
+            // プログレスバーを非表示
+            document.getElementById('progressContainer').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
