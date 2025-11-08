@@ -160,6 +160,32 @@ function showScreen(screenId) {
     });
     document.getElementById(screenId).classList.add('active');
     currentScreen = screenId;
+    
+    // ドリル設定画面に遷移する際は必ず科目選択から開始
+    if (screenId === 'drill-setup-screen') {
+        resetDrillSetup();
+    }
+}
+
+// ドリル設定をリセットして科目選択画面から開始
+function resetDrillSetup() {
+    // 選択状態をクリア
+    selectedSubject = null;
+    selectedUnits = [];
+    questionCount = 10; // デフォルト値に戻す
+    
+    // すべての設定ステップを非表示にする
+    document.querySelectorAll('.setup-step').forEach(step => {
+        step.classList.remove('active');
+    });
+    
+    // 科目選択画面だけを表示
+    document.getElementById('subject-selection').classList.add('active');
+    
+    // 科目ボタンの選択状態をクリア
+    document.querySelectorAll('.subject-btn').forEach(btn => {
+        btn.classList.remove('selected');
+    });
 }
 
 // ドリル設定 - 科目選択
