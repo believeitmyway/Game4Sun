@@ -16,6 +16,8 @@
     "math-interquartile-range.json",
     "japanese-kanji-reading.json",
     "science-force.json",
+    "social-chugoku-shikoku.json",
+    "social-kyushu-okinawa.json",
     "social-japan-geography.json"
   ]
 }
