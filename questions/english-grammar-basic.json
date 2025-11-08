@@ -1,0 +1,19 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "grammar-basic",
+  "unitName": "be動詞・一般動詞",
+  "category": "文法",
+  "questions": [
+    { "id": "eng-gb-001", "question": "I ___ a student.", "type": "multiple", "choices": ["am", "is", "are", "be"], "answer": 0, "explanation": "I（私は）の後は \"am\" を使います。I am / You are / He is などと覚えましょう。" },
+    { "id": "eng-gb-002", "question": "She ___ to school every day.", "type": "multiple", "choices": ["go", "goes", "going", "went"], "answer": 1, "explanation": "三人称単数（She, He, It）の現在形では動詞に \"s\" または \"es\" をつけます。" },
+    { "id": "eng-gb-003", "question": "They ___ playing soccer now.", "type": "multiple", "choices": ["is", "am", "are", "be"], "answer": 2, "explanation": "They（彼らは）の後は \"are\" を使います。現在進行形は be動詞 + 動詞ing の形です。" },
+    { "id": "eng-gb-004", "question": "He ___ happy yesterday.", "type": "multiple", "choices": ["is", "was", "were", "am"], "answer": 1, "explanation": "He は三人称単数なので、過去形は \"was\" を使います。" },
+    { "id": "eng-gb-005", "question": "We ___ not at home last night.", "type": "multiple", "choices": ["is", "was", "were", "are"], "answer": 2, "explanation": "We は複数なので、過去形は \"were\" を使います。" },
+    { "id": "eng-gb-006", "question": "___ you a teacher?", "type": "multiple", "choices": ["Are", "Is", "Am", "Be"], "answer": 0, "explanation": "You の疑問文では \"Are\" を使います。" },
+    { "id": "eng-gb-007", "question": "She ___ not like coffee.", "type": "multiple", "choices": ["do", "does", "did", "doing"], "answer": 1, "explanation": "三人称単数の否定文では \"does not (doesn't)\" を使います。" },
+    { "id": "eng-gb-008", "question": "___ he play tennis?", "type": "multiple", "choices": ["Do", "Does", "Did", "Is"], "answer": 1, "explanation": "三人称単数の疑問文では \"Does\" を使います。" },
+    { "id": "eng-gb-009", "question": "I ___ my homework yesterday.", "type": "multiple", "choices": ["do", "does", "did", "done"], "answer": 2, "explanation": "yesterday があるので過去形 \"did\" を使います。" },
+    { "id": "eng-gb-010", "question": "They ___ not watch TV last night.", "type": "multiple", "choices": ["do", "does", "did", "doing"], "answer": 2, "explanation": "過去の否定文では \"did not (didn't)\" を使います。" }
+  ]
+}
