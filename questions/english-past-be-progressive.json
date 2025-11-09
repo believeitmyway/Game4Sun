@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "past-be-progressive",
+  "unitName": "過去形（be動詞）・過去進行形",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-pbp-001",
+      "question": "I ___ at the city library last Saturday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "I の過去形では be 動詞は was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-002",
+      "question": "He ___ very tired after the club activity yesterday evening.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（He）では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-003",
+      "question": "She ___ in Kyoto on a school trip last autumn.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（She）では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-004",
+      "question": "It ___ absent from school two days ago.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "It のような単数主語では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-005",
+      "question": "Tom ___ full of handmade posters during the festival.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "Tom のような単数主語では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-006",
+      "question": "My sister ___ interested in science experiments last month.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-007",
+      "question": "The weather ___ responsible for cleaning the classroom last week.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "The weather は単数扱いなので was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-008",
+      "question": "My hometown ___ in front of the station at 7 p.m. last night.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "My hometown のような単数主語は was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-009",
+      "question": "I ___ the leader of the dance team last year.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "I の過去形では be 動詞は was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-010",
+      "question": "He ___ excited about the soccer match last Sunday.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（He）では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-011",
+      "question": "She ___ worried about the math test yesterday morning.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（She）では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-012",
+      "question": "It ___ busy preparing a speech last Friday.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "It のような単数主語では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-013",
+      "question": "Tom ___ free after the meeting yesterday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "Tom のような単数主語では過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-014",
+      "question": "My sister ___ sure about the answer during the quiz.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "am",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので過去形に was を使います。 時の説明として、過去の状態を表す文なので was を選びます。"
+    },
+    {
+      "id": "eng-pbp-015",
+      "question": "We ___ in the music room after classes yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "We の過去形では be 動詞は were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-016",
+      "question": "You ___ cheerful about the results last night.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "You（あなたたちは）では過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-017",
+      "question": "They ___ responsible for the decorations during the festival.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語（They）では過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-018",
+      "question": "My parents ___ serious about their future plans last week.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-019",
+      "question": "The students ___ members of the art club two years ago.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-020",
+      "question": "My friends ___ interested in studying abroad last semester.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-021",
+      "question": "Our teachers ___ late for the rehearsal on Monday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-022",
+      "question": "The shops ___ hungry after the practice yesterday evening.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数の店を表すので were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-023",
+      "question": "We ___ at the community center last Sunday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "We の過去形では be 動詞は were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-024",
+      "question": "You ___ free after the exam yesterday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "You（あなたたちは）では過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-025",
+      "question": "They ___ ready for the volunteer work this morning.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語（They）では過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-026",
+      "question": "My parents ___ busy making posters last Friday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-027",
+      "question": "The students ___ confident about the speech yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-028",
+      "question": "My friends ___ at home because of the storm last weekend.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので過去形に were を使います。 過去の状態を表すので were を選びます。"
+    },
+    {
+      "id": "eng-pbp-029",
+      "question": "He ___ late for school yesterday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（He）なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-030",
+      "question": "She ___ afraid of the dark when she was little.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語（She）なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-031",
+      "question": "It ___ sunny last Sunday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "It は単数扱いなので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-032",
+      "question": "Tom ___ interested in math two years ago.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "Tom は単数主語なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-033",
+      "question": "My brother ___ at home last night.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-034",
+      "question": "The movie ___ boring at all.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-035",
+      "question": "The festival ___ canceled last year.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-036",
+      "question": "Her answer ___ correct on the test.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was を使い、否定は wasn't です。 否定文なので wasn't を選びます。"
+    },
+    {
+      "id": "eng-pbp-037",
+      "question": "They ___ ready for the contest yesterday.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-038",
+      "question": "We ___ able to finish the work last night.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "We は複数扱いなので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-039",
+      "question": "You ___ noisy in the library yesterday.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "You は複数扱いなので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-040",
+      "question": "My friends ___ interested in that game last year.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-041",
+      "question": "The lights ___ on last night.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-042",
+      "question": "The students ___ noisy during the exam.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-043",
+      "question": "The stores ___ open on New Year's Day.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-044",
+      "question": "Our teachers ___ strict last year.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "aren't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were を使い、否定は weren't です。 否定文なので weren't を選びます。"
+    },
+    {
+      "id": "eng-pbp-045",
+      "question": "___ she at the library yesterday afternoon?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "主語が she なので疑問文では Was を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-046",
+      "question": "___ they late for the meeting last night?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "主語が they なので疑問文では Were を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-047",
+      "question": "___ you happy with the result yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "主語が you なので疑問文では Were を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-048",
+      "question": "___ Tom sick two days ago?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので疑問文では Was を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-049",
+      "question": "___ the students excited about the trip last week?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので疑問文では Were を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-050",
+      "question": "___ it cold in Hokkaido last winter?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "It なので疑問文では Was を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-051",
+      "question": "___ your parents at home last weekend?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので疑問文では Were を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-052",
+      "question": "___ the concert interesting last night?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "concert は単数扱いなので疑問文では Was を文頭に置きます。"
+    },
+    {
+      "id": "eng-pbp-053",
+      "question": "___ there a meeting after school yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "There を主語とする疑問文では Was there...? となります。"
+    },
+    {
+      "id": "eng-pbp-054",
+      "question": "___ there any buses after 10 p.m. last night?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "複数を表すので Were there...? となります。"
+    },
+    {
+      "id": "eng-pbp-055",
+      "question": "___ your brothers in Tokyo last summer?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので Were を使います。"
+    },
+    {
+      "id": "eng-pbp-056",
+      "question": "___ the festival crowded last weekend?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "festival は単数扱いなので Was を使います。"
+    },
+    {
+      "id": "eng-pbp-057",
+      "question": "I ___ cooking dinner at 8 p.m. last night.",
+      "type": "multiple",
+      "choices": [
+        "was cooking dinner",
+        "were cooking dinner",
+        "was cooked dinner",
+        "is cooking dinner"
+      ],
+      "answer": 0,
+      "explanation": "I の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-058",
+      "question": "He ___ studying math at noon yesterday.",
+      "type": "multiple",
+      "choices": [
+        "was studying math",
+        "were studying math",
+        "was studied math",
+        "is studying math"
+      ],
+      "answer": 0,
+      "explanation": "He の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-059",
+      "question": "She ___ writing a report at 7:30 this morning.",
+      "type": "multiple",
+      "choices": [
+        "was writing a report",
+        "were writing a report",
+        "was wrote a report",
+        "is writing a report"
+      ],
+      "answer": 0,
+      "explanation": "She の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-060",
+      "question": "It ___ reading a mystery novel at 5:15 yesterday evening.",
+      "type": "multiple",
+      "choices": [
+        "was reading a mystery novel",
+        "were reading a mystery novel",
+        "was read a mystery novel",
+        "is reading a mystery novel"
+      ],
+      "answer": 0,
+      "explanation": "It の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-061",
+      "question": "My father ___ cleaning the classroom at 10 o'clock last Saturday.",
+      "type": "multiple",
+      "choices": [
+        "was cleaning the classroom",
+        "were cleaning the classroom",
+        "was cleaned the classroom",
+        "is cleaning the classroom"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-062",
+      "question": "Tom ___ watching a science show at midnight last night.",
+      "type": "multiple",
+      "choices": [
+        "was watching a science show",
+        "were watching a science show",
+        "was watched a science show",
+        "is watching a science show"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-063",
+      "question": "You ___ playing basketball at 6 a.m. yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were playing basketball",
+        "was playing basketball",
+        "were played basketball",
+        "are playing basketball"
+      ],
+      "answer": 0,
+      "explanation": "You の過去進行形は were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-064",
+      "question": "We ___ practicing the piano at 3 p.m. last Sunday.",
+      "type": "multiple",
+      "choices": [
+        "were practicing the piano",
+        "was practicing the piano",
+        "were practiced the piano",
+        "are practicing the piano"
+      ],
+      "answer": 0,
+      "explanation": "We の過去進行形は were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-065",
+      "question": "They ___ preparing for the debate at 4:45 yesterday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "were preparing for the debate",
+        "was preparing for the debate",
+        "were prepared for the debate",
+        "are preparing for the debate"
+      ],
+      "answer": 0,
+      "explanation": "They の過去進行形は were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-066",
+      "question": "My friends ___ fixing his bicycle at 9:20 last Friday.",
+      "type": "multiple",
+      "choices": [
+        "were fixing his bicycle",
+        "was fixing his bicycle",
+        "were fixed his bicycle",
+        "are fixing his bicycle"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-067",
+      "question": "The students ___ drawing a landscape at 11:30 last Monday.",
+      "type": "multiple",
+      "choices": [
+        "were drawing a landscape",
+        "was drawing a landscape",
+        "were drew a landscape",
+        "are drawing a landscape"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-068",
+      "question": "The children ___ talking with the teacher at 2 p.m. yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were talking with the teacher",
+        "was talking with the teacher",
+        "were talked with the teacher",
+        "are talking with the teacher"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-069",
+      "question": "I ___ planning the trip at 1:15 last Thursday.",
+      "type": "multiple",
+      "choices": [
+        "was planning the trip",
+        "were planning the trip",
+        "was planned the trip",
+        "is planning the trip"
+      ],
+      "answer": 0,
+      "explanation": "I の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-070",
+      "question": "He ___ waiting for the bus at 8:40 last night.",
+      "type": "multiple",
+      "choices": [
+        "was waiting for the bus",
+        "were waiting for the bus",
+        "was waited for the bus",
+        "is waiting for the bus"
+      ],
+      "answer": 0,
+      "explanation": "He の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-071",
+      "question": "She ___ baking cookies at 6:50 yesterday morning.",
+      "type": "multiple",
+      "choices": [
+        "was baking cookies",
+        "were baking cookies",
+        "was baked cookies",
+        "is baking cookies"
+      ],
+      "answer": 0,
+      "explanation": "She の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-072",
+      "question": "It ___ repairing the computer at 5 p.m. on Tuesday.",
+      "type": "multiple",
+      "choices": [
+        "was repairing the computer",
+        "were repairing the computer",
+        "was repaired the computer",
+        "is repairing the computer"
+      ],
+      "answer": 0,
+      "explanation": "It の過去進行形は was + 動詞ing です。 過去進行形は be 動詞の過去形 + 動詞の ing 形で表します。"
+    },
+    {
+      "id": "eng-pbp-073",
+      "question": "When the teacher entered the room, my father ___ drawing a landscape.",
+      "type": "multiple",
+      "choices": [
+        "was drawing a landscape",
+        "were drawing a landscape",
+        "was drew a landscape",
+        "is drawing a landscape"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was drawing a landscape を選びます。"
+    },
+    {
+      "id": "eng-pbp-074",
+      "question": "When the phone rang, Tom ___ talking with the teacher.",
+      "type": "multiple",
+      "choices": [
+        "was talking with the teacher",
+        "were talking with the teacher",
+        "was talked with the teacher",
+        "is talking with the teacher"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was talking with the teacher を選びます。"
+    },
+    {
+      "id": "eng-pbp-075",
+      "question": "While the rain was falling, you ___ planning the trip.",
+      "type": "multiple",
+      "choices": [
+        "were planning the trip",
+        "was planning the trip",
+        "were planned the trip",
+        "are planning the trip"
+      ],
+      "answer": 0,
+      "explanation": "You の過去進行形は were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were planning the trip を選びます。"
+    },
+    {
+      "id": "eng-pbp-076",
+      "question": "When his friend visited him, we ___ waiting for the bus.",
+      "type": "multiple",
+      "choices": [
+        "were waiting for the bus",
+        "was waiting for the bus",
+        "were waited for the bus",
+        "are waiting for the bus"
+      ],
+      "answer": 0,
+      "explanation": "We の過去進行形は were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were waiting for the bus を選びます。"
+    },
+    {
+      "id": "eng-pbp-077",
+      "question": "While the power was out, they ___ baking cookies.",
+      "type": "multiple",
+      "choices": [
+        "were baking cookies",
+        "was baking cookies",
+        "were baked cookies",
+        "are baking cookies"
+      ],
+      "answer": 0,
+      "explanation": "They の過去進行形は were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were baking cookies を選びます。"
+    },
+    {
+      "id": "eng-pbp-078",
+      "question": "When the bell rang, my friends ___ repairing the computer.",
+      "type": "multiple",
+      "choices": [
+        "were repairing the computer",
+        "was repairing the computer",
+        "were repaired the computer",
+        "are repairing the computer"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were repairing the computer を選びます。"
+    },
+    {
+      "id": "eng-pbp-079",
+      "question": "While everyone else was sleeping, the students ___ doing her homework.",
+      "type": "multiple",
+      "choices": [
+        "were doing her homework",
+        "was doing her homework",
+        "were did her homework",
+        "are doing her homework"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were doing her homework を選びます。"
+    },
+    {
+      "id": "eng-pbp-080",
+      "question": "When the principal called, the children ___ checking the schedule.",
+      "type": "multiple",
+      "choices": [
+        "were checking the schedule",
+        "was checking the schedule",
+        "were checked the schedule",
+        "are checking the schedule"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were checking the schedule を選びます。"
+    },
+    {
+      "id": "eng-pbp-081",
+      "question": "While the movie was starting, I ___ looking for his keys.",
+      "type": "multiple",
+      "choices": [
+        "was looking for his keys",
+        "were looking for his keys",
+        "was looked for his keys",
+        "is looking for his keys"
+      ],
+      "answer": 0,
+      "explanation": "I の過去進行形は was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was looking for his keys を選びます。"
+    },
+    {
+      "id": "eng-pbp-082",
+      "question": "When the door suddenly opened, he ___ listening to the radio.",
+      "type": "multiple",
+      "choices": [
+        "was listening to the radio",
+        "were listening to the radio",
+        "was listened to the radio",
+        "is listening to the radio"
+      ],
+      "answer": 0,
+      "explanation": "He の過去進行形は was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was listening to the radio を選びます。"
+    },
+    {
+      "id": "eng-pbp-083",
+      "question": "While the sun was setting, she ___ gardening in the yard.",
+      "type": "multiple",
+      "choices": [
+        "was gardening in the yard",
+        "were gardening in the yard",
+        "was gardened in the yard",
+        "is gardening in the yard"
+      ],
+      "answer": 0,
+      "explanation": "She の過去進行形は was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was gardening in the yard を選びます。"
+    },
+    {
+      "id": "eng-pbp-084",
+      "question": "When the announcement began, it ___ painting the fence.",
+      "type": "multiple",
+      "choices": [
+        "was painting the fence",
+        "were painting the fence",
+        "was painted the fence",
+        "is painting the fence"
+      ],
+      "answer": 0,
+      "explanation": "It の過去進行形は was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was painting the fence を選びます。"
+    },
+    {
+      "id": "eng-pbp-085",
+      "question": "When the earthquake happened, my father ___ checking emails.",
+      "type": "multiple",
+      "choices": [
+        "was checking emails",
+        "were checking emails",
+        "was checked emails",
+        "is checking emails"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was checking emails を選びます。"
+    },
+    {
+      "id": "eng-pbp-086",
+      "question": "While their parents were talking, Tom ___ shopping online.",
+      "type": "multiple",
+      "choices": [
+        "was shopping online",
+        "were shopping online",
+        "was shopped online",
+        "is shopping online"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was + 動詞ing です。 「〜していたとき」を表す過去進行形なので was shopping online を選びます。"
+    },
+    {
+      "id": "eng-pbp-087",
+      "question": "When the guests arrived, you ___ sewing a costume.",
+      "type": "multiple",
+      "choices": [
+        "were sewing a costume",
+        "was sewing a costume",
+        "were sewed a costume",
+        "are sewing a costume"
+      ],
+      "answer": 0,
+      "explanation": "You の過去進行形は were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were sewing a costume を選びます。"
+    },
+    {
+      "id": "eng-pbp-088",
+      "question": "While the music was playing, we ___ organizing the files.",
+      "type": "multiple",
+      "choices": [
+        "were organizing the files",
+        "was organizing the files",
+        "were organized the files",
+        "are organizing the files"
+      ],
+      "answer": 0,
+      "explanation": "We の過去進行形は were + 動詞ing です。 「〜していたとき」を表す過去進行形なので were organizing the files を選びます。"
+    },
+    {
+      "id": "eng-pbp-089",
+      "question": "While we ___ soccer, it started to rain.",
+      "type": "multiple",
+      "choices": [
+        "were playing",
+        "played",
+        "play",
+        "have played"
+      ],
+      "answer": 0,
+      "explanation": "we という複数主語なので were + playing で過去進行形を作ります。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-090",
+      "question": "When I called, she ___ a letter to her friend.",
+      "type": "multiple",
+      "choices": [
+        "was writing",
+        "wrote",
+        "is writing",
+        "has written"
+      ],
+      "answer": 0,
+      "explanation": "she という単数主語なので was + writing で過去進行形を作ります。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-091",
+      "question": "They ___ dinner when the guest arrived.",
+      "type": "multiple",
+      "choices": [
+        "were having",
+        "had",
+        "have",
+        "have had"
+      ],
+      "answer": 0,
+      "explanation": "they は複数主語なので were having を使って「〜していた」を表します。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-092",
+      "question": "I ___ to music when you knocked on the door.",
+      "type": "multiple",
+      "choices": [
+        "was listening",
+        "listened",
+        "am listening",
+        "have listened"
+      ],
+      "answer": 0,
+      "explanation": "I の過去進行形は was listening となります。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-093",
+      "question": "He ___ in the pool while it was raining.",
+      "type": "multiple",
+      "choices": [
+        "was swimming",
+        "swam",
+        "is swimming",
+        "has swum"
+      ],
+      "answer": 0,
+      "explanation": "he の過去進行形なので was swimming を使います。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-094",
+      "question": "The students ___ a science experiment when the fire alarm rang.",
+      "type": "multiple",
+      "choices": [
+        "were conducting",
+        "conducted",
+        "conduct",
+        "have conducted"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were conducting を用いて過去進行形にします。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-095",
+      "question": "My mother ___ the dishes while I was finishing my homework.",
+      "type": "multiple",
+      "choices": [
+        "was washing",
+        "washed",
+        "is washing",
+        "has washed"
+      ],
+      "answer": 0,
+      "explanation": "my mother は単数主語なので was washing となります。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-096",
+      "question": "You ___ the guitar when the strings broke.",
+      "type": "multiple",
+      "choices": [
+        "were playing",
+        "played",
+        "play",
+        "have played"
+      ],
+      "answer": 0,
+      "explanation": "you の過去進行形は were playing を使います。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-097",
+      "question": "The lights ___ when the storm hit the town.",
+      "type": "multiple",
+      "choices": [
+        "were flickering",
+        "flickered",
+        "are flickering",
+        "have flickered"
+      ],
+      "answer": 0,
+      "explanation": "The lights という複数主語なので were flickering を使います。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-098",
+      "question": "She ___ to the radio when her favorite song came on.",
+      "type": "multiple",
+      "choices": [
+        "was listening",
+        "listened",
+        "listens",
+        "has listened"
+      ],
+      "answer": 0,
+      "explanation": "she の過去進行形なので was listening を選びます。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-099",
+      "question": "They ___ around the fire while we told stories.",
+      "type": "multiple",
+      "choices": [
+        "were sitting",
+        "sat",
+        "sit",
+        "have sat"
+      ],
+      "answer": 0,
+      "explanation": "they は複数主語なので were sitting を用います。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    },
+    {
+      "id": "eng-pbp-100",
+      "question": "My father ___ the car when the phone rang.",
+      "type": "multiple",
+      "choices": [
+        "was washing",
+        "washed",
+        "is washing",
+        "has washed"
+      ],
+      "answer": 0,
+      "explanation": "my father は単数主語なので was washing を使います。 過去進行形は be 動詞の過去形 + 動詞の ing 形です。"
+    }
+  ]
+}

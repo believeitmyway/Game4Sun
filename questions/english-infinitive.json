@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "to-infinitive",
+  "unitName": "不定詞",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-inf-001",
+      "question": "She went to the library ___ some reference books.",
+      "type": "multiple",
+      "choices": [
+        "to borrow",
+        "borrowing",
+        "borrow",
+        "borrowed"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-002",
+      "question": "He opened the window ___ fresh air in.",
+      "type": "multiple",
+      "choices": [
+        "to let",
+        "letting",
+        "let",
+        "lets"
+      ],
+      "answer": 0,
+      "explanation": "目的「〜するために」を表します。"
+    },
+    {
+      "id": "eng-inf-003",
+      "question": "They visited the museum ___ the new exhibition.",
+      "type": "multiple",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "目的を説明する to 不定詞。"
+    },
+    {
+      "id": "eng-inf-004",
+      "question": "We went to the supermarket ___ some fruits.",
+      "type": "multiple",
+      "choices": [
+        "to buy",
+        "buying",
+        "buy",
+        "bought"
+      ],
+      "answer": 0,
+      "explanation": "目的「買うため」です。"
+    },
+    {
+      "id": "eng-inf-005",
+      "question": "She stayed up late ___ her homework finished.",
+      "type": "multiple",
+      "choices": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-006",
+      "question": "He called his friend ___ the schedule.",
+      "type": "multiple",
+      "choices": [
+        "to check",
+        "checking",
+        "check",
+        "checked"
+      ],
+      "answer": 0,
+      "explanation": "目的「確認するため」です。"
+    },
+    {
+      "id": "eng-inf-007",
+      "question": "They left early ___ the first train.",
+      "type": "multiple",
+      "choices": [
+        "to catch",
+        "catching",
+        "catch",
+        "caught"
+      ],
+      "answer": 0,
+      "explanation": "目的を示す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-008",
+      "question": "I visited the teacher ___ some advice.",
+      "type": "multiple",
+      "choices": [
+        "to ask for",
+        "asking for",
+        "ask for",
+        "asked for"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-009",
+      "question": "She went downtown ___ a gift for her sister.",
+      "type": "multiple",
+      "choices": [
+        "to find",
+        "finding",
+        "find",
+        "found"
+      ],
+      "answer": 0,
+      "explanation": "目的「見つけるため」です。"
+    },
+    {
+      "id": "eng-inf-010",
+      "question": "He went to the gym ___ stronger.",
+      "type": "multiple",
+      "choices": [
+        "to become",
+        "becoming",
+        "become",
+        "became"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-011",
+      "question": "We gathered in the hall ___ the announcement.",
+      "type": "multiple",
+      "choices": [
+        "to hear",
+        "hearing",
+        "hear",
+        "heard"
+      ],
+      "answer": 0,
+      "explanation": "目的を表します。"
+    },
+    {
+      "id": "eng-inf-012",
+      "question": "She stayed after school ___ the classroom.",
+      "type": "multiple",
+      "choices": [
+        "to clean",
+        "cleaning",
+        "clean",
+        "cleaned"
+      ],
+      "answer": 0,
+      "explanation": "目的を示す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-013",
+      "question": "They met again ___ their next trip.",
+      "type": "multiple",
+      "choices": [
+        "to plan",
+        "planning",
+        "plan",
+        "planned"
+      ],
+      "answer": 0,
+      "explanation": "目的「計画するため」です。"
+    },
+    {
+      "id": "eng-inf-014",
+      "question": "He put on his glasses ___ the board clearly.",
+      "type": "multiple",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-015",
+      "question": "She visited the park ___ pictures of the flowers.",
+      "type": "multiple",
+      "choices": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-016",
+      "question": "We stopped by the shop ___ some snacks.",
+      "type": "multiple",
+      "choices": [
+        "to buy",
+        "buying",
+        "buy",
+        "bought"
+      ],
+      "answer": 0,
+      "explanation": "目的を示します。"
+    },
+    {
+      "id": "eng-inf-017",
+      "question": "He went outside ___ with his friends.",
+      "type": "multiple",
+      "choices": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 0,
+      "explanation": "目的「遊ぶため」です。"
+    },
+    {
+      "id": "eng-inf-018",
+      "question": "They sat in front ___ the fireworks show.",
+      "type": "multiple",
+      "choices": [
+        "to watch",
+        "watching",
+        "watch",
+        "watched"
+      ],
+      "answer": 0,
+      "explanation": "目的を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-019",
+      "question": "I opened the book ___ the answer.",
+      "type": "multiple",
+      "choices": [
+        "to look for",
+        "looking for",
+        "look for",
+        "looked for"
+      ],
+      "answer": 0,
+      "explanation": "目的を示す to 不定詞です。"
+    },
+    {
+      "id": "eng-inf-020",
+      "question": "She hurried home ___ dinner for her family.",
+      "type": "multiple",
+      "choices": [
+        "to cook",
+        "cooking",
+        "cook",
+        "cooked"
+      ],
+      "answer": 0,
+      "explanation": "目的を表します。"
+    },
+    {
+      "id": "eng-inf-021",
+      "question": "The teacher told us ___ quietly.",
+      "type": "multiple",
+      "choices": [
+        "to work",
+        "working",
+        "work",
+        "worked"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-022",
+      "question": "My parents advised me ___ a coat.",
+      "type": "multiple",
+      "choices": [
+        "to wear",
+        "wearing",
+        "wear",
+        "wore"
+      ],
+      "answer": 0,
+      "explanation": "advise + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-023",
+      "question": "She asked him ___ the door.",
+      "type": "multiple",
+      "choices": [
+        "to open",
+        "opening",
+        "open",
+        "opened"
+      ],
+      "answer": 0,
+      "explanation": "ask + 人 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-024",
+      "question": "He told his sister ___ careful.",
+      "type": "multiple",
+      "choices": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to be の形です。"
+    },
+    {
+      "id": "eng-inf-025",
+      "question": "They invited us ___ their club.",
+      "type": "multiple",
+      "choices": [
+        "to join",
+        "joining",
+        "join",
+        "joined"
+      ],
+      "answer": 0,
+      "explanation": "invite + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-026",
+      "question": "The doctor advised her ___ more water.",
+      "type": "multiple",
+      "choices": [
+        "to drink",
+        "drinking",
+        "drink",
+        "drank"
+      ],
+      "answer": 0,
+      "explanation": "advise + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-027",
+      "question": "My mother reminded me ___ the lights off.",
+      "type": "multiple",
+      "choices": [
+        "to turn",
+        "turning",
+        "turn",
+        "turned"
+      ],
+      "answer": 0,
+      "explanation": "remind + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-028",
+      "question": "The coach told the team ___ harder.",
+      "type": "multiple",
+      "choices": [
+        "to practice",
+        "practicing",
+        "practice",
+        "practiced"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-029",
+      "question": "He asked me ___ him with the bags.",
+      "type": "multiple",
+      "choices": [
+        "to help",
+        "helping",
+        "help",
+        "helped"
+      ],
+      "answer": 0,
+      "explanation": "ask + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-030",
+      "question": "She told the kids ___ quiet in the library.",
+      "type": "multiple",
+      "choices": [
+        "to keep",
+        "keeping",
+        "keep",
+        "kept"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-031",
+      "question": "They encouraged us ___ in the contest.",
+      "type": "multiple",
+      "choices": [
+        "to participate",
+        "participating",
+        "participate",
+        "participated"
+      ],
+      "answer": 0,
+      "explanation": "encourage + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-032",
+      "question": "The teacher asked the students ___ their homework.",
+      "type": "multiple",
+      "choices": [
+        "to submit",
+        "submitting",
+        "submit",
+        "submitted"
+      ],
+      "answer": 0,
+      "explanation": "ask + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-033",
+      "question": "My friend told me ___ the new café.",
+      "type": "multiple",
+      "choices": [
+        "to try",
+        "trying",
+        "try",
+        "tried"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-034",
+      "question": "She told him ___ his dreams.",
+      "type": "multiple",
+      "choices": [
+        "to chase",
+        "chasing",
+        "chase",
+        "chased"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-035",
+      "question": "They asked us ___ the meeting on time.",
+      "type": "multiple",
+      "choices": [
+        "to attend",
+        "attending",
+        "attend",
+        "attended"
+      ],
+      "answer": 0,
+      "explanation": "ask + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-036",
+      "question": "He reminded her ___ the library books.",
+      "type": "multiple",
+      "choices": [
+        "to return",
+        "returning",
+        "return",
+        "returned"
+      ],
+      "answer": 0,
+      "explanation": "remind + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-037",
+      "question": "My parents told me ___ polite to elders.",
+      "type": "multiple",
+      "choices": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to be の形です。"
+    },
+    {
+      "id": "eng-inf-038",
+      "question": "The guide advised us ___ close to the animals.",
+      "type": "multiple",
+      "choices": [
+        "not to get",
+        "to not get",
+        "not getting",
+        "get"
+      ],
+      "answer": 0,
+      "explanation": "advise + 人 + not to 動詞。"
+    },
+    {
+      "id": "eng-inf-039",
+      "question": "She asked the waiter ___ us some water.",
+      "type": "multiple",
+      "choices": [
+        "to bring",
+        "bringing",
+        "bring",
+        "brought"
+      ],
+      "answer": 0,
+      "explanation": "ask + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-040",
+      "question": "He told me ___ the truth.",
+      "type": "multiple",
+      "choices": [
+        "to tell",
+        "telling",
+        "tell",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "tell + 人 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-041",
+      "question": "This box is too heavy ___ alone.",
+      "type": "multiple",
+      "choices": [
+        "to carry",
+        "carrying",
+        "carry",
+        "carried"
+      ],
+      "answer": 0,
+      "explanation": "too 〜 to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-042",
+      "question": "He was too tired ___ homework.",
+      "type": "multiple",
+      "choices": [
+        "to finish",
+        "finishing",
+        "finish",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "too + 形容詞 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-043",
+      "question": "The question was too difficult ___ quickly.",
+      "type": "multiple",
+      "choices": [
+        "to answer",
+        "answering",
+        "answer",
+        "answered"
+      ],
+      "answer": 0,
+      "explanation": "too difficult to 動詞。"
+    },
+    {
+      "id": "eng-inf-044",
+      "question": "She is too shy ___ in front of the class.",
+      "type": "multiple",
+      "choices": [
+        "to speak",
+        "speaking",
+        "speak",
+        "spoke"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-045",
+      "question": "It was too dark ___ any pictures.",
+      "type": "multiple",
+      "choices": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-046",
+      "question": "The road was too narrow ___ two cars.",
+      "type": "multiple",
+      "choices": [
+        "to pass",
+        "passing",
+        "pass",
+        "passed"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-047",
+      "question": "He is too young ___ a part-time job.",
+      "type": "multiple",
+      "choices": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-048",
+      "question": "The bag was too full ___ closed.",
+      "type": "multiple",
+      "choices": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "too ... to be ... の形です。"
+    },
+    {
+      "id": "eng-inf-049",
+      "question": "She felt too sleepy ___ the movie.",
+      "type": "multiple",
+      "choices": [
+        "to watch",
+        "watching",
+        "watch",
+        "watched"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-050",
+      "question": "The sound was too loud ___ in the room.",
+      "type": "multiple",
+      "choices": [
+        "to stay",
+        "staying",
+        "stay",
+        "stayed"
+      ],
+      "answer": 0,
+      "explanation": "too 形容詞 to 動詞。"
+    },
+    {
+      "id": "eng-inf-051",
+      "question": "He is strong enough ___ the heavy door.",
+      "type": "multiple",
+      "choices": [
+        "to open",
+        "opening",
+        "open",
+        "opened"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + enough + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-052",
+      "question": "She is old enough ___ on her own.",
+      "type": "multiple",
+      "choices": [
+        "to travel",
+        "traveling",
+        "travel",
+        "traveled"
+      ],
+      "answer": 0,
+      "explanation": "～するのに十分な... の表現です。"
+    },
+    {
+      "id": "eng-inf-053",
+      "question": "The water is warm enough ___.",
+      "type": "multiple",
+      "choices": [
+        "to swim in",
+        "swimming in",
+        "swim in",
+        "swam in"
+      ],
+      "answer": 0,
+      "explanation": "enough の後は to 動詞です。"
+    },
+    {
+      "id": "eng-inf-054",
+      "question": "He studied hard enough ___ the exam.",
+      "type": "multiple",
+      "choices": [
+        "to pass",
+        "passing",
+        "pass",
+        "passed"
+      ],
+      "answer": 0,
+      "explanation": "enough を伴う to 不定詞。"
+    },
+    {
+      "id": "eng-inf-055",
+      "question": "The room is big enough ___ twenty people.",
+      "type": "multiple",
+      "choices": [
+        "to hold",
+        "holding",
+        "hold",
+        "held"
+      ],
+      "answer": 0,
+      "explanation": "十分な大きさを表す to 動詞です。"
+    },
+    {
+      "id": "eng-inf-056",
+      "question": "We arrived early enough ___ good seats.",
+      "type": "multiple",
+      "choices": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "enough の後は to 動詞です。"
+    },
+    {
+      "id": "eng-inf-057",
+      "question": "The soup is cool enough ___ now.",
+      "type": "multiple",
+      "choices": [
+        "to eat",
+        "eating",
+        "eat",
+        "ate"
+      ],
+      "answer": 0,
+      "explanation": "十分冷めているので to 動詞。"
+    },
+    {
+      "id": "eng-inf-058",
+      "question": "She is confident enough ___ the speech.",
+      "type": "multiple",
+      "choices": [
+        "to give",
+        "giving",
+        "give",
+        "gave"
+      ],
+      "answer": 0,
+      "explanation": "enough + to 動詞 を使います。"
+    },
+    {
+      "id": "eng-inf-059",
+      "question": "The ladder is long enough ___ the roof.",
+      "type": "multiple",
+      "choices": [
+        "to reach",
+        "reaching",
+        "reach",
+        "reached"
+      ],
+      "answer": 0,
+      "explanation": "十分な長さを示す to 動詞です。"
+    },
+    {
+      "id": "eng-inf-060",
+      "question": "He saved enough money ___ a new bike.",
+      "type": "multiple",
+      "choices": [
+        "to buy",
+        "buying",
+        "buy",
+        "bought"
+      ],
+      "answer": 0,
+      "explanation": "enough + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-061",
+      "question": "I don't know how ___ this machine.",
+      "type": "multiple",
+      "choices": [
+        "to use",
+        "using",
+        "use",
+        "used"
+      ],
+      "answer": 0,
+      "explanation": "疑問詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-062",
+      "question": "Please tell me what ___ next.",
+      "type": "multiple",
+      "choices": [
+        "to do",
+        "doing",
+        "do",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "what to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-063",
+      "question": "He asked where ___ the bus.",
+      "type": "multiple",
+      "choices": [
+        "to catch",
+        "catching",
+        "catch",
+        "caught"
+      ],
+      "answer": 0,
+      "explanation": "where to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-064",
+      "question": "She couldn't decide which dress ___ for the party.",
+      "type": "multiple",
+      "choices": [
+        "to wear",
+        "wearing",
+        "wear",
+        "wore"
+      ],
+      "answer": 0,
+      "explanation": "which to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-065",
+      "question": "We need to think about who ___ first.",
+      "type": "multiple",
+      "choices": [
+        "to invite",
+        "inviting",
+        "invite",
+        "invited"
+      ],
+      "answer": 0,
+      "explanation": "who to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-066",
+      "question": "Do you know when ___ the museum?",
+      "type": "multiple",
+      "choices": [
+        "to visit",
+        "visiting",
+        "visit",
+        "visited"
+      ],
+      "answer": 0,
+      "explanation": "when to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-067",
+      "question": "She taught us how ___ the software.",
+      "type": "multiple",
+      "choices": [
+        "to use",
+        "using",
+        "use",
+        "used"
+      ],
+      "answer": 0,
+      "explanation": "how to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-068",
+      "question": "He wondered what ___ to the teacher.",
+      "type": "multiple",
+      "choices": [
+        "to say",
+        "saying",
+        "say",
+        "said"
+      ],
+      "answer": 0,
+      "explanation": "what to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-069",
+      "question": "They couldn't decide where ___ lunch.",
+      "type": "multiple",
+      "choices": [
+        "to have",
+        "having",
+        "have",
+        "had"
+      ],
+      "answer": 0,
+      "explanation": "where to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-070",
+      "question": "Please show me how ___ this puzzle.",
+      "type": "multiple",
+      "choices": [
+        "to solve",
+        "solving",
+        "solve",
+        "solved"
+      ],
+      "answer": 0,
+      "explanation": "how to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-071",
+      "question": "He was happy ___ his old friends again.",
+      "type": "multiple",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "形容詞の後に to 不定詞を使っています。"
+    },
+    {
+      "id": "eng-inf-072",
+      "question": "She was surprised ___ the news.",
+      "type": "multiple",
+      "choices": [
+        "to hear",
+        "hearing",
+        "hear",
+        "heard"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-073",
+      "question": "We were sad ___ the story.",
+      "type": "multiple",
+      "choices": [
+        "to hear",
+        "hearing",
+        "hear",
+        "heard"
+      ],
+      "answer": 0,
+      "explanation": "感情を表す形容詞 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-074",
+      "question": "He was proud ___ the prize.",
+      "type": "multiple",
+      "choices": [
+        "to receive",
+        "receiving",
+        "receive",
+        "received"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-075",
+      "question": "She was relieved ___ the exam was over.",
+      "type": "multiple",
+      "choices": [
+        "to know",
+        "knowing",
+        "know",
+        "knew"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-076",
+      "question": "They were excited ___ the amusement park.",
+      "type": "multiple",
+      "choices": [
+        "to visit",
+        "visiting",
+        "visit",
+        "visited"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-077",
+      "question": "I'm afraid ___ mistakes.",
+      "type": "multiple",
+      "choices": [
+        "to make",
+        "making",
+        "make",
+        "made"
+      ],
+      "answer": 0,
+      "explanation": "感情を表す形容詞 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-078",
+      "question": "She was glad ___ my letter.",
+      "type": "multiple",
+      "choices": [
+        "to receive",
+        "receiving",
+        "receive",
+        "received"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞。"
+    },
+    {
+      "id": "eng-inf-079",
+      "question": "They were shocked ___ the price.",
+      "type": "multiple",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-080",
+      "question": "We were lucky ___ tickets for the show.",
+      "type": "multiple",
+      "choices": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-081",
+      "question": "It takes ten minutes ___ to the station.",
+      "type": "multiple",
+      "choices": [
+        "to walk",
+        "walking",
+        "walk",
+        "walked"
+      ],
+      "answer": 0,
+      "explanation": "It takes + 時間 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-082",
+      "question": "It took me a week ___ the model.",
+      "type": "multiple",
+      "choices": [
+        "to finish",
+        "finishing",
+        "finish",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "It takes/took ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-083",
+      "question": "It takes a lot of practice ___ the piano well.",
+      "type": "multiple",
+      "choices": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-084",
+      "question": "It took them an hour ___ the tent.",
+      "type": "multiple",
+      "choices": [
+        "to set up",
+        "setting up",
+        "set up",
+        "set"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-085",
+      "question": "It takes courage ___ your ideas.",
+      "type": "multiple",
+      "choices": [
+        "to share",
+        "sharing",
+        "share",
+        "shared"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-086",
+      "question": "It took us five minutes ___ the answer.",
+      "type": "multiple",
+      "choices": [
+        "to find",
+        "finding",
+        "find",
+        "found"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-087",
+      "question": "It takes patience ___ a foreign language.",
+      "type": "multiple",
+      "choices": [
+        "to learn",
+        "learning",
+        "learn",
+        "learned"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-088",
+      "question": "It took the team a month ___ the robot.",
+      "type": "multiple",
+      "choices": [
+        "to build",
+        "building",
+        "build",
+        "built"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-089",
+      "question": "It takes time ___ trust.",
+      "type": "multiple",
+      "choices": [
+        "to gain",
+        "gaining",
+        "gain",
+        "gained"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-090",
+      "question": "It took her a moment ___ the joke.",
+      "type": "multiple",
+      "choices": [
+        "to understand",
+        "understanding",
+        "understand",
+        "understood"
+      ],
+      "answer": 0,
+      "explanation": "It takes ... to 動詞。"
+    },
+    {
+      "id": "eng-inf-091",
+      "question": "Be careful not ___ your keys.",
+      "type": "multiple",
+      "choices": [
+        "to lose",
+        "losing",
+        "lose",
+        "lost"
+      ],
+      "answer": 0,
+      "explanation": "not to 動詞 で「〜しないように」です。"
+    },
+    {
+      "id": "eng-inf-092",
+      "question": "He tried not ___ late again.",
+      "type": "multiple",
+      "choices": [
+        "to be",
+        "being",
+        "be",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "try not to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-093",
+      "question": "Remember not ___ the door unlocked.",
+      "type": "multiple",
+      "choices": [
+        "to leave",
+        "leaving",
+        "leave",
+        "left"
+      ],
+      "answer": 0,
+      "explanation": "remember not to 動詞。"
+    },
+    {
+      "id": "eng-inf-094",
+      "question": "She promised not ___ the secret.",
+      "type": "multiple",
+      "choices": [
+        "to tell",
+        "telling",
+        "tell",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "promise not to 動詞。"
+    },
+    {
+      "id": "eng-inf-095",
+      "question": "They decided not ___ in the rain.",
+      "type": "multiple",
+      "choices": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 0,
+      "explanation": "decide not to 動詞。"
+    },
+    {
+      "id": "eng-inf-096",
+      "question": "I tried not ___ too nervous.",
+      "type": "multiple",
+      "choices": [
+        "to feel",
+        "feeling",
+        "feel",
+        "felt"
+      ],
+      "answer": 0,
+      "explanation": "try not to 動詞。"
+    },
+    {
+      "id": "eng-inf-097",
+      "question": "Be sure not ___ the plants every day.",
+      "type": "multiple",
+      "choices": [
+        "to forget to water",
+        "forgetting to water",
+        "forget to water",
+        "forgot watering"
+      ],
+      "answer": 0,
+      "explanation": "be sure not to 動詞 の形です。"
+    },
+    {
+      "id": "eng-inf-098",
+      "question": "She promised not ___ anyone about the plan.",
+      "type": "multiple",
+      "choices": [
+        "to tell",
+        "telling",
+        "tell",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "promise not to 動詞。"
+    },
+    {
+      "id": "eng-inf-099",
+      "question": "We decided not ___ the noisy restaurant.",
+      "type": "multiple",
+      "choices": [
+        "to enter",
+        "entering",
+        "enter",
+        "entered"
+      ],
+      "answer": 0,
+      "explanation": "decide not to 動詞。"
+    },
+    {
+      "id": "eng-inf-100",
+      "question": "Please try not ___ your voice.",
+      "type": "multiple",
+      "choices": [
+        "to raise",
+        "raising",
+        "raise",
+        "raised"
+      ],
+      "answer": 0,
+      "explanation": "try not to 動詞。"
+    }
+  ]
+}

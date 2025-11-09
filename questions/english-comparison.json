@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "comparison",
+  "unitName": "比較",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-comp-001",
+      "question": "This puzzle is ___ than that one.",
+      "type": "multiple",
+      "choices": [
+        "easier",
+        "more easy",
+        "easy",
+        "easiest"
+      ],
+      "answer": 0,
+      "explanation": "比較級は easy → easier です。"
+    },
+    {
+      "id": "eng-comp-002",
+      "question": "Today is ___ than yesterday.",
+      "type": "multiple",
+      "choices": [
+        "hotter",
+        "more hot",
+        "hot",
+        "hottest"
+      ],
+      "answer": 0,
+      "explanation": "hot の比較級は hotter です。"
+    },
+    {
+      "id": "eng-comp-003",
+      "question": "My bag is ___ than yours.",
+      "type": "multiple",
+      "choices": [
+        "heavier",
+        "more heavy",
+        "heavy",
+        "heaviest"
+      ],
+      "answer": 0,
+      "explanation": "heavy の比較級は heavier です。"
+    },
+    {
+      "id": "eng-comp-004",
+      "question": "The river is ___ than the lake.",
+      "type": "multiple",
+      "choices": [
+        "longer",
+        "more long",
+        "long",
+        "longest"
+      ],
+      "answer": 0,
+      "explanation": "long の比較級は longer です。"
+    },
+    {
+      "id": "eng-comp-005",
+      "question": "This math problem is ___ than the last one.",
+      "type": "multiple",
+      "choices": [
+        "harder",
+        "more hard",
+        "hard",
+        "hardest"
+      ],
+      "answer": 0,
+      "explanation": "hard の比較級は harder です。"
+    },
+    {
+      "id": "eng-comp-006",
+      "question": "The blue sofa is ___ than the green one.",
+      "type": "multiple",
+      "choices": [
+        "more comfortable",
+        "comfortabler",
+        "comfortable",
+        "most comfortable"
+      ],
+      "answer": 0,
+      "explanation": "長い形容詞は more + 形容詞 です。"
+    },
+    {
+      "id": "eng-comp-007",
+      "question": "Spring is ___ than winter here.",
+      "type": "multiple",
+      "choices": [
+        "warmer",
+        "more warm",
+        "warm",
+        "warmest"
+      ],
+      "answer": 0,
+      "explanation": "warm の比較級は warmer です。"
+    },
+    {
+      "id": "eng-comp-008",
+      "question": "She is ___ than her brother.",
+      "type": "multiple",
+      "choices": [
+        "taller",
+        "more tall",
+        "tall",
+        "tallest"
+      ],
+      "answer": 0,
+      "explanation": "tall の比較級は taller です。"
+    },
+    {
+      "id": "eng-comp-009",
+      "question": "This road is ___ than the other one.",
+      "type": "multiple",
+      "choices": [
+        "wider",
+        "more wide",
+        "wide",
+        "widest"
+      ],
+      "answer": 0,
+      "explanation": "wide の比較級は wider です。"
+    },
+    {
+      "id": "eng-comp-010",
+      "question": "My new shoes are ___ than the old ones.",
+      "type": "multiple",
+      "choices": [
+        "more expensive",
+        "expensiver",
+        "expensive",
+        "most expensive"
+      ],
+      "answer": 0,
+      "explanation": "expensive は more を使います。"
+    },
+    {
+      "id": "eng-comp-011",
+      "question": "The second quiz was ___ than the first.",
+      "type": "multiple",
+      "choices": [
+        "shorter",
+        "more short",
+        "short",
+        "shortest"
+      ],
+      "answer": 0,
+      "explanation": "short の比較級は shorter です。"
+    },
+    {
+      "id": "eng-comp-012",
+      "question": "This street is ___ than that one.",
+      "type": "multiple",
+      "choices": [
+        "cleaner",
+        "more clean",
+        "clean",
+        "cleanest"
+      ],
+      "answer": 0,
+      "explanation": "clean の比較級は cleaner です。"
+    },
+    {
+      "id": "eng-comp-013",
+      "question": "My explanation is ___ than his.",
+      "type": "multiple",
+      "choices": [
+        "clearer",
+        "more clear",
+        "clear",
+        "clearest"
+      ],
+      "answer": 0,
+      "explanation": "clear の比較級は clearer です。"
+    },
+    {
+      "id": "eng-comp-014",
+      "question": "Summer vacation is ___ than spring break.",
+      "type": "multiple",
+      "choices": [
+        "longer",
+        "more long",
+        "long",
+        "longest"
+      ],
+      "answer": 0,
+      "explanation": "long の比較級は longer です。"
+    },
+    {
+      "id": "eng-comp-015",
+      "question": "She is ___ than her classmates.",
+      "type": "multiple",
+      "choices": [
+        "more diligent",
+        "diligenter",
+        "diligent",
+        "most diligent"
+      ],
+      "answer": 0,
+      "explanation": "diligent は more を使います。"
+    },
+    {
+      "id": "eng-comp-016",
+      "question": "This park is ___ than the one near my house.",
+      "type": "multiple",
+      "choices": [
+        "bigger",
+        "more big",
+        "big",
+        "biggest"
+      ],
+      "answer": 0,
+      "explanation": "big の比較級は bigger です。"
+    },
+    {
+      "id": "eng-comp-017",
+      "question": "This movie is ___ than the book.",
+      "type": "multiple",
+      "choices": [
+        "more interesting",
+        "interestinger",
+        "interesting",
+        "most interesting"
+      ],
+      "answer": 0,
+      "explanation": "interesting は more を使います。"
+    },
+    {
+      "id": "eng-comp-018",
+      "question": "The new tablet is ___ than the old model.",
+      "type": "multiple",
+      "choices": [
+        "lighter",
+        "more light",
+        "light",
+        "lightest"
+      ],
+      "answer": 0,
+      "explanation": "light の比較級は lighter です。"
+    },
+    {
+      "id": "eng-comp-019",
+      "question": "This song is ___ than that one.",
+      "type": "multiple",
+      "choices": [
+        "more popular",
+        "popularer",
+        "popular",
+        "most popular"
+      ],
+      "answer": 0,
+      "explanation": "popular は more を使います。"
+    },
+    {
+      "id": "eng-comp-020",
+      "question": "Our classroom is ___ than theirs.",
+      "type": "multiple",
+      "choices": [
+        "brighter",
+        "more bright",
+        "bright",
+        "brightest"
+      ],
+      "answer": 0,
+      "explanation": "bright の比較級は brighter です。"
+    },
+    {
+      "id": "eng-comp-021",
+      "question": "My English is ___ than before.",
+      "type": "multiple",
+      "choices": [
+        "better",
+        "gooder",
+        "good",
+        "best"
+      ],
+      "answer": 0,
+      "explanation": "good の比較級は better です。"
+    },
+    {
+      "id": "eng-comp-022",
+      "question": "This task is ___ than I expected.",
+      "type": "multiple",
+      "choices": [
+        "worse",
+        "badder",
+        "bad",
+        "worst"
+      ],
+      "answer": 0,
+      "explanation": "bad の比較級は worse です。"
+    },
+    {
+      "id": "eng-comp-023",
+      "question": "He can run ___ than his brother.",
+      "type": "multiple",
+      "choices": [
+        "faster",
+        "fast",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "fast の比較級は faster です。"
+    },
+    {
+      "id": "eng-comp-024",
+      "question": "This road is ___ than that one.",
+      "type": "multiple",
+      "choices": [
+        "farther",
+        "further",
+        "far",
+        "farest"
+      ],
+      "answer": 0,
+      "explanation": "far の比較級の一つは farther です。"
+    },
+    {
+      "id": "eng-comp-025",
+      "question": "Her ideas are ___ than mine.",
+      "type": "multiple",
+      "choices": [
+        "better",
+        "best",
+        "good",
+        "gooder"
+      ],
+      "answer": 0,
+      "explanation": "good の比較級は better です。"
+    },
+    {
+      "id": "eng-comp-026",
+      "question": "The blue sweater looks ___ on you than the red one.",
+      "type": "multiple",
+      "choices": [
+        "better",
+        "good",
+        "best",
+        "gooder"
+      ],
+      "answer": 0,
+      "explanation": "good の比較級は better です。"
+    },
+    {
+      "id": "eng-comp-027",
+      "question": "This year we have ___ homework than last year.",
+      "type": "multiple",
+      "choices": [
+        "less",
+        "fewer",
+        "little",
+        "least"
+      ],
+      "answer": 0,
+      "explanation": "不可算名詞には less を使います。"
+    },
+    {
+      "id": "eng-comp-028",
+      "question": "He drove ___ than usual to catch the train.",
+      "type": "multiple",
+      "choices": [
+        "faster",
+        "fast",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "fast の比較級は faster です。"
+    },
+    {
+      "id": "eng-comp-029",
+      "question": "The new textbook is ___ to understand than the old one.",
+      "type": "multiple",
+      "choices": [
+        "easier",
+        "easy",
+        "easiest",
+        "more easy"
+      ],
+      "answer": 0,
+      "explanation": "easy の比較級は easier です。"
+    },
+    {
+      "id": "eng-comp-030",
+      "question": "This path is ___ than the main road.",
+      "type": "multiple",
+      "choices": [
+        "narrower",
+        "more narrow",
+        "narrow",
+        "narrowest"
+      ],
+      "answer": 0,
+      "explanation": "narrow の比較級は narrower です。"
+    },
+    {
+      "id": "eng-comp-031",
+      "question": "Mount Fuji is the ___ mountain in Japan.",
+      "type": "multiple",
+      "choices": [
+        "highest",
+        "higher",
+        "high",
+        "more high"
+      ],
+      "answer": 0,
+      "explanation": "最上級は high → highest です。"
+    },
+    {
+      "id": "eng-comp-032",
+      "question": "This is the ___ story I have ever heard.",
+      "type": "multiple",
+      "choices": [
+        "funniest",
+        "funnier",
+        "funny",
+        "more funny"
+      ],
+      "answer": 0,
+      "explanation": "funny の最上級は funniest です。"
+    },
+    {
+      "id": "eng-comp-033",
+      "question": "He is the ___ student in our class.",
+      "type": "multiple",
+      "choices": [
+        "tallest",
+        "taller",
+        "tall",
+        "more tall"
+      ],
+      "answer": 0,
+      "explanation": "tall の最上級は tallest です。"
+    },
+    {
+      "id": "eng-comp-034",
+      "question": "This is the ___ question on the test.",
+      "type": "multiple",
+      "choices": [
+        "hardest",
+        "harder",
+        "hard",
+        "more hard"
+      ],
+      "answer": 0,
+      "explanation": "hard の最上級は hardest です。"
+    },
+    {
+      "id": "eng-comp-035",
+      "question": "She is the ___ dancer in the group.",
+      "type": "multiple",
+      "choices": [
+        "best",
+        "better",
+        "good",
+        "most good"
+      ],
+      "answer": 0,
+      "explanation": "good の最上級は best です。"
+    },
+    {
+      "id": "eng-comp-036",
+      "question": "August is the ___ month of the year here.",
+      "type": "multiple",
+      "choices": [
+        "hottest",
+        "hotter",
+        "hot",
+        "more hot"
+      ],
+      "answer": 0,
+      "explanation": "hot の最上級は hottest です。"
+    },
+    {
+      "id": "eng-comp-037",
+      "question": "This is the ___ way to get there.",
+      "type": "multiple",
+      "choices": [
+        "easiest",
+        "easier",
+        "easy",
+        "more easy"
+      ],
+      "answer": 0,
+      "explanation": "easy の最上級は easiest です。"
+    },
+    {
+      "id": "eng-comp-038",
+      "question": "That was the ___ movie I've seen this year.",
+      "type": "multiple",
+      "choices": [
+        "most exciting",
+        "more exciting",
+        "excitingest",
+        "exciting"
+      ],
+      "answer": 0,
+      "explanation": "長い形容詞の最上級は most + 形容詞 です。"
+    },
+    {
+      "id": "eng-comp-039",
+      "question": "She is the ___ singer in the choir.",
+      "type": "multiple",
+      "choices": [
+        "most popular",
+        "more popular",
+        "popular",
+        "popularer"
+      ],
+      "answer": 0,
+      "explanation": "popular の最上級は most popular です。"
+    },
+    {
+      "id": "eng-comp-040",
+      "question": "This is the ___ restaurant in town.",
+      "type": "multiple",
+      "choices": [
+        "most famous",
+        "more famous",
+        "famousest",
+        "famous"
+      ],
+      "answer": 0,
+      "explanation": "famous の最上級は most famous です。"
+    },
+    {
+      "id": "eng-comp-041",
+      "question": "He is the ___ player on the team.",
+      "type": "multiple",
+      "choices": [
+        "strongest",
+        "stronger",
+        "strong",
+        "more strong"
+      ],
+      "answer": 0,
+      "explanation": "strong の最上級は strongest です。"
+    },
+    {
+      "id": "eng-comp-042",
+      "question": "This is the ___ answer of all.",
+      "type": "multiple",
+      "choices": [
+        "shortest",
+        "shorter",
+        "short",
+        "more short"
+      ],
+      "answer": 0,
+      "explanation": "short の最上級は shortest です。"
+    },
+    {
+      "id": "eng-comp-043",
+      "question": "She lives in the ___ house in the village.",
+      "type": "multiple",
+      "choices": [
+        "largest",
+        "larger",
+        "large",
+        "more large"
+      ],
+      "answer": 0,
+      "explanation": "large の最上級は largest です。"
+    },
+    {
+      "id": "eng-comp-044",
+      "question": "It was the ___ day of the year.",
+      "type": "multiple",
+      "choices": [
+        "coldest",
+        "colder",
+        "cold",
+        "more cold"
+      ],
+      "answer": 0,
+      "explanation": "cold の最上級は coldest です。"
+    },
+    {
+      "id": "eng-comp-045",
+      "question": "This lake is the ___ in the region.",
+      "type": "multiple",
+      "choices": [
+        "deepest",
+        "deeper",
+        "deep",
+        "more deep"
+      ],
+      "answer": 0,
+      "explanation": "deep の最上級は deepest です。"
+    },
+    {
+      "id": "eng-comp-046",
+      "question": "She solved the problem the ___.",
+      "type": "multiple",
+      "choices": [
+        "fastest",
+        "faster",
+        "fast",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "fast の最上級は fastest です。"
+    },
+    {
+      "id": "eng-comp-047",
+      "question": "He gave the ___ presentation today.",
+      "type": "multiple",
+      "choices": [
+        "best",
+        "better",
+        "good",
+        "most good"
+      ],
+      "answer": 0,
+      "explanation": "good の最上級は best です。"
+    },
+    {
+      "id": "eng-comp-048",
+      "question": "This is the ___ bridge in the city.",
+      "type": "multiple",
+      "choices": [
+        "longest",
+        "longer",
+        "long",
+        "more long"
+      ],
+      "answer": 0,
+      "explanation": "long の最上級は longest です。"
+    },
+    {
+      "id": "eng-comp-049",
+      "question": "This is the ___ book I have.",
+      "type": "multiple",
+      "choices": [
+        "thickest",
+        "thicker",
+        "thick",
+        "more thick"
+      ],
+      "answer": 0,
+      "explanation": "thick の最上級は thickest です。"
+    },
+    {
+      "id": "eng-comp-050",
+      "question": "He is the ___ member of the club.",
+      "type": "multiple",
+      "choices": [
+        "youngest",
+        "younger",
+        "young",
+        "more young"
+      ],
+      "answer": 0,
+      "explanation": "young の最上級は youngest です。"
+    },
+    {
+      "id": "eng-comp-051",
+      "question": "She is the ___ runner on the team.",
+      "type": "multiple",
+      "choices": [
+        "fastest",
+        "faster",
+        "fast",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "fast の最上級は fastest です。"
+    },
+    {
+      "id": "eng-comp-052",
+      "question": "He got the ___ score in the class.",
+      "type": "multiple",
+      "choices": [
+        "highest",
+        "higher",
+        "high",
+        "more high"
+      ],
+      "answer": 0,
+      "explanation": "high の最上級は highest です。"
+    },
+    {
+      "id": "eng-comp-053",
+      "question": "This is the ___ museum I've ever visited.",
+      "type": "multiple",
+      "choices": [
+        "most interesting",
+        "more interesting",
+        "interesting",
+        "interestingest"
+      ],
+      "answer": 0,
+      "explanation": "most + 形容詞 です。"
+    },
+    {
+      "id": "eng-comp-054",
+      "question": "She sings the ___ in the choir.",
+      "type": "multiple",
+      "choices": [
+        "best",
+        "better",
+        "good",
+        "most good"
+      ],
+      "answer": 0,
+      "explanation": "good の最上級は best です。"
+    },
+    {
+      "id": "eng-comp-055",
+      "question": "It was the ___ day in memory.",
+      "type": "multiple",
+      "choices": [
+        "worst",
+        "worse",
+        "bad",
+        "baddest"
+      ],
+      "answer": 0,
+      "explanation": "bad の最上級は worst です。"
+    },
+    {
+      "id": "eng-comp-056",
+      "question": "He came up with the ___ solution.",
+      "type": "multiple",
+      "choices": [
+        "best",
+        "better",
+        "good",
+        "most good"
+      ],
+      "answer": 0,
+      "explanation": "good の最上級は best です。"
+    },
+    {
+      "id": "eng-comp-057",
+      "question": "This was the ___ of his worries.",
+      "type": "multiple",
+      "choices": [
+        "least",
+        "less",
+        "little",
+        "lesser"
+      ],
+      "answer": 0,
+      "explanation": "little の最上級は least です。"
+    },
+    {
+      "id": "eng-comp-058",
+      "question": "She traveled the ___ distance among us.",
+      "type": "multiple",
+      "choices": [
+        "farthest",
+        "farther",
+        "far",
+        "more far"
+      ],
+      "answer": 0,
+      "explanation": "far の最上級は farthest/furthest です。"
+    },
+    {
+      "id": "eng-comp-059",
+      "question": "It is the ___ known fact about the island.",
+      "type": "multiple",
+      "choices": [
+        "best",
+        "better",
+        "good",
+        "most good"
+      ],
+      "answer": 0,
+      "explanation": "best を使います。"
+    },
+    {
+      "id": "eng-comp-060",
+      "question": "He is the ___ of the three brothers.",
+      "type": "multiple",
+      "choices": [
+        "eldest",
+        "older",
+        "oldest",
+        "old"
+      ],
+      "answer": 0,
+      "explanation": "家族関係では eldest を使えます。"
+    },
+    {
+      "id": "eng-comp-061",
+      "question": "This blue bag is as ___ as the red one.",
+      "type": "multiple",
+      "choices": [
+        "expensive",
+        "more expensive",
+        "expensiver",
+        "expensivest"
+      ],
+      "answer": 0,
+      "explanation": "as...as の中は原級を使います。"
+    },
+    {
+      "id": "eng-comp-062",
+      "question": "He is as ___ as his father.",
+      "type": "multiple",
+      "choices": [
+        "tall",
+        "taller",
+        "tallest",
+        "more tall"
+      ],
+      "answer": 0,
+      "explanation": "as...as で原級を使います。"
+    },
+    {
+      "id": "eng-comp-063",
+      "question": "My bike is as ___ as yours.",
+      "type": "multiple",
+      "choices": [
+        "new",
+        "newer",
+        "newest",
+        "more new"
+      ],
+      "answer": 0,
+      "explanation": "原級 new を使います。"
+    },
+    {
+      "id": "eng-comp-064",
+      "question": "She sings as ___ as a professional singer.",
+      "type": "multiple",
+      "choices": [
+        "well",
+        "better",
+        "best",
+        "good"
+      ],
+      "answer": 0,
+      "explanation": "as...as の中は well です。"
+    },
+    {
+      "id": "eng-comp-065",
+      "question": "This road is as ___ as that one.",
+      "type": "multiple",
+      "choices": [
+        "wide",
+        "wider",
+        "widest",
+        "more wide"
+      ],
+      "answer": 0,
+      "explanation": "原級 wide を使います。"
+    },
+    {
+      "id": "eng-comp-066",
+      "question": "The movie was as ___ as the book.",
+      "type": "multiple",
+      "choices": [
+        "interesting",
+        "more interesting",
+        "interester",
+        "interestingest"
+      ],
+      "answer": 0,
+      "explanation": "原級 interesting を使います。"
+    },
+    {
+      "id": "eng-comp-067",
+      "question": "He runs as ___ as his brother.",
+      "type": "multiple",
+      "choices": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "原級 fast を使います。"
+    },
+    {
+      "id": "eng-comp-068",
+      "question": "Our school festival was as ___ as last year's.",
+      "type": "multiple",
+      "choices": [
+        "exciting",
+        "more exciting",
+        "excitingest",
+        "excited"
+      ],
+      "answer": 0,
+      "explanation": "原級 exciting を使います。"
+    },
+    {
+      "id": "eng-comp-069",
+      "question": "She is as ___ as a college student.",
+      "type": "multiple",
+      "choices": [
+        "busy",
+        "busier",
+        "busiest",
+        "more busy"
+      ],
+      "answer": 0,
+      "explanation": "原級 busy を使います。"
+    },
+    {
+      "id": "eng-comp-070",
+      "question": "This cake tastes as ___ as the one my mom makes.",
+      "type": "multiple",
+      "choices": [
+        "good",
+        "better",
+        "best",
+        "well"
+      ],
+      "answer": 0,
+      "explanation": "taste の原級 good を使います。"
+    },
+    {
+      "id": "eng-comp-071",
+      "question": "The classroom is as ___ as the library.",
+      "type": "multiple",
+      "choices": [
+        "quiet",
+        "quieter",
+        "quietest",
+        "more quiet"
+      ],
+      "answer": 0,
+      "explanation": "原級 quiet を使います。"
+    },
+    {
+      "id": "eng-comp-072",
+      "question": "He can speak English as ___ as his sister.",
+      "type": "multiple",
+      "choices": [
+        "fluently",
+        "more fluently",
+        "fluent",
+        "most fluent"
+      ],
+      "answer": 0,
+      "explanation": "副詞の原級 fluently を使います。"
+    },
+    {
+      "id": "eng-comp-073",
+      "question": "This test is as ___ as the practice test.",
+      "type": "multiple",
+      "choices": [
+        "difficult",
+        "more difficult",
+        "difficulter",
+        "difficultest"
+      ],
+      "answer": 0,
+      "explanation": "原級 difficult を使います。"
+    },
+    {
+      "id": "eng-comp-074",
+      "question": "Our town is as ___ as the neighboring town.",
+      "type": "multiple",
+      "choices": [
+        "safe",
+        "safer",
+        "safest",
+        "more safe"
+      ],
+      "answer": 0,
+      "explanation": "原級 safe を使います。"
+    },
+    {
+      "id": "eng-comp-075",
+      "question": "The robot cleans the room as ___ as we do.",
+      "type": "multiple",
+      "choices": [
+        "carefully",
+        "more carefully",
+        "careful",
+        "most carefully"
+      ],
+      "answer": 0,
+      "explanation": "副詞の原級 carefully を使います。"
+    },
+    {
+      "id": "eng-comp-076",
+      "question": "This book is not as ___ as that one.",
+      "type": "multiple",
+      "choices": [
+        "thick",
+        "thicker",
+        "thickest",
+        "more thick"
+      ],
+      "answer": 0,
+      "explanation": "not as...as の中は原級です。"
+    },
+    {
+      "id": "eng-comp-077",
+      "question": "The train today is not as ___ as yesterday.",
+      "type": "multiple",
+      "choices": [
+        "crowded",
+        "more crowded",
+        "crowder",
+        "crowdest"
+      ],
+      "answer": 0,
+      "explanation": "原級 crowded を使います。"
+    },
+    {
+      "id": "eng-comp-078",
+      "question": "My bag is not as ___ as yours.",
+      "type": "multiple",
+      "choices": [
+        "heavy",
+        "heavier",
+        "heaviest",
+        "more heavy"
+      ],
+      "answer": 0,
+      "explanation": "原級 heavy を使います。"
+    },
+    {
+      "id": "eng-comp-079",
+      "question": "This river is not as ___ as the Nile.",
+      "type": "multiple",
+      "choices": [
+        "long",
+        "longer",
+        "longest",
+        "more long"
+      ],
+      "answer": 0,
+      "explanation": "原級 long を使います。"
+    },
+    {
+      "id": "eng-comp-080",
+      "question": "His answer was not as ___ as hers.",
+      "type": "multiple",
+      "choices": [
+        "clear",
+        "clearer",
+        "clearest",
+        "more clear"
+      ],
+      "answer": 0,
+      "explanation": "原級 clear を使います。"
+    },
+    {
+      "id": "eng-comp-081",
+      "question": "This room is not as ___ as the living room.",
+      "type": "multiple",
+      "choices": [
+        "bright",
+        "brighter",
+        "brightest",
+        "more bright"
+      ],
+      "answer": 0,
+      "explanation": "原級 bright を使います。"
+    },
+    {
+      "id": "eng-comp-082",
+      "question": "My test score is not as ___ as my friend's.",
+      "type": "multiple",
+      "choices": [
+        "high",
+        "higher",
+        "highest",
+        "more high"
+      ],
+      "answer": 0,
+      "explanation": "原級 high を使います。"
+    },
+    {
+      "id": "eng-comp-083",
+      "question": "The movie wasn't as ___ as I expected.",
+      "type": "multiple",
+      "choices": [
+        "funny",
+        "funnier",
+        "funniest",
+        "more funny"
+      ],
+      "answer": 0,
+      "explanation": "原級 funny を使います。"
+    },
+    {
+      "id": "eng-comp-084",
+      "question": "This soup isn't as ___ as last time.",
+      "type": "multiple",
+      "choices": [
+        "salty",
+        "saltier",
+        "saltiest",
+        "more salty"
+      ],
+      "answer": 0,
+      "explanation": "原級 salty を使います。"
+    },
+    {
+      "id": "eng-comp-085",
+      "question": "The hike wasn't as ___ as we thought.",
+      "type": "multiple",
+      "choices": [
+        "hard",
+        "harder",
+        "hardest",
+        "more hard"
+      ],
+      "answer": 0,
+      "explanation": "原級 hard を使います。"
+    },
+    {
+      "id": "eng-comp-086",
+      "question": "He ran ___ than his teammates.",
+      "type": "multiple",
+      "choices": [
+        "faster",
+        "fast",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "副詞 fast の比較級は faster です。"
+    },
+    {
+      "id": "eng-comp-087",
+      "question": "She sings ___ than anyone else in the class.",
+      "type": "multiple",
+      "choices": [
+        "more beautifully",
+        "beautifully",
+        "most beautifully",
+        "beautifuler"
+      ],
+      "answer": 0,
+      "explanation": "beautifully の比較級は more beautifully です。"
+    },
+    {
+      "id": "eng-comp-088",
+      "question": "Tom solved the puzzle ___ than Ken.",
+      "type": "multiple",
+      "choices": [
+        "more quickly",
+        "quickly",
+        "quicklier",
+        "most quickly"
+      ],
+      "answer": 0,
+      "explanation": "quickly の比較級は more quickly です。"
+    },
+    {
+      "id": "eng-comp-089",
+      "question": "This computer works ___ than that old one.",
+      "type": "multiple",
+      "choices": [
+        "more smoothly",
+        "smoothly",
+        "smoother",
+        "most smoothly"
+      ],
+      "answer": 0,
+      "explanation": "smoothly の比較級は more smoothly です。"
+    },
+    {
+      "id": "eng-comp-090",
+      "question": "She answered the questions ___ than I did.",
+      "type": "multiple",
+      "choices": [
+        "more accurately",
+        "accurately",
+        "most accurately",
+        "accurater"
+      ],
+      "answer": 0,
+      "explanation": "accurately の比較級は more accurately です。"
+    },
+    {
+      "id": "eng-comp-091",
+      "question": "He speaks English ___ than before.",
+      "type": "multiple",
+      "choices": [
+        "more fluently",
+        "fluently",
+        "fluentlier",
+        "most fluently"
+      ],
+      "answer": 0,
+      "explanation": "fluently の比較級は more fluently です。"
+    },
+    {
+      "id": "eng-comp-092",
+      "question": "They worked ___ than we expected.",
+      "type": "multiple",
+      "choices": [
+        "harder",
+        "hard",
+        "hardest",
+        "more hard"
+      ],
+      "answer": 0,
+      "explanation": "hard の比較級は harder です。"
+    },
+    {
+      "id": "eng-comp-093",
+      "question": "She drives ___ than her sister.",
+      "type": "multiple",
+      "choices": [
+        "more carefully",
+        "carefully",
+        "carefuller",
+        "most carefully"
+      ],
+      "answer": 0,
+      "explanation": "carefully の比較級は more carefully です。"
+    },
+    {
+      "id": "eng-comp-094",
+      "question": "The river flows ___ in spring than in summer.",
+      "type": "multiple",
+      "choices": [
+        "faster",
+        "fast",
+        "fastest",
+        "more fast"
+      ],
+      "answer": 0,
+      "explanation": "fast の比較級は faster です。"
+    },
+    {
+      "id": "eng-comp-095",
+      "question": "We arrived ___ than the others.",
+      "type": "multiple",
+      "choices": [
+        "earlier",
+        "early",
+        "earliest",
+        "more early"
+      ],
+      "answer": 0,
+      "explanation": "early の比較級は earlier です。"
+    },
+    {
+      "id": "eng-comp-096",
+      "question": "We need ___ chairs than last time.",
+      "type": "multiple",
+      "choices": [
+        "more",
+        "most",
+        "many",
+        "much"
+      ],
+      "answer": 0,
+      "explanation": "多いの比較級は more です。"
+    },
+    {
+      "id": "eng-comp-097",
+      "question": "She has ___ books than I do.",
+      "type": "multiple",
+      "choices": [
+        "fewer",
+        "few",
+        "fewest",
+        "less"
+      ],
+      "answer": 0,
+      "explanation": "可算名詞には fewer を使います。"
+    },
+    {
+      "id": "eng-comp-098",
+      "question": "There is ___ water in this bottle than in that one.",
+      "type": "multiple",
+      "choices": [
+        "less",
+        "least",
+        "few",
+        "fewer"
+      ],
+      "answer": 0,
+      "explanation": "不可算名詞には less を使います。"
+    },
+    {
+      "id": "eng-comp-099",
+      "question": "He made ___ mistakes this time.",
+      "type": "multiple",
+      "choices": [
+        "fewer",
+        "few",
+        "fewest",
+        "less"
+      ],
+      "answer": 0,
+      "explanation": "可算名詞 mistake には fewer。"
+    },
+    {
+      "id": "eng-comp-100",
+      "question": "We spent ___ money on the trip than we planned.",
+      "type": "multiple",
+      "choices": [
+        "more",
+        "most",
+        "many",
+        "much"
+      ],
+      "answer": 0,
+      "explanation": "more を使います。"
+    }
+  ]
+}

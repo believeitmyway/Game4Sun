@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "passive-voice",
+  "unitName": "受動態（受け身）",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-pass-001",
+      "question": "The classroom ___ every Friday.",
+      "type": "multiple",
+      "choices": [
+        "is cleaned",
+        "are cleaned",
+        "was cleaned",
+        "clean"
+      ],
+      "answer": 0,
+      "explanation": "主語が単数なので is + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-002",
+      "question": "These letters ___ by our teacher.",
+      "type": "multiple",
+      "choices": [
+        "are written",
+        "is written",
+        "were written",
+        "write"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-003",
+      "question": "Lunch ___ at noon at this school.",
+      "type": "multiple",
+      "choices": [
+        "is served",
+        "are served",
+        "was served",
+        "serve"
+      ],
+      "answer": 0,
+      "explanation": "受動態は be + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-004",
+      "question": "Many languages ___ in this museum.",
+      "type": "multiple",
+      "choices": [
+        "are spoken",
+        "is spoken",
+        "were spoken",
+        "speak"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are spoken です。"
+    },
+    {
+      "id": "eng-pass-005",
+      "question": "The homework ___ online.",
+      "type": "multiple",
+      "choices": [
+        "is submitted",
+        "are submitted",
+        "was submitted",
+        "submit"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので is + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-006",
+      "question": "Our school festival ___ by students.",
+      "type": "multiple",
+      "choices": [
+        "is planned",
+        "are planned",
+        "was planned",
+        "plan"
+      ],
+      "answer": 0,
+      "explanation": "be + 過去分詞で受動態を作ります。"
+    },
+    {
+      "id": "eng-pass-007",
+      "question": "Many trees ___ by the city every year.",
+      "type": "multiple",
+      "choices": [
+        "are planted",
+        "is planted",
+        "were planted",
+        "plant"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are planted です。"
+    },
+    {
+      "id": "eng-pass-008",
+      "question": "This book ___ in many countries.",
+      "type": "multiple",
+      "choices": [
+        "is read",
+        "are read",
+        "was read",
+        "readed"
+      ],
+      "answer": 0,
+      "explanation": "read の過去分詞は read（発音はレッド）です。"
+    },
+    {
+      "id": "eng-pass-009",
+      "question": "Exams ___ in the gym.",
+      "type": "multiple",
+      "choices": [
+        "are held",
+        "is held",
+        "were held",
+        "hold"
+      ],
+      "answer": 0,
+      "explanation": "複数名詞なので are held です。"
+    },
+    {
+      "id": "eng-pass-010",
+      "question": "The song ___ on the radio every morning.",
+      "type": "multiple",
+      "choices": [
+        "is played",
+        "are played",
+        "was played",
+        "play"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので is played です。"
+    },
+    {
+      "id": "eng-pass-011",
+      "question": "The rules ___ to all members.",
+      "type": "multiple",
+      "choices": [
+        "are explained",
+        "is explained",
+        "were explained",
+        "explain"
+      ],
+      "answer": 0,
+      "explanation": "複数名詞なので are explained です。"
+    },
+    {
+      "id": "eng-pass-012",
+      "question": "Fresh bread ___ in this bakery.",
+      "type": "multiple",
+      "choices": [
+        "is baked",
+        "are baked",
+        "was baked",
+        "bake"
+      ],
+      "answer": 0,
+      "explanation": "受動態 is baked です。"
+    },
+    {
+      "id": "eng-pass-013",
+      "question": "The classroom walls ___ bright blue.",
+      "type": "multiple",
+      "choices": [
+        "are painted",
+        "is painted",
+        "were painted",
+        "paint"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are painted です。"
+    },
+    {
+      "id": "eng-pass-014",
+      "question": "English ___ as a global language.",
+      "type": "multiple",
+      "choices": [
+        "is recognized",
+        "are recognized",
+        "was recognized",
+        "recognize"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので is recognized です。"
+    },
+    {
+      "id": "eng-pass-015",
+      "question": "All announcements ___ in Japanese and English.",
+      "type": "multiple",
+      "choices": [
+        "are made",
+        "is made",
+        "were made",
+        "make"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are made です。"
+    },
+    {
+      "id": "eng-pass-016",
+      "question": "Homework ___ on Monday.",
+      "type": "multiple",
+      "choices": [
+        "is checked",
+        "are checked",
+        "was checked",
+        "check"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いで is checked です。"
+    },
+    {
+      "id": "eng-pass-017",
+      "question": "Tickets ___ at the entrance.",
+      "type": "multiple",
+      "choices": [
+        "are sold",
+        "is sold",
+        "were sold",
+        "sell"
+      ],
+      "answer": 0,
+      "explanation": "複数名詞なので are sold です。"
+    },
+    {
+      "id": "eng-pass-018",
+      "question": "This poster ___ by the art club.",
+      "type": "multiple",
+      "choices": [
+        "is designed",
+        "are designed",
+        "was designed",
+        "design"
+      ],
+      "answer": 0,
+      "explanation": "受動態 is designed です。"
+    },
+    {
+      "id": "eng-pass-019",
+      "question": "Hot lunch ___ to students every day.",
+      "type": "multiple",
+      "choices": [
+        "is given",
+        "are given",
+        "was given",
+        "give"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので is given です。"
+    },
+    {
+      "id": "eng-pass-020",
+      "question": "Announcements ___ at the morning meeting.",
+      "type": "multiple",
+      "choices": [
+        "are made",
+        "is made",
+        "were made",
+        "make"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are made です。"
+    },
+    {
+      "id": "eng-pass-021",
+      "question": "The window ___ by Tom yesterday.",
+      "type": "multiple",
+      "choices": [
+        "was cleaned",
+        "is cleaned",
+        "were cleaned",
+        "cleaned"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数主語なので was + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-022",
+      "question": "These photos ___ last week.",
+      "type": "multiple",
+      "choices": [
+        "were taken",
+        "was taken",
+        "are taken",
+        "take"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were taken です。"
+    },
+    {
+      "id": "eng-pass-023",
+      "question": "The concert ___ on Sunday.",
+      "type": "multiple",
+      "choices": [
+        "was held",
+        "is held",
+        "were held",
+        "hold"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数主語なので was held です。"
+    },
+    {
+      "id": "eng-pass-024",
+      "question": "The letters ___ yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were sent",
+        "was sent",
+        "are sent",
+        "send"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were sent です。"
+    },
+    {
+      "id": "eng-pass-025",
+      "question": "Dinner ___ by my father last night.",
+      "type": "multiple",
+      "choices": [
+        "was cooked",
+        "is cooked",
+        "were cooked",
+        "cook"
+      ],
+      "answer": 0,
+      "explanation": "単数主語で過去なので was cooked です。"
+    },
+    {
+      "id": "eng-pass-026",
+      "question": "The story ___ by a famous author.",
+      "type": "multiple",
+      "choices": [
+        "was written",
+        "were written",
+        "is written",
+        "wrote"
+      ],
+      "answer": 0,
+      "explanation": "受動態は was written です。"
+    },
+    {
+      "id": "eng-pass-027",
+      "question": "The old building ___ in 1920.",
+      "type": "multiple",
+      "choices": [
+        "was built",
+        "is built",
+        "were built",
+        "build"
+      ],
+      "answer": 0,
+      "explanation": "過去で単数なので was built です。"
+    },
+    {
+      "id": "eng-pass-028",
+      "question": "All the tickets ___ in one day.",
+      "type": "multiple",
+      "choices": [
+        "were sold",
+        "was sold",
+        "are sold",
+        "sell"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were sold です。"
+    },
+    {
+      "id": "eng-pass-029",
+      "question": "This room ___ last month.",
+      "type": "multiple",
+      "choices": [
+        "was painted",
+        "were painted",
+        "is painted",
+        "paint"
+      ],
+      "answer": 0,
+      "explanation": "単数主語で過去なので was painted です。"
+    },
+    {
+      "id": "eng-pass-030",
+      "question": "The exam papers ___ on Friday.",
+      "type": "multiple",
+      "choices": [
+        "were graded",
+        "was graded",
+        "are graded",
+        "grade"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were graded です。"
+    },
+    {
+      "id": "eng-pass-031",
+      "question": "The message ___ to all students.",
+      "type": "multiple",
+      "choices": [
+        "was sent",
+        "were sent",
+        "is sent",
+        "send"
+      ],
+      "answer": 0,
+      "explanation": "単数なので was sent です。"
+    },
+    {
+      "id": "eng-pass-032",
+      "question": "These songs ___ in the 1990s.",
+      "type": "multiple",
+      "choices": [
+        "were recorded",
+        "was recorded",
+        "are recorded",
+        "record"
+      ],
+      "answer": 0,
+      "explanation": "複数主語で過去なので were recorded です。"
+    },
+    {
+      "id": "eng-pass-033",
+      "question": "The prize ___ to the best team.",
+      "type": "multiple",
+      "choices": [
+        "was given",
+        "were given",
+        "is given",
+        "give"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was given です。"
+    },
+    {
+      "id": "eng-pass-034",
+      "question": "The homework ___ yesterday.",
+      "type": "multiple",
+      "choices": [
+        "was collected",
+        "were collected",
+        "is collected",
+        "collect"
+      ],
+      "answer": 0,
+      "explanation": "単数で過去なので was collected です。"
+    },
+    {
+      "id": "eng-pass-035",
+      "question": "The lights ___ at midnight.",
+      "type": "multiple",
+      "choices": [
+        "were turned off",
+        "was turned off",
+        "are turned off",
+        "turn off"
+      ],
+      "answer": 0,
+      "explanation": "複数で過去なので were turned off です。"
+    },
+    {
+      "id": "eng-pass-036",
+      "question": "A new bridge ___ in 2015.",
+      "type": "multiple",
+      "choices": [
+        "was built",
+        "were built",
+        "is built",
+        "build"
+      ],
+      "answer": 0,
+      "explanation": "単数で過去なので was built です。"
+    },
+    {
+      "id": "eng-pass-037",
+      "question": "The car ___ by my brother.",
+      "type": "multiple",
+      "choices": [
+        "was washed",
+        "were washed",
+        "is washed",
+        "wash"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was washed です。"
+    },
+    {
+      "id": "eng-pass-038",
+      "question": "These flowers ___ from our garden.",
+      "type": "multiple",
+      "choices": [
+        "were picked",
+        "was picked",
+        "are picked",
+        "pick"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were picked です。"
+    },
+    {
+      "id": "eng-pass-039",
+      "question": "The movie ___ in Canada.",
+      "type": "multiple",
+      "choices": [
+        "was filmed",
+        "were filmed",
+        "is filmed",
+        "film"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので was filmed です。"
+    },
+    {
+      "id": "eng-pass-040",
+      "question": "The old documents ___ carefully.",
+      "type": "multiple",
+      "choices": [
+        "were stored",
+        "was stored",
+        "are stored",
+        "store"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので were stored です。"
+    },
+    {
+      "id": "eng-pass-041",
+      "question": "The dishes ___ being washed now.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語で現在進行形の受動態です。"
+    },
+    {
+      "id": "eng-pass-042",
+      "question": "The classroom ___ being cleaned at the moment.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので is being cleaned です。"
+    },
+    {
+      "id": "eng-pass-043",
+      "question": "New books ___ being added to the library.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are being added です。"
+    },
+    {
+      "id": "eng-pass-044",
+      "question": "Lunch ___ being prepared by the cooking club.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので is being prepared です。"
+    },
+    {
+      "id": "eng-pass-045",
+      "question": "The stage decorations ___ being set up now.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 are being set up です。"
+    },
+    {
+      "id": "eng-pass-046",
+      "question": "Our bikes ___ being repaired this afternoon.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 are being repaired です。"
+    },
+    {
+      "id": "eng-pass-047",
+      "question": "A film ___ being shot in this town.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 is being shot です。"
+    },
+    {
+      "id": "eng-pass-048",
+      "question": "The posters ___ being put on the walls.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 are being put です。"
+    },
+    {
+      "id": "eng-pass-049",
+      "question": "Dinner ___ being served right now.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 is being served です。"
+    },
+    {
+      "id": "eng-pass-050",
+      "question": "The questions ___ being answered in order.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 are being answered です。"
+    },
+    {
+      "id": "eng-pass-051",
+      "question": "The room ___ being painted when I arrived.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "過去進行形の受動態で単数です。"
+    },
+    {
+      "id": "eng-pass-052",
+      "question": "The dishes ___ being washed when the phone rang.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 were being washed です。"
+    },
+    {
+      "id": "eng-pass-053",
+      "question": "The game ___ being broadcast live.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 was being broadcast です。"
+    },
+    {
+      "id": "eng-pass-054",
+      "question": "The students ___ being interviewed yesterday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 were being interviewed です。"
+    },
+    {
+      "id": "eng-pass-055",
+      "question": "Dinner ___ being cooked when I got home.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 was being cooked です。"
+    },
+    {
+      "id": "eng-pass-056",
+      "question": "The documents ___ being copied at that time.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 were being copied です。"
+    },
+    {
+      "id": "eng-pass-057",
+      "question": "The stage ___ being prepared all morning.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 was being prepared です。"
+    },
+    {
+      "id": "eng-pass-058",
+      "question": "The roads ___ being repaired last night.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 were being repaired です。"
+    },
+    {
+      "id": "eng-pass-059",
+      "question": "The posters ___ being taken down when we arrived.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 were being taken down です。"
+    },
+    {
+      "id": "eng-pass-060",
+      "question": "The cake ___ being decorated for the party.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 was being decorated です。"
+    },
+    {
+      "id": "eng-pass-061",
+      "question": "All the seats ___ already taken.",
+      "type": "multiple",
+      "choices": [
+        "have been",
+        "has been",
+        "were",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have been + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-062",
+      "question": "The project ___ finished yet.",
+      "type": "multiple",
+      "choices": [
+        "has not been",
+        "have not been",
+        "was not",
+        "is not"
+      ],
+      "answer": 0,
+      "explanation": "単数主語で現在完了受動態です。"
+    },
+    {
+      "id": "eng-pass-063",
+      "question": "The photos ___ uploaded to the website.",
+      "type": "multiple",
+      "choices": [
+        "have been",
+        "has been",
+        "were",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have been + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-064",
+      "question": "Dinner ___ already served.",
+      "type": "multiple",
+      "choices": [
+        "has been",
+        "have been",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 has been + 過去分詞です。"
+    },
+    {
+      "id": "eng-pass-065",
+      "question": "All the tasks ___ completed on time.",
+      "type": "multiple",
+      "choices": [
+        "have been",
+        "has been",
+        "were",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have been completed です。"
+    },
+    {
+      "id": "eng-pass-066",
+      "question": "The results ___ announced yet.",
+      "type": "multiple",
+      "choices": [
+        "have not been",
+        "has not been",
+        "were not",
+        "are not"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have not been announced です。"
+    },
+    {
+      "id": "eng-pass-067",
+      "question": "My essay ___ returned by the teacher.",
+      "type": "multiple",
+      "choices": [
+        "has been",
+        "have been",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 has been returned です。"
+    },
+    {
+      "id": "eng-pass-068",
+      "question": "The tickets ___ sold out already.",
+      "type": "multiple",
+      "choices": [
+        "have been",
+        "has been",
+        "were",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have been sold out です。"
+    },
+    {
+      "id": "eng-pass-069",
+      "question": "A new library ___ built in our town.",
+      "type": "multiple",
+      "choices": [
+        "has been",
+        "have been",
+        "was",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 has been built です。"
+    },
+    {
+      "id": "eng-pass-070",
+      "question": "The windows ___ cleaned this week.",
+      "type": "multiple",
+      "choices": [
+        "have been",
+        "has been",
+        "were",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have been cleaned です。"
+    },
+    {
+      "id": "eng-pass-071",
+      "question": "The report must ___ by Friday.",
+      "type": "multiple",
+      "choices": [
+        "be finished",
+        "finish",
+        "be finish",
+        "be finishing"
+      ],
+      "answer": 0,
+      "explanation": "must + be + 過去分詞 で受動態。"
+    },
+    {
+      "id": "eng-pass-072",
+      "question": "This document can ___ online.",
+      "type": "multiple",
+      "choices": [
+        "be viewed",
+        "view",
+        "be view",
+        "be viewing"
+      ],
+      "answer": 0,
+      "explanation": "can + be + 過去分詞 です。"
+    },
+    {
+      "id": "eng-pass-073",
+      "question": "The homework should ___ tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "be submitted",
+        "submit",
+        "be submit",
+        "be submitting"
+      ],
+      "answer": 0,
+      "explanation": "should + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-074",
+      "question": "These rules have to ___ by everyone.",
+      "type": "multiple",
+      "choices": [
+        "be followed",
+        "follow",
+        "be follow",
+        "be following"
+      ],
+      "answer": 0,
+      "explanation": "have to + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-075",
+      "question": "The problem might ___ soon.",
+      "type": "multiple",
+      "choices": [
+        "be solved",
+        "solve",
+        "be solve",
+        "be solving"
+      ],
+      "answer": 0,
+      "explanation": "might + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-076",
+      "question": "All seats will ___ for the guests.",
+      "type": "multiple",
+      "choices": [
+        "be reserved",
+        "reserve",
+        "be reserve",
+        "be reserving"
+      ],
+      "answer": 0,
+      "explanation": "will + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-077",
+      "question": "The laptops must not ___ during the exam.",
+      "type": "multiple",
+      "choices": [
+        "be used",
+        "use",
+        "be use",
+        "be using"
+      ],
+      "answer": 0,
+      "explanation": "must not + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-078",
+      "question": "The packages can ___ at the counter.",
+      "type": "multiple",
+      "choices": [
+        "be picked up",
+        "pick up",
+        "be pick up",
+        "be picking up"
+      ],
+      "answer": 0,
+      "explanation": "can + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-079",
+      "question": "This gate should ___ closed at night.",
+      "type": "multiple",
+      "choices": [
+        "be kept",
+        "keep",
+        "be keep",
+        "be keeping"
+      ],
+      "answer": 0,
+      "explanation": "should + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-080",
+      "question": "The machines may ___ tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "be checked",
+        "check",
+        "be check",
+        "be checking"
+      ],
+      "answer": 0,
+      "explanation": "may + be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-081",
+      "question": "A new gym ___ next year.",
+      "type": "multiple",
+      "choices": [
+        "will be built",
+        "will build",
+        "is built",
+        "was built"
+      ],
+      "answer": 0,
+      "explanation": "未来の受動態は will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-082",
+      "question": "The results ___ next Monday.",
+      "type": "multiple",
+      "choices": [
+        "will be announced",
+        "will announce",
+        "are announced",
+        "were announced"
+      ],
+      "answer": 0,
+      "explanation": "will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-083",
+      "question": "English classes ___ in the new building.",
+      "type": "multiple",
+      "choices": [
+        "will be held",
+        "will hold",
+        "are held",
+        "were held"
+      ],
+      "answer": 0,
+      "explanation": "will be held で受動態です。"
+    },
+    {
+      "id": "eng-pass-084",
+      "question": "Lunch ___ to all participants.",
+      "type": "multiple",
+      "choices": [
+        "will be provided",
+        "will provide",
+        "is provided",
+        "was provided"
+      ],
+      "answer": 0,
+      "explanation": "will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-085",
+      "question": "The winners ___ tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "will be chosen",
+        "will choose",
+        "are chosen",
+        "were chosen"
+      ],
+      "answer": 0,
+      "explanation": "未来受動態です。"
+    },
+    {
+      "id": "eng-pass-086",
+      "question": "Homework ___ via the online system.",
+      "type": "multiple",
+      "choices": [
+        "will be checked",
+        "will check",
+        "is checked",
+        "was checked"
+      ],
+      "answer": 0,
+      "explanation": "will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-087",
+      "question": "The classroom ___ by the local artist.",
+      "type": "multiple",
+      "choices": [
+        "will be decorated",
+        "will decorate",
+        "is decorated",
+        "was decorated"
+      ],
+      "answer": 0,
+      "explanation": "未来の受動態です。"
+    },
+    {
+      "id": "eng-pass-088",
+      "question": "All members ___ of the change.",
+      "type": "multiple",
+      "choices": [
+        "will be informed",
+        "will inform",
+        "are informed",
+        "were informed"
+      ],
+      "answer": 0,
+      "explanation": "will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-089",
+      "question": "A new library card system ___ soon.",
+      "type": "multiple",
+      "choices": [
+        "will be introduced",
+        "will introduce",
+        "is introduced",
+        "was introduced"
+      ],
+      "answer": 0,
+      "explanation": "will be + 過去分詞。"
+    },
+    {
+      "id": "eng-pass-090",
+      "question": "The game schedule ___ later this week.",
+      "type": "multiple",
+      "choices": [
+        "will be posted",
+        "will post",
+        "is posted",
+        "was posted"
+      ],
+      "answer": 0,
+      "explanation": "未来受動態です。"
+    },
+    {
+      "id": "eng-pass-091",
+      "question": "___ this castle built in the 17th century?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Is",
+        "Were",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数なので Was で始めます。"
+    },
+    {
+      "id": "eng-pass-092",
+      "question": "___ the letters sent yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "複数・過去なので Were です。"
+    },
+    {
+      "id": "eng-pass-093",
+      "question": "___ this movie shown on TV last night?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Is",
+        "Were",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "単数・過去なので Was です。"
+    },
+    {
+      "id": "eng-pass-094",
+      "question": "___ these books translated into English?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Were",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "現在・複数なので Are です。"
+    },
+    {
+      "id": "eng-pass-095",
+      "question": "___ the classroom cleaned every day?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "単数・現在なので Is です。"
+    },
+    {
+      "id": "eng-pass-096",
+      "question": "___ the winners announced already?",
+      "type": "multiple",
+      "choices": [
+        "Have",
+        "Has",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "現在完了・複数なので Have they been...? ですが選択は Have。"
+    },
+    {
+      "id": "eng-pass-097",
+      "question": "___ your homework done?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので Is です。"
+    },
+    {
+      "id": "eng-pass-098",
+      "question": "___ the tickets sold out yet?",
+      "type": "multiple",
+      "choices": [
+        "Have",
+        "Has",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "現在完了の疑問文です。"
+    },
+    {
+      "id": "eng-pass-099",
+      "question": "___ the stage being prepared now?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "現在進行形受動態の疑問文です。"
+    },
+    {
+      "id": "eng-pass-100",
+      "question": "___ the meeting going to be held tomorrow?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "be going to 受動態の疑問文です。"
+    }
+  ]
+}

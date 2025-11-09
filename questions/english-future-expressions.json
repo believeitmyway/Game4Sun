@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "future-expressions",
+  "unitName": "未来を表す文",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-fut-001",
+      "question": "I think our team ___ win the championship this year.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "試合の結果を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-002",
+      "question": "She believes she ___ pass the entrance exam.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "合格するかどうかを予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-003",
+      "question": "They say the volunteers ___ finish the project on time.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "未来の出来事を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-004",
+      "question": "Our coach says my brother ___ arrive in Osaka before noon.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "到着時刻を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-005",
+      "question": "The news reports the exchange student ___ visit our class next month.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "来訪予定を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-006",
+      "question": "Our teacher expects it ___ rain in the afternoon.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "天気の予想なので will を使います。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-007",
+      "question": "Scientists predict the museum ___ be crowded during Golden Week.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "未来の混雑を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-008",
+      "question": "I think the new smartphone ___ sell out quickly.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "商品の売れ行きを予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-009",
+      "question": "She believes they ___ call us back soon.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "今後の行動を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-010",
+      "question": "They say the typhoon ___ reach Kyushu tomorrow morning.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "台風の到達を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-011",
+      "question": "Our coach says our teacher ___ show us new photos next week.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "未来の行動を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-012",
+      "question": "The news reports the train ___ leave at six tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "列車の発車を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-013",
+      "question": "Our teacher expects the company ___ hire more engineers next year.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "企業の動きを予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-014",
+      "question": "Scientists predict I ___ find a better idea soon.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "自分の未来の行動を予想しています。 未来の予測は通常 will + 動詞の原形で表します。"
+    },
+    {
+      "id": "eng-fut-015",
+      "question": "I ___ visit the science museum on Saturday.",
+      "type": "multiple",
+      "choices": [
+        "am going to",
+        "is going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "I には am going to を使います。 事前に決めた予定を表しています。"
+    },
+    {
+      "id": "eng-fut-016",
+      "question": "She ___ start a new reading club next month.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "She には is going to を使います。 前もって決めた計画です。"
+    },
+    {
+      "id": "eng-fut-017",
+      "question": "He ___ practice for the speech contest after school.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "He には is going to を使います。 予定された行動を話しています。"
+    },
+    {
+      "id": "eng-fut-018",
+      "question": "We ___ plant vegetables in the school garden.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "We には are going to を使います。 計画済みの活動を表しています。"
+    },
+    {
+      "id": "eng-fut-019",
+      "question": "They ___ buy tickets for the summer festival.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "They には are going to を使います。 前もって準備した行動です。"
+    },
+    {
+      "id": "eng-fut-020",
+      "question": "My parents ___ clean the community center this weekend.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are going to を使います。 決めてある予定を表しています。"
+    },
+    {
+      "id": "eng-fut-021",
+      "question": "Our class ___ launch a podcast about books.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので is going to を使います。 準備している計画です。"
+    },
+    {
+      "id": "eng-fut-022",
+      "question": "I ___ hold a charity concert in July.",
+      "type": "multiple",
+      "choices": [
+        "am going to",
+        "is going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "I には am going to を使います。 計画しているイベントです。"
+    },
+    {
+      "id": "eng-fut-023",
+      "question": "She ___ organize a beach clean-up next Sunday.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "She には is going to を使います。 前から決めている活動です。"
+    },
+    {
+      "id": "eng-fut-024",
+      "question": "He ___ visit their grandparents during the holiday.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "He には is going to を使います。 予定された訪問です。"
+    },
+    {
+      "id": "eng-fut-025",
+      "question": "We ___ decorate the classroom for the festival.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "We には are going to を使います。 準備している作業です。"
+    },
+    {
+      "id": "eng-fut-026",
+      "question": "They ___ apply for an exchange program.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "They には are going to を使います。 事前に決めた行動です。"
+    },
+    {
+      "id": "eng-fut-027",
+      "question": "My parents ___ study English with an online tutor.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "is going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are going to を使います。 計画済みの勉強です。"
+    },
+    {
+      "id": "eng-fut-028",
+      "question": "Our class ___ open a small online shop together.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "are going to",
+        "will",
+        "am going to"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので is going to を使います。 話し合って決めた計画です。"
+    },
+    {
+      "id": "eng-fut-029",
+      "question": "He ___ finish the project because he is sick.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "できないと考えている未来なので won't を使います。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-030",
+      "question": "She ___ join the trip because she has another plan.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "予定がない未来を表します。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-031",
+      "question": "They ___ attend the concert without tickets.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "実現しない予定を表します。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-032",
+      "question": "I ___ forget your kindness.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "未来の否定を表現しています。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-033",
+      "question": "We ___ start without you.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "意思による未来の否定です。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-034",
+      "question": "The store ___ open on New Year's Day.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "未来の事実の否定を述べています。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-035",
+      "question": "My sister ___ eat sweets because she is on a diet.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "今後しない予定です。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-036",
+      "question": "The train ___ stop at this station.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "未来の運行を否定します。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-037",
+      "question": "I ___ be late for the meeting.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "自信をもってしないと言っています。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-038",
+      "question": "Our teacher ___ give us homework today.",
+      "type": "multiple",
+      "choices": [
+        "won't",
+        "will",
+        "doesn't",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "未来の出来事を否定しています。 will not の短縮形 won't を用います。"
+    },
+    {
+      "id": "eng-fut-039",
+      "question": "She ___ eat dessert tonight because she feels sick.",
+      "type": "multiple",
+      "choices": [
+        "is not going to",
+        "is going to",
+        "are not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "She には is を使い、否定は is not going to です。 予定を否定しています。"
+    },
+    {
+      "id": "eng-fut-040",
+      "question": "He ___ play soccer after school because of the rain.",
+      "type": "multiple",
+      "choices": [
+        "is not going to",
+        "is going to",
+        "are not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "He には is を使い、否定は is not going to です。 やらない予定を表します。"
+    },
+    {
+      "id": "eng-fut-041",
+      "question": "I ___ stay up late before the exam.",
+      "type": "multiple",
+      "choices": [
+        "am not going to",
+        "am going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "I には am を使い、否定は am not going to です。 自分の予定を否定しています。"
+    },
+    {
+      "id": "eng-fut-042",
+      "question": "We ___ take the bus today because it is full.",
+      "type": "multiple",
+      "choices": [
+        "are not going to",
+        "are going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "We には are を使い、否定は are not going to です。 乗らない予定を表します。"
+    },
+    {
+      "id": "eng-fut-043",
+      "question": "They ___ travel abroad this winter.",
+      "type": "multiple",
+      "choices": [
+        "are not going to",
+        "are going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "They には are を使い、否定は are not going to です。 行かない予定を述べています。"
+    },
+    {
+      "id": "eng-fut-044",
+      "question": "My parents ___ buy a new car this year.",
+      "type": "multiple",
+      "choices": [
+        "are not going to",
+        "are going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are not going to です。 購入しない予定です。"
+    },
+    {
+      "id": "eng-fut-045",
+      "question": "Our class ___ hold a party this month.",
+      "type": "multiple",
+      "choices": [
+        "is not going to",
+        "is going to",
+        "are not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いの Our class には is not going to を使います。 開催しない予定です。"
+    },
+    {
+      "id": "eng-fut-046",
+      "question": "The club members ___ use smartphones during practice.",
+      "type": "multiple",
+      "choices": [
+        "are not going to",
+        "are going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので are not going to を使います。 しないと決めた予定です。"
+    },
+    {
+      "id": "eng-fut-047",
+      "question": "He ___ eat sweets because he is on a diet.",
+      "type": "multiple",
+      "choices": [
+        "is not going to",
+        "is going to",
+        "are not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "He には is not going to を使います。 やらない予定です。"
+    },
+    {
+      "id": "eng-fut-048",
+      "question": "I ___ forget to call my grandmother tonight.",
+      "type": "multiple",
+      "choices": [
+        "am not going to",
+        "am going to",
+        "is not going to",
+        "will not"
+      ],
+      "answer": 0,
+      "explanation": "I には am not going to を使います。 自分の予定を否定しています。"
+    },
+    {
+      "id": "eng-fut-049",
+      "question": "___ you help me with my homework tonight?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "丁寧に依頼する疑問文です。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-050",
+      "question": "___ she come to the meeting tomorrow?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "未来の予定を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-051",
+      "question": "___ they join us for the picnic?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "参加を尋ねる疑問文です。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-052",
+      "question": "___ he lend you the comic books?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "意思を尋ねる疑問文です。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-053",
+      "question": "___ we see fireworks this weekend?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "未来の出来事について尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-054",
+      "question": "___ it be sunny on Sports Day?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "未来の天気を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-055",
+      "question": "___ your parents allow you to go abroad?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "許可を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-056",
+      "question": "___ the bus arrive on time?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "運行予定を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-057",
+      "question": "___ the teacher check our notebooks today?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "予定を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-058",
+      "question": "___ she call you after the lesson?",
+      "type": "multiple",
+      "choices": [
+        "Will",
+        "Do",
+        "Are",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "未来の行動を尋ねています。 未来を尋ねる疑問文では Will を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-059",
+      "question": "___ she going to join the art club next year?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "be going to の疑問文です。 be 動詞の疑問文では Is を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-060",
+      "question": "___ they going to stay at a hotel in Kyoto?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "複数主語の be going to 疑問文です。 be 動詞の疑問文では Are を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-061",
+      "question": "___ you going to take the English test in June?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "You の疑問文では Are を使います。 be 動詞の疑問文では Are を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-062",
+      "question": "___ he going to buy a new bicycle?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので Is を使います。 be 動詞の疑問文では Is を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-063",
+      "question": "___ we going to have a quiz tomorrow?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "We の疑問文なので Are を使います。 be 動詞の疑問文では Are を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-064",
+      "question": "___ Tom going to study abroad this summer?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "Tom は単数なので Is を使います。 be 動詞の疑問文では Is を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-065",
+      "question": "___ your friends going to visit Osaka?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので Are を使います。 be 動詞の疑問文では Are を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-066",
+      "question": "___ the club going to invite a guest speaker?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "単数扱いなので Is を使います。 be 動詞の疑問文では Is を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-067",
+      "question": "___ your sister going to practice the violin tonight?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので Is を使います。 be 動詞の疑問文では Is を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-068",
+      "question": "___ they going to clean the beach on Saturday?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Do",
+        "Will"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので Are を使います。 be 動詞の疑問文では Are を文頭に置きます。"
+    },
+    {
+      "id": "eng-fut-069",
+      "question": "Look at those dark clouds. It ___ rain soon.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "目に見える証拠があるので be going to を使います。"
+    },
+    {
+      "id": "eng-fut-070",
+      "question": "That child has his textbooks open. He ___ study now.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "すぐに起こりそうな行動です。"
+    },
+    {
+      "id": "eng-fut-071",
+      "question": "The wind is getting stronger. The typhoon ___ hit the island tonight.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "兆候がある未来です。"
+    },
+    {
+      "id": "eng-fut-072",
+      "question": "Those boxes are packed by the door. They ___ move out today.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "are not going to",
+        "will",
+        "is going to"
+      ],
+      "answer": 0,
+      "explanation": "準備が整っている様子です。"
+    },
+    {
+      "id": "eng-fut-073",
+      "question": "There is no food in the fridge. We ___ eat out tonight.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "are not going to",
+        "will",
+        "is going to"
+      ],
+      "answer": 0,
+      "explanation": "状況から判断した未来です。"
+    },
+    {
+      "id": "eng-fut-074",
+      "question": "His bag is full of sketchbooks. He ___ draw pictures in the park.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "兆候から判断しています。"
+    },
+    {
+      "id": "eng-fut-075",
+      "question": "The signal on her phone is weak. Her call ___ fail soon.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "目に見える変化から判断しています。"
+    },
+    {
+      "id": "eng-fut-076",
+      "question": "The leaves are turning yellow. The trees ___ lose their leaves soon.",
+      "type": "multiple",
+      "choices": [
+        "are going to",
+        "are not going to",
+        "will",
+        "is going to"
+      ],
+      "answer": 0,
+      "explanation": "季節の兆候です。"
+    },
+    {
+      "id": "eng-fut-077",
+      "question": "The alarm clock is set for 5 a.m. He ___ get up early tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "準備済みなので be going to を使います。"
+    },
+    {
+      "id": "eng-fut-078",
+      "question": "There are many chairs being arranged. There ___ be a meeting here.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "確かな準備がある未来です。"
+    },
+    {
+      "id": "eng-fut-079",
+      "question": "The stage lights are turning on. The show ___ start in a few minutes.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "まもなく起こることです。"
+    },
+    {
+      "id": "eng-fut-080",
+      "question": "She has her running shoes on. She ___ go for a jog.",
+      "type": "multiple",
+      "choices": [
+        "is going to",
+        "is not going to",
+        "will",
+        "are going to"
+      ],
+      "answer": 0,
+      "explanation": "準備から判断しています。"
+    },
+    {
+      "id": "eng-fut-081",
+      "question": "I forgot to reply to her message. I ___ send her a text now.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "今決めたことなので will を使います。"
+    },
+    {
+      "id": "eng-fut-082",
+      "question": "The phone is ringing. I ___ answer it.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "その場で決めた行動です。"
+    },
+    {
+      "id": "eng-fut-083",
+      "question": "We have no milk left. I ___ go to the store right away.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "瞬間的な決定です。"
+    },
+    {
+      "id": "eng-fut-084",
+      "question": "It's cold in here. I ___ close the window.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "その場での申し出です。"
+    },
+    {
+      "id": "eng-fut-085",
+      "question": "Someone is knocking at the door. I ___ check who it is.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "その場で決めているので will を使います。"
+    },
+    {
+      "id": "eng-fut-086",
+      "question": "You look tired. I ___ carry your bag.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "申し出を表す will です。"
+    },
+    {
+      "id": "eng-fut-087",
+      "question": "You can't find your pen. I ___ lend you mine.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "申し出の will です。"
+    },
+    {
+      "id": "eng-fut-088",
+      "question": "It is too dark to walk. I ___ turn on the light.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "その場で決めた行動です。"
+    },
+    {
+      "id": "eng-fut-089",
+      "question": "He doesn't understand the question. I ___ explain it to him.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "申し出で使う will です。"
+    },
+    {
+      "id": "eng-fut-090",
+      "question": "We don't have enough chairs. I ___ bring some from the next room.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "am going to",
+        "can",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "瞬間の決定なので will を使います。"
+    },
+    {
+      "id": "eng-fut-091",
+      "question": "The meeting ___ start at nine tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "決まっている予定です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-092",
+      "question": "Our flight ___ leave at 7 a.m. on Monday.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "時刻表で決まっている予定です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-093",
+      "question": "The movie ___ begin at half past six.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "決まった時間の予定です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-094",
+      "question": "The new shop ___ open next weekend.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "公式に決まった予定です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-095",
+      "question": "The science fair ___ take place in November.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "予定されている行事です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-096",
+      "question": "The train ___ arrive at platform three.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "時刻表による予定です。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-097",
+      "question": "The online seminar ___ start at 8 p.m. tonight.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "開始時刻が決まっています。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-098",
+      "question": "Our presentation ___ finish by 4 p.m.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "終了時刻が決まっています。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-099",
+      "question": "Club practice ___ resume next Tuesday.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "再開の予定が決まっています。 未来の予定を述べる文で will を用いています。"
+    },
+    {
+      "id": "eng-fut-100",
+      "question": "The festival ___ open its gates at ten.",
+      "type": "multiple",
+      "choices": [
+        "will",
+        "is going to",
+        "can",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "開始時刻が決まっています。 未来の予定を述べる文で will を用いています。"
+    }
+  ]
+}

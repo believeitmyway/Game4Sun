@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "conjunctions",
+  "unitName": "接続詞",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-conj-001",
+      "question": "He cleaned his room ___ washed the dishes afterwards.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-002",
+      "question": "We visited the museum ___ took many pictures.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-003",
+      "question": "She wrote the report ___ sent it to the teacher.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-004",
+      "question": "My brother cooked dinner ___ set the table.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-005",
+      "question": "The wind was strong ___ the rain was cold.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-006",
+      "question": "The students studied hard ___ they passed the test.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-007",
+      "question": "I bought some apples ___ made a pie for dessert.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-008",
+      "question": "They planted flowers ___ watered the garden every day.",
+      "type": "multiple",
+      "choices": [
+        "and",
+        "but",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "同じ種類の出来事や情報をつなぐときは and を使います。"
+    },
+    {
+      "id": "eng-conj-009",
+      "question": "I wanted to go hiking ___ it started to rain.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-010",
+      "question": "She practiced very hard ___ she didn't win the game.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-011",
+      "question": "He likes math ___ his brother prefers English.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-012",
+      "question": "We planned a picnic ___ the park was closed.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-013",
+      "question": "My sister is shy ___ she loves singing on stage.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-014",
+      "question": "The book looked difficult ___ it was easy to read.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-015",
+      "question": "I brought an umbrella ___ I didn't need to use it.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-016",
+      "question": "They wanted to play outside ___ it was already dark.",
+      "type": "multiple",
+      "choices": [
+        "but",
+        "and",
+        "so",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "対立する内容を並べるときは but を使います。"
+    },
+    {
+      "id": "eng-conj-017",
+      "question": "Would you like tea ___ would you prefer coffee.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-018",
+      "question": "We can go by train ___ we can take the bus.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-019",
+      "question": "Do you want to study now ___ do you want to review later.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-020",
+      "question": "Shall we watch a movie ___ shall we play board games.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-021",
+      "question": "He must choose soccer club ___ join the music club.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-022",
+      "question": "You can read a book ___ listen to music quietly.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-023",
+      "question": "Should I call him ___ send him a message.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-024",
+      "question": "Do you want curry ___ do you want pasta.",
+      "type": "multiple",
+      "choices": [
+        "or",
+        "and",
+        "but",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を示すときは or を使います。"
+    },
+    {
+      "id": "eng-conj-025",
+      "question": "It was raining hard, ___ we stayed at home.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-026",
+      "question": "She forgot her notebook, ___ I lent her mine.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-027",
+      "question": "He studied every night, ___ he passed the exam.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-028",
+      "question": "The movie was very popular, ___ all the tickets sold out.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-029",
+      "question": "The road was icy, ___ they drove very slowly.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-030",
+      "question": "The alarm didn't ring, ___ he was late for school.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-031",
+      "question": "The cake looked delicious, ___ everyone wanted a slice.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-032",
+      "question": "We were hungry, ___ we cooked pasta.",
+      "type": "multiple",
+      "choices": [
+        "so",
+        "because",
+        "but",
+        "although"
+      ],
+      "answer": 0,
+      "explanation": "原因の結果を述べるときは so を使います。"
+    },
+    {
+      "id": "eng-conj-033",
+      "question": "We stayed home ___ it was snowing heavily.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-034",
+      "question": "She went to bed early ___ she was very tired.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-035",
+      "question": "He was absent ___ he caught a cold.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-036",
+      "question": "They enjoyed the trip ___ the weather was perfect.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-037",
+      "question": "I couldn't read the menu ___ it was in French.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-038",
+      "question": "We had to hurry ___ the train was leaving soon.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-039",
+      "question": "She was late ___ the bus broke down.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-040",
+      "question": "He is famous ___ he writes inspiring novels.",
+      "type": "multiple",
+      "choices": [
+        "because",
+        "so",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanation": "理由を述べるときは because を使います。"
+    },
+    {
+      "id": "eng-conj-041",
+      "question": "___ it rains tomorrow, we will cancel the match.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-042",
+      "question": "___ you study hard, you will improve.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-043",
+      "question": "___ he calls you, please tell me.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-044",
+      "question": "___ we finish early, let's play basketball.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-045",
+      "question": "___ you feel sick, go to the nurse's office.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-046",
+      "question": "___ the store is closed, we will come back later.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-047",
+      "question": "___ she forgets her homework, the teacher will be angry.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-048",
+      "question": "___ you see Ken, ask him about the schedule.",
+      "type": "multiple",
+      "choices": [
+        "if",
+        "when",
+        "because",
+        "so"
+      ],
+      "answer": 0,
+      "explanation": "「もし〜なら」という条件を表すときは if を使います。"
+    },
+    {
+      "id": "eng-conj-049",
+      "question": "Call me ___ you arrive at the station.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-050",
+      "question": "Wash your hands ___ you get home.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-051",
+      "question": "He was reading ___ I visited him.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-052",
+      "question": "She smiled ___ she saw the present.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-053",
+      "question": "We were nervous ___ the test began.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-054",
+      "question": "They cheered ___ their team scored.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-055",
+      "question": "I was surprised ___ he spoke Japanese fluently.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-056",
+      "question": "Take notes ___ you listen to the explanation.",
+      "type": "multiple",
+      "choices": [
+        "when",
+        "if",
+        "after",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "「〜するとき」には when を使います。"
+    },
+    {
+      "id": "eng-conj-057",
+      "question": "She was studying ___ her brother was playing games.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-058",
+      "question": "He listened to music ___ he was riding the train.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-059",
+      "question": "They talked quietly ___ the teacher was writing on the board.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-060",
+      "question": "I was cooking ___ my sister was setting the table.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-061",
+      "question": "We waited ___ the doctor was examining the patient.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-062",
+      "question": "The children were laughing ___ they played in the park.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-063",
+      "question": "The lights went out ___ we were watching a movie.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-064",
+      "question": "He took notes ___ the speaker was explaining the plan.",
+      "type": "multiple",
+      "choices": [
+        "while",
+        "when",
+        "because",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "同時進行を表すときは while を使います。"
+    },
+    {
+      "id": "eng-conj-065",
+      "question": "Brush your teeth ___ you go to bed.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-066",
+      "question": "Check your answers ___ you submit the test.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-067",
+      "question": "She reviews her notes ___ she starts a new lesson.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-068",
+      "question": "We took a photo ___ we entered the museum.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-069",
+      "question": "He warms up ___ he runs a marathon.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-070",
+      "question": "Call me ___ you leave school.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-071",
+      "question": "They practice ___ they perform on stage.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-072",
+      "question": "I always stretch ___ I go jogging.",
+      "type": "multiple",
+      "choices": [
+        "before",
+        "after",
+        "until",
+        "when"
+      ],
+      "answer": 0,
+      "explanation": "「〜する前に」には before を使います。"
+    },
+    {
+      "id": "eng-conj-073",
+      "question": "We ate dinner ___ we finished our homework.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-074",
+      "question": "She took a nap ___ she completed the project.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-075",
+      "question": "They went to a cafe ___ they watched the movie.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-076",
+      "question": "I will call you ___ I arrive home.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-077",
+      "question": "He washed the car ___ he played soccer.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-078",
+      "question": "We cleaned the classroom ___ the class was over.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-079",
+      "question": "She listened to music ___ she practiced piano.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-080",
+      "question": "They relaxed ___ they finished the marathon.",
+      "type": "multiple",
+      "choices": [
+        "after",
+        "before",
+        "while",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜した後で」には after を使います。"
+    },
+    {
+      "id": "eng-conj-081",
+      "question": "He waited ___ the last train arrived.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-082",
+      "question": "We studied ___ the bell rang.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-083",
+      "question": "She worked ___ midnight.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-084",
+      "question": "They talked ___ the cafe closed.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-085",
+      "question": "I will stay here ___ you come back.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-086",
+      "question": "Keep practicing ___ you can do it smoothly.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-087",
+      "question": "The store stayed open ___ everyone finished shopping.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-088",
+      "question": "He kept trying ___ he solved the problem.",
+      "type": "multiple",
+      "choices": [
+        "until",
+        "before",
+        "since",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜するまで」には until を使います。"
+    },
+    {
+      "id": "eng-conj-089",
+      "question": "___ she was tired, she kept studying.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-090",
+      "question": "___ it was late, they continued playing chess.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-091",
+      "question": "___ he is young, he speaks like an adult.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-092",
+      "question": "___ the road was narrow, the bus passed safely.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-093",
+      "question": "___ it was raining, the runners kept going.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-094",
+      "question": "___ I practice a lot, I still get nervous.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-095",
+      "question": "___ she failed once, she didn't give up.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-096",
+      "question": "___ the weather was terrible, the festival was fun.",
+      "type": "multiple",
+      "choices": [
+        "although",
+        "because",
+        "so",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "「〜だけれども」を表すときは although を使います。"
+    },
+    {
+      "id": "eng-conj-097",
+      "question": "You can't go out ___ you finish your homework.",
+      "type": "multiple",
+      "choices": [
+        "unless",
+        "if",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜しない限り」という条件には unless を用います。"
+    },
+    {
+      "id": "eng-conj-098",
+      "question": "The alarm won't stop ___ you press this button.",
+      "type": "multiple",
+      "choices": [
+        "unless",
+        "if",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜しない限り」という条件には unless を用います。"
+    },
+    {
+      "id": "eng-conj-099",
+      "question": "We can't leave ___ everyone arrives.",
+      "type": "multiple",
+      "choices": [
+        "unless",
+        "if",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜しない限り」という条件には unless を用います。"
+    },
+    {
+      "id": "eng-conj-100",
+      "question": "He won't succeed ___ he keeps trying.",
+      "type": "multiple",
+      "choices": [
+        "unless",
+        "if",
+        "although",
+        "because"
+      ],
+      "answer": 0,
+      "explanation": "「〜しない限り」という条件には unless を用います。"
+    }
+  ]
+}

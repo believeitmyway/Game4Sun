@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "modal-verbs",
+  "unitName": "助動詞",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-mod-001",
+      "question": "Saki ___ speak three languages fluently.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "能力があることを表しています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-002",
+      "question": "Ken ___ solve this math puzzle quickly.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "できることを述べています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-003",
+      "question": "They ___ run five kilometers without stopping.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "十分な能力があるという意味です。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-004",
+      "question": "The robot ___ carry heavy boxes for us.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "ロボットにできることを表しています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-005",
+      "question": "My father ___ cook Italian dishes very well.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "得意なことを表しています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-006",
+      "question": "The students ___ design a simple website.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "可能なことを述べています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-007",
+      "question": "Ayaka ___ play the violin beautifully.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "能力があるという意味です。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-008",
+      "question": "We ___ see the mountains from this window.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "見えることを表しています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-009",
+      "question": "The club members ___ finish the project by Friday.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "可能であることを述べています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-010",
+      "question": "You ___ answer the quiz without looking at the textbook.",
+      "type": "multiple",
+      "choices": [
+        "can",
+        "can't",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "できることを示しています。 そのため can を使います。"
+    },
+    {
+      "id": "eng-mod-011",
+      "question": "Babies ___ tie their own shoelaces.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "乳児にはできないことです。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-012",
+      "question": "This computer ___ work without electricity.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "電気なしでは動けません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-013",
+      "question": "My little brother ___ drive a car.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "法律的にも不可能です。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-014",
+      "question": "Penguins ___ fly in the sky.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "ペンギンは飛べません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-015",
+      "question": "The old phone ___ connect to high-speed Wi-Fi.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "古い携帯にはできません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-016",
+      "question": "Our dog ___ talk like a human.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "犬には話せません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-017",
+      "question": "Fish ___ live on land for a long time.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "水生動物にはできません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-018",
+      "question": "This train ___ stop at every tiny village.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "各駅停車ではありません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-019",
+      "question": "This plant ___ grow without sunlight.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "植物は光合成が必要です。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-020",
+      "question": "I ___ lift this heavy piano alone.",
+      "type": "multiple",
+      "choices": [
+        "can't",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "一人では持ち上げられません。 そのため can't を使います。"
+    },
+    {
+      "id": "eng-mod-021",
+      "question": "You ___ wear a helmet when you ride a bike.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "安全のための義務です。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-022",
+      "question": "Students ___ hand in the report by Monday.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "締め切りの必須条件です。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-023",
+      "question": "He ___ take his medicine every day.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "健康のために必要です。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-024",
+      "question": "We ___ be quiet in the library.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "図書館では静かにする義務があります。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-025",
+      "question": "She ___ finish the presentation before Friday.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "締め切りがあります。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-026",
+      "question": "They ___ check in two hours before the flight.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "航空会社の決まりです。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-027",
+      "question": "Passengers ___ fasten their seat belts.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "安全上の義務です。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-028",
+      "question": "You ___ not use your phone during the exam.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "禁止されている行為です。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-029",
+      "question": "We ___ not feed the animals in this zoo.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "動物園の決まりです。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-030",
+      "question": "He ___ not smoke in this building.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "館内禁煙です。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-031",
+      "question": "She ___ not share the test questions online.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "ルール違反だからです。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-032",
+      "question": "Drivers ___ not drive over the speed limit.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "法律で禁止されています。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-033",
+      "question": "They ___ not enter the lab without permission.",
+      "type": "multiple",
+      "choices": [
+        "mustn't",
+        "must",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "許可が必要です。 そのため mustn't を用います。"
+    },
+    {
+      "id": "eng-mod-034",
+      "question": "You ___ not forget to lock the door.",
+      "type": "multiple",
+      "choices": [
+        "must",
+        "should",
+        "can",
+        "don't have to"
+      ],
+      "answer": 0,
+      "explanation": "安全のため必ず必要です。 そのため must を用います。"
+    },
+    {
+      "id": "eng-mod-035",
+      "question": "I ___ finish this homework tonight.",
+      "type": "multiple",
+      "choices": [
+        "have to",
+        "has to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "自分でやらなければならない外的義務です。 したがって have to を使います。"
+    },
+    {
+      "id": "eng-mod-036",
+      "question": "She ___ take care of her little sister after school.",
+      "type": "multiple",
+      "choices": [
+        "has to",
+        "have to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "やる必要がある状況です。 したがって has to を使います。"
+    },
+    {
+      "id": "eng-mod-037",
+      "question": "We ___ wear uniforms at this school.",
+      "type": "multiple",
+      "choices": [
+        "have to",
+        "has to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "校則で決まっています。 したがって have to を使います。"
+    },
+    {
+      "id": "eng-mod-038",
+      "question": "They ___ practice every morning.",
+      "type": "multiple",
+      "choices": [
+        "has to",
+        "have to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "チームの決まりです。 したがって has to を使います。"
+    },
+    {
+      "id": "eng-mod-039",
+      "question": "He ___ be at the office by 8 a.m..",
+      "type": "multiple",
+      "choices": [
+        "has to",
+        "have to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "会社のルールです。 したがって has to を使います。"
+    },
+    {
+      "id": "eng-mod-040",
+      "question": "The members ___ bring their own lunch.",
+      "type": "multiple",
+      "choices": [
+        "have to",
+        "has to",
+        "mustn't",
+        "shouldn't"
+      ],
+      "answer": 0,
+      "explanation": "持参しなければなりません。 したがって have to を使います。"
+    },
+    {
+      "id": "eng-mod-041",
+      "question": "You ___ not come to school on Sunday.",
+      "type": "multiple",
+      "choices": [
+        "don't have to",
+        "have to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "日曜日は休みなので必要ありません。 したがって don't have to を使います。"
+    },
+    {
+      "id": "eng-mod-042",
+      "question": "We ___ pay to enter this museum.",
+      "type": "multiple",
+      "choices": [
+        "don't have to",
+        "have to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "入館は無料です。 したがって don't have to を使います。"
+    },
+    {
+      "id": "eng-mod-043",
+      "question": "She ___ cook tonight because they are going out.",
+      "type": "multiple",
+      "choices": [
+        "doesn't have to",
+        "has to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "家族が外食するので必要ありません。 したがって doesn't have to を使います。"
+    },
+    {
+      "id": "eng-mod-044",
+      "question": "He ___ bring his laptop to the meeting.",
+      "type": "multiple",
+      "choices": [
+        "doesn't have to",
+        "has to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "貸出用が用意されています。 したがって doesn't have to を使います。"
+    },
+    {
+      "id": "eng-mod-045",
+      "question": "They ___ work on Saturday this week.",
+      "type": "multiple",
+      "choices": [
+        "doesn't have to",
+        "has to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "今週の土曜日は休みです。 したがって doesn't have to を使います。"
+    },
+    {
+      "id": "eng-mod-046",
+      "question": "Students ___ buy new textbooks this year.",
+      "type": "multiple",
+      "choices": [
+        "don't have to",
+        "have to",
+        "must",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "学校が配布します。 したがって don't have to を使います。"
+    },
+    {
+      "id": "eng-mod-047",
+      "question": "You ___ take a break if you feel tired.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "助言として「〜したほうがよい」です。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-048",
+      "question": "He ___ see a doctor about that cough.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "病院に行くことを勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-049",
+      "question": "We ___ save some money every month.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "貯金を勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-050",
+      "question": "She ___ practice her speech once more.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "練習を勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-051",
+      "question": "They ___ arrive early for the concert.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "早めの到着を勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-052",
+      "question": "You ___ read the instructions carefully.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "注意深く読むことを勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-053",
+      "question": "He ___ talk to his parents about the problem.",
+      "type": "multiple",
+      "choices": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": 0,
+      "explanation": "相談することを勧めています。 そのため should を選びます。"
+    },
+    {
+      "id": "eng-mod-054",
+      "question": "You ___ not eat too much junk food.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "健康のため避けるべきです。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-055",
+      "question": "She ___ not stay up so late every night.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "夜更かししないほうがよいです。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-056",
+      "question": "They ___ not skip the warm-up exercises.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "準備運動を飛ばすべきではありません。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-057",
+      "question": "We ___ not ignore the teacher's advice.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "助言を無視しないほうがよいです。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-058",
+      "question": "He ___ not spend all his money on games.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "ゲームに全て使うべきではありません。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-059",
+      "question": "You ___ not forget to say thank you.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "感謝を忘れないほうがよいです。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-060",
+      "question": "She ___ not walk alone at night.",
+      "type": "multiple",
+      "choices": [
+        "shouldn't",
+        "should",
+        "can't",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "一人で歩くのは避けるべきです。 そのため shouldn't を選びます。"
+    },
+    {
+      "id": "eng-mod-061",
+      "question": "It ___ rain this evening, so take an umbrella.",
+      "type": "multiple",
+      "choices": [
+        "may",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "可能性を表す may。"
+    },
+    {
+      "id": "eng-mod-062",
+      "question": "She ___ be late because the train is delayed.",
+      "type": "multiple",
+      "choices": [
+        "might",
+        "may",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "起こり得る遅れを表します。"
+    },
+    {
+      "id": "eng-mod-063",
+      "question": "___ I open the window?",
+      "type": "multiple",
+      "choices": [
+        "May",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な許可の求め方です。"
+    },
+    {
+      "id": "eng-mod-064",
+      "question": "They ___ visit us during the holidays.",
+      "type": "multiple",
+      "choices": [
+        "may",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "未来の可能性を表します。"
+    },
+    {
+      "id": "eng-mod-065",
+      "question": "He ___ not come today because he is sick.",
+      "type": "multiple",
+      "choices": [
+        "might",
+        "may",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "来ないかもしれない可能性です。"
+    },
+    {
+      "id": "eng-mod-066",
+      "question": "___ we leave our bags here?",
+      "type": "multiple",
+      "choices": [
+        "May",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "許可を求める表現です。"
+    },
+    {
+      "id": "eng-mod-067",
+      "question": "The roads ___ be icy tomorrow morning.",
+      "type": "multiple",
+      "choices": [
+        "may",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "未来の可能性です。"
+    },
+    {
+      "id": "eng-mod-068",
+      "question": "She ___ know the answer, but I'm not sure.",
+      "type": "multiple",
+      "choices": [
+        "might",
+        "may",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "推量を表します。"
+    },
+    {
+      "id": "eng-mod-069",
+      "question": "You ___ borrow my bike if you need it.",
+      "type": "multiple",
+      "choices": [
+        "may",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "許可を与える表現です。"
+    },
+    {
+      "id": "eng-mod-070",
+      "question": "He ___ be at the library now.",
+      "type": "multiple",
+      "choices": [
+        "might",
+        "may",
+        "must",
+        "can"
+      ],
+      "answer": 0,
+      "explanation": "現在の推量です。"
+    },
+    {
+      "id": "eng-mod-071",
+      "question": "___ you pass me the salt, please?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な依頼には Could you...? がよく使われます。"
+    },
+    {
+      "id": "eng-mod-072",
+      "question": "___ you lend me your notes later?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧に頼んでいます。"
+    },
+    {
+      "id": "eng-mod-073",
+      "question": "___ you show me how to use this app?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧なお願いです。"
+    },
+    {
+      "id": "eng-mod-074",
+      "question": "___ you open the window a little?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な依頼です。"
+    },
+    {
+      "id": "eng-mod-075",
+      "question": "___ you help me carry these boxes?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "手伝いをお願いしています。"
+    },
+    {
+      "id": "eng-mod-076",
+      "question": "___ you tell me the way to the station?",
+      "type": "multiple",
+      "choices": [
+        "Could",
+        "Can",
+        "May",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "道を尋ねるときの丁寧な表現です。"
+    },
+    {
+      "id": "eng-mod-077",
+      "question": "___ you join us for dinner tonight?",
+      "type": "multiple",
+      "choices": [
+        "Would",
+        "Will",
+        "Can",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な勧誘には Would you...? を使います。"
+    },
+    {
+      "id": "eng-mod-078",
+      "question": "___ you like to have some tea?",
+      "type": "multiple",
+      "choices": [
+        "Would",
+        "Will",
+        "Can",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "申し出を表す表現です。"
+    },
+    {
+      "id": "eng-mod-079",
+      "question": "___ you mind closing the door?",
+      "type": "multiple",
+      "choices": [
+        "Would",
+        "Will",
+        "Can",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "Would you mind...? の形です。"
+    },
+    {
+      "id": "eng-mod-080",
+      "question": "___ you please sit here?",
+      "type": "multiple",
+      "choices": [
+        "Would",
+        "Will",
+        "Can",
+        "Should"
+      ],
+      "answer": 0,
+      "explanation": "丁寧なお願いです。"
+    },
+    {
+      "id": "eng-mod-081",
+      "question": "You ___ take an umbrella today.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "強い勧告として had better を使います。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-082",
+      "question": "He ___ see a doctor soon.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "早く受診したほうがよいという助言です。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-083",
+      "question": "We ___ check the train schedule once more.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "念のため確認したほうがよいです。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-084",
+      "question": "They ___ leave home early.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "遅れないように勧めています。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-085",
+      "question": "You ___ back up your files.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "データを守るための強い助言です。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-086",
+      "question": "She ___ apologize to her friend.",
+      "type": "multiple",
+      "choices": [
+        "had better",
+        "should",
+        "have to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "謝ったほうがよい状況です。 よって had better を使います。"
+    },
+    {
+      "id": "eng-mod-087",
+      "question": "You ___ not be late for the interview.",
+      "type": "multiple",
+      "choices": [
+        "had better not",
+        "shouldn't",
+        "don't have to",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explanation": "強い禁止的助言です。 よって had better not を使います。"
+    },
+    {
+      "id": "eng-mod-088",
+      "question": "He ___ not forget the meeting documents.",
+      "type": "multiple",
+      "choices": [
+        "had better not",
+        "shouldn't",
+        "don't have to",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explanation": "忘れないよう釘をさしています。 よって had better not を使います。"
+    },
+    {
+      "id": "eng-mod-089",
+      "question": "They ___ not stay up too late.",
+      "type": "multiple",
+      "choices": [
+        "had better not",
+        "shouldn't",
+        "don't have to",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explanation": "健康のため控えるべきです。 よって had better not を使います。"
+    },
+    {
+      "id": "eng-mod-090",
+      "question": "We ___ not ignore the teacher's warning.",
+      "type": "multiple",
+      "choices": [
+        "had better not",
+        "shouldn't",
+        "don't have to",
+        "mustn't"
+      ],
+      "answer": 0,
+      "explanation": "警告を無視しないよう勧めています。 よって had better not を使います。"
+    },
+    {
+      "id": "eng-mod-091",
+      "question": "I ___ visit the art museum this afternoon.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な希望を表す表現です。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-092",
+      "question": "We ___ try the new bakery in town.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "丁寧に願望を述べています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-093",
+      "question": "She ___ learn how to play the guitar.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "やりたいことを丁寧に述べています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-094",
+      "question": "He ___ join the volunteer group.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "参加の希望を表しています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-095",
+      "question": "They ___ travel to Okinawa next spring.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "旅行の希望を表しています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-096",
+      "question": "My parents ___ meet your family soon.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "丁寧に希望を伝えています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-097",
+      "question": "Our teacher ___ see your project plan.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "丁寧な依頼です。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-098",
+      "question": "I ___ order the special lunch set.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "注文の希望です。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-099",
+      "question": "We ___ have a meeting tomorrow morning.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "丁寧に提案しています。 「〜したい」という丁寧な表現は would like to を使います。"
+    },
+    {
+      "id": "eng-mod-100",
+      "question": "The exchange students ___ learn about Japanese festivals.",
+      "type": "multiple",
+      "choices": [
+        "would like to",
+        "want to",
+        "should",
+        "have to"
+      ],
+      "answer": 0,
+      "explanation": "知りたい希望です。 「〜したい」という丁寧な表現は would like to を使います。"
+    }
+  ]
+}
