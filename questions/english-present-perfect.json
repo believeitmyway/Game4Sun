@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "present-perfect",
+  "unitName": "現在完了",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-pp-001",
+      "question": "She ___ finished her homework.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので has finished です。"
+    },
+    {
+      "id": "eng-pp-002",
+      "question": "They ___ completed the project.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have completed です。"
+    },
+    {
+      "id": "eng-pp-003",
+      "question": "He ___ lost his keys again.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので has lost です。"
+    },
+    {
+      "id": "eng-pp-004",
+      "question": "I ___ seen that movie twice.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "am"
+      ],
+      "answer": 0,
+      "explanation": "一人称単数は have seen です。"
+    },
+    {
+      "id": "eng-pp-005",
+      "question": "Lisa ___ just called you.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので has called です。"
+    },
+    {
+      "id": "eng-pp-006",
+      "question": "The students ___ cleaned the classroom already.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have cleaned です。"
+    },
+    {
+      "id": "eng-pp-007",
+      "question": "My brother ___ broken his smartphone.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので has broken です。"
+    },
+    {
+      "id": "eng-pp-008",
+      "question": "We ___ visited the museum before.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have visited です。"
+    },
+    {
+      "id": "eng-pp-009",
+      "question": "The train ___ left the station.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので has left です。"
+    },
+    {
+      "id": "eng-pp-010",
+      "question": "You ___ improved a lot this year.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "You には have が続きます。"
+    },
+    {
+      "id": "eng-pp-011",
+      "question": "Emma ___ never eaten sushi.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数です。"
+    },
+    {
+      "id": "eng-pp-012",
+      "question": "They ___ just arrived at the airport.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have arrived です。"
+    },
+    {
+      "id": "eng-pp-013",
+      "question": "The teacher ___ given us extra homework.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "単数主語なので has given です。"
+    },
+    {
+      "id": "eng-pp-014",
+      "question": "My grandparents ___ lived here for decades.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 have lived です。"
+    },
+    {
+      "id": "eng-pp-015",
+      "question": "He ___ written three novels.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数です。"
+    },
+    {
+      "id": "eng-pp-016",
+      "question": "Our team ___ won the match.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "team は単数扱いで has won です。"
+    },
+    {
+      "id": "eng-pp-017",
+      "question": "We ___ been friends since childhood.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have been です。"
+    },
+    {
+      "id": "eng-pp-018",
+      "question": "The cat ___ caught another mouse.",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "had",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数です。"
+    },
+    {
+      "id": "eng-pp-019",
+      "question": "I ___ finished reading the book.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "am"
+      ],
+      "answer": 0,
+      "explanation": "I には have finished です。"
+    },
+    {
+      "id": "eng-pp-020",
+      "question": "They ___ forgotten the password.",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "had",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので have forgotten です。"
+    },
+    {
+      "id": "eng-pp-021",
+      "question": "She ___ finished the report yet.",
+      "type": "multiple",
+      "choices": [
+        "hasn't",
+        "haven't",
+        "doesn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数の否定形は hasn't です。"
+    },
+    {
+      "id": "eng-pp-022",
+      "question": "They ___ decided on a theme.",
+      "type": "multiple",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "don't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語の否定は haven't です。"
+    },
+    {
+      "id": "eng-pp-023",
+      "question": "He ___ visited the art museum yet.",
+      "type": "multiple",
+      "choices": [
+        "hasn't",
+        "haven't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数の否定は hasn't です。"
+    },
+    {
+      "id": "eng-pp-024",
+      "question": "I ___ seen the new episode.",
+      "type": "multiple",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "didn't",
+        "am not"
+      ],
+      "answer": 0,
+      "explanation": "I の否定は haven't seen です。"
+    },
+    {
+      "id": "eng-pp-025",
+      "question": "The bus ___ arrived yet.",
+      "type": "multiple",
+      "choices": [
+        "hasn't",
+        "haven't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語の否定は hasn't arrived です。"
+    },
+    {
+      "id": "eng-pp-026",
+      "question": "We ___ heard from him recently.",
+      "type": "multiple",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "don't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語の否定は haven't heard です。"
+    },
+    {
+      "id": "eng-pp-027",
+      "question": "My sister ___ done her chores yet.",
+      "type": "multiple",
+      "choices": [
+        "hasn't",
+        "haven't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数です。"
+    },
+    {
+      "id": "eng-pp-028",
+      "question": "The students ___ finished the test.",
+      "type": "multiple",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "didn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "複数主語 haven't finished です。"
+    },
+    {
+      "id": "eng-pp-029",
+      "question": "It ___ stopped raining yet.",
+      "type": "multiple",
+      "choices": [
+        "hasn't",
+        "haven't",
+        "didn't",
+        "isn't"
+      ],
+      "answer": 0,
+      "explanation": "単数主語 hasn't stopped です。"
+    },
+    {
+      "id": "eng-pp-030",
+      "question": "You ___ answered my question.",
+      "type": "multiple",
+      "choices": [
+        "haven't",
+        "hasn't",
+        "didn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "You の否定は haven't answered です。"
+    },
+    {
+      "id": "eng-pp-031",
+      "question": "We have lived in Tokyo ___ five years.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表すので for です。"
+    },
+    {
+      "id": "eng-pp-032",
+      "question": "She has known him ___ elementary school.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "起点を表すので since です。"
+    },
+    {
+      "id": "eng-pp-033",
+      "question": "I have studied piano ___ 2018.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "開始時点なので since です。"
+    },
+    {
+      "id": "eng-pp-034",
+      "question": "They have been friends ___ childhood.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "until"
+      ],
+      "answer": 0,
+      "explanation": "起点を表す since を使います。"
+    },
+    {
+      "id": "eng-pp-035",
+      "question": "He has worked here ___ a long time.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表す for です。"
+    },
+    {
+      "id": "eng-pp-036",
+      "question": "My parents have been married ___ twenty-five years.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間 for twenty-five years。"
+    },
+    {
+      "id": "eng-pp-037",
+      "question": "Our club has practiced ___ last month.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "起点 since last month。"
+    },
+    {
+      "id": "eng-pp-038",
+      "question": "The shop has been closed ___ Monday.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "since Monday です。"
+    },
+    {
+      "id": "eng-pp-039",
+      "question": "We have had this car ___ three years.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表す for です。"
+    },
+    {
+      "id": "eng-pp-040",
+      "question": "She has played the violin ___ she was six.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "過去の時点以来 since を用います。"
+    },
+    {
+      "id": "eng-pp-041",
+      "question": "I have waited ___ two hours.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表す for two hours。"
+    },
+    {
+      "id": "eng-pp-042",
+      "question": "The festival has continued ___ many years.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表す for です。"
+    },
+    {
+      "id": "eng-pp-043",
+      "question": "He has collected stamps ___ he was a child.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "起点 since he was a child。"
+    },
+    {
+      "id": "eng-pp-044",
+      "question": "They have stayed in Kyoto ___ a week.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間 for a week。"
+    },
+    {
+      "id": "eng-pp-045",
+      "question": "We have known each other ___ junior high.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "起点 since junior high。"
+    },
+    {
+      "id": "eng-pp-046",
+      "question": "My dog has lived with us ___ 2012.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "since 2012 です。"
+    },
+    {
+      "id": "eng-pp-047",
+      "question": "She has practiced calligraphy ___ months.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間 for months。"
+    },
+    {
+      "id": "eng-pp-048",
+      "question": "The company has existed ___ 1970.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "since 1970 です。"
+    },
+    {
+      "id": "eng-pp-049",
+      "question": "He has not eaten meat ___ five years.",
+      "type": "multiple",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "answer": 0,
+      "explanation": "期間を表す for five years。"
+    },
+    {
+      "id": "eng-pp-050",
+      "question": "I have used this app ___ last spring.",
+      "type": "multiple",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "after"
+      ],
+      "answer": 0,
+      "explanation": "起点 since last spring。"
+    },
+    {
+      "id": "eng-pp-051",
+      "question": "I have ___ finished my homework.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "ever",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "肯定文で「すでに」は already です。"
+    },
+    {
+      "id": "eng-pp-052",
+      "question": "She has ___ gotten home.",
+      "type": "multiple",
+      "choices": [
+        "just",
+        "already",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "直前を表す just を使います。"
+    },
+    {
+      "id": "eng-pp-053",
+      "question": "Have you eaten dinner ___?",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "疑問文では yet を使います。"
+    },
+    {
+      "id": "eng-pp-054",
+      "question": "They haven't arrived ___.",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "否定文では yet を用います。"
+    },
+    {
+      "id": "eng-pp-055",
+      "question": "We have ___ started the game.",
+      "type": "multiple",
+      "choices": [
+        "just",
+        "already",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "just で「ちょうど」です。"
+    },
+    {
+      "id": "eng-pp-056",
+      "question": "He has ___ cleaned his room.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "肯定文の「もう〜した」は already。"
+    },
+    {
+      "id": "eng-pp-057",
+      "question": "Have they ___ seen the announcement?",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "疑問文でも already を使えます。"
+    },
+    {
+      "id": "eng-pp-058",
+      "question": "I haven't read that book ___.",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "否定文で yet。"
+    },
+    {
+      "id": "eng-pp-059",
+      "question": "She has ___ left for the airport.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "肯定文で already。"
+    },
+    {
+      "id": "eng-pp-060",
+      "question": "The train has ___ departed.",
+      "type": "multiple",
+      "choices": [
+        "just",
+        "already",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "直前なら just。"
+    },
+    {
+      "id": "eng-pp-061",
+      "question": "Have you ___ finished the report?",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "進行中か確認する表現です。"
+    },
+    {
+      "id": "eng-pp-062",
+      "question": "They have ___ opened the new shop.",
+      "type": "multiple",
+      "choices": [
+        "just",
+        "already",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "最近起こったことには just。"
+    },
+    {
+      "id": "eng-pp-063",
+      "question": "We haven't decided the title ___.",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "否定文で yet。"
+    },
+    {
+      "id": "eng-pp-064",
+      "question": "My brother has ___ washed the dishes.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "既に終わった so already。"
+    },
+    {
+      "id": "eng-pp-065",
+      "question": "Has the movie started ___?",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "疑問文で yet。"
+    },
+    {
+      "id": "eng-pp-066",
+      "question": "She hasn't emailed me ___.",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "否定文で yet。"
+    },
+    {
+      "id": "eng-pp-067",
+      "question": "The teacher has ___ explained the rules.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "肯定文で already。"
+    },
+    {
+      "id": "eng-pp-068",
+      "question": "I have ___ visited that museum.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "yet",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "既に訪問済み。"
+    },
+    {
+      "id": "eng-pp-069",
+      "question": "He has ___ returned from the trip.",
+      "type": "multiple",
+      "choices": [
+        "just",
+        "already",
+        "yet",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "直前 just。"
+    },
+    {
+      "id": "eng-pp-070",
+      "question": "Have you called him ___?",
+      "type": "multiple",
+      "choices": [
+        "yet",
+        "already",
+        "just",
+        "still"
+      ],
+      "answer": 0,
+      "explanation": "疑問文で yet。"
+    },
+    {
+      "id": "eng-pp-071",
+      "question": "Have you ___ visited Okinawa?",
+      "type": "multiple",
+      "choices": [
+        "ever",
+        "never",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験を尋ねる疑問文では ever。"
+    },
+    {
+      "id": "eng-pp-072",
+      "question": "She has ___ climbed a mountain.",
+      "type": "multiple",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験がない場合は never。"
+    },
+    {
+      "id": "eng-pp-073",
+      "question": "I have ___ tried natto before.",
+      "type": "multiple",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "「一度もない」は never。"
+    },
+    {
+      "id": "eng-pp-074",
+      "question": "Have they ___ seen a shooting star?",
+      "type": "multiple",
+      "choices": [
+        "ever",
+        "never",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験を尋ねるので ever。"
+    },
+    {
+      "id": "eng-pp-075",
+      "question": "He has ___ been abroad.",
+      "type": "multiple",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験ゼロは never。"
+    },
+    {
+      "id": "eng-pp-076",
+      "question": "Have you ___ heard this song?",
+      "type": "multiple",
+      "choices": [
+        "ever",
+        "never",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験の有無を尋ねる表現です。"
+    },
+    {
+      "id": "eng-pp-077",
+      "question": "We have ___ visited Kyoto many times.",
+      "type": "multiple",
+      "choices": [
+        "already",
+        "ever",
+        "yet",
+        "never"
+      ],
+      "answer": 0,
+      "explanation": "すでに何度も訪れたので already。"
+    },
+    {
+      "id": "eng-pp-078",
+      "question": "She has ___ met a famous actor.",
+      "type": "multiple",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験がないので never。"
+    },
+    {
+      "id": "eng-pp-079",
+      "question": "Has he ___ tried skiing?",
+      "type": "multiple",
+      "choices": [
+        "ever",
+        "never",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験を尋ねるので ever。"
+    },
+    {
+      "id": "eng-pp-080",
+      "question": "They have ___ gone camping in winter.",
+      "type": "multiple",
+      "choices": [
+        "never",
+        "ever",
+        "yet",
+        "already"
+      ],
+      "answer": 0,
+      "explanation": "経験がないので never。"
+    },
+    {
+      "id": "eng-pp-081",
+      "question": "Tom has ___ London; he'll be back tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "戻ってくる場合は has been to を使います。"
+    },
+    {
+      "id": "eng-pp-082",
+      "question": "Lisa has ___ the supermarket and hasn't returned yet.",
+      "type": "multiple",
+      "choices": [
+        "gone to",
+        "been to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "まだ戻っていない場合は has gone to です。"
+    },
+    {
+      "id": "eng-pp-083",
+      "question": "Have you ever ___ Hokkaido?",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "go to",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "訪れた経験は have been to です。"
+    },
+    {
+      "id": "eng-pp-084",
+      "question": "My parents have ___ Kyoto many times.",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "go to",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "訪問経験を表す been to。"
+    },
+    {
+      "id": "eng-pp-085",
+      "question": "He has ___ the library to return some books.",
+      "type": "multiple",
+      "choices": [
+        "gone to",
+        "been to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "まだ戻っていないので has gone to。"
+    },
+    {
+      "id": "eng-pp-086",
+      "question": "They have ___ Spain twice.",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "訪問経験を表す been to。"
+    },
+    {
+      "id": "eng-pp-087",
+      "question": "Our teacher has ___ Osaka for a meeting.",
+      "type": "multiple",
+      "choices": [
+        "gone to",
+        "been to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "現在不在なら has gone to。"
+    },
+    {
+      "id": "eng-pp-088",
+      "question": "I have ___ that museum before.",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "経験を表す been to。"
+    },
+    {
+      "id": "eng-pp-089",
+      "question": "She has ___ the dentist and will be late.",
+      "type": "multiple",
+      "choices": [
+        "gone to",
+        "been to",
+        "been",
+        "go to"
+      ],
+      "answer": 0,
+      "explanation": "現在いないので has gone to。"
+    },
+    {
+      "id": "eng-pp-090",
+      "question": "Have they ___ Europe?",
+      "type": "multiple",
+      "choices": [
+        "been to",
+        "gone to",
+        "go to",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "経験を尋ねるので been to。"
+    },
+    {
+      "id": "eng-pp-091",
+      "question": "___ you finished your homework yet?",
+      "type": "multiple",
+      "choices": [
+        "Have",
+        "Has",
+        "Did",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "主語が you なので Have で始めます。"
+    },
+    {
+      "id": "eng-pp-092",
+      "question": "___ she ever been to Australia?",
+      "type": "multiple",
+      "choices": [
+        "Has",
+        "Have",
+        "Did",
+        "Does"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので Has。"
+    },
+    {
+      "id": "eng-pp-093",
+      "question": "How long ___ you lived here?",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "did",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "you に続く助動詞は have です。"
+    },
+    {
+      "id": "eng-pp-094",
+      "question": "Where ___ he gone?",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "did",
+        "does"
+      ],
+      "answer": 0,
+      "explanation": "he に合わせて has gone?"
+    },
+    {
+      "id": "eng-pp-095",
+      "question": "___ they already eaten?",
+      "type": "multiple",
+      "choices": [
+        "Have",
+        "Has",
+        "Did",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので Have です。"
+    },
+    {
+      "id": "eng-pp-096",
+      "question": "___ your sister taken the exam yet?",
+      "type": "multiple",
+      "choices": [
+        "Has",
+        "Have",
+        "Did",
+        "Does"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数なので Has。"
+    },
+    {
+      "id": "eng-pp-097",
+      "question": "What ___ you done for the festival?",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "did",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "you なので have done。"
+    },
+    {
+      "id": "eng-pp-098",
+      "question": "Why ___ he missed so many classes?",
+      "type": "multiple",
+      "choices": [
+        "has",
+        "have",
+        "did",
+        "does"
+      ],
+      "answer": 0,
+      "explanation": "三人称単数で has missed。"
+    },
+    {
+      "id": "eng-pp-099",
+      "question": "___ your friends arrived yet?",
+      "type": "multiple",
+      "choices": [
+        "Have",
+        "Has",
+        "Did",
+        "Do"
+      ],
+      "answer": 0,
+      "explanation": "複数主語なので Have arrived。"
+    },
+    {
+      "id": "eng-pp-100",
+      "question": "How many books ___ you read this year?",
+      "type": "multiple",
+      "choices": [
+        "have",
+        "has",
+        "did",
+        "do"
+      ],
+      "answer": 0,
+      "explanation": "you の疑問文で have。"
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "gerund-infinitive-noun",
+  "unitName": "～すること（動名詞と不定詞）",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-gi-001",
+      "question": "She enjoys ___ the piano after school.",
+      "type": "multiple",
+      "choices": [
+        "playing",
+        "to play",
+        "play",
+        "played"
+      ],
+      "answer": 0,
+      "explanation": "enjoy の後は動詞 ing 形を用います。"
+    },
+    {
+      "id": "eng-gi-002",
+      "question": "We finished ___ the report before dinner.",
+      "type": "multiple",
+      "choices": [
+        "writing",
+        "to write",
+        "write",
+        "wrote"
+      ],
+      "answer": 0,
+      "explanation": "finish の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-003",
+      "question": "He kept ___ even though it was late.",
+      "type": "multiple",
+      "choices": [
+        "studying",
+        "to study",
+        "study",
+        "studied"
+      ],
+      "answer": 0,
+      "explanation": "keep の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-004",
+      "question": "They practiced ___ the new dance.",
+      "type": "multiple",
+      "choices": [
+        "performing",
+        "to perform",
+        "perform",
+        "performed"
+      ],
+      "answer": 0,
+      "explanation": "practice の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-005",
+      "question": "I don't mind ___ in line for an hour.",
+      "type": "multiple",
+      "choices": [
+        "waiting",
+        "to wait",
+        "wait",
+        "waited"
+      ],
+      "answer": 0,
+      "explanation": "mind の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-006",
+      "question": "She suggested ___ to the museum on Sunday.",
+      "type": "multiple",
+      "choices": [
+        "going",
+        "to go",
+        "go",
+        "went"
+      ],
+      "answer": 0,
+      "explanation": "suggest の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-007",
+      "question": "He avoided ___ eye contact with the teacher.",
+      "type": "multiple",
+      "choices": [
+        "making",
+        "to make",
+        "make",
+        "made"
+      ],
+      "answer": 0,
+      "explanation": "avoid の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-008",
+      "question": "We enjoyed ___ around the castle.",
+      "type": "multiple",
+      "choices": [
+        "walking",
+        "to walk",
+        "walk",
+        "walked"
+      ],
+      "answer": 0,
+      "explanation": "enjoy の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-009",
+      "question": "They considered ___ the club.",
+      "type": "multiple",
+      "choices": [
+        "joining",
+        "to join",
+        "join",
+        "joined"
+      ],
+      "answer": 0,
+      "explanation": "consider の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-010",
+      "question": "She admitted ___ the vase by accident.",
+      "type": "multiple",
+      "choices": [
+        "breaking",
+        "to break",
+        "break",
+        "broke"
+      ],
+      "answer": 0,
+      "explanation": "admit の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-011",
+      "question": "He dislikes ___ on rainy days.",
+      "type": "multiple",
+      "choices": [
+        "driving",
+        "to drive",
+        "drive",
+        "drove"
+      ],
+      "answer": 0,
+      "explanation": "dislike の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-012",
+      "question": "We missed ___ our friends during the trip.",
+      "type": "multiple",
+      "choices": [
+        "seeing",
+        "to see",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "miss の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-013",
+      "question": "She is busy ___ preparations for the festival.",
+      "type": "multiple",
+      "choices": [
+        "making",
+        "to make",
+        "make",
+        "made"
+      ],
+      "answer": 0,
+      "explanation": "be busy の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-014",
+      "question": "They avoided ___ their homework until the last minute.",
+      "type": "multiple",
+      "choices": [
+        "doing",
+        "to do",
+        "do",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "avoid の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-015",
+      "question": "I can't help ___ when I hear this song.",
+      "type": "multiple",
+      "choices": [
+        "dancing",
+        "to dance",
+        "dance",
+        "danced"
+      ],
+      "answer": 0,
+      "explanation": "can't help の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-016",
+      "question": "She stopped ___ to answer the phone.",
+      "type": "multiple",
+      "choices": [
+        "reading",
+        "to read",
+        "read",
+        "reads"
+      ],
+      "answer": 0,
+      "explanation": "stop の後に元の行為をやめる場合は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-017",
+      "question": "He admitted ___ nervous before the speech.",
+      "type": "multiple",
+      "choices": [
+        "feeling",
+        "to feel",
+        "feel",
+        "felt"
+      ],
+      "answer": 0,
+      "explanation": "admit の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-018",
+      "question": "They enjoy ___ puzzles together.",
+      "type": "multiple",
+      "choices": [
+        "solving",
+        "to solve",
+        "solve",
+        "solved"
+      ],
+      "answer": 0,
+      "explanation": "enjoy の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-019",
+      "question": "We finished ___ the decorations in the classroom.",
+      "type": "multiple",
+      "choices": [
+        "putting up",
+        "to put up",
+        "put up",
+        "put"
+      ],
+      "answer": 0,
+      "explanation": "finish の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-020",
+      "question": "She suggested ___ the questions again.",
+      "type": "multiple",
+      "choices": [
+        "reviewing",
+        "to review",
+        "review",
+        "reviewed"
+      ],
+      "answer": 0,
+      "explanation": "suggest の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-021",
+      "question": "He avoided ___ late by leaving early.",
+      "type": "multiple",
+      "choices": [
+        "being",
+        "to be",
+        "be",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "avoid の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-022",
+      "question": "They practiced ___ the speech many times.",
+      "type": "multiple",
+      "choices": [
+        "giving",
+        "to give",
+        "give",
+        "gave"
+      ],
+      "answer": 0,
+      "explanation": "practice の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-023",
+      "question": "I don't mind ___ the heavy bags.",
+      "type": "multiple",
+      "choices": [
+        "carrying",
+        "to carry",
+        "carry",
+        "carried"
+      ],
+      "answer": 0,
+      "explanation": "mind の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-024",
+      "question": "She kept ___ even when she was tired.",
+      "type": "multiple",
+      "choices": [
+        "smiling",
+        "to smile",
+        "smile",
+        "smiled"
+      ],
+      "answer": 0,
+      "explanation": "keep の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-025",
+      "question": "We enjoyed ___ stories by the campfire.",
+      "type": "multiple",
+      "choices": [
+        "telling",
+        "to tell",
+        "tell",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "enjoy の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-026",
+      "question": "He decided ___ abroad next year.",
+      "type": "multiple",
+      "choices": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞を用います。"
+    },
+    {
+      "id": "eng-gi-027",
+      "question": "She hopes ___ a doctor in the future.",
+      "type": "multiple",
+      "choices": [
+        "to become",
+        "becoming",
+        "become",
+        "became"
+      ],
+      "answer": 0,
+      "explanation": "hope の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-028",
+      "question": "We plan ___ a science club.",
+      "type": "multiple",
+      "choices": [
+        "to start",
+        "starting",
+        "start",
+        "started"
+      ],
+      "answer": 0,
+      "explanation": "plan の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-029",
+      "question": "They want ___ early tomorrow.",
+      "type": "multiple",
+      "choices": [
+        "to leave",
+        "leaving",
+        "leave",
+        "left"
+      ],
+      "answer": 0,
+      "explanation": "want の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-030",
+      "question": "I decided ___ the blue one.",
+      "type": "multiple",
+      "choices": [
+        "to choose",
+        "choosing",
+        "choose",
+        "chose"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-031",
+      "question": "She promised ___ me later.",
+      "type": "multiple",
+      "choices": [
+        "to call",
+        "calling",
+        "call",
+        "called"
+      ],
+      "answer": 0,
+      "explanation": "promise の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-032",
+      "question": "He needs ___ the report by Friday.",
+      "type": "multiple",
+      "choices": [
+        "to finish",
+        "finishing",
+        "finish",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "need の後は to 不定詞をよく使います。"
+    },
+    {
+      "id": "eng-gi-033",
+      "question": "They agreed ___ the rules.",
+      "type": "multiple",
+      "choices": [
+        "to follow",
+        "following",
+        "follow",
+        "followed"
+      ],
+      "answer": 0,
+      "explanation": "agree の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-034",
+      "question": "We decided ___ lunch outside.",
+      "type": "multiple",
+      "choices": [
+        "to have",
+        "having",
+        "have",
+        "had"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-035",
+      "question": "She expects ___ her friends at the station.",
+      "type": "multiple",
+      "choices": [
+        "to meet",
+        "meeting",
+        "meet",
+        "met"
+      ],
+      "answer": 0,
+      "explanation": "expect の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-036",
+      "question": "He promised ___ the secret.",
+      "type": "multiple",
+      "choices": [
+        "to keep",
+        "keeping",
+        "keep",
+        "kept"
+      ],
+      "answer": 0,
+      "explanation": "promise の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-037",
+      "question": "They decided ___ the movie later.",
+      "type": "multiple",
+      "choices": [
+        "to watch",
+        "watching",
+        "watch",
+        "watched"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-038",
+      "question": "We hope ___ the championship.",
+      "type": "multiple",
+      "choices": [
+        "to win",
+        "winning",
+        "win",
+        "won"
+      ],
+      "answer": 0,
+      "explanation": "hope の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-039",
+      "question": "She wants ___ the choir.",
+      "type": "multiple",
+      "choices": [
+        "to join",
+        "joining",
+        "join",
+        "joined"
+      ],
+      "answer": 0,
+      "explanation": "want の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-040",
+      "question": "He decided ___ his own lunch.",
+      "type": "multiple",
+      "choices": [
+        "to bring",
+        "bringing",
+        "bring",
+        "brought"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-041",
+      "question": "They promised ___ us next month.",
+      "type": "multiple",
+      "choices": [
+        "to visit",
+        "visiting",
+        "visit",
+        "visited"
+      ],
+      "answer": 0,
+      "explanation": "promise の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-042",
+      "question": "We hope ___ to Okinawa in summer.",
+      "type": "multiple",
+      "choices": [
+        "to travel",
+        "traveling",
+        "travel",
+        "traveled"
+      ],
+      "answer": 0,
+      "explanation": "hope の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-043",
+      "question": "She plans ___ her grandparents this weekend.",
+      "type": "multiple",
+      "choices": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "plan の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-044",
+      "question": "He expects ___ a letter soon.",
+      "type": "multiple",
+      "choices": [
+        "to receive",
+        "receiving",
+        "receive",
+        "received"
+      ],
+      "answer": 0,
+      "explanation": "expect の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-045",
+      "question": "They decided ___ a new member.",
+      "type": "multiple",
+      "choices": [
+        "to invite",
+        "inviting",
+        "invite",
+        "invited"
+      ],
+      "answer": 0,
+      "explanation": "decide の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-046",
+      "question": "We need ___ a bigger classroom.",
+      "type": "multiple",
+      "choices": [
+        "to find",
+        "finding",
+        "find",
+        "found"
+      ],
+      "answer": 0,
+      "explanation": "need の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-047",
+      "question": "She promised ___ him every day.",
+      "type": "multiple",
+      "choices": [
+        "to text",
+        "texting",
+        "text",
+        "texted"
+      ],
+      "answer": 0,
+      "explanation": "promise の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-048",
+      "question": "He hopes ___ the lead role in the play.",
+      "type": "multiple",
+      "choices": [
+        "to get",
+        "getting",
+        "get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "hope の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-049",
+      "question": "They expect ___ many visitors during the festival.",
+      "type": "multiple",
+      "choices": [
+        "to welcome",
+        "welcoming",
+        "welcome",
+        "welcomed"
+      ],
+      "answer": 0,
+      "explanation": "expect の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-050",
+      "question": "I want ___ a letter to my host family.",
+      "type": "multiple",
+      "choices": [
+        "to write",
+        "writing",
+        "write",
+        "wrote"
+      ],
+      "answer": 0,
+      "explanation": "want の後は to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-051",
+      "question": "___ early helps me study more.",
+      "type": "multiple",
+      "choices": [
+        "Getting up",
+        "To get up",
+        "Get up",
+        "Gets up"
+      ],
+      "answer": 0,
+      "explanation": "文の主語としては動名詞を用います。"
+    },
+    {
+      "id": "eng-gi-052",
+      "question": "___ new vocabulary is fun.",
+      "type": "multiple",
+      "choices": [
+        "Learning",
+        "To learn",
+        "Learn",
+        "Learned"
+      ],
+      "answer": 0,
+      "explanation": "主語としての「〜すること」は動名詞です。"
+    },
+    {
+      "id": "eng-gi-053",
+      "question": "___ to music relaxes me.",
+      "type": "multiple",
+      "choices": [
+        "Listening",
+        "To listen",
+        "Listen",
+        "Listens"
+      ],
+      "answer": 0,
+      "explanation": "文の主語に置くときは動名詞を使います。"
+    },
+    {
+      "id": "eng-gi-054",
+      "question": "___ friends from other countries is exciting.",
+      "type": "multiple",
+      "choices": [
+        "Meeting",
+        "To meet",
+        "Meet",
+        "Meets"
+      ],
+      "answer": 0,
+      "explanation": "主語としては動名詞が自然です。"
+    },
+    {
+      "id": "eng-gi-055",
+      "question": "___ too much sugar is unhealthy.",
+      "type": "multiple",
+      "choices": [
+        "Eating",
+        "To eat",
+        "Eat",
+        "Eats"
+      ],
+      "answer": 0,
+      "explanation": "行為そのものを主語にする場合は動名詞です。"
+    },
+    {
+      "id": "eng-gi-056",
+      "question": "___ in front of many people takes courage.",
+      "type": "multiple",
+      "choices": [
+        "Speaking",
+        "To speak",
+        "Speak",
+        "Speaks"
+      ],
+      "answer": 0,
+      "explanation": "主語として動作を表すときは動名詞です。"
+    },
+    {
+      "id": "eng-gi-057",
+      "question": "___ letters by hand is rare today.",
+      "type": "multiple",
+      "choices": [
+        "Writing",
+        "To write",
+        "Write",
+        "Writes"
+      ],
+      "answer": 0,
+      "explanation": "動作名詞としての動名詞です。"
+    },
+    {
+      "id": "eng-gi-058",
+      "question": "___ puzzles keeps my brain active.",
+      "type": "multiple",
+      "choices": [
+        "Solving",
+        "To solve",
+        "Solve",
+        "Solved"
+      ],
+      "answer": 0,
+      "explanation": "主語としての行為は動名詞です。"
+    },
+    {
+      "id": "eng-gi-059",
+      "question": "___ others makes me happy.",
+      "type": "multiple",
+      "choices": [
+        "Helping",
+        "To help",
+        "Help",
+        "Helps"
+      ],
+      "answer": 0,
+      "explanation": "主語として動作を表すときは動名詞です。"
+    },
+    {
+      "id": "eng-gi-060",
+      "question": "___ the guitar takes practice.",
+      "type": "multiple",
+      "choices": [
+        "Playing",
+        "To play",
+        "Play",
+        "Plays"
+      ],
+      "answer": 0,
+      "explanation": "主語の役割を果たすのは動名詞です。"
+    },
+    {
+      "id": "eng-gi-061",
+      "question": "___ new recipes is my hobby.",
+      "type": "multiple",
+      "choices": [
+        "Trying",
+        "To try",
+        "Try",
+        "Tries"
+      ],
+      "answer": 0,
+      "explanation": "趣味としての行為を主語にする場合は動名詞です。"
+    },
+    {
+      "id": "eng-gi-062",
+      "question": "___ quietly in the library is important.",
+      "type": "multiple",
+      "choices": [
+        "Reading",
+        "To read",
+        "Read",
+        "Reads"
+      ],
+      "answer": 0,
+      "explanation": "動作を表す主語は動名詞です。"
+    },
+    {
+      "id": "eng-gi-063",
+      "question": "___ kindness to others changes the world.",
+      "type": "multiple",
+      "choices": [
+        "Showing",
+        "To show",
+        "Show",
+        "Shows"
+      ],
+      "answer": 0,
+      "explanation": "主語の位置では動名詞が自然です。"
+    },
+    {
+      "id": "eng-gi-064",
+      "question": "___ exercise every day keeps you healthy.",
+      "type": "multiple",
+      "choices": [
+        "Doing",
+        "To do",
+        "Do",
+        "Does"
+      ],
+      "answer": 0,
+      "explanation": "動作を主語にするときは動名詞です。"
+    },
+    {
+      "id": "eng-gi-065",
+      "question": "___ waste is an important goal.",
+      "type": "multiple",
+      "choices": [
+        "Reducing",
+        "To reduce",
+        "Reduce",
+        "Reduces"
+      ],
+      "answer": 0,
+      "explanation": "目標としての「減らすこと」は動名詞です。"
+    },
+    {
+      "id": "eng-gi-066",
+      "question": "___ new things is exciting.",
+      "type": "multiple",
+      "choices": [
+        "To learn",
+        "Learning",
+        "Learn",
+        "Learns"
+      ],
+      "answer": 0,
+      "explanation": "形式的に to 不定詞を主語に置いています。"
+    },
+    {
+      "id": "eng-gi-067",
+      "question": "___ others is important.",
+      "type": "multiple",
+      "choices": [
+        "To help",
+        "Helping",
+        "Help",
+        "Helps"
+      ],
+      "answer": 0,
+      "explanation": "一般的な行為を述べるときに to 不定詞を使います。"
+    },
+    {
+      "id": "eng-gi-068",
+      "question": "___ early is good for your health.",
+      "type": "multiple",
+      "choices": [
+        "To get up",
+        "Getting up",
+        "Get up",
+        "Gets up"
+      ],
+      "answer": 0,
+      "explanation": "一般的なことを述べる際の to 不定詞。"
+    },
+    {
+      "id": "eng-gi-069",
+      "question": "___ mistakes is natural.",
+      "type": "multiple",
+      "choices": [
+        "To make",
+        "Making",
+        "Make",
+        "Makes"
+      ],
+      "answer": 0,
+      "explanation": "行為全体を述べるときの to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-070",
+      "question": "___ honest is always right.",
+      "type": "multiple",
+      "choices": [
+        "To be",
+        "Being",
+        "Be",
+        "Is"
+      ],
+      "answer": 0,
+      "explanation": "to 不定詞が主語の役割を果たします。"
+    },
+    {
+      "id": "eng-gi-071",
+      "question": "___ abroad someday is her dream.",
+      "type": "multiple",
+      "choices": [
+        "To study",
+        "Studying",
+        "Study",
+        "Studied"
+      ],
+      "answer": 0,
+      "explanation": "夢を述べるときに to 不定詞を使っています。"
+    },
+    {
+      "id": "eng-gi-072",
+      "question": "___ quietly during class is polite.",
+      "type": "multiple",
+      "choices": [
+        "To listen",
+        "Listening",
+        "Listen",
+        "Listens"
+      ],
+      "answer": 0,
+      "explanation": "一般的なルールを述べる to 不定詞。"
+    },
+    {
+      "id": "eng-gi-073",
+      "question": "___ enough sleep is difficult during exams.",
+      "type": "multiple",
+      "choices": [
+        "To get",
+        "Getting",
+        "Get",
+        "Gets"
+      ],
+      "answer": 0,
+      "explanation": "抽象的な行為を表すため to 不定詞を使います。"
+    },
+    {
+      "id": "eng-gi-074",
+      "question": "___ an instrument takes time.",
+      "type": "multiple",
+      "choices": [
+        "To play",
+        "Playing",
+        "Play",
+        "Plays"
+      ],
+      "answer": 0,
+      "explanation": "「〜すること」を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-075",
+      "question": "___ new ideas is important for scientists.",
+      "type": "multiple",
+      "choices": [
+        "To create",
+        "Creating",
+        "Create",
+        "Creates"
+      ],
+      "answer": 0,
+      "explanation": "一般論として to 不定詞を用います。"
+    },
+    {
+      "id": "eng-gi-076",
+      "question": "___ healthy food is not easy for everyone.",
+      "type": "multiple",
+      "choices": [
+        "To cook",
+        "Cooking",
+        "Cook",
+        "Cooks"
+      ],
+      "answer": 0,
+      "explanation": "「〜すること」を表す to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-077",
+      "question": "___ a new language requires effort.",
+      "type": "multiple",
+      "choices": [
+        "To learn",
+        "Learning",
+        "Learn",
+        "Learns"
+      ],
+      "answer": 0,
+      "explanation": "一般的事実を示す to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-078",
+      "question": "___ abroad broadens your mind.",
+      "type": "multiple",
+      "choices": [
+        "To travel",
+        "Traveling",
+        "Travel",
+        "Travels"
+      ],
+      "answer": 0,
+      "explanation": "to 不定詞で「旅行すること」を表します。"
+    },
+    {
+      "id": "eng-gi-079",
+      "question": "___ carefully is necessary in science experiments.",
+      "type": "multiple",
+      "choices": [
+        "To observe",
+        "Observing",
+        "Observe",
+        "Observes"
+      ],
+      "answer": 0,
+      "explanation": "to 不定詞を主語に使う例です。"
+    },
+    {
+      "id": "eng-gi-080",
+      "question": "___ in a choir is one of her goals.",
+      "type": "multiple",
+      "choices": [
+        "To sing",
+        "Singing",
+        "Sing",
+        "Sings"
+      ],
+      "answer": 0,
+      "explanation": "目的・目標を表すときの to 不定詞です。"
+    },
+    {
+      "id": "eng-gi-081",
+      "question": "It is important ___ every day.",
+      "type": "multiple",
+      "choices": [
+        "to exercise",
+        "exercising",
+        "exercise",
+        "exercised"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-082",
+      "question": "It is difficult ___ a new language in a short time.",
+      "type": "multiple",
+      "choices": [
+        "to learn",
+        "learning",
+        "learn",
+        "learned"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 のパターンです。"
+    },
+    {
+      "id": "eng-gi-083",
+      "question": "It is exciting ___ new cultures.",
+      "type": "multiple",
+      "choices": [
+        "to experience",
+        "experiencing",
+        "experience",
+        "experienced"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-084",
+      "question": "It is necessary ___ your homework today.",
+      "type": "multiple",
+      "choices": [
+        "to finish",
+        "finishing",
+        "finish",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-085",
+      "question": "It is kind of you ___ me with the project.",
+      "type": "multiple",
+      "choices": [
+        "to help",
+        "helping",
+        "help",
+        "helped"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + of + 人 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-086",
+      "question": "It is hard ___ the heavy box alone.",
+      "type": "multiple",
+      "choices": [
+        "to lift",
+        "lifting",
+        "lift",
+        "lifted"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 のパターンです。"
+    },
+    {
+      "id": "eng-gi-087",
+      "question": "It is polite ___ thank-you letters.",
+      "type": "multiple",
+      "choices": [
+        "to write",
+        "writing",
+        "write",
+        "wrote"
+      ],
+      "answer": 0,
+      "explanation": "礼儀として to 不定詞を使います。"
+    },
+    {
+      "id": "eng-gi-088",
+      "question": "It is fun ___ board games with family.",
+      "type": "multiple",
+      "choices": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-089",
+      "question": "It is important ___ honest with friends.",
+      "type": "multiple",
+      "choices": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to be の形です。"
+    },
+    {
+      "id": "eng-gi-090",
+      "question": "It is useful ___ notes during class.",
+      "type": "multiple",
+      "choices": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "answer": 0,
+      "explanation": "It is + 形容詞 + to 動詞 の形です。"
+    },
+    {
+      "id": "eng-gi-091",
+      "question": "She is good at ___ stories to children.",
+      "type": "multiple",
+      "choices": [
+        "telling",
+        "to tell",
+        "tell",
+        "told"
+      ],
+      "answer": 0,
+      "explanation": "前置詞の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-092",
+      "question": "He is interested in ___ about space.",
+      "type": "multiple",
+      "choices": [
+        "learning",
+        "to learn",
+        "learn",
+        "learned"
+      ],
+      "answer": 0,
+      "explanation": "in の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-093",
+      "question": "They talked about ___ a school festival.",
+      "type": "multiple",
+      "choices": [
+        "planning",
+        "to plan",
+        "plan",
+        "planned"
+      ],
+      "answer": 0,
+      "explanation": "about の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-094",
+      "question": "We are looking forward to ___ you soon.",
+      "type": "multiple",
+      "choices": [
+        "seeing",
+        "to see",
+        "see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "to (前置詞) の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-095",
+      "question": "She apologized for ___ late.",
+      "type": "multiple",
+      "choices": [
+        "coming",
+        "to come",
+        "come",
+        "came"
+      ],
+      "answer": 0,
+      "explanation": "for の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-096",
+      "question": "He is afraid of ___ mistakes.",
+      "type": "multiple",
+      "choices": [
+        "making",
+        "to make",
+        "make",
+        "made"
+      ],
+      "answer": 0,
+      "explanation": "of の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-097",
+      "question": "They succeeded in ___ the puzzle.",
+      "type": "multiple",
+      "choices": [
+        "solving",
+        "to solve",
+        "solve",
+        "solved"
+      ],
+      "answer": 0,
+      "explanation": "in の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-098",
+      "question": "We spent time ___ the classroom.",
+      "type": "multiple",
+      "choices": [
+        "cleaning",
+        "to clean",
+        "clean",
+        "cleaned"
+      ],
+      "answer": 0,
+      "explanation": "spend time の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-099",
+      "question": "She is busy ___ posters for the event.",
+      "type": "multiple",
+      "choices": [
+        "making",
+        "to make",
+        "make",
+        "made"
+      ],
+      "answer": 0,
+      "explanation": "be busy の後は動詞 ing 形です。"
+    },
+    {
+      "id": "eng-gi-100",
+      "question": "He thanked us for ___ him move.",
+      "type": "multiple",
+      "choices": [
+        "helping",
+        "to help",
+        "help",
+        "helped"
+      ],
+      "answer": 0,
+      "explanation": "for の後は動詞 ing 形です。"
+    }
+  ]
+}

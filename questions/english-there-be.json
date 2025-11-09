@@ -1,0 +1,1309 @@
+{
+  "subject": "english",
+  "subjectName": "英語",
+  "unitId": "there-be",
+  "unitName": "There is/There are ～",
+  "category": "文法",
+  "questions": [
+    {
+      "id": "eng-there-001",
+      "question": "There ___ a bakery near the station.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-002",
+      "question": "There ___ a letter for you on the table.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-003",
+      "question": "There ___ a library across from the park.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-004",
+      "question": "There ___ a tall tree in front of our house.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-005",
+      "question": "There ___ a message on the whiteboard.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-006",
+      "question": "There ___ a test tomorrow morning.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-007",
+      "question": "There ___ a pencil on the floor.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-008",
+      "question": "There ___ a museum in this small town.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-009",
+      "question": "There ___ a taxi waiting outside.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-010",
+      "question": "There ___ a concert at the hall tonight.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-011",
+      "question": "There ___ a problem with this printer.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-012",
+      "question": "There ___ a rainbow after the rain.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-013",
+      "question": "There ___ a movie I want to see.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-014",
+      "question": "There ___ a soccer match at the stadium.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-015",
+      "question": "There ___ a call for you from Mr. Sato.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-016",
+      "question": "There ___ a chair next to the window.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-017",
+      "question": "There ___ a cafeteria on the first floor.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-018",
+      "question": "There ___ a festival in our city this weekend.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-019",
+      "question": "There ___ a bus stop near the school.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-020",
+      "question": "There ___ an emergency exit at the back.",
+      "type": "multiple",
+      "choices": [
+        "is",
+        "are",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "単数名詞を受けているので現在形は there is を用います。"
+    },
+    {
+      "id": "eng-there-021",
+      "question": "There ___ three apples on the plate.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-022",
+      "question": "There ___ many students in the gym.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-023",
+      "question": "There ___ two computers in the library.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-024",
+      "question": "There ___ some pictures on the wall.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-025",
+      "question": "There ___ several parks in this town.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-026",
+      "question": "There ___ five questions on the quiz.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-027",
+      "question": "There ___ enough seats for everyone.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-028",
+      "question": "There ___ a lot of stars in the sky tonight.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-029",
+      "question": "There ___ new houses on that street.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-030",
+      "question": "There ___ many books about history here.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-031",
+      "question": "There ___ buses every ten minutes.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-032",
+      "question": "There ___ candles on the birthday cake.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-033",
+      "question": "There ___ volunteers helping at the event.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-034",
+      "question": "There ___ two errors in this report.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-035",
+      "question": "There ___ plenty of snacks on the table.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-036",
+      "question": "There ___ interesting exhibits at the museum.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-037",
+      "question": "There ___ bicycles parked near the gate.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-038",
+      "question": "There ___ clouds in the blue sky.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-039",
+      "question": "There ___ instructions on the back of the box.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-040",
+      "question": "There ___ fresh flowers in the vase.",
+      "type": "multiple",
+      "choices": [
+        "are",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "複数を表しているので現在形は there are を使います。"
+    },
+    {
+      "id": "eng-there-041",
+      "question": "There ___ any milk left in the fridge.",
+      "type": "multiple",
+      "choices": [
+        "isn't",
+        "aren't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので isn't を用います。"
+    },
+    {
+      "id": "eng-there-042",
+      "question": "There ___ any classes after lunch today.",
+      "type": "multiple",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので aren't を用います。"
+    },
+    {
+      "id": "eng-there-043",
+      "question": "There ___ a bus to the city tonight.",
+      "type": "multiple",
+      "choices": [
+        "isn't",
+        "aren't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので isn't を用います。"
+    },
+    {
+      "id": "eng-there-044",
+      "question": "There ___ enough chairs for all the guests.",
+      "type": "multiple",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので aren't を用います。"
+    },
+    {
+      "id": "eng-there-045",
+      "question": "There ___ a bank on this street.",
+      "type": "multiple",
+      "choices": [
+        "isn't",
+        "aren't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので isn't を用います。"
+    },
+    {
+      "id": "eng-there-046",
+      "question": "There ___ any mistakes in her essay.",
+      "type": "multiple",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので aren't を用います。"
+    },
+    {
+      "id": "eng-there-047",
+      "question": "There ___ time to waste.",
+      "type": "multiple",
+      "choices": [
+        "isn't",
+        "aren't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので isn't を用います。"
+    },
+    {
+      "id": "eng-there-048",
+      "question": "There ___ many people at the station early in the morning.",
+      "type": "multiple",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので aren't を用います。"
+    },
+    {
+      "id": "eng-there-049",
+      "question": "There ___ a doctor available right now.",
+      "type": "multiple",
+      "choices": [
+        "isn't",
+        "aren't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので isn't を用います。"
+    },
+    {
+      "id": "eng-there-050",
+      "question": "There ___ any tickets left for the concert.",
+      "type": "multiple",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "weren't"
+      ],
+      "answer": 0,
+      "explanation": "否定文なので aren't を用います。"
+    },
+    {
+      "id": "eng-there-051",
+      "question": "___ there a supermarket near here?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Is there...? の形になります。"
+    },
+    {
+      "id": "eng-there-052",
+      "question": "___ there any homework for tomorrow?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Is there...? の形になります。"
+    },
+    {
+      "id": "eng-there-053",
+      "question": "___ there two pencils in your bag?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Are there...? の形になります。"
+    },
+    {
+      "id": "eng-there-054",
+      "question": "___ there any seats available?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Are there...? の形になります。"
+    },
+    {
+      "id": "eng-there-055",
+      "question": "___ there a bus at noon?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Is there...? の形になります。"
+    },
+    {
+      "id": "eng-there-056",
+      "question": "___ there many foreign students in your school?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Are there...? の形になります。"
+    },
+    {
+      "id": "eng-there-057",
+      "question": "___ there a restaurant on this island?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Is there...? の形になります。"
+    },
+    {
+      "id": "eng-there-058",
+      "question": "___ there any problems with the plan?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Are there...? の形になります。"
+    },
+    {
+      "id": "eng-there-059",
+      "question": "___ there a train that goes directly to Kyoto?",
+      "type": "multiple",
+      "choices": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Is there...? の形になります。"
+    },
+    {
+      "id": "eng-there-060",
+      "question": "___ there any messages for me?",
+      "type": "multiple",
+      "choices": [
+        "Are",
+        "Is",
+        "Was",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "疑問文の文頭では Are there...? の形になります。"
+    },
+    {
+      "id": "eng-there-061",
+      "question": "There ___ a big earthquake last night.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-062",
+      "question": "There ___ a meeting yesterday afternoon.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-063",
+      "question": "There ___ a strange noise outside.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-064",
+      "question": "There ___ a letter from my friend on the desk yesterday.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-065",
+      "question": "There ___ a traffic jam on my way home.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-066",
+      "question": "There ___ an interesting program on TV last night.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-067",
+      "question": "There ___ a festival in town last weekend.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-068",
+      "question": "There ___ a test in English last Friday.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-069",
+      "question": "There ___ a storm over the mountains.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-070",
+      "question": "There ___ a problem with the computer yesterday.",
+      "type": "multiple",
+      "choices": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": 0,
+      "explanation": "過去の単数の出来事なので there was を使います。"
+    },
+    {
+      "id": "eng-there-071",
+      "question": "There ___ many people at the station this morning.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-072",
+      "question": "There ___ three concerts during the festival.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-073",
+      "question": "There ___ several mistakes in his report.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-074",
+      "question": "There ___ two trains that were delayed yesterday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-075",
+      "question": "There ___ a lot of stars in the sky last night.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-076",
+      "question": "There ___ many visitors at the museum on Sunday.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-077",
+      "question": "There ___ loud noises coming from the street.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-078",
+      "question": "There ___ clouds in the sky before the storm.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-079",
+      "question": "There ___ chairs lined up in the hallway before the ceremony.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-080",
+      "question": "There ___ new paintings on display last month.",
+      "type": "multiple",
+      "choices": [
+        "were",
+        "was",
+        "are",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "過去の複数の存在を表すので there were を用います。"
+    },
+    {
+      "id": "eng-there-081",
+      "question": "There ___ any buses after midnight.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため weren't を選びます。"
+    },
+    {
+      "id": "eng-there-082",
+      "question": "There ___ a train to Kyoto yesterday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため wasn't を選びます。"
+    },
+    {
+      "id": "eng-there-083",
+      "question": "There ___ many people at the library on Sunday.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため weren't を選びます。"
+    },
+    {
+      "id": "eng-there-084",
+      "question": "There ___ time to finish the project yesterday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため wasn't を選びます。"
+    },
+    {
+      "id": "eng-there-085",
+      "question": "There ___ any letters for you this morning.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため weren't を選びます。"
+    },
+    {
+      "id": "eng-there-086",
+      "question": "There ___ a meeting last Friday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため wasn't を選びます。"
+    },
+    {
+      "id": "eng-there-087",
+      "question": "There ___ enough chairs at the event.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため weren't を選びます。"
+    },
+    {
+      "id": "eng-there-088",
+      "question": "There ___ a doctor on duty last night.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため wasn't を選びます。"
+    },
+    {
+      "id": "eng-there-089",
+      "question": "There ___ lights on in the building last night.",
+      "type": "multiple",
+      "choices": [
+        "weren't",
+        "wasn't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため weren't を選びます。"
+    },
+    {
+      "id": "eng-there-090",
+      "question": "There ___ anything interesting on TV yesterday.",
+      "type": "multiple",
+      "choices": [
+        "wasn't",
+        "weren't",
+        "isn't",
+        "aren't"
+      ],
+      "answer": 0,
+      "explanation": "過去の否定を表すため wasn't を選びます。"
+    },
+    {
+      "id": "eng-there-091",
+      "question": "___ there a typhoon last weekend?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Was there...? を使います。"
+    },
+    {
+      "id": "eng-there-092",
+      "question": "___ there many people at the concert yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Were there...? を使います。"
+    },
+    {
+      "id": "eng-there-093",
+      "question": "___ there a science test on Monday?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Was there...? を使います。"
+    },
+    {
+      "id": "eng-there-094",
+      "question": "___ there any seats left on the train?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Were there...? を使います。"
+    },
+    {
+      "id": "eng-there-095",
+      "question": "___ there a message for me?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Was there...? を使います。"
+    },
+    {
+      "id": "eng-there-096",
+      "question": "___ there two meetings yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Were there...? を使います。"
+    },
+    {
+      "id": "eng-there-097",
+      "question": "___ there a problem with the computer yesterday?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Was there...? を使います。"
+    },
+    {
+      "id": "eng-there-098",
+      "question": "___ there any accidents on the highway last night?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Were there...? を使います。"
+    },
+    {
+      "id": "eng-there-099",
+      "question": "___ there a library in this town ten years ago?",
+      "type": "multiple",
+      "choices": [
+        "Was",
+        "Were",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Was there...? を使います。"
+    },
+    {
+      "id": "eng-there-100",
+      "question": "___ there many tourists in Kyoto last spring?",
+      "type": "multiple",
+      "choices": [
+        "Were",
+        "Was",
+        "Is",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "過去の疑問文では Were there...? を使います。"
+    }
+  ]
+}
