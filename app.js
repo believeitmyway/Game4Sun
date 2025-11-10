@@ -158,18 +158,166 @@ const POOP_JOKES = [
     'スッキリ爽快'
 ];
 
+// スプラッシュスクリーン管理
+const SPLASH_TOTAL_STEPS = 7;
+let splashCurrentStep = 0;
+let splashReady = false;
+let splashAlreadyHidden = false;
+let splashScreenEl = null;
+let splashProgressBarEl = null;
+let splashCTAEl = null;
+let splashInnerEl = null;
+
+function initSplashScreen() {
+    splashScreenEl = document.getElementById('splash-screen');
+    splashProgressBarEl = document.getElementById('splash-progress-bar');
+    splashCTAEl = document.getElementById('splash-cta');
+    splashInnerEl = splashScreenEl ? splashScreenEl.querySelector('.splash-inner') : null;
+
+    if (splashScreenEl) {
+        document.body.classList.add('splash-active');
+        splashScreenEl.setAttribute('role', 'button');
+        splashScreenEl.setAttribute('aria-label', 'クリックまたはタップしてゲームを開始');
+
+        if (splashProgressBarEl && !splashProgressBarEl.style.width) {
+            splashProgressBarEl.style.width = '12%';
+        }
+
+        splashScreenEl.addEventListener('click', handleSplashActivate);
+        splashScreenEl.addEventListener('keydown', handleSplashKeydown);
+
+        requestAnimationFrame(() => {
+            splashScreenEl.classList.add('active');
+        });
+    }
+}
+
+function setSplashCTA(message) {
+    if (splashCTAEl && typeof message === 'string') {
+        splashCTAEl.textContent = message;
+    }
+}
+
+function advanceSplashProgress(stepIncrement = 1) {
+    if (!splashProgressBarEl) return;
+    splashCurrentStep = Math.min(SPLASH_TOTAL_STEPS, splashCurrentStep + stepIncrement);
+    const percent = Math.max(12, (splashCurrentStep / SPLASH_TOTAL_STEPS) * 100);
+    splashProgressBarEl.style.width = `${percent}%`;
+}
+
+function completeSplashProgress() {
+    if (!splashProgressBarEl) return;
+    splashCurrentStep = SPLASH_TOTAL_STEPS;
+    splashProgressBarEl.style.width = '100%';
+    splashProgressBarEl.classList.add('is-complete');
+}
+
+function markSplashReady() {
+    splashReady = true;
+    completeSplashProgress();
+    setSplashCTA('クリックまたはタップしてスタート！');
+    if (splashScreenEl) {
+        splashScreenEl.classList.add('ready');
+    }
+    if (splashInnerEl) {
+        splashInnerEl.classList.add('ready');
+    }
+}
+
+function handleSplashActivate(event) {
+    if (event && event.type === 'keydown' && !(event.key === 'Enter' || event.key === ' ')) {
+        return;
+    }
+
+    if (event && event.type === 'keydown') {
+        event.preventDefault();
+    }
+
+    if (!splashReady) {
+        triggerSplashNudge();
+        return;
+    }
+
+    hideSplashScreen();
+}
+
+function handleSplashKeydown(event) {
+    if (event.key === 'Enter' || event.key === ' ') {
+        handleSplashActivate(event);
+    }
+}
+
+function triggerSplashNudge() {
+    if (!splashInnerEl) return;
+    splashInnerEl.classList.remove('nudge');
+    // Reflow to restart animation
+    void splashInnerEl.offsetWidth;
+    splashInnerEl.classList.add('nudge');
+}
+
+function hideSplashScreen(delay = 0) {
+    if (!splashScreenEl || splashAlreadyHidden) return;
+    splashAlreadyHidden = true;
+
+    if (splashScreenEl) {
+        splashScreenEl.removeEventListener('click', handleSplashActivate);
+        splashScreenEl.removeEventListener('keydown', handleSplashKeydown);
+        splashScreenEl.classList.remove('active');
+        splashScreenEl.classList.add('fade-out');
+        splashScreenEl.classList.remove('ready');
+    }
+
+    document.body.classList.remove('splash-active');
+
+    const removeSplash = () => {
+        if (splashScreenEl && splashScreenEl.parentNode) {
+            splashScreenEl.parentNode.removeChild(splashScreenEl);
+        }
+        splashScreenEl = null;
+        splashProgressBarEl = null;
+        splashCTAEl = null;
+        splashInnerEl = null;
+    };
+
+    setTimeout(removeSplash, Math.max(600, delay));
+}
+
 // 初期化
 document.addEventListener('DOMContentLoaded', async () => {
+    initSplashScreen();
+
+    setSplashCTA('過去の挑戦を分析中...');
     loadUserData();
+    advanceSplashProgress();
+
+    setSplashCTA('プレイヤーデータを同期中...');
     loadPlayerData();
+    advanceSplashProgress();
+
+    setSplashCTA('連続学習ボーナスを計算中...');
     loadStreakData();
+    advanceSplashProgress();
+
+    setSplashCTA('実績をチェックしています...');
     loadAchievements();
+    advanceSplashProgress();
+
+    setSplashCTA('ショップを準備中...');
     loadShopData();
+    advanceSplashProgress();
+
+    setSplashCTA('設定を復元しています...');
     loadSettings();
+    advanceSplashProgress();
+
+    setSplashCTA('問題データを読み込み中...');
     await loadQuestions();  // 問題データを読み込む
+    advanceSplashProgress();
+
     updateTitle();  // 称号を更新
     updateTopScreenDashboard();
     showScreen('top-screen');
+    markSplashReady();
 });
 
 // JSONファイルから問題データを読み込む
