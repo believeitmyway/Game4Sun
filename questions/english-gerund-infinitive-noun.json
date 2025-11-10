@@ -852,198 +852,198 @@
     },
     {
       "id": "eng-gi-066",
-      "question": "___ new things is exciting.",
+      "question": "To ___ new things is exciting.",
       "type": "multiple",
       "choices": [
-        "To learn",
-        "Learning",
-        "Learn",
-        "Learns"
+        "learn",
+        "learning",
+        "learned",
+        "learns"
       ],
       "answer": 0,
-      "explanation": "形式的に to 不定詞を主語に置いています。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-067",
-      "question": "___ others is important.",
+      "question": "To ___ others is important.",
       "type": "multiple",
       "choices": [
-        "To help",
-        "Helping",
-        "Help",
-        "Helps"
+        "help",
+        "helping",
+        "helped",
+        "helps"
       ],
       "answer": 0,
-      "explanation": "一般的な行為を述べるときに to 不定詞を使います。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-068",
-      "question": "___ early is good for your health.",
+      "question": "To ___ early is good for your health.",
       "type": "multiple",
       "choices": [
-        "To get up",
-        "Getting up",
-        "Get up",
-        "Gets up"
+        "get up",
+        "getting up",
+        "got up",
+        "gets up"
       ],
       "answer": 0,
-      "explanation": "一般的なことを述べる際の to 不定詞。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-069",
-      "question": "___ mistakes is natural.",
+      "question": "To ___ mistakes is natural.",
       "type": "multiple",
       "choices": [
-        "To make",
-        "Making",
-        "Make",
-        "Makes"
+        "make",
+        "making",
+        "made",
+        "makes"
       ],
       "answer": 0,
-      "explanation": "行為全体を述べるときの to 不定詞です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-070",
-      "question": "___ honest is always right.",
+      "question": "To ___ honest is always right.",
       "type": "multiple",
       "choices": [
-        "To be",
-        "Being",
-        "Be",
-        "Is"
+        "be",
+        "being",
+        "are",
+        "been"
       ],
       "answer": 0,
-      "explanation": "to 不定詞が主語の役割を果たします。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-071",
-      "question": "___ abroad someday is her dream.",
+      "question": "To ___ abroad someday is her dream.",
       "type": "multiple",
       "choices": [
-        "To study",
-        "Studying",
-        "Study",
-        "Studied"
+        "study",
+        "studying",
+        "studied",
+        "studies"
       ],
       "answer": 0,
-      "explanation": "夢を述べるときに to 不定詞を使っています。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-072",
-      "question": "___ quietly during class is polite.",
+      "question": "To ___ quietly during class is polite.",
       "type": "multiple",
       "choices": [
-        "To listen",
-        "Listening",
-        "Listen",
-        "Listens"
+        "listen",
+        "listening",
+        "listened",
+        "listens"
       ],
       "answer": 0,
-      "explanation": "一般的なルールを述べる to 不定詞。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-073",
-      "question": "___ enough sleep is difficult during exams.",
+      "question": "To ___ enough sleep is difficult during exams.",
       "type": "multiple",
       "choices": [
-        "To get",
-        "Getting",
-        "Get",
-        "Gets"
+        "get",
+        "getting",
+        "got",
+        "gets"
       ],
       "answer": 0,
-      "explanation": "抽象的な行為を表すため to 不定詞を使います。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-074",
-      "question": "___ an instrument takes time.",
+      "question": "To ___ an instrument takes time.",
       "type": "multiple",
       "choices": [
-        "To play",
-        "Playing",
-        "Play",
-        "Plays"
+        "play",
+        "playing",
+        "played",
+        "plays"
       ],
       "answer": 0,
-      "explanation": "「〜すること」を表す to 不定詞です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-075",
-      "question": "___ new ideas is important for scientists.",
+      "question": "To ___ new ideas is important for scientists.",
       "type": "multiple",
       "choices": [
-        "To create",
-        "Creating",
-        "Create",
-        "Creates"
+        "create",
+        "creating",
+        "created",
+        "creates"
       ],
       "answer": 0,
-      "explanation": "一般論として to 不定詞を用います。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-076",
-      "question": "___ healthy food is not easy for everyone.",
+      "question": "To ___ healthy food is not easy for everyone.",
       "type": "multiple",
       "choices": [
-        "To cook",
-        "Cooking",
-        "Cook",
-        "Cooks"
+        "cook",
+        "cooking",
+        "cooked",
+        "cooks"
       ],
       "answer": 0,
-      "explanation": "「〜すること」を表す to 不定詞です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-077",
-      "question": "___ a new language requires effort.",
+      "question": "To ___ a new language requires effort.",
       "type": "multiple",
       "choices": [
-        "To learn",
-        "Learning",
-        "Learn",
-        "Learns"
+        "learn",
+        "learning",
+        "learned",
+        "learns"
       ],
       "answer": 0,
-      "explanation": "一般的事実を示す to 不定詞です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-078",
-      "question": "___ abroad broadens your mind.",
+      "question": "To ___ abroad broadens your mind.",
       "type": "multiple",
       "choices": [
-        "To travel",
-        "Traveling",
-        "Travel",
-        "Travels"
+        "travel",
+        "traveling",
+        "traveled",
+        "travels"
       ],
       "answer": 0,
-      "explanation": "to 不定詞で「旅行すること」を表します。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-079",
-      "question": "___ carefully is necessary in science experiments.",
+      "question": "To ___ carefully is necessary in science experiments.",
       "type": "multiple",
       "choices": [
-        "To observe",
-        "Observing",
-        "Observe",
-        "Observes"
+        "observe",
+        "observing",
+        "observed",
+        "observes"
       ],
       "answer": 0,
-      "explanation": "to 不定詞を主語に使う例です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-080",
-      "question": "___ in a choir is one of her goals.",
+      "question": "To ___ in a choir is one of her goals.",
       "type": "multiple",
       "choices": [
-        "To sing",
-        "Singing",
-        "Sing",
-        "Sings"
+        "sing",
+        "singing",
+        "sang",
+        "sings"
       ],
       "answer": 0,
-      "explanation": "目的・目標を表すときの to 不定詞です。"
+      "explanation": "to 不定詞では動詞の原形を用います。"
     },
     {
       "id": "eng-gi-081",
