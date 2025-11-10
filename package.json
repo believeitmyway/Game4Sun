@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "中学2年生向けの超派手で楽しい学習クイズゲームです！5教科（英・数・国・理・社）の問題を解いて、うんちレーサーと一緒にゴール（黄金のトイレ）を目指しましょう！",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test:shop",
+    "test:shop": "node test_shop_features.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/believeitmyway/Game4Sun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/believeitmyway/Game4Sun/issues"
+  },
+  "homepage": "https://github.com/believeitmyway/Game4Sun#readme",
+  "devDependencies": {
+    "jsdom": "^27.1.0"
+  }
+}
