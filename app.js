@@ -14,6 +14,41 @@ let settings = {
     explicitContent: true  // 下ネタあり/なし
 };
 
+// 新機能: プレイヤーデータ
+let playerData = {
+    level: 1,
+    exp: 0,
+    upPoints: 0,  // U-P（うんちポイント）
+    title: 'うんち初心者💩',
+    totalQuestions: 0,
+    totalCorrect: 0,
+    consecutiveCorrect: 0,  // 連続正解数
+    bestConsecutiveCorrect: 0
+};
+
+// 新機能: ストリークデータ
+let streakData = {
+    currentStreak: 0,  // 現在の連続学習日数
+    lastStudyDate: null,  // 最終学習日（YYYY-MM-DD形式）
+    longestStreak: 0  // 最長連続学習日数
+};
+
+// 新機能: アチーブメントデータ
+let achievements = {
+    unlocked: [],  // 獲得済み実績IDのリスト
+    progress: {}  // 実績の進捗状況（例: { "100-questions": 45 }）
+};
+
+// 新機能: ショップデータ
+let shopData = {
+    purchased: [],  // 購入済みアイテムIDのリスト
+    active: {  // 現在使用中のアイテム
+        racer: null,
+        background: null,
+        effects: []
+    }
+};
+
 // 問題データベース（JSONファイルから読み込む）
 let QUESTION_DATABASE = {};
 
@@ -126,8 +161,14 @@ const POOP_JOKES = [
 // 初期化
 document.addEventListener('DOMContentLoaded', async () => {
     loadUserData();
+    loadPlayerData();
+    loadStreakData();
+    loadAchievements();
+    loadShopData();
     loadSettings();
     await loadQuestions();  // 問題データを読み込む
+    updateTitle();  // 称号を更新
+    updateTopScreenDashboard();
     showScreen('top-screen');
 });
 
@@ -207,6 +248,460 @@ function saveSettings() {
     localStorage.setItem('unchiDrill_settings', JSON.stringify(settings));
 }
 
+// 新機能: プレイヤーデータの読み込み・保存
+function loadPlayerData() {
+    const saved = localStorage.getItem('unchiDrill_playerData');
+    if (saved) {
+        const data = JSON.parse(saved);
+        playerData = { ...playerData, ...data };
+    }
+}
+
+function savePlayerData() {
+    localStorage.setItem('unchiDrill_playerData', JSON.stringify(playerData));
+}
+
+// 新機能: ストリークデータの読み込み・保存
+function loadStreakData() {
+    const saved = localStorage.getItem('unchiDrill_streakData');
+    if (saved) {
+        const data = JSON.parse(saved);
+        streakData = { ...streakData, ...data };
+    }
+    // ストリークの更新チェック
+    updateStreak();
+}
+
+function saveStreakData() {
+    localStorage.setItem('unchiDrill_streakData', JSON.stringify(streakData));
+}
+
+// 新機能: ストリークの更新
+function updateStreak() {
+    const today = new Date().toISOString().split('T')[0];
+    const lastDate = streakData.lastStudyDate;
+    
+    if (!lastDate) {
+        // 初回学習
+        streakData.currentStreak = 0;
+    } else if (lastDate === today) {
+        // 今日既に学習済み
+        // ストリークは維持
+    } else {
+        const lastDateObj = new Date(lastDate);
+        const todayObj = new Date(today);
+        const diffDays = Math.floor((todayObj - lastDateObj) / (1000 * 60 * 60 * 24));
+        
+        if (diffDays === 1) {
+            // 連続学習継続
+            streakData.currentStreak++;
+        } else if (diffDays > 1) {
+            // ストリーク途切れ
+            if (streakData.currentStreak > streakData.longestStreak) {
+                streakData.longestStreak = streakData.currentStreak;
+            }
+            streakData.currentStreak = 0;
+        }
+    }
+    saveStreakData();
+}
+
+// 新機能: 学習記録時にストリークを更新
+function updateStreakOnStudy() {
+    const today = new Date().toISOString().split('T')[0];
+    const lastDate = streakData.lastStudyDate;
+    
+    if (lastDate !== today) {
+        updateStreak();
+        streakData.lastStudyDate = today;
+        saveStreakData();
+    }
+}
+
+// 新機能: アチーブメントデータの読み込み・保存
+function loadAchievements() {
+    const saved = localStorage.getItem('unchiDrill_achievements');
+    if (saved) {
+        const data = JSON.parse(saved);
+        achievements = { ...achievements, ...data };
+    }
+}
+
+function saveAchievements() {
+    localStorage.setItem('unchiDrill_achievements', JSON.stringify(achievements));
+}
+
+// 新機能: ショップデータの読み込み・保存
+function loadShopData() {
+    const saved = localStorage.getItem('unchiDrill_shopData');
+    if (saved) {
+        const data = JSON.parse(saved);
+        shopData = { ...shopData, ...data };
+    }
+}
+
+function saveShopData() {
+    localStorage.setItem('unchiDrill_shopData', JSON.stringify(shopData));
+}
+
+// 新機能: レベル計算関数
+function getExpForLevel(level) {
+    // レベル1→2: 100, レベル2→3: 150, レベル3→4: 200... というように増加
+    return 100 + (level - 1) * 50;
+}
+
+// 新機能: レベルアップチェック
+function checkLevelUp() {
+    const expNeeded = getExpForLevel(playerData.level);
+    if (playerData.exp >= expNeeded) {
+        playerData.level++;
+        playerData.exp -= expNeeded;
+        updateTitle();
+        return true;
+    }
+    return false;
+}
+
+// 新機能: 称号の更新
+function updateTitle() {
+    if (playerData.level >= 51) {
+        playerData.title = 'うんちゴッド💫';
+    } else if (playerData.level >= 31) {
+        playerData.title = 'うんちキング👑';
+    } else if (playerData.level >= 11) {
+        playerData.title = 'うんちマスター🚽';
+    } else {
+        playerData.title = 'うんち初心者💩';
+    }
+    
+    // 特別称号のチェック
+    if (streakData.currentStreak >= 7 && !achievements.unlocked.includes('streak-7')) {
+        playerData.title = '連続学習マスター🔥';
+    }
+    if (playerData.bestConsecutiveCorrect >= 30 && !achievements.unlocked.includes('consecutive-30')) {
+        playerData.title = '完璧主義者✨';
+    }
+}
+
+// 新機能: ストリークボーナス計算
+function getStreakBonus() {
+    const streak = streakData.currentStreak;
+    let expBonus = 0;
+    let upBonus = 0;
+    
+    if (streak >= 30) {
+        expBonus = 2.0;  // +200%
+        upBonus = 1.0;   // +100%
+    } else if (streak >= 14) {
+        expBonus = 1.0;  // +100%
+        upBonus = 0.5;   // +50%
+    } else if (streak >= 7) {
+        expBonus = 0.5;  // +50%
+        upBonus = 0.25;  // +25%
+    } else if (streak >= 3) {
+        expBonus = 0.2;  // +20%
+        upBonus = 0.1;   // +10%
+    }
+    
+    return { expBonus, upBonus };
+}
+
+// 新機能: アチーブメント定義
+const ACHIEVEMENTS = {
+    'first-question': {
+        name: '初めての問題',
+        description: '初めて問題を解く',
+        check: () => playerData.totalQuestions >= 1
+    },
+    '100-questions': {
+        name: '100問クリア',
+        description: '累計100問解く',
+        check: () => playerData.totalQuestions >= 100
+    },
+    '500-questions': {
+        name: '500問クリア',
+        description: '累計500問解く',
+        check: () => playerData.totalQuestions >= 500
+    },
+    '1000-questions': {
+        name: '1000問クリア',
+        description: '累計1000問解く',
+        check: () => playerData.totalQuestions >= 1000
+    },
+    'consecutive-3': {
+        name: '3連続正解',
+        description: '3問連続正解する',
+        check: () => playerData.consecutiveCorrect >= 3
+    },
+    'consecutive-10': {
+        name: '10連続正解',
+        description: '10問連続正解する',
+        check: () => playerData.consecutiveCorrect >= 10
+    },
+    'consecutive-30': {
+        name: '30連続正解',
+        description: '30問連続正解する',
+        check: () => playerData.consecutiveCorrect >= 30
+    },
+    'streak-3': {
+        name: '3日連続学習',
+        description: '3日連続で学習する',
+        check: () => streakData.currentStreak >= 3
+    },
+    'streak-7': {
+        name: '7日連続学習',
+        description: '7日連続で学習する',
+        check: () => streakData.currentStreak >= 7
+    },
+    'streak-30': {
+        name: '30日連続学習',
+        description: '30日連続で学習する',
+        check: () => streakData.currentStreak >= 30
+    },
+    'level-10': {
+        name: 'レベル10達成',
+        description: 'レベル10に到達する',
+        check: () => playerData.level >= 10
+    },
+    'level-30': {
+        name: 'レベル30達成',
+        description: 'レベル30に到達する',
+        check: () => playerData.level >= 30
+    },
+    'level-50': {
+        name: 'レベル50達成',
+        description: 'レベル50に到達する',
+        check: () => playerData.level >= 50
+    }
+};
+
+// 新機能: アチーブメントチェック
+function checkAchievements() {
+    Object.keys(ACHIEVEMENTS).forEach(achievementId => {
+        if (!achievements.unlocked.includes(achievementId)) {
+            const achievement = ACHIEVEMENTS[achievementId];
+            if (achievement.check()) {
+                unlockAchievement(achievementId);
+            }
+        }
+    });
+}
+
+// 新機能: アチーブメント解除
+function unlockAchievement(achievementId) {
+    if (achievements.unlocked.includes(achievementId)) {
+        return;  // 既に獲得済み
+    }
+    
+    achievements.unlocked.push(achievementId);
+    saveAchievements();
+    
+    const achievement = ACHIEVEMENTS[achievementId];
+    
+    // 報酬付与
+    const reward = getAchievementReward(achievementId);
+    playerData.exp += reward.exp;
+    playerData.upPoints += reward.up;
+    savePlayerData();
+    
+    // アチーブメント獲得通知
+    showAchievementNotification(achievement, reward);
+}
+
+// 新機能: アチーブメント報酬
+function getAchievementReward(achievementId) {
+    const rewards = {
+        'first-question': { exp: 10, up: 10 },
+        '100-questions': { exp: 50, up: 50 },
+        '500-questions': { exp: 200, up: 200 },
+        '1000-questions': { exp: 500, up: 500 },
+        'consecutive-3': { exp: 20, up: 20 },
+        'consecutive-10': { exp: 50, up: 50 },
+        'consecutive-30': { exp: 200, up: 200 },
+        'streak-3': { exp: 30, up: 30 },
+        'streak-7': { exp: 100, up: 100 },
+        'streak-30': { exp: 500, up: 500 },
+        'level-10': { exp: 100, up: 100 },
+        'level-30': { exp: 300, up: 300 },
+        'level-50': { exp: 500, up: 500 }
+    };
+    
+    return rewards[achievementId] || { exp: 0, up: 0 };
+}
+
+// 新機能: レベルアップモーダル表示
+function showLevelUpModal() {
+    const modal = document.getElementById('level-up-modal');
+    if (!modal) {
+        // モーダルが存在しない場合は作成
+        createLevelUpModal();
+    }
+    
+    const modalTitle = document.getElementById('level-up-title');
+    const modalLevel = document.getElementById('level-up-level');
+    const modalTitleText = document.getElementById('level-up-title-text');
+    
+    if (modalTitle) modalTitle.textContent = '🎉 レベルアップ！ 🎉';
+    if (modalLevel) modalLevel.textContent = `レベル ${playerData.level}`;
+    if (modalTitleText) modalTitleText.textContent = playerData.title;
+    
+    document.getElementById('level-up-modal').classList.add('active');
+    
+    // パーティクルエフェクト
+    for (let i = 0; i < 10; i++) {
+        setTimeout(() => {
+            createParticles('correct', Math.random() * window.innerWidth, Math.random() * window.innerHeight / 2);
+        }, i * 100);
+    }
+    
+    // 効果音
+    playSFX('finish');
+}
+
+// 新機能: レベルアップモーダル作成
+function createLevelUpModal() {
+    const modal = document.createElement('div');
+    modal.id = 'level-up-modal';
+    modal.className = 'modal';
+    modal.innerHTML = `
+        <div class="modal-content level-up-content">
+            <div class="modal-header">
+                <h3 id="level-up-title">🎉 レベルアップ！ 🎉</h3>
+            </div>
+            <div class="modal-body">
+                <div class="level-up-display">
+                    <div class="level-up-number" id="level-up-level">レベル 1</div>
+                    <div class="level-up-title" id="level-up-title-text">うんち初心者💩</div>
+                </div>
+            </div>
+            <button class="modal-btn" onclick="closeLevelUpModal()">やったー！</button>
+        </div>
+    `;
+    document.body.appendChild(modal);
+}
+
+// 新機能: レベルアップモーダルを閉じる
+function closeLevelUpModal() {
+    document.getElementById('level-up-modal').classList.remove('active');
+    // レベルアップ後もレベルアップの可能性があるので再チェック
+    while (checkLevelUp()) {
+        showLevelUpModal();
+    }
+}
+
+// 新機能: アチーブメント通知表示
+function showAchievementNotification(achievement, reward) {
+    const notification = document.createElement('div');
+    notification.className = 'achievement-notification';
+    notification.innerHTML = `
+        <div class="achievement-notification-content">
+            <div class="achievement-icon">🏆</div>
+            <div class="achievement-text">
+                <div class="achievement-name">${achievement.name}</div>
+                <div class="achievement-description">${achievement.description}</div>
+                <div class="achievement-reward">報酬: EXP +${reward.exp} / U-P +${reward.up}</div>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(notification);
+    
+    // アニメーション
+    setTimeout(() => {
+        notification.classList.add('show');
+    }, 10);
+    
+    // 3秒後に削除
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => {
+            notification.remove();
+        }, 500);
+    }, 3000);
+    
+    // パーティクルエフェクト
+    createParticles('correct', window.innerWidth / 2, 100);
+    playSFX('correct');
+}
+
+// 新機能: トップ画面ダッシュボード更新
+function updateTopScreenDashboard() {
+    // ダッシュボード要素が存在するかチェック
+    let dashboard = document.getElementById('top-dashboard');
+    if (!dashboard) {
+        // ダッシュボードが存在しない場合は作成
+        createTopScreenDashboard();
+        dashboard = document.getElementById('top-dashboard');
+    }
+    
+    // データ更新
+    const levelEl = document.getElementById('dashboard-level');
+    const expBar = document.getElementById('dashboard-exp-bar');
+    const expText = document.getElementById('dashboard-exp-text');
+    const upPoints = document.getElementById('dashboard-up-points');
+    const streak = document.getElementById('dashboard-streak');
+    const title = document.getElementById('dashboard-title');
+    
+    if (levelEl) levelEl.textContent = `レベル ${playerData.level}`;
+    if (title) title.textContent = playerData.title;
+    if (upPoints) upPoints.textContent = `${playerData.upPoints} U-P`;
+    
+    // EXPバー更新
+    const expNeeded = getExpForLevel(playerData.level);
+    const expPercent = (playerData.exp / expNeeded) * 100;
+    if (expBar) {
+        expBar.style.width = `${expPercent}%`;
+    }
+    if (expText) {
+        expText.textContent = `${playerData.exp} / ${expNeeded} EXP`;
+    }
+    
+    // ストリーク表示
+    if (streak) {
+        if (streakData.currentStreak > 0) {
+            streak.innerHTML = `🔥 ${streakData.currentStreak}日連続学習`;
+            streak.style.display = 'block';
+        } else {
+            streak.style.display = 'none';
+        }
+    }
+}
+
+// 新機能: トップ画面ダッシュボード作成
+function createTopScreenDashboard() {
+    const titleArea = document.querySelector('.title-area');
+    if (!titleArea) return;
+    
+    const dashboard = document.createElement('div');
+    dashboard.id = 'top-dashboard';
+    dashboard.className = 'top-dashboard';
+    dashboard.innerHTML = `
+        <div class="dashboard-row">
+            <div class="dashboard-item">
+                <div class="dashboard-label">レベル</div>
+                <div class="dashboard-value" id="dashboard-level">レベル 1</div>
+            </div>
+            <div class="dashboard-item">
+                <div class="dashboard-label">称号</div>
+                <div class="dashboard-value" id="dashboard-title">うんち初心者💩</div>
+            </div>
+            <div class="dashboard-item">
+                <div class="dashboard-label">U-P</div>
+                <div class="dashboard-value" id="dashboard-up-points">0 U-P</div>
+            </div>
+        </div>
+        <div class="dashboard-exp-container">
+            <div class="dashboard-exp-label">経験値</div>
+            <div class="dashboard-exp-bar-container">
+                <div class="dashboard-exp-bar" id="dashboard-exp-bar"></div>
+            </div>
+            <div class="dashboard-exp-text" id="dashboard-exp-text">0 / 100 EXP</div>
+        </div>
+        <div class="dashboard-streak" id="dashboard-streak" style="display: none;"></div>
+    `;
+    
+    titleArea.insertAdjacentElement('afterend', dashboard);
+}
+
 // 画面遷移
 function showScreen(screenId) {
     document.querySelectorAll('.screen').forEach(screen => {
@@ -218,6 +713,21 @@ function showScreen(screenId) {
     // ドリル設定画面に遷移する際は必ず科目選択から開始
     if (screenId === 'drill-setup-screen') {
         resetDrillSetup();
+    }
+    
+    // トップ画面に戻った時にダッシュボードを更新
+    if (screenId === 'top-screen') {
+        updateTopScreenDashboard();
+    }
+    
+    // アチーブメント画面の更新
+    if (screenId === 'achievements-screen') {
+        displayAchievements();
+    }
+    
+    // ショップ画面の更新
+    if (screenId === 'shop-screen') {
+        displayShop();
     }
 }
 
@@ -667,6 +1177,48 @@ function recordAnswer(questionId, isCorrect) {
     }
     
     localStorage.setItem('unchiDrill_dailyRecords', JSON.stringify(dailyRecords));
+    
+    // 新機能: プレイヤーデータの更新
+    playerData.totalQuestions++;
+    if (isCorrect) {
+        playerData.totalCorrect++;
+        playerData.consecutiveCorrect++;
+        if (playerData.consecutiveCorrect > playerData.bestConsecutiveCorrect) {
+            playerData.bestConsecutiveCorrect = playerData.consecutiveCorrect;
+        }
+        
+        // EXP獲得（基本10 + 連続ボーナス）
+        let expGained = 10;
+        let upGained = 10;
+        
+        if (playerData.consecutiveCorrect >= 3) expGained += 5;
+        if (playerData.consecutiveCorrect >= 5) expGained += 5;
+        if (playerData.consecutiveCorrect >= 10) expGained += 10;
+        
+        // ストリークボーナス
+        const streakBonus = getStreakBonus();
+        expGained = Math.floor(expGained * (1 + streakBonus.expBonus));
+        upGained = Math.floor(upGained * (1 + streakBonus.upBonus));
+        
+        playerData.exp += expGained;
+        playerData.upPoints += upGained;
+        
+        // レベルアップチェック
+        const leveledUp = checkLevelUp();
+        if (leveledUp) {
+            showLevelUpModal();
+        }
+    } else {
+        playerData.consecutiveCorrect = 0;
+    }
+    
+    savePlayerData();
+    
+    // ストリーク更新
+    updateStreakOnStudy();
+    
+    // アチーブメントチェック
+    checkAchievements();
 }
 
 function showExplanation(question, isCorrect) {
@@ -694,12 +1246,27 @@ function showResult() {
     const seconds = timeSpent % 60;
     
     const correctRate = Math.round((correctAnswers / currentQuestions.length) * 100);
-    const upPoints = correctAnswers * 10;
+    
+    // 今回のセッションで獲得したEXPとU-Pを計算
+    const sessionExp = correctAnswers * 10; // 簡易計算（実際はrecordAnswerで既に加算済み）
+    const sessionUP = correctAnswers * 10; // 簡易計算
     
     document.getElementById('result-correct').textContent = `${correctAnswers} / ${currentQuestions.length}`;
     document.getElementById('result-rate').textContent = `${correctRate}%`;
     document.getElementById('result-time').textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-    document.getElementById('result-up').textContent = upPoints;
+    
+    // U-P表示を更新（既存の要素があれば）
+    const resultUP = document.getElementById('result-up');
+    if (resultUP) {
+        resultUP.textContent = playerData.upPoints;
+    }
+    
+    // 新機能: EXP表示を追加
+    const resultExp = document.getElementById('result-exp');
+    if (resultExp) {
+        const expNeeded = getExpForLevel(playerData.level);
+        resultExp.textContent = `${playerData.exp} / ${expNeeded} EXP`;
+    }
     
     showScreen('result-screen');
     
@@ -712,6 +1279,9 @@ function showResult() {
             createParticles('correct', Math.random() * window.innerWidth, Math.random() * window.innerHeight / 2);
         }, i * 200);
     }
+    
+    // ダッシュボードを更新
+    updateTopScreenDashboard();
 }
 
 // 成績グラフ画面
@@ -944,9 +1514,41 @@ function confirmResetData() {
 function resetAllData() {
     localStorage.removeItem('unchiDrill_answerHistory');
     localStorage.removeItem('unchiDrill_dailyRecords');
+    localStorage.removeItem('unchiDrill_playerData');
+    localStorage.removeItem('unchiDrill_streakData');
+    localStorage.removeItem('unchiDrill_achievements');
+    localStorage.removeItem('unchiDrill_shopData');
     userAnswerHistory = {};
+    playerData = {
+        level: 1,
+        exp: 0,
+        upPoints: 0,
+        title: 'うんち初心者💩',
+        totalQuestions: 0,
+        totalCorrect: 0,
+        consecutiveCorrect: 0,
+        bestConsecutiveCorrect: 0
+    };
+    streakData = {
+        currentStreak: 0,
+        lastStudyDate: null,
+        longestStreak: 0
+    };
+    achievements = {
+        unlocked: [],
+        progress: {}
+    };
+    shopData = {
+        purchased: [],
+        active: {
+            racer: null,
+            background: null,
+            effects: []
+        }
+    };
     alert('学習記録をリセットしました！');
     closeConfirmDialog();
+    updateTopScreenDashboard();
 }
 
 // 確認ダイアログ
@@ -1094,4 +1696,242 @@ function animateParticle(particle, vx, vy) {
     }
     
     update();
+}
+
+// 新機能: ショップアイテム定義
+const SHOP_ITEMS = {
+    'racer-gold': {
+        name: '金色うんち💛',
+        description: 'うんちレーサーを金色に変更',
+        price: 500,
+        category: 'racer',
+        emoji: '💛'
+    },
+    'racer-rainbow': {
+        name: '虹色うんち🌈',
+        description: 'うんちレーサーを虹色に変更',
+        price: 1000,
+        category: 'racer',
+        emoji: '🌈'
+    },
+    'racer-sparkle': {
+        name: 'キラキラうんち✨',
+        description: 'うんちレーサーをキラキラに変更',
+        price: 1500,
+        category: 'racer',
+        emoji: '✨'
+    },
+    'racer-fire': {
+        name: '炎うんち🔥',
+        description: 'うんちレーサーを炎で包む',
+        price: 2000,
+        category: 'racer',
+        emoji: '🔥'
+    },
+    'racer-space': {
+        name: '宇宙うんち🚀',
+        description: 'うんちレーサーを宇宙仕様に',
+        price: 3000,
+        category: 'racer',
+        emoji: '🚀'
+    },
+    'bg-night': {
+        name: 'トイレの夜',
+        description: '背景を夜のトイレに変更',
+        price: 800,
+        category: 'background',
+        emoji: '🌙'
+    },
+    'bg-gold': {
+        name: '黄金のトイレ',
+        description: '背景を黄金のトイレに変更',
+        price: 1500,
+        category: 'background',
+        emoji: '🏆'
+    },
+    'bg-space': {
+        name: '宇宙トイレ',
+        description: '背景を宇宙に変更',
+        price: 2500,
+        category: 'background',
+        emoji: '🌌'
+    },
+    'effect-particles': {
+        name: '特大パーティクル',
+        description: 'パーティクルが2倍になる',
+        price: 1000,
+        category: 'effect',
+        emoji: '💫'
+    },
+    'effect-sound': {
+        name: '音響強化',
+        description: '効果音が豪華になる',
+        price: 1200,
+        category: 'effect',
+        emoji: '🔊'
+    }
+};
+
+// 新機能: ショップ画面表示
+function displayShop() {
+    const shopContainer = document.getElementById('shop-items');
+    if (!shopContainer) return;
+    
+    shopContainer.innerHTML = '';
+    
+    // カテゴリごとに表示
+    const categories = ['racer', 'background', 'effect'];
+    
+    categories.forEach(category => {
+        const categoryDiv = document.createElement('div');
+        categoryDiv.className = 'shop-category';
+        
+        const categoryTitle = document.createElement('h3');
+        categoryTitle.textContent = category === 'racer' ? 'うんちレーサー' : 
+                                    category === 'background' ? '背景テーマ' : 'エフェクト';
+        categoryDiv.appendChild(categoryTitle);
+        
+        const itemsDiv = document.createElement('div');
+        itemsDiv.className = 'shop-items-grid';
+        
+        Object.keys(SHOP_ITEMS).forEach(itemId => {
+            const item = SHOP_ITEMS[itemId];
+            if (item.category !== category) return;
+            
+            const itemDiv = document.createElement('div');
+            itemDiv.className = 'shop-item';
+            if (shopData.purchased.includes(itemId)) {
+                itemDiv.classList.add('purchased');
+            }
+            if (isItemActive(itemId)) {
+                itemDiv.classList.add('active');
+            }
+            
+            const isPurchased = shopData.purchased.includes(itemId);
+            const isActive = isItemActive(itemId);
+            
+            itemDiv.innerHTML = `
+                <div class="shop-item-emoji">${item.emoji}</div>
+                <div class="shop-item-name">${item.name}</div>
+                <div class="shop-item-description">${item.description}</div>
+                <div class="shop-item-price">${isPurchased ? '購入済み' : `${item.price} U-P`}</div>
+                <button class="shop-item-btn ${isPurchased ? (isActive ? 'active-btn' : 'use-btn') : 'buy-btn'}" 
+                        onclick="${isPurchased ? (isActive ? '' : `useShopItem('${itemId}')`) : `buyShopItem('${itemId}')`}">
+                    ${isPurchased ? (isActive ? '使用中' : '使用する') : '購入する'}
+                </button>
+            `;
+            
+            itemsDiv.appendChild(itemDiv);
+        });
+        
+        categoryDiv.appendChild(itemsDiv);
+        shopContainer.appendChild(categoryDiv);
+    });
+    
+    // U-P表示を更新
+    const shopUP = document.getElementById('shop-up-points');
+    if (shopUP) {
+        shopUP.textContent = `${playerData.upPoints} U-P`;
+    }
+}
+
+// 新機能: アイテムが使用中かチェック
+function isItemActive(itemId) {
+    const item = SHOP_ITEMS[itemId];
+    if (!item) return false;
+    
+    if (item.category === 'racer') {
+        return shopData.active.racer === itemId;
+    } else if (item.category === 'background') {
+        return shopData.active.background === itemId;
+    } else if (item.category === 'effect') {
+        return shopData.active.effects.includes(itemId);
+    }
+    return false;
+}
+
+// 新機能: ショップアイテム購入
+function buyShopItem(itemId) {
+    const item = SHOP_ITEMS[itemId];
+    if (!item) return;
+    
+    if (shopData.purchased.includes(itemId)) {
+        alert('既に購入済みです！');
+        return;
+    }
+    
+    if (playerData.upPoints < item.price) {
+        alert(`U-Pが足りません！\n必要: ${item.price} U-P / 所持: ${playerData.upPoints} U-P`);
+        return;
+    }
+    
+    if (confirm(`${item.name}を${item.price} U-Pで購入しますか？`)) {
+        playerData.upPoints -= item.price;
+        shopData.purchased.push(itemId);
+        savePlayerData();
+        saveShopData();
+        displayShop();
+        updateTopScreenDashboard();
+        alert('購入しました！');
+    }
+}
+
+// 新機能: ショップアイテム使用
+function useShopItem(itemId) {
+    const item = SHOP_ITEMS[itemId];
+    if (!item) return;
+    
+    if (!shopData.purchased.includes(itemId)) {
+        alert('このアイテムは購入していません！');
+        return;
+    }
+    
+    if (item.category === 'racer') {
+        shopData.active.racer = itemId;
+    } else if (item.category === 'background') {
+        shopData.active.background = itemId;
+    } else if (item.category === 'effect') {
+        if (!shopData.active.effects.includes(itemId)) {
+            shopData.active.effects.push(itemId);
+        }
+    }
+    
+    saveShopData();
+    displayShop();
+    alert(`${item.name}を使用中に設定しました！`);
+}
+
+// 新機能: アチーブメント画面表示
+function displayAchievements() {
+    const achievementsContainer = document.getElementById('achievements-list');
+    if (!achievementsContainer) return;
+    
+    achievementsContainer.innerHTML = '';
+    
+    Object.keys(ACHIEVEMENTS).forEach(achievementId => {
+        const achievement = ACHIEVEMENTS[achievementId];
+        const isUnlocked = achievements.unlocked.includes(achievementId);
+        
+        const achievementDiv = document.createElement('div');
+        achievementDiv.className = `achievement-item ${isUnlocked ? 'unlocked' : 'locked'}`;
+        
+        achievementDiv.innerHTML = `
+            <div class="achievement-icon">${isUnlocked ? '🏆' : '🔒'}</div>
+            <div class="achievement-info">
+                <div class="achievement-name">${achievement.name}</div>
+                <div class="achievement-description">${achievement.description}</div>
+            </div>
+            ${isUnlocked ? '<div class="achievement-badge">獲得済み</div>' : ''}
+        `;
+        
+        achievementsContainer.appendChild(achievementDiv);
+    });
+    
+    // 統計表示
+    const statsDiv = document.getElementById('achievements-stats');
+    if (statsDiv) {
+        const total = Object.keys(ACHIEVEMENTS).length;
+        const unlocked = achievements.unlocked.length;
+        statsDiv.textContent = `獲得済み: ${unlocked} / ${total}`;
+    }
 }

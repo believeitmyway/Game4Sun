@@ -27,6 +27,14 @@
                         <span class="btn-icon">📊</span>
                         <span class="btn-text">成績グラフ</span>
                     </button>
+                    <button class="menu-btn shop" onclick="showScreen('shop-screen')">
+                        <span class="btn-icon">🛒</span>
+                        <span class="btn-text">ショップ</span>
+                    </button>
+                    <button class="menu-btn achievement" onclick="showScreen('achievements-screen')">
+                        <span class="btn-icon">🏆</span>
+                        <span class="btn-text">実績</span>
+                    </button>
                     <button class="menu-btn tertiary" onclick="showScreen('settings-screen')">
                         <span class="btn-icon">⚙️</span>
                         <span class="btn-text">設定</span>
@@ -167,8 +175,12 @@
                             <div class="result-value" id="result-time">0:00</div>
                         </div>
                         <div class="result-item highlight">
-                            <div class="result-label">獲得 U-P</div>
+                            <div class="result-label">所持 U-P</div>
                             <div class="result-value" id="result-up">0</div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">経験値</div>
+                            <div class="result-value" id="result-exp">0 / 100 EXP</div>
                         </div>
                     </div>
                 </div>
@@ -257,6 +269,34 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- ショップ画面 -->
+        <div id="shop-screen" class="screen">
+            <div class="container">
+                <div class="screen-header">
+                    <button class="back-btn" onclick="showScreen('top-screen')">← 戻る</button>
+                    <h2>🛒 ショップ</h2>
+                </div>
+                <div class="shop-header">
+                    <div class="shop-up-display">
+                        所持 U-P: <span id="shop-up-points">0</span>
+                    </div>
+                </div>
+                <div id="shop-items" class="shop-container"></div>
+            </div>
+        </div>
+
+        <!-- アチーブメント画面 -->
+        <div id="achievements-screen" class="screen">
+            <div class="container">
+                <div class="screen-header">
+                    <button class="back-btn" onclick="showScreen('top-screen')">← 戻る</button>
+                    <h2>🏆 実績</h2>
+                </div>
+                <div class="achievements-stats" id="achievements-stats">獲得済み: 0 / 0</div>
+                <div id="achievements-list" class="achievements-list"></div>
             </div>
         </div>
 
