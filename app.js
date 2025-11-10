@@ -254,6 +254,8 @@ function loadPlayerData() {
     if (saved) {
         const data = JSON.parse(saved);
         playerData = { ...playerData, ...data };
+        // データ読み込み後、称号を更新
+        updateTitle();
     }
 }
 
@@ -304,6 +306,8 @@ function updateStreak() {
         }
     }
     saveStreakData();
+    // ストリークが変わったので称号を更新
+    updateTitle();
 }
 
 // 新機能: 学習記録時にストリークを更新
@@ -312,9 +316,14 @@ function updateStreakOnStudy() {
     const lastDate = streakData.lastStudyDate;
     
     if (lastDate !== today) {
+        const oldStreak = streakData.currentStreak;
         updateStreak();
         streakData.lastStudyDate = today;
         saveStreakData();
+        // ストリークが増えた場合は称号を更新（updateStreak内でも呼ばれるが念のため）
+        if (streakData.currentStreak > oldStreak) {
+            updateTitle();
+        }
     }
 }
 
@@ -364,6 +373,17 @@ function checkLevelUp() {
 
 // 新機能: 称号の更新
 function updateTitle() {
+    // 特別称号を優先チェック（より特別な称号を優先）
+    if (playerData.bestConsecutiveCorrect >= 30 && !achievements.unlocked.includes('consecutive-30')) {
+        playerData.title = '完璧主義者✨';
+        return;  // 特別称号が優先
+    }
+    if (streakData.currentStreak >= 7 && !achievements.unlocked.includes('streak-7')) {
+        playerData.title = '連続学習マスター🔥';
+        return;  // 特別称号が優先
+    }
+    
+    // レベルベースの称号
     if (playerData.level >= 51) {
         playerData.title = 'うんちゴッド💫';
     } else if (playerData.level >= 31) {
@@ -372,14 +392,6 @@ function updateTitle() {
         playerData.title = 'うんちマスター🚽';
     } else {
         playerData.title = 'うんち初心者💩';
-    }
-    
-    // 特別称号のチェック
-    if (streakData.currentStreak >= 7 && !achievements.unlocked.includes('streak-7')) {
-        playerData.title = '連続学習マスター🔥';
-    }
-    if (playerData.bestConsecutiveCorrect >= 30 && !achievements.unlocked.includes('consecutive-30')) {
-        playerData.title = '完璧主義者✨';
     }
 }
 
@@ -502,6 +514,16 @@ function unlockAchievement(achievementId) {
     const reward = getAchievementReward(achievementId);
     playerData.exp += reward.exp;
     playerData.upPoints += reward.up;
+    
+    // レベルアップチェック
+    const leveledUp = checkLevelUp();
+    if (leveledUp) {
+        showLevelUpModal();
+    }
+    
+    // 称号を更新（アチーブメント獲得で称号が変わる可能性があるため）
+    updateTitle();
+    
     savePlayerData();
     
     // アチーブメント獲得通知
@@ -587,6 +609,8 @@ function closeLevelUpModal() {
     while (checkLevelUp()) {
         showLevelUpModal();
     }
+    // ダッシュボードを更新（称号やレベルが変わった可能性があるため）
+    updateTopScreenDashboard();
 }
 
 // 新機能: アチーブメント通知表示
@@ -1211,6 +1235,9 @@ function recordAnswer(questionId, isCorrect) {
     } else {
         playerData.consecutiveCorrect = 0;
     }
+    
+    // 称号を更新（連続正解数やストリークが変わった可能性があるため）
+    updateTitle();
     
     savePlayerData();
     
