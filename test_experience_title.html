@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>経験値・称号機能テスト</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #8B4513;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #ccc;
+        }
+        .test-result.pass {
+            background-color: #e8f5e9;
+            border-left-color: #4CAF50;
+        }
+        .test-result.fail {
+            background-color: #ffebee;
+            border-left-color: #f44336;
+        }
+        button {
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #654321;
+        }
+        .player-data {
+            background: #fff9f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .player-data-item {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .player-data-label {
+            font-weight: bold;
+            color: #8B4513;
+        }
+        .log {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #fafafa;
+            font-family: monospace;
+            font-size: 0.9em;
+            margin: 20px 0;
+        }
+        .log-entry {
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        .log-entry.success {
+            color: #4CAF50;
+        }
+        .log-entry.error {
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 経験値・称号機能テスト</h1>
+
+    <div class="test-section">
+        <h2>📊 現在のプレイヤーデータ</h2>
+        <div id="playerData" class="player-data">
+            <div class="player-data-item">
+                <span class="player-data-label">レベル:</span> <span id="display-level">1</span>
+            </div>
+            <div class="player-data-item">
+                <span class="player-data-label">経験値:</span> <span id="display-exp">0</span> / <span id="display-exp-needed">100</span>
+            </div>
+            <div class="player-data-item">
+                <span class="player-data-label">称号:</span> <span id="display-title">うんち初心者💩</span>
+            </div>
+            <div class="player-data-item">
+                <span class="player-data-label">U-P:</span> <span id="display-up">0</span>
+            </div>
+            <div class="player-data-item">
+                <span class="player-data-label">連続正解数:</span> <span id="display-consecutive">0</span>
+            </div>
+            <div class="player-data-item">
+                <span class="player-data-label">ストリーク:</span> <span id="display-streak">0</span>日
+            </div>
+        </div>
+        <button onclick="updateDisplay()">🔄 データを更新</button>
+        <button onclick="resetData()" style="background-color: #f44336;">🗑️ データをリセット</button>
+    </div>
+
+    <div class="test-section">
+        <h2>🧪 テスト実行</h2>
+        <button onclick="runAllTests()">▶️ 全テスト実行</button>
+        <button onclick="testExpGain()">✅ 経験値獲得テスト</button>
+        <button onclick="testLevelUp()">⬆️ レベルアップテスト</button>
+        <button onclick="testTitleUpdate()">🏆 称号更新テスト</button>
+        <button onclick="testStreakBonus()">🔥 ストリークボーナステスト</button>
+        <button onclick="testDashboard()">📊 ダッシュボード表示テスト</button>
+    </div>
+
+    <div class="test-section">
+        <h2>📝 テスト結果</h2>
+        <div id="testResults"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>📋 実行ログ</h2>
+        <div id="log" class="log"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        let testResults = [];
+        let logEntries = [];
+
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const entry = `[${timestamp}] ${message}`;
+            logEntries.unshift(entry);
+            if (logEntries.length > 100) logEntries.pop();
+            
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML = logEntries.map(e => 
+                `<div class="log-entry ${e.includes('✅') ? 'success' : e.includes('❌') ? 'error' : ''}">${e}</div>`
+            ).join('');
+        }
+
+        function updateDisplay() {
+            document.getElementById('display-level').textContent = playerData.level;
+            document.getElementById('display-exp').textContent = playerData.exp;
+            document.getElementById('display-exp-needed').textContent = getExpForLevel(playerData.level);
+            document.getElementById('display-title').textContent = playerData.title;
+            document.getElementById('display-up').textContent = playerData.upPoints;
+            document.getElementById('display-consecutive').textContent = playerData.consecutiveCorrect;
+            document.getElementById('display-streak').textContent = streakData.currentStreak;
+            log('プレイヤーデータを更新しました', 'info');
+        }
+
+        function resetData() {
+            if (confirm('全てのデータをリセットしますか？')) {
+                localStorage.removeItem('unchiDrill_playerData');
+                localStorage.removeItem('unchiDrill_streakData');
+                localStorage.removeItem('unchiDrill_achievements');
+                
+                playerData = {
+                    level: 1,
+                    exp: 0,
+                    upPoints: 0,
+                    title: 'うんち初心者💩',
+                    totalQuestions: 0,
+                    totalCorrect: 0,
+                    consecutiveCorrect: 0,
+                    bestConsecutiveCorrect: 0
+                };
+                
+                streakData = {
+                    currentStreak: 0,
+                    lastStudyDate: null,
+                    longestStreak: 0
+                };
+                
+                achievements = {
+                    unlocked: [],
+                    progress: {}
+                };
+                
+                updateTitle();
+                updateDisplay();
+                log('✅ データをリセットしました', 'success');
+            }
+        }
+
+        function addTestResult(testName, passed, message) {
+            testResults.push({ name: testName, passed, message });
+            const resultsDiv = document.getElementById('testResults');
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `test-result ${passed ? 'pass' : 'fail'}`;
+            resultDiv.innerHTML = `
+                <strong>${testName}</strong>: ${passed ? '✅ 合格' : '❌ 不合格'}<br>
+                <small>${message}</small>
+            `;
+            resultsDiv.insertBefore(resultDiv, resultsDiv.firstChild);
+        }
+
+        function testExpGain() {
+            log('経験値獲得テストを開始...', 'info');
+            const initialExp = playerData.exp;
+            const initialUP = playerData.upPoints;
+            
+            // 正解をシミュレート
+            playerData.totalQuestions++;
+            playerData.totalCorrect++;
+            playerData.consecutiveCorrect++;
+            
+            let expGained = 10;
+            let upGained = 10;
+            
+            if (playerData.consecutiveCorrect >= 3) expGained += 5;
+            if (playerData.consecutiveCorrect >= 5) expGained += 5;
+            if (playerData.consecutiveCorrect >= 10) expGained += 10;
+            
+            const streakBonus = getStreakBonus();
+            expGained = Math.floor(expGained * (1 + streakBonus.expBonus));
+            upGained = Math.floor(upGained * (1 + streakBonus.upBonus));
+            
+            playerData.exp += expGained;
+            playerData.upPoints += upGained;
+            
+            const expIncreased = playerData.exp > initialExp;
+            const upIncreased = playerData.upPoints > initialUP;
+            
+            if (expIncreased && upIncreased) {
+                addTestResult('経験値獲得テスト', true, `EXP: ${initialExp} → ${playerData.exp} (+${expGained}), U-P: ${initialUP} → ${playerData.upPoints} (+${upGained})`);
+                log(`✅ 経験値獲得テスト合格: EXP +${expGained}, U-P +${upGained}`, 'success');
+            } else {
+                addTestResult('経験値獲得テスト', false, `EXPが増加していません: ${initialExp} → ${playerData.exp}`);
+                log(`❌ 経験値獲得テスト不合格`, 'error');
+            }
+            
+            updateDisplay();
+        }
+
+        function testLevelUp() {
+            log('レベルアップテストを開始...', 'info');
+            const initialLevel = playerData.level;
+            const initialExp = playerData.exp;
+            
+            // レベルアップに必要な経験値を追加
+            const expNeeded = getExpForLevel(playerData.level);
+            playerData.exp = expNeeded;
+            
+            const leveledUp = checkLevelUp();
+            
+            if (leveledUp && playerData.level === initialLevel + 1) {
+                addTestResult('レベルアップテスト', true, `レベル ${initialLevel} → ${playerData.level}, EXP: ${expNeeded} → ${playerData.exp}`);
+                log(`✅ レベルアップテスト合格: レベル ${initialLevel} → ${playerData.level}`, 'success');
+            } else {
+                addTestResult('レベルアップテスト', false, `レベルアップが発生しませんでした: レベル ${initialLevel}, EXP: ${playerData.exp}`);
+                log(`❌ レベルアップテスト不合格`, 'error');
+            }
+            
+            updateDisplay();
+        }
+
+        function testTitleUpdate() {
+            log('称号更新テストを開始...', 'info');
+            const oldTitle = playerData.title;
+            
+            // レベルを変更して称号が変わるかテスト
+            const oldLevel = playerData.level;
+            playerData.level = 11;
+            updateTitle();
+            
+            if (playerData.title !== oldTitle && playerData.title === 'うんちマスター🚽') {
+                addTestResult('称号更新テスト', true, `称号が更新されました: "${oldTitle}" → "${playerData.title}"`);
+                log(`✅ 称号更新テスト合格: "${oldTitle}" → "${playerData.title}"`, 'success');
+            } else {
+                addTestResult('称号更新テスト', false, `称号が正しく更新されませんでした: "${playerData.title}"`);
+                log(`❌ 称号更新テスト不合格`, 'error');
+            }
+            
+            playerData.level = oldLevel;
+            updateTitle();
+            updateDisplay();
+        }
+
+        function testStreakBonus() {
+            log('ストリークボーナステストを開始...', 'info');
+            const oldStreak = streakData.currentStreak;
+            
+            // ストリークを7日に設定
+            streakData.currentStreak = 7;
+            const bonus = getStreakBonus();
+            
+            if (bonus.expBonus === 0.5 && bonus.upBonus === 0.25) {
+                addTestResult('ストリークボーナステスト', true, `7日ストリーク: EXP +${(bonus.expBonus * 100).toFixed(0)}%, U-P +${(bonus.upBonus * 100).toFixed(0)}%`);
+                log(`✅ ストリークボーナステスト合格: EXP +${(bonus.expBonus * 100).toFixed(0)}%, U-P +${(bonus.upBonus * 100).toFixed(0)}%`, 'success');
+            } else {
+                addTestResult('ストリークボーナステスト', false, `ボーナスが正しくありません: EXP +${(bonus.expBonus * 100).toFixed(0)}%, U-P +${(bonus.upBonus * 100).toFixed(0)}%`);
+                log(`❌ ストリークボーナステスト不合格`, 'error');
+            }
+            
+            streakData.currentStreak = oldStreak;
+            updateDisplay();
+        }
+
+        function testDashboard() {
+            log('ダッシュボード表示テストを開始...', 'info');
+            
+            // ダッシュボードが存在するかチェック
+            updateTopScreenDashboard();
+            const dashboard = document.getElementById('top-dashboard');
+            
+            if (dashboard) {
+                const levelEl = document.getElementById('dashboard-level');
+                const titleEl = document.getElementById('dashboard-title');
+                const expBar = document.getElementById('dashboard-exp-bar');
+                
+                if (levelEl && titleEl && expBar) {
+                    const levelText = levelEl.textContent;
+                    const titleText = titleEl.textContent;
+                    const expWidth = expBar.style.width;
+                    
+                    if (levelText.includes(playerData.level.toString()) && 
+                        titleText === playerData.title && 
+                        expWidth) {
+                        addTestResult('ダッシュボード表示テスト', true, `ダッシュボードが正しく表示されています`);
+                        log(`✅ ダッシュボード表示テスト合格`, 'success');
+                    } else {
+                        addTestResult('ダッシュボード表示テスト', false, `ダッシュボードの内容が正しくありません`);
+                        log(`❌ ダッシュボード表示テスト不合格`, 'error');
+                    }
+                } else {
+                    addTestResult('ダッシュボード表示テスト', false, `ダッシュボードの要素が見つかりません`);
+                    log(`❌ ダッシュボード表示テスト不合格`, 'error');
+                }
+            } else {
+                addTestResult('ダッシュボード表示テスト', false, `ダッシュボードが見つかりません`);
+                log(`❌ ダッシュボード表示テスト不合格`, 'error');
+            }
+        }
+
+        function runAllTests() {
+            log('全テストを実行します...', 'info');
+            document.getElementById('testResults').innerHTML = '';
+            testResults = [];
+            
+            testExpGain();
+            setTimeout(() => testLevelUp(), 100);
+            setTimeout(() => testTitleUpdate(), 200);
+            setTimeout(() => testStreakBonus(), 300);
+            setTimeout(() => testDashboard(), 400);
+            
+            setTimeout(() => {
+                const passed = testResults.filter(r => r.passed).length;
+                const total = testResults.length;
+                log(`全テスト完了: ${passed}/${total} 合格`, passed === total ? 'success' : 'error');
+            }, 500);
+        }
+
+        // 初期化
+        window.onload = function() {
+            updateDisplay();
+            log('テストページを読み込みました', 'info');
+        };
+    </script>
+</body>
+</html>
