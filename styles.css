@@ -25,6 +25,7 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
+    transition: background 0.6s ease, color 0.6s ease;
 }
 
 body::before {
@@ -39,6 +40,44 @@ body::before {
     pointer-events: none;
     z-index: -1;
     animation: bg-pulse 10s ease-in-out infinite;
+}
+
+body.shop-bg-night {
+    background: linear-gradient(135deg, #020024 0%, #090979 40%, #00d4ff 100%);
+    color: #f0f4ff;
+}
+
+body.shop-bg-night::before {
+    background: radial-gradient(circle at 20% 50%, rgba(0, 162, 255, 0.35) 0%, transparent 55%),
+                radial-gradient(circle at 80% 80%, rgba(0, 20, 120, 0.45) 0%, transparent 60%);
+}
+
+body.shop-bg-gold {
+    background: linear-gradient(135deg, #fff3b0 0%, #ffd700 35%, #f4a261 100%);
+    color: #3a2400;
+}
+
+body.shop-bg-gold::before {
+    background: radial-gradient(circle at 15% 40%, rgba(255, 255, 255, 0.5) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(255, 170, 0, 0.5) 0%, transparent 55%);
+}
+
+body.shop-bg-space {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #e8f0ff;
+}
+
+body.shop-bg-space::before {
+    background: radial-gradient(circle at 30% 30%, rgba(88, 144, 255, 0.4) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
+}
+
+body.effect-particles-active .poop-racer {
+    animation-duration: 0.8s;
+}
+
+body.effect-sound-active .menu-btn.primary {
+    box-shadow: 0 10px 30px rgba(76, 175, 80, 0.4);
 }
 
 @keyframes bg-pulse {
@@ -126,11 +165,14 @@ body::before {
     position: relative;
     display: inline-block;
     margin: 20px 0;
+    transition: transform 0.4s ease, filter 0.4s ease;
 }
 
 .racer-emoji {
     font-size: 5em;
     animation: wiggle 1s ease-in-out infinite;
+    display: inline-block;
+    transition: text-shadow 0.4s ease, filter 0.4s ease;
 }
 
 .racer-wheels {
@@ -144,6 +186,56 @@ body::before {
     }
     50% {
         transform: rotate(5deg);
+    }
+}
+
+.poop-racer.racer-style-default .racer-emoji,
+.racer-position.racer-style-default .racer-icon {
+    text-shadow: 0 0 12px rgba(139, 69, 19, 0.6);
+    filter: drop-shadow(0 0 6px rgba(139, 69, 19, 0.4));
+}
+
+.poop-racer.racer-style-gold .racer-emoji,
+.racer-position.racer-style-gold .racer-icon {
+    text-shadow: 0 0 18px rgba(255, 215, 0, 0.9);
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.7));
+}
+
+.poop-racer.racer-style-rainbow .racer-emoji,
+.racer-position.racer-style-rainbow .racer-icon {
+    background: linear-gradient(90deg, #ff4d4d, #ffa64d, #ffee58, #66bb6a, #42a5f5, #ab47bc);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 16px rgba(255, 255, 255, 0.8);
+}
+
+.poop-racer.racer-style-sparkle .racer-emoji,
+.racer-position.racer-style-sparkle .racer-icon {
+    text-shadow: 0 0 18px rgba(255, 255, 255, 0.9), 0 0 26px rgba(255, 215, 0, 0.7);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.6));
+    animation: sparkle-glow 1.4s ease-in-out infinite alternate;
+}
+
+.poop-racer.racer-style-fire .racer-emoji,
+.racer-position.racer-style-fire .racer-icon {
+    text-shadow: 0 0 22px rgba(255, 111, 0, 0.9);
+    filter: drop-shadow(0 0 14px rgba(255, 87, 34, 0.8));
+    color: #ff7043;
+}
+
+.poop-racer.racer-style-space .racer-emoji,
+.racer-position.racer-style-space .racer-icon {
+    text-shadow: 0 0 20px rgba(138, 180, 255, 0.9);
+    filter: drop-shadow(0 0 16px rgba(138, 180, 255, 0.7));
+    color: #b3e5fc;
+}
+
+@keyframes sparkle-glow {
+    0% {
+        filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+    }
+    100% {
+        filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.9));
     }
 }
 
@@ -601,6 +693,8 @@ body::before {
 .racer-position .racer-icon {
     animation: racer-wiggle 0.5s ease-in-out infinite;
     filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3));
+    display: inline-block;
+    transition: text-shadow 0.4s ease, filter 0.4s ease, background 0.4s ease, color 0.4s ease;
 }
 
 @keyframes racer-wiggle {

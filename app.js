@@ -344,13 +344,55 @@ function saveAchievements() {
 function loadShopData() {
     const saved = localStorage.getItem('unchiDrill_shopData');
     if (saved) {
-        const data = JSON.parse(saved);
-        shopData = { ...shopData, ...data };
+        try {
+            const data = JSON.parse(saved);
+            shopData = normalizeShopData({ ...shopData, ...data });
+        } catch (error) {
+            console.warn('ショップデータの読み込みに失敗しました。初期値を使用します:', error);
+            shopData = normalizeShopData(shopData);
+        }
+    } else {
+        shopData = normalizeShopData(shopData);
     }
+    applyShopCustomizations();
 }
 
 function saveShopData() {
+    shopData = normalizeShopData(shopData);
     localStorage.setItem('unchiDrill_shopData', JSON.stringify(shopData));
+}
+
+function normalizeShopData(rawData = {}) {
+    const catalog = typeof SHOP_ITEMS !== 'undefined' ? SHOP_ITEMS : {};
+    const purchased = Array.isArray(rawData.purchased)
+        ? Array.from(new Set(rawData.purchased.filter(id => catalog[id])))
+        : [];
+    const activeData = rawData.active && typeof rawData.active === 'object' ? rawData.active : {};
+
+    const normalizeActiveId = (id, category) => {
+        if (!id) return null;
+        const item = catalog[id];
+        return item && item.category === category && purchased.includes(id) ? id : null;
+    };
+
+    const effects = Array.isArray(activeData.effects)
+        ? Array.from(
+            new Set(
+                activeData.effects.filter(
+                    id => catalog[id] && catalog[id].category === 'effect' && purchased.includes(id)
+                )
+            )
+        )
+        : [];
+
+    return {
+        purchased,
+        active: {
+            racer: normalizeActiveId(activeData.racer, 'racer'),
+            background: normalizeActiveId(activeData.background, 'background'),
+            effects
+        }
+    };
 }
 
 // 新機能: レベル計算関数
@@ -1573,6 +1615,7 @@ function resetAllData() {
             effects: []
         }
     };
+    applyShopCustomizations();
     alert('学習記録をリセットしました！');
     closeConfirmDialog();
     updateTopScreenDashboard();
@@ -1605,79 +1648,108 @@ function playSFX(type) {
     if (!settings.sfx) return;
     
     try {
-        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        const oscillator = audioContext.createOscillator();
-        const gainNode = audioContext.createGain();
-        
-        oscillator.connect(gainNode);
-        gainNode.connect(audioContext.destination);
-        
-        if (type === 'correct') {
-            // 正解音（キラキラした音）
-            [800, 1000, 1200, 1600].forEach((freq, i) => {
-                const osc = audioContext.createOscillator();
-                const gain = audioContext.createGain();
-                osc.connect(gain);
-                gain.connect(audioContext.destination);
-                osc.frequency.value = freq;
-                osc.type = 'sine';
-                gain.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.08);
-                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.08 + 0.4);
-                osc.start(audioContext.currentTime + i * 0.08);
-                osc.stop(audioContext.currentTime + i * 0.08 + 0.4);
-            });
-        } else if (type === 'wrong') {
-            // 不正解音（ブザー音）
-            [200, 180, 160].forEach((freq, i) => {
-                const osc = audioContext.createOscillator();
-                const gain = audioContext.createGain();
-                osc.connect(gain);
-                gain.connect(audioContext.destination);
-                osc.frequency.value = freq;
-                osc.type = 'sawtooth';
-                gain.gain.setValueAtTime(0.25, audioContext.currentTime + i * 0.1);
-                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.1 + 0.3);
-                osc.start(audioContext.currentTime + i * 0.1);
-                osc.stop(audioContext.currentTime + i * 0.1 + 0.3);
-            });
-        } else if (type === 'finish') {
-            // 完了音（ファンファーレ）
-            [523, 523, 659, 523, 784, 740].forEach((freq, i) => {
-                const osc = audioContext.createOscillator();
-                const gain = audioContext.createGain();
-                osc.connect(gain);
-                gain.connect(audioContext.destination);
-                osc.frequency.value = freq;
-                osc.type = 'triangle';
-                gain.gain.setValueAtTime(0.35, audioContext.currentTime + i * 0.15);
-                gain.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.4);
-                osc.start(audioContext.currentTime + i * 0.15);
-                osc.stop(audioContext.currentTime + i * 0.15 + 0.4);
-            });
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContextClass) {
+            throw new Error('AudioContext is not supported in this environment.');
+        }
+
+        const enhancedSound = isEffectActive('effect-sound');
+        const sequence = getSFXSequence(type, { enhanced: enhancedSound });
+        if (!sequence.length) {
+            return;
+        }
+
+        const audioContext = new AudioContextClass();
+        sequence.forEach(note => {
+            const osc = audioContext.createOscillator();
+            const gain = audioContext.createGain();
+            osc.connect(gain);
+            gain.connect(audioContext.destination);
+            osc.frequency.value = note.frequency;
+            osc.type = note.type;
+            const startTime = audioContext.currentTime + note.delay;
+            gain.gain.setValueAtTime(note.gain, startTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, startTime + note.duration);
+            osc.start(startTime);
+            osc.stop(startTime + note.duration);
+        });
+
+        const totalDuration = sequence.reduce((max, note) => Math.max(max, note.delay + note.duration), 0) + 0.1;
+        if (typeof audioContext.close === 'function') {
+            setTimeout(() => {
+                audioContext.close();
+            }, totalDuration * 1000);
         }
     } catch (e) {
         console.log('効果音の再生に失敗しました:', e);
     }
 }
 
+function getSFXSequence(type, options = {}) {
+    const enhanced = options.enhanced === true;
+    if (type === 'correct') {
+        const base = [800, 1000, 1200, 1600];
+        const frequencies = enhanced ? base.concat([1900, 2100]) : base;
+        return frequencies.map((freq, index) => ({
+            frequency: freq,
+            type: enhanced ? 'triangle' : 'sine',
+            delay: index * (enhanced ? 0.06 : 0.08),
+            duration: enhanced ? 0.5 : 0.4,
+            gain: enhanced ? 0.4 : 0.3
+        }));
+    }
+    if (type === 'wrong') {
+        const base = [200, 180, 160];
+        const frequencies = enhanced ? base.concat([140]) : base;
+        return frequencies.map((freq, index) => ({
+            frequency: freq,
+            type: enhanced ? 'square' : 'sawtooth',
+            delay: index * 0.1,
+            duration: enhanced ? 0.35 : 0.3,
+            gain: enhanced ? 0.3 : 0.25
+        }));
+    }
+    if (type === 'finish') {
+        const base = [523, 523, 659, 523, 784, 740];
+        const frequencies = enhanced ? base.concat([880, 988]) : base;
+        return frequencies.map((freq, index) => ({
+            frequency: freq,
+            type: enhanced ? 'sawtooth' : 'triangle',
+            delay: index * (enhanced ? 0.12 : 0.15),
+            duration: enhanced ? 0.5 : 0.4,
+            gain: enhanced ? 0.45 : 0.35
+        }));
+    }
+    return [];
+}
+
 // パーティクルエフェクト
 function createParticles(type, x, y) {
-    const particleContainer = document.getElementById('particle-container');
+    let particleContainer = document.getElementById('particle-container');
     if (!particleContainer) {
-        const container = document.createElement('div');
-        container.id = 'particle-container';
-        container.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
-        document.body.appendChild(container);
+        particleContainer = document.createElement('div');
+        particleContainer.id = 'particle-container';
+        particleContainer.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
+        document.body.appendChild(particleContainer);
     }
     
-    const count = type === 'correct' ? 30 : 15;
-    const emoji = type === 'correct' ? '✨' : '💩';
-    const colors = type === 'correct' ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00'] : ['#8B4513', '#654321', '#A0522D'];
+    const hasDoubleParticles = isEffectActive('effect-particles');
+    const particleMultiplier = hasDoubleParticles ? 2 : 1;
+    const baseCount = type === 'correct' ? 30 : 15;
+    const count = baseCount * particleMultiplier;
+    const emojiPool = type === 'correct'
+        ? (hasDoubleParticles ? ['✨', '💫', '🌟'] : ['✨'])
+        : ['💩'];
+    const colors = type === 'correct'
+        ? (hasDoubleParticles
+            ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3']
+            : ['#FFD700', '#FFA500', '#FF69B4', '#00FF00'])
+        : ['#8B4513', '#654321', '#A0522D'];
     
     for (let i = 0; i < count; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
-        particle.textContent = Math.random() > 0.5 ? emoji : '';
+        particle.textContent = Math.random() > 0.5 ? emojiPool[Math.floor(Math.random() * emojiPool.length)] : '';
         particle.style.cssText = `
             position: absolute;
             font-size: ${Math.random() * 20 + 10}px;
@@ -1687,7 +1759,7 @@ function createParticles(type, x, y) {
             pointer-events: none;
         `;
         
-        document.getElementById('particle-container').appendChild(particle);
+        particleContainer.appendChild(particle);
         
         const angle = (Math.PI * 2 * i) / count;
         const velocity = Math.random() * 150 + 100;
@@ -1798,6 +1870,137 @@ const SHOP_ITEMS = {
         emoji: '🔊'
     }
 };
+
+const RACER_STYLES = {
+    default: {
+        className: 'racer-style-default',
+        emoji: '💩',
+        wheels: '🏎️',
+        progressIcon: '💩🏎️'
+    },
+    'racer-gold': {
+        className: 'racer-style-gold',
+        emoji: '💩',
+        wheels: '💛🚗',
+        progressIcon: '💩✨'
+    },
+    'racer-rainbow': {
+        className: 'racer-style-rainbow',
+        emoji: '🌈💩',
+        wheels: '🛞',
+        progressIcon: '🌈💩'
+    },
+    'racer-sparkle': {
+        className: 'racer-style-sparkle',
+        emoji: '✨💩✨',
+        wheels: '💠',
+        progressIcon: '💩✨💫'
+    },
+    'racer-fire': {
+        className: 'racer-style-fire',
+        emoji: '🔥💩🔥',
+        wheels: '🔥',
+        progressIcon: '🔥💩'
+    },
+    'racer-space': {
+        className: 'racer-style-space',
+        emoji: '🚀💩',
+        wheels: '🪐',
+        progressIcon: '🚀💩'
+    }
+};
+
+const RACER_STYLE_CLASSES = Array.from(
+    new Set(Object.values(RACER_STYLES).map(style => style.className).filter(Boolean))
+);
+
+const BACKGROUND_STYLES = {
+    default: { className: null },
+    'bg-night': { className: 'shop-bg-night' },
+    'bg-gold': { className: 'shop-bg-gold' },
+    'bg-space': { className: 'shop-bg-space' }
+};
+
+const BACKGROUND_CLASSES = Array.from(
+    new Set(Object.values(BACKGROUND_STYLES).map(style => style.className).filter(Boolean))
+);
+
+const EFFECT_CLASS_MAP = {
+    'effect-particles': 'effect-particles-active',
+    'effect-sound': 'effect-sound-active'
+};
+
+function applyShopCustomizations() {
+    applyRacerCustomization();
+    applyBackgroundCustomization();
+    applyEffectCustomizations();
+}
+
+function applyRacerCustomization() {
+    const racerId = shopData.active && shopData.active.racer;
+    const style = (racerId && RACER_STYLES[racerId]) || RACER_STYLES.default;
+    
+    const topRacer = document.querySelector('.poop-racer');
+    if (topRacer) {
+        RACER_STYLE_CLASSES.forEach(cls => topRacer.classList.remove(cls));
+        if (style.className) {
+            topRacer.classList.add(style.className);
+        }
+        const emojiEl = topRacer.querySelector('.racer-emoji');
+        if (emojiEl) {
+            emojiEl.textContent = style.emoji;
+        }
+        const wheelsEl = topRacer.querySelector('.racer-wheels');
+        if (wheelsEl) {
+            wheelsEl.textContent = style.wheels;
+        }
+    }
+
+    const progressRacer = document.getElementById('racer-position');
+    if (progressRacer) {
+        RACER_STYLE_CLASSES.forEach(cls => progressRacer.classList.remove(cls));
+        if (style.className) {
+            progressRacer.classList.add(style.className);
+        }
+        const iconEl = progressRacer.querySelector('.racer-icon');
+        if (iconEl) {
+            iconEl.textContent = style.progressIcon;
+        }
+    }
+}
+
+function applyBackgroundCustomization() {
+    const backgroundId = shopData.active && shopData.active.background;
+    const style = (backgroundId && BACKGROUND_STYLES[backgroundId]) || BACKGROUND_STYLES.default;
+    const body = document.body;
+    if (!body) return;
+    BACKGROUND_CLASSES.forEach(cls => body.classList.remove(cls));
+    if (style.className) {
+        body.classList.add(style.className);
+    }
+}
+
+function applyEffectCustomizations() {
+    const body = document.body;
+    if (!body) return;
+    Object.values(EFFECT_CLASS_MAP).forEach(cls => body.classList.remove(cls));
+    if (shopData.active && Array.isArray(shopData.active.effects)) {
+        shopData.active.effects.forEach(effectId => {
+            const className = EFFECT_CLASS_MAP[effectId];
+            if (className) {
+                body.classList.add(className);
+            }
+        });
+    }
+}
+
+function isEffectActive(effectId) {
+    return Boolean(
+        shopData.active &&
+        Array.isArray(shopData.active.effects) &&
+        shopData.active.effects.includes(effectId)
+    );
+}
 
 // 新機能: ショップ画面表示
 function displayShop() {
@@ -1925,6 +2128,7 @@ function useShopItem(itemId) {
     
     saveShopData();
     displayShop();
+    applyShopCustomizations();
     alert(`${item.name}を使用中に設定しました！`);
 }
 
@@ -1961,4 +2165,23 @@ function displayAchievements() {
         const unlocked = achievements.unlocked.length;
         statsDiv.textContent = `獲得済み: ${unlocked} / ${total}`;
     }
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        SHOP_ITEMS,
+        shopData,
+        applyShopCustomizations,
+        applyRacerCustomization,
+        applyBackgroundCustomization,
+        applyEffectCustomizations,
+        isEffectActive,
+        normalizeShopData,
+        createParticles,
+        getSFXSequence,
+        playSFX,
+        RACER_STYLES,
+        BACKGROUND_STYLES,
+        EFFECT_CLASS_MAP
+    };
 }
