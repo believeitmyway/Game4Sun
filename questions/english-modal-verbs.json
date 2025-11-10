@@ -496,8 +496,8 @@
         "mustn't",
         "shouldn't"
       ],
-      "answer": 0,
-      "explanation": "チームの決まりです。 したがって has to を使います。"
+      "answer": 1,
+      "explanation": "チームの決まりです。 Theyは複数形なので have to を使います。"
     },
     {
       "id": "eng-mod-039",
