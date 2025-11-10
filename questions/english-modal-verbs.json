@@ -1181,8 +1181,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
+        "would likes to",
+        "want",
         "have to"
       ],
       "answer": 0,
@@ -1194,9 +1194,9 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
-        "have to"
+        "would likes to",
+        "want",
+        "should"
       ],
       "answer": 0,
       "explanation": "丁寧に願望を述べています。 「〜したい」という丁寧な表現は would like to を使います。"
@@ -1207,8 +1207,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
+        "would likes to",
+        "like to",
         "have to"
       ],
       "answer": 0,
@@ -1220,9 +1220,9 @@
       "type": "multiple",
       "choices": [
         "would like to",
+        "would likes to",
         "want to",
-        "should",
-        "have to"
+        "should"
       ],
       "answer": 0,
       "explanation": "参加の希望を表しています。 「〜したい」という丁寧な表現は would like to を使います。"
@@ -1233,9 +1233,9 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
-        "have to"
+        "would likes to",
+        "want",
+        "should"
       ],
       "answer": 0,
       "explanation": "旅行の希望を表しています。 「〜したい」という丁寧な表現は would like to を使います。"
@@ -1246,8 +1246,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
+        "wants to",
+        "want",
         "have to"
       ],
       "answer": 0,
@@ -1259,8 +1259,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
+        "would likes to",
         "want to",
-        "should",
         "have to"
       ],
       "answer": 0,
@@ -1272,8 +1272,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
+        "would likes to",
+        "want",
         "have to"
       ],
       "answer": 0,
@@ -1285,9 +1285,9 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
-        "have to"
+        "would likes to",
+        "want",
+        "should"
       ],
       "answer": 0,
       "explanation": "丁寧に提案しています。 「〜したい」という丁寧な表現は would like to を使います。"
@@ -1298,8 +1298,8 @@
       "type": "multiple",
       "choices": [
         "would like to",
-        "want to",
-        "should",
+        "would likes to",
+        "wants to",
         "have to"
       ],
       "answer": 0,
