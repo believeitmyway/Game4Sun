@@ -134,13 +134,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 // JSONファイルから問題データを読み込む
 async function loadQuestions() {
     try {
+        // キャッシュバスティング用のタイムスタンプを生成
+        const cacheBuster = new Date().getTime();
+        
         // index.jsonを読み込んで、問題ファイルのリストを取得
-        const indexResponse = await fetch('questions/index.json');
+        // キャッシュを無効化するためにタイムスタンプとno-cacheオプションを使用
+        const indexResponse = await fetch(`questions/index.json?t=${cacheBuster}`, {
+            cache: 'no-cache'
+        });
         const index = await indexResponse.json();
         
         // 各JSONファイルを読み込む
         const promises = index.files.map(async (filename) => {
-            const response = await fetch(`questions/${filename}`);
+            const response = await fetch(`questions/${filename}?t=${cacheBuster}`, {
+                cache: 'no-cache'
+            });
             return await response.json();
         });
         
