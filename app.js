@@ -322,6 +322,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadQuestions();  // 問題データを読み込む
     advanceSplashProgress();
 
+    setSplashCTA('ミニゲームを準備中...');
+    initMinigame();
+    advanceSplashProgress();
+
     updateTitle();  // 称号を更新
     updateTopScreenDashboard();
     showScreen('top-screen');
@@ -978,6 +982,12 @@ function showScreen(screenId) {
             clearInterval(shopUpdateInterval);
             shopUpdateInterval = null;
         }
+    }
+    
+    // 設定画面に移動した時にミニゲームを停止
+    if (screenId !== 'settings-screen' && minigameState.isRunning) {
+        stopMinigame();
+        resetMinigame();
     }
 }
 
@@ -2674,6 +2684,322 @@ function displayAchievements() {
         const unlocked = achievements.unlocked.length;
         statsDiv.textContent = `獲得済み: ${unlocked} / ${total}`;
     }
+}
+
+// 新機能: ミニゲーム
+let minigameState = {
+    isRunning: false,
+    score: 0,
+    highScore: parseInt(localStorage.getItem('unchiDrill_minigameHighScore') || '0'),
+    playerX: 0,
+    playerY: 0,
+    playerWidth: 60,
+    playerHeight: 40,
+    poops: [],
+    gameSpeed: 2,
+    lastPoopTime: 0,
+    keys: {},
+    animationFrame: null
+};
+
+// ミニゲーム初期化
+function initMinigame() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    const rect = canvas.getBoundingClientRect();
+    
+    // プレイヤーの初期位置
+    minigameState.playerX = canvas.width / 2 - minigameState.playerWidth / 2;
+    minigameState.playerY = canvas.height - minigameState.playerHeight - 20;
+    
+    // ハイスコア表示を更新
+    updateMinigameHighScore();
+    
+    // イベントリスナー
+    canvas.addEventListener('mousemove', handleMinigameMouseMove);
+    canvas.addEventListener('click', handleMinigameClick);
+    document.addEventListener('keydown', handleMinigameKeyDown);
+    document.addEventListener('keyup', handleMinigameKeyUp);
+}
+
+// ミニゲーム開始
+function startMinigame() {
+    const canvas = document.getElementById('minigame-canvas');
+    const overlay = document.getElementById('minigame-overlay');
+    if (!canvas || !overlay) return;
+    
+    if (minigameState.isRunning) return;
+    
+    minigameState.isRunning = true;
+    minigameState.score = 0;
+    minigameState.poops = [];
+    minigameState.gameSpeed = 2;
+    minigameState.lastPoopTime = Date.now();
+    minigameState.playerX = canvas.width / 2 - minigameState.playerWidth / 2;
+    
+    overlay.style.display = 'none';
+    updateMinigameScore();
+    
+    gameLoop();
+    playSFX('correct');
+}
+
+// ミニゲームリセット
+function resetMinigame() {
+    stopMinigame();
+    const overlay = document.getElementById('minigame-overlay');
+    if (overlay) {
+        overlay.style.display = 'flex';
+    }
+    minigameState.score = 0;
+    updateMinigameScore();
+}
+
+// ミニゲーム停止
+function stopMinigame() {
+    minigameState.isRunning = false;
+    if (minigameState.animationFrame) {
+        cancelAnimationFrame(minigameState.animationFrame);
+        minigameState.animationFrame = null;
+    }
+}
+
+// ゲームループ
+function gameLoop() {
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    
+    // 画面クリア
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // 背景描画
+    drawMinigameBackground(ctx, canvas);
+    
+    // プレイヤー移動処理
+    updateMinigamePlayer();
+    
+    // うんち生成
+    generateMinigamePoops();
+    
+    // うんち更新・描画
+    updateMinigamePoops(ctx, canvas);
+    
+    // プレイヤー描画
+    drawMinigamePlayer(ctx);
+    
+    // 衝突判定
+    checkMinigameCollisions();
+    
+    // スコア更新
+    updateMinigameScore();
+    
+    // ゲーム速度を徐々に上げる
+    if (minigameState.score > 0 && minigameState.score % 10 === 0) {
+        minigameState.gameSpeed = Math.min(6, 2 + minigameState.score / 50);
+    }
+    
+    minigameState.animationFrame = requestAnimationFrame(gameLoop);
+}
+
+// 背景描画
+function drawMinigameBackground(ctx, canvas) {
+    // グラデーション背景
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    gradient.addColorStop(0, '#87CEEB');
+    gradient.addColorStop(1, '#E0F6FF');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // 雲を描画
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+    drawCloud(ctx, 100, 50, 40);
+    drawCloud(ctx, 300, 80, 35);
+    drawCloud(ctx, 500, 60, 45);
+}
+
+// 雲を描画
+function drawCloud(ctx, x, y, size) {
+    ctx.beginPath();
+    ctx.arc(x, y, size, 0, Math.PI * 2);
+    ctx.arc(x + size * 0.6, y, size * 0.8, 0, Math.PI * 2);
+    ctx.arc(x + size * 1.2, y, size * 0.7, 0, Math.PI * 2);
+    ctx.fill();
+}
+
+// プレイヤー更新
+function updateMinigamePlayer() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const speed = 5;
+    
+    if (minigameState.keys['ArrowLeft'] || minigameState.keys['a'] || minigameState.keys['A']) {
+        minigameState.playerX = Math.max(0, minigameState.playerX - speed);
+    }
+    if (minigameState.keys['ArrowRight'] || minigameState.keys['d'] || minigameState.keys['D']) {
+        minigameState.playerX = Math.min(canvas.width - minigameState.playerWidth, minigameState.playerX + speed);
+    }
+}
+
+// プレイヤー描画
+function drawMinigamePlayer(ctx) {
+    const x = minigameState.playerX;
+    const y = minigameState.playerY;
+    const w = minigameState.playerWidth;
+    const h = minigameState.playerHeight;
+    
+    // バケツを描画
+    ctx.fillStyle = '#8B4513';
+    ctx.fillRect(x, y + h * 0.3, w, h * 0.7);
+    
+    // バケツの縁
+    ctx.fillStyle = '#654321';
+    ctx.fillRect(x - 2, y + h * 0.3, w + 4, 5);
+    
+    // うんちを描画（キャッチしたうんちを表現）
+    ctx.fillStyle = '#8B4513';
+    ctx.beginPath();
+    ctx.ellipse(x + w / 2, y + h * 0.5, w * 0.3, h * 0.2, 0, 0, Math.PI * 2);
+    ctx.fill();
+    
+    // ハンドル
+    ctx.strokeStyle = '#654321';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(x + w / 2, y + h * 0.2, w * 0.15, Math.PI, 0);
+    ctx.stroke();
+}
+
+// うんち生成
+function generateMinigamePoops() {
+    const now = Date.now();
+    const spawnInterval = Math.max(500, 2000 - minigameState.score * 10);
+    
+    if (now - minigameState.lastPoopTime > spawnInterval) {
+        const canvas = document.getElementById('minigame-canvas');
+        if (canvas) {
+            minigameState.poops.push({
+                x: Math.random() * (canvas.width - 30),
+                y: -30,
+                size: 20 + Math.random() * 15,
+                speed: minigameState.gameSpeed + Math.random() * 2,
+                emoji: Math.random() > 0.7 ? '💩' : '💩',
+                rotation: Math.random() * Math.PI * 2
+            });
+        }
+        minigameState.lastPoopTime = now;
+    }
+}
+
+// うんち更新・描画
+function updateMinigamePoops(ctx, canvas) {
+    for (let i = minigameState.poops.length - 1; i >= 0; i--) {
+        const poop = minigameState.poops[i];
+        poop.y += poop.speed;
+        poop.rotation += 0.1;
+        
+        // 画面外に出たら削除
+        if (poop.y > canvas.height + 50) {
+            minigameState.poops.splice(i, 1);
+            continue;
+        }
+        
+        // うんちを描画
+        ctx.save();
+        ctx.translate(poop.x + poop.size / 2, poop.y + poop.size / 2);
+        ctx.rotate(poop.rotation);
+        ctx.font = `${poop.size}px Arial`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(poop.emoji, 0, 0);
+        ctx.restore();
+    }
+}
+
+// 衝突判定
+function checkMinigameCollisions() {
+    const playerLeft = minigameState.playerX;
+    const playerRight = minigameState.playerX + minigameState.playerWidth;
+    const playerTop = minigameState.playerY;
+    const playerBottom = minigameState.playerY + minigameState.playerHeight;
+    
+    for (let i = minigameState.poops.length - 1; i >= 0; i--) {
+        const poop = minigameState.poops[i];
+        const poopLeft = poop.x;
+        const poopRight = poop.x + poop.size;
+        const poopTop = poop.y;
+        const poopBottom = poop.y + poop.size;
+        
+        // 衝突判定
+        if (poopRight > playerLeft && poopLeft < playerRight &&
+            poopBottom > playerTop && poopTop < playerBottom) {
+            // キャッチ成功
+            minigameState.poops.splice(i, 1);
+            minigameState.score += 10;
+            playSFX('correct');
+            createParticles('correct', poop.x + poop.size / 2, poop.y + poop.size / 2);
+        }
+    }
+}
+
+// スコア更新
+function updateMinigameScore() {
+    const scoreEl = document.getElementById('minigame-score');
+    if (scoreEl) {
+        scoreEl.textContent = minigameState.score;
+    }
+    
+    // ハイスコア更新
+    if (minigameState.score > minigameState.highScore) {
+        minigameState.highScore = minigameState.score;
+        localStorage.setItem('unchiDrill_minigameHighScore', minigameState.highScore.toString());
+        updateMinigameHighScore();
+    }
+}
+
+// ハイスコア表示更新
+function updateMinigameHighScore() {
+    const highScoreEl = document.getElementById('minigame-highscore');
+    if (highScoreEl) {
+        highScoreEl.textContent = minigameState.highScore;
+    }
+}
+
+// マウス移動処理
+function handleMinigameMouseMove(event) {
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    minigameState.playerX = Math.max(0, Math.min(canvas.width - minigameState.playerWidth, mouseX - minigameState.playerWidth / 2));
+}
+
+// クリック処理
+function handleMinigameClick(event) {
+    const overlay = document.getElementById('minigame-overlay');
+    if (overlay && overlay.style.display !== 'none') {
+        startMinigame();
+    }
+}
+
+// キーダウン処理
+function handleMinigameKeyDown(event) {
+    if (currentScreen !== 'settings-screen') return;
+    minigameState.keys[event.key] = true;
+}
+
+// キーアップ処理
+function handleMinigameKeyUp(event) {
+    minigameState.keys[event.key] = false;
 }
 
 if (typeof module !== 'undefined' && module.exports) {

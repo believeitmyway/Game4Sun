@@ -2262,6 +2262,168 @@ input:checked + .slider:before {
     cursor: not-allowed;
 }
 
+/* ミニゲームセクション */
+.minigame-section {
+    margin-top: 40px;
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.minigame-section h3 {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.minigame-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.minigame-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.minigame-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.minigame-score {
+    display: flex;
+    gap: 20px;
+    font-size: 0.95em;
+    color: var(--text-dark);
+}
+
+.minigame-score span {
+    font-weight: bold;
+}
+
+.minigame-canvas-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+#minigame-canvas {
+    border-radius: var(--border-radius);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.minigame-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.minigame-start-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.minigame-start-screen h4 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.minigame-start-screen p {
+    color: var(--text-light);
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+.minigame-start-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.minigame-start-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.minigame-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.minigame-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.minigame-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.minigame-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    #minigame-canvas {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+    
+    .minigame-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .minigame-score {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
 /* 新機能: アチーブメント画面 */
 .achievements-stats {
     background: white;
