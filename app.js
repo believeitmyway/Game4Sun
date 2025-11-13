@@ -315,42 +315,74 @@ function hideSplashScreen(delay = 0) {
 document.addEventListener('DOMContentLoaded', async () => {
     initSplashScreen();
 
-    setSplashCTA('過去の挑戦を分析中...');
-    loadUserData();
-    advanceSplashProgress();
+    // タイムアウト処理（30秒で強制終了）
+    const initTimeout = setTimeout(() => {
+        console.warn('初期化がタイムアウトしました。読み込めたデータで続行します。');
+        if (!splashReady) {
+            completeSplashProgress();
+            setSplashCTA('読み込みが完了しました。クリックまたはタップしてスタート！');
+            markSplashReady();
+        }
+    }, 30000);
 
-    setSplashCTA('プレイヤーデータを同期中...');
-    loadPlayerData();
-    advanceSplashProgress();
+    try {
+        setSplashCTA('過去の挑戦を分析中...');
+        loadUserData();
+        advanceSplashProgress();
 
-    setSplashCTA('連続学習ボーナスを計算中...');
-    loadStreakData();
-    advanceSplashProgress();
+        setSplashCTA('プレイヤーデータを同期中...');
+        loadPlayerData();
+        advanceSplashProgress();
 
-    setSplashCTA('実績をチェックしています...');
-    loadAchievements();
-    advanceSplashProgress();
+        setSplashCTA('連続学習ボーナスを計算中...');
+        loadStreakData();
+        advanceSplashProgress();
 
-    setSplashCTA('ショップを準備中...');
-    loadShopData();
-    advanceSplashProgress();
+        setSplashCTA('実績をチェックしています...');
+        loadAchievements();
+        advanceSplashProgress();
 
-    setSplashCTA('設定を復元しています...');
-    loadSettings();
-    advanceSplashProgress();
+        setSplashCTA('ショップを準備中...');
+        loadShopData();
+        advanceSplashProgress();
 
-    setSplashCTA('問題データを読み込み中...');
-    await loadQuestions();  // 問題データを読み込む
-    advanceSplashProgress();
+        setSplashCTA('設定を復元しています...');
+        loadSettings();
+        advanceSplashProgress();
 
-    setSplashCTA('ミニゲームを準備中...');
-    initMinigame();
-    advanceSplashProgress();
+        setSplashCTA('問題データを読み込み中...');
+        // 問題データの読み込みにタイムアウトを設定（20秒）
+        const loadQuestionsPromise = loadQuestions();
+        const questionsTimeout = setTimeout(() => {
+            console.warn('問題データの読み込みがタイムアウトしました。読み込めたデータで続行します。');
+        }, 20000);
+        
+        try {
+            await loadQuestionsPromise;
+        } finally {
+            clearTimeout(questionsTimeout);
+        }
+        advanceSplashProgress();
 
-    updateTitle();  // 称号を更新
-    updateTopScreenDashboard();
-    showScreen('top-screen');
-    markSplashReady();
+        setSplashCTA('ミニゲームを準備中...');
+        initMinigame();
+        advanceSplashProgress();
+
+        updateTitle();  // 称号を更新
+        updateTopScreenDashboard();
+        showScreen('top-screen');
+        markSplashReady();
+        
+        // タイムアウトをクリア
+        clearTimeout(initTimeout);
+    } catch (error) {
+        console.error('初期化中にエラーが発生しました:', error);
+        // エラーが発生しても、読み込めたデータで続行
+        clearTimeout(initTimeout);
+        completeSplashProgress();
+        setSplashCTA('読み込みが完了しました。クリックまたはタップしてスタート！');
+        markSplashReady();
+    }
 });
 
 // JSONファイルから問題データを読み込む
@@ -364,42 +396,113 @@ async function loadQuestions() {
         const indexResponse = await fetch(`questions/index.json?t=${cacheBuster}`, {
             cache: 'no-cache'
         });
+        
+        if (!indexResponse.ok) {
+            throw new Error(`index.jsonの読み込みに失敗しました: ${indexResponse.status}`);
+        }
+        
         const index = await indexResponse.json();
         
-        // 各JSONファイルを読み込む
+        if (!index.files || !Array.isArray(index.files)) {
+            throw new Error('index.jsonの形式が正しくありません');
+        }
+        
+        // 各JSONファイルを読み込む（個別エラーを無視して続行）
         const promises = index.files.map(async (filename) => {
-            const response = await fetch(`questions/${filename}?t=${cacheBuster}`, {
-                cache: 'no-cache'
-            });
-            return await response.json();
+            try {
+                // タイムアウト処理（10秒）
+                const timeoutPromise = new Promise((_, reject) => {
+                    setTimeout(() => reject(new Error('タイムアウト')), 10000);
+                });
+                
+                const fetchPromise = fetch(`questions/${filename}?t=${cacheBuster}`, {
+                    cache: 'no-cache'
+                });
+                
+                const response = await Promise.race([fetchPromise, timeoutPromise]);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const data = await response.json();
+                return { success: true, filename, data };
+            } catch (error) {
+                console.warn(`ファイル "${filename}" の読み込みに失敗しました:`, error);
+                return { success: false, filename, error: error.message };
+            }
         });
         
-        const questionFiles = await Promise.all(promises);
+        const results = await Promise.allSettled(promises);
+        
+        // 成功したファイルのみを処理
+        const questionFiles = [];
+        let successCount = 0;
+        let failCount = 0;
+        
+        results.forEach((result, idx) => {
+            if (result.status === 'fulfilled' && result.value.success) {
+                questionFiles.push(result.value.data);
+                successCount++;
+            } else {
+                failCount++;
+                const filename = idx < index.files.length ? index.files[idx] : 'unknown';
+                if (result.status === 'fulfilled' && result.value.filename) {
+                    console.warn(`ファイル "${result.value.filename}" の読み込みをスキップしました`);
+                } else {
+                    console.warn(`ファイル "${filename}" の読み込みをスキップしました`);
+                }
+            }
+        });
         
         // QUESTION_DATABASEを構築
         questionFiles.forEach(file => {
-            const { subject, subjectName, unitId, unitName, category, questions } = file;
-            
-            // 科目がまだ存在しない場合は初期化
-            if (!QUESTION_DATABASE[subject]) {
-                QUESTION_DATABASE[subject] = {
-                    name: subjectName,
-                    units: {}
+            try {
+                const { subject, subjectName, unitId, unitName, category, questions } = file;
+                
+                if (!subject || !subjectName || !unitId || !unitName || !questions) {
+                    console.warn('不正なファイル形式をスキップしました:', file);
+                    return;
+                }
+                
+                // 科目がまだ存在しない場合は初期化
+                if (!QUESTION_DATABASE[subject]) {
+                    QUESTION_DATABASE[subject] = {
+                        name: subjectName,
+                        units: {}
+                    };
+                }
+                
+                // 単元を追加
+                QUESTION_DATABASE[subject].units[unitId] = {
+                    name: unitName,
+                    category: category,
+                    questions: questions
                 };
+            } catch (error) {
+                console.warn('ファイルの処理中にエラーが発生しました:', error);
             }
-            
-            // 単元を追加
-            QUESTION_DATABASE[subject].units[unitId] = {
-                name: unitName,
-                category: category,
-                questions: questions
-            };
         });
         
-        console.log('問題データの読み込みが完了しました:', QUESTION_DATABASE);
+        console.log(`問題データの読み込みが完了しました: ${successCount}個成功, ${failCount}個失敗`);
+        console.log('読み込まれたデータベース:', QUESTION_DATABASE);
+        
+        // 最低1つも読み込めなかった場合は警告
+        if (successCount === 0) {
+            throw new Error('問題ファイルが1つも読み込めませんでした');
+        }
+        
+        if (failCount > 0) {
+            console.warn(`${failCount}個のファイルの読み込みに失敗しましたが、読み込めたファイルで続行します`);
+        }
     } catch (error) {
         console.error('問題データの読み込みに失敗しました:', error);
-        alert('問題データの読み込みに失敗しました。ページを再読み込みしてください。');
+        // エラーが発生しても、既に読み込めたデータがあれば続行
+        if (Object.keys(QUESTION_DATABASE).length === 0) {
+            alert('問題データの読み込みに失敗しました。ページを再読み込みしてください。\nエラー: ' + error.message);
+        } else {
+            console.warn('一部のデータは読み込めましたが、エラーが発生しました:', error);
+        }
     }
 }
 
