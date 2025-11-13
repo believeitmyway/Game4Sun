@@ -2707,8 +2707,13 @@ function initMinigame() {
     const canvas = document.getElementById('minigame-canvas');
     if (!canvas) return;
     
+    // スマホ対応：キャンバスサイズを調整
+    adjustCanvasSize();
+    
+    // スマホかどうかを判定して操作説明を変更
+    updateMinigameInstructions();
+    
     const ctx = canvas.getContext('2d');
-    const rect = canvas.getBoundingClientRect();
     
     // プレイヤーの初期位置
     minigameState.playerX = canvas.width / 2 - minigameState.playerWidth / 2;
@@ -2720,8 +2725,64 @@ function initMinigame() {
     // イベントリスナー
     canvas.addEventListener('mousemove', handleMinigameMouseMove);
     canvas.addEventListener('click', handleMinigameClick);
+    
+    // タッチイベント（スマホ対応）
+    canvas.addEventListener('touchstart', handleMinigameTouchStart, { passive: false });
+    canvas.addEventListener('touchmove', handleMinigameTouchMove, { passive: false });
+    canvas.addEventListener('touchend', handleMinigameTouchEnd);
+    
     document.addEventListener('keydown', handleMinigameKeyDown);
     document.addEventListener('keyup', handleMinigameKeyUp);
+    
+    // リサイズ時にキャンバスサイズを調整
+    window.addEventListener('resize', () => {
+        adjustCanvasSize();
+        updateMinigameInstructions();
+    });
+}
+
+// 操作説明を更新（スマホ/PC判定）
+function updateMinigameInstructions() {
+    const instructionsEl = document.getElementById('minigame-instructions');
+    if (!instructionsEl) return;
+    
+    // タッチデバイスかどうかを判定
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    if (isTouchDevice || window.innerWidth <= 768) {
+        instructionsEl.textContent = '画面をタッチして移動';
+    } else {
+        instructionsEl.textContent = '← → キーまたはマウスで移動';
+    }
+}
+
+// キャンバスサイズを調整（スマホ対応）
+function adjustCanvasSize() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const container = canvas.parentElement;
+    if (!container) return;
+    
+    const containerWidth = container.clientWidth - 20; // padding分を引く
+    const maxWidth = 600;
+    const aspectRatio = 600 / 400; // 元のアスペクト比
+    
+    let newWidth = Math.min(containerWidth, maxWidth);
+    let newHeight = newWidth / aspectRatio;
+    
+    // スマホの場合は画面幅に合わせる
+    if (window.innerWidth <= 768) {
+        newWidth = Math.min(window.innerWidth - 40, 600);
+        newHeight = newWidth / aspectRatio;
+    }
+    
+    canvas.style.width = newWidth + 'px';
+    canvas.style.height = newHeight + 'px';
+    
+    // 実際の描画サイズは元のサイズを維持（高解像度対応）
+    canvas.width = 600;
+    canvas.height = 400;
 }
 
 // ミニゲーム開始
@@ -2775,8 +2836,14 @@ function gameLoop() {
     
     const ctx = canvas.getContext('2d');
     
-    // 画面クリア
+    // 画面クリア（実際の描画サイズでクリア）
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // スケールを調整（表示サイズに合わせる）
+    const scaleX = canvas.width / 600;
+    const scaleY = canvas.height / 400;
+    ctx.save();
+    ctx.scale(scaleX, scaleY);
     
     // 背景描画
     drawMinigameBackground(ctx, canvas);
@@ -2803,6 +2870,8 @@ function gameLoop() {
     if (minigameState.score > 0 && minigameState.score % 10 === 0) {
         minigameState.gameSpeed = Math.min(6, 2 + minigameState.score / 50);
     }
+    
+    ctx.restore(); // スケールを元に戻す
     
     minigameState.animationFrame = requestAnimationFrame(gameLoop);
 }
@@ -2837,13 +2906,15 @@ function updateMinigamePlayer() {
     const canvas = document.getElementById('minigame-canvas');
     if (!canvas) return;
     
+    // 実際の描画サイズ（600x400）を基準にする
+    const gameWidth = 600;
     const speed = 5;
     
     if (minigameState.keys['ArrowLeft'] || minigameState.keys['a'] || minigameState.keys['A']) {
         minigameState.playerX = Math.max(0, minigameState.playerX - speed);
     }
     if (minigameState.keys['ArrowRight'] || minigameState.keys['d'] || minigameState.keys['D']) {
-        minigameState.playerX = Math.min(canvas.width - minigameState.playerWidth, minigameState.playerX + speed);
+        minigameState.playerX = Math.min(gameWidth - minigameState.playerWidth, minigameState.playerX + speed);
     }
 }
 
@@ -2882,30 +2953,30 @@ function generateMinigamePoops() {
     const spawnInterval = Math.max(500, 2000 - minigameState.score * 10);
     
     if (now - minigameState.lastPoopTime > spawnInterval) {
-        const canvas = document.getElementById('minigame-canvas');
-        if (canvas) {
-            minigameState.poops.push({
-                x: Math.random() * (canvas.width - 30),
-                y: -30,
-                size: 20 + Math.random() * 15,
-                speed: minigameState.gameSpeed + Math.random() * 2,
-                emoji: Math.random() > 0.7 ? '💩' : '💩',
-                rotation: Math.random() * Math.PI * 2
-            });
-        }
+        // 実際のゲームサイズ（600x400）を基準にする
+        minigameState.poops.push({
+            x: Math.random() * (600 - 30),
+            y: -30,
+            size: 20 + Math.random() * 15,
+            speed: minigameState.gameSpeed + Math.random() * 2,
+            emoji: Math.random() > 0.7 ? '💩' : '💩',
+            rotation: Math.random() * Math.PI * 2
+        });
         minigameState.lastPoopTime = now;
     }
 }
 
 // うんち更新・描画
 function updateMinigamePoops(ctx, canvas) {
+    const gameHeight = 400; // 実際のゲームサイズ
+    
     for (let i = minigameState.poops.length - 1; i >= 0; i--) {
         const poop = minigameState.poops[i];
         poop.y += poop.speed;
         poop.rotation += 0.1;
         
-        // 画面外に出たら削除
-        if (poop.y > canvas.height + 50) {
+        // 画面外に出たら削除（実際のゲームサイズで判定）
+        if (poop.y > gameHeight + 50) {
             minigameState.poops.splice(i, 1);
             continue;
         }
@@ -2943,7 +3014,17 @@ function checkMinigameCollisions() {
             minigameState.poops.splice(i, 1);
             minigameState.score += 10;
             playSFX('correct');
-            createParticles('correct', poop.x + poop.size / 2, poop.y + poop.size / 2);
+            
+            // パーティクルの位置を実際の表示位置に変換
+            const canvas = document.getElementById('minigame-canvas');
+            if (canvas) {
+                const rect = canvas.getBoundingClientRect();
+                const scaleX = rect.width / 600;
+                const scaleY = rect.height / 400;
+                const displayX = (poop.x + poop.size / 2) * scaleX + rect.left;
+                const displayY = (poop.y + poop.size / 2) * scaleY + rect.top;
+                createParticles('correct', displayX, displayY);
+            }
         }
     }
 }
@@ -2980,7 +3061,12 @@ function handleMinigameMouseMove(event) {
     
     const rect = canvas.getBoundingClientRect();
     const mouseX = event.clientX - rect.left;
-    minigameState.playerX = Math.max(0, Math.min(canvas.width - minigameState.playerWidth, mouseX - minigameState.playerWidth / 2));
+    
+    // 表示サイズから実際のゲームサイズ（600x400）に変換
+    const scaleX = 600 / rect.width;
+    const gameX = mouseX * scaleX;
+    
+    minigameState.playerX = Math.max(0, Math.min(600 - minigameState.playerWidth, gameX - minigameState.playerWidth / 2));
 }
 
 // クリック処理
@@ -3000,6 +3086,60 @@ function handleMinigameKeyDown(event) {
 // キーアップ処理
 function handleMinigameKeyUp(event) {
     minigameState.keys[event.key] = false;
+}
+
+// タッチ開始処理（スマホ対応）
+function handleMinigameTouchStart(event) {
+    event.preventDefault();
+    if (!minigameState.isRunning) {
+        const overlay = document.getElementById('minigame-overlay');
+        if (overlay && overlay.style.display !== 'none') {
+            startMinigame();
+        }
+        return;
+    }
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const touch = event.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    updatePlayerPositionFromTouch(touchX);
+}
+
+// タッチ移動処理（スマホ対応）
+function handleMinigameTouchMove(event) {
+    event.preventDefault();
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const touch = event.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    updatePlayerPositionFromTouch(touchX);
+}
+
+// タッチ終了処理（スマホ対応）
+function handleMinigameTouchEnd(event) {
+    event.preventDefault();
+    // タッチ終了時の処理（必要に応じて）
+}
+
+// タッチ位置からプレイヤー位置を更新
+function updatePlayerPositionFromTouch(touchX) {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const rect = canvas.getBoundingClientRect();
+    
+    // 表示サイズから実際のゲームサイズ（600x400）に変換
+    const scaleX = 600 / rect.width;
+    const gameX = touchX * scaleX;
+    
+    minigameState.playerX = Math.max(0, Math.min(600 - minigameState.playerWidth, gameX - minigameState.playerWidth / 2));
 }
 
 if (typeof module !== 'undefined' && module.exports) {

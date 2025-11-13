@@ -2408,9 +2408,14 @@ input:checked + .slider:before {
 
 @media (max-width: 768px) {
     #minigame-canvas {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        touch-action: none; /* タッチ操作のスクロールを防ぐ */
+    }
+    
+    .minigame-canvas-container {
+        padding: 5px;
     }
     
     .minigame-header {
@@ -2421,6 +2426,39 @@ input:checked + .slider:before {
     .minigame-score {
         flex-direction: column;
         gap: 5px;
+        font-size: 0.9em;
+    }
+    
+    .minigame-title {
+        font-size: 1em;
+    }
+    
+    .minigame-controls {
+        flex-wrap: wrap;
+    }
+    
+    .minigame-btn {
+        flex: 1;
+        min-width: 120px;
+        padding: 12px;
+        font-size: 0.95em;
+    }
+    
+    .minigame-start-screen h4 {
+        font-size: 1.3em;
+    }
+    
+    .minigame-start-screen p {
+        font-size: 0.9em;
+    }
+}
+
+/* スマホ向けのタッチ操作ヒント */
+@media (max-width: 768px) and (pointer: coarse) {
+    .minigame-start-screen p {
+        font-size: 0.95em;
+        font-weight: bold;
+        color: var(--primary-color);
     }
 }
 
