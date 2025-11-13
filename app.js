@@ -8,6 +8,7 @@ let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let startTime = null;
 let userAnswerHistory = {};
+let currentQuestionAnswered = false;  // 現在の問題が既に回答済みかどうか
 let settings = {
     bgm: true,
     sfx: true,
@@ -1095,6 +1096,7 @@ function startDrill() {
     currentQuestionIndex = 0;
     correctAnswers = 0;
     startTime = Date.now();
+    currentQuestionAnswered = false;  // 回答済みフラグをリセット
     
     // クイズ画面へ
     showScreen('quiz-screen');
@@ -1206,6 +1208,9 @@ function displayQuestion() {
         return;
     }
     
+    // 新しい問題を表示する際に回答済みフラグをリセット
+    currentQuestionAnswered = false;
+    
     const question = currentQuestions[currentQuestionIndex];
     const unitInfo = findUnitInfo(question.id);
     
@@ -1280,6 +1285,14 @@ function generateAnswerArea(question) {
 }
 
 function checkAnswer(selectedIndex, correctIndex) {
+    // 既に回答済みの場合は処理をスキップ
+    if (currentQuestionAnswered) {
+        return;
+    }
+    
+    // 回答済みフラグを設定（重複回答を防ぐ）
+    currentQuestionAnswered = true;
+    
     const question = currentQuestions[currentQuestionIndex];
     const isCorrect = selectedIndex === correctIndex;
     
@@ -1322,12 +1335,27 @@ function checkAnswer(selectedIndex, correctIndex) {
 }
 
 function checkInputAnswer() {
+    // 既に回答済みの場合は処理をスキップ
+    if (currentQuestionAnswered) {
+        return;
+    }
+    
+    // 回答済みフラグを設定（重複回答を防ぐ）
+    currentQuestionAnswered = true;
+    
     const question = currentQuestions[currentQuestionIndex];
     const input = document.getElementById('answer-input');
     const userAnswer = input.value.trim();
     const correctAnswer = question.answer.toString().trim();
     
     const isCorrect = userAnswer === correctAnswer;
+    
+    // 入力フィールドとボタンを無効化
+    input.disabled = true;
+    const submitBtn = input.nextElementSibling;
+    if (submitBtn && submitBtn.classList.contains('submit-btn')) {
+        submitBtn.disabled = true;
+    }
     
     // 効果音とパーティクル
     playSFX(isCorrect ? 'correct' : 'wrong');
