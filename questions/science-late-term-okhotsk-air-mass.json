@@ -2,19 +2,14 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-okhotsk-air-mass",
-  "unitName": "気象",
-  "category": "後期期末テスト",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
   "questions": [
     {
       "id": "sci-late-okhotsk-air-mass-001",
       "question": "オホーツク気団の性質として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": [
-        "冷たく湿っている",
-        "冷たく乾いている",
-        "暖かく乾いている",
-        "暖かく湿っている"
-      ],
+      "choices": ["冷たく湿っている", "冷たく乾いている", "暖かく乾いている", "暖かく湿っている"],
       "answer": 0,
       "explanation": "オホーツク気団は冷たく湿った海洋性の空気です。"
     },
@@ -22,12 +17,7 @@
       "id": "sci-late-okhotsk-air-mass-002",
       "question": "オホーツク気団が日本に影響しやすい季節はいつですか。",
       "type": "multiple",
-      "choices": [
-        "初夏から梅雨時期",
-        "真冬",
-        "真夏",
-        "秋の終わり"
-      ],
+      "choices": ["初夏から梅雨時期", "真冬", "真夏", "秋の終わり"],
       "answer": 0,
       "explanation": "初夏にオホーツク海高気圧が発達し、梅雨前線の北側に冷たい空気を送り込みます。"
     },
@@ -35,12 +25,7 @@
       "id": "sci-late-okhotsk-air-mass-003",
       "question": "オホーツク気団が強まると日本の太平洋側で起こりやすい天気はどれですか。",
       "type": "multiple",
-      "choices": [
-        "長期間の霧や低温",
-        "猛暑",
-        "大雪",
-        "乾燥した晴天"
-      ],
+      "choices": ["長期間の霧や低温", "猛暑", "大雪", "乾燥した晴天"],
       "answer": 0,
       "explanation": "冷たく湿った空気が流れ込み、気温が低く霧や曇りの日が続きます。"
     },
@@ -48,12 +33,7 @@
       "id": "sci-late-okhotsk-air-mass-004",
       "question": "オホーツク気団と小笠原気団がぶつかると何が形成されますか。",
       "type": "multiple",
-      "choices": [
-        "梅雨前線",
-        "寒冷前線",
-        "停滞前線",
-        "台風"
-      ],
+      "choices": ["梅雨前線", "寒冷前線", "停滞前線", "台風"],
       "answer": 0,
       "explanation": "冷たいオホーツク気団と暖かい小笠原気団の境界には梅雨前線が形成されます。"
     },
@@ -61,12 +41,7 @@
       "id": "sci-late-okhotsk-air-mass-005",
       "question": "オホーツク気団が影響する際に農業で注意すべきこととして適切なのはどれですか。",
       "type": "multiple",
-      "choices": [
-        "低温や日照不足による生育不良",
-        "干ばつ",
-        "熱波",
-        "霜害"
-      ],
+      "choices": ["低温や日照不足による生育不良", "干ばつ", "熱波", "霜害"],
       "answer": 0,
       "explanation": "低温や日照不足が続くと農作物の生育が悪化するため対策が必要です。"
     }
