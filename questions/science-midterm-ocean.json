@@ -1,0 +1,32 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "meteorology-midterm-atmosphere-ocean",
+  "unitName": "大気の動きと海洋の影響",
+  "category": "後期期末テスト対策",
+  "questions": [
+    { "id": "sci-midterm-ocean-001", "question": "気温差が生じると気圧にどのような違いが現れますか。", "type": "multiple", "choices": ["温かい場所で気圧が低くなる", "温かい場所で気圧が高くなる", "気圧は変わらない", "冷たい場所で気圧が低くなる"], "answer": 0, "explanation": "暖かい空気は膨張して軽くなるため、気圧が低下します。" },
+    { "id": "sci-midterm-ocean-002", "question": "地表の加熱が大きい場所で生じる上昇気流は何を引き起こしますか。", "type": "multiple", "choices": ["低気圧の形成", "高気圧の形成", "風の停止", "海水の蒸発が止まる"], "answer": 0, "explanation": "上昇気流が生まれると地表の気圧が下がり低気圧が形成されます。" },
+    { "id": "sci-midterm-ocean-003", "question": "気温の差によって生じる水平の空気の動きを何と呼びますか。", "type": "multiple", "choices": ["風", "雲", "雨", "霧"], "answer": 0, "explanation": "気圧差から生じる水平移動が風です。" },
+    { "id": "sci-midterm-ocean-004", "question": "昼間に地表付近の空気が強く暖められると、上空ではどのような動きが起こりますか。", "type": "multiple", "choices": ["上昇した空気が広がる", "下降して気圧が上がる", "冷えて沈む", "風が止まる"], "answer": 0, "explanation": "地表で暖められた空気は上昇し、上空で広がります。" },
+    { "id": "sci-midterm-ocean-005", "question": "気温差が小さくなると風はどうなりやすいですか。", "type": "multiple", "choices": ["弱まる", "強まる", "急に止む", "一定の方向に速く吹く"], "answer": 0, "explanation": "気温差が小さいと気圧差も小さくなり風は弱まります。" },
+
+    { "id": "sci-midterm-ocean-006", "question": "海風が吹くのは主に1日のどの時間帯ですか。", "type": "multiple", "choices": ["昼間", "深夜", "早朝", "夕方以降のみ"], "answer": 0, "explanation": "昼間は陸が海より暖まり、海から陸へ海風が吹きます。" },
+    { "id": "sci-midterm-ocean-007", "question": "海風が発生する原因として最も適切なのはどれですか。", "type": "multiple", "choices": ["陸の方が早く温まり低気圧になる", "海が急激に冷える", "夜間に陸が冷える", "月の引力"], "answer": 0, "explanation": "昼は陸が温まり気圧が低くなるため、海から涼しい風が吹き込みます。" },
+    { "id": "sci-midterm-ocean-008", "question": "海風が吹くと沿岸部の気温はどうなりやすいですか。", "type": "multiple", "choices": ["下がり涼しくなる", "急上昇する", "変わらない", "極端に寒くなる"], "answer": 0, "explanation": "海からの涼しい空気で沿岸は気温が下がり涼しくなります。" },
+    { "id": "sci-midterm-ocean-009", "question": "海風前線とは何ですか。", "type": "multiple", "choices": ["海風と内陸の暖気がぶつかる境界", "海水温の等しい線", "潮の満ち干の境界", "気圧の等しい線"], "answer": 0, "explanation": "海風が内陸の暖かい空気とぶつかると海風前線ができ、積乱雲が発生することがあります。" },
+    { "id": "sci-midterm-ocean-010", "question": "関東平野で夕立が起こりやすいのは海風がどのように働くためですか。", "type": "multiple", "choices": ["南からの海風と北からの山風が収束する", "北風だけが吹く", "風が全く吹かない", "海風が夜まで吹き続ける"], "answer": 0, "explanation": "海風と山風がぶつかり上昇気流が強まると積乱雲が発達し夕立になります。" },
+
+    { "id": "sci-midterm-ocean-011", "question": "陸風が吹く時間帯として最も一般的なのはいつですか。", "type": "multiple", "choices": ["夜間から明け方", "昼間", "正午のみ", "午後2時のみ"], "answer": 0, "explanation": "夜間は陸が冷え、陸風が海に向かって吹きます。" },
+    { "id": "sci-midterm-ocean-012", "question": "陸風はどのようにして発生しますか。", "type": "multiple", "choices": ["夜に陸が冷え気圧が高くなる", "夜に海が冷え気圧が高くなる", "昼に陸が温まる", "海水が蒸発する"], "answer": 0, "explanation": "夜は陸地が冷えて高気圧になり、海へ向かう陸風が吹きます。" },
+    { "id": "sci-midterm-ocean-013", "question": "陸風が強いとき海の表面ではどのような影響が見られることがありますか。", "type": "multiple", "choices": ["沿岸に打ち寄せる波が高くなる", "波がなくなる", "潮の満ち引きが止まる", "海水が凍る"], "answer": 0, "explanation": "陸から吹く風が強いと海面が荒れて波が高くなります。" },
+    { "id": "sci-midterm-ocean-014", "question": "陸風が吹いているとき、沿岸部の気温はどうなりやすいですか。", "type": "multiple", "choices": ["低くなる", "高くなる", "変わらない", "極端に上昇する"], "answer": 0, "explanation": "冷えた陸から吹く風で沿岸部の気温は低下します。" },
+    { "id": "sci-midterm-ocean-015", "question": "夜間の陸風によって海上に霧が発生することがあるのはなぜですか。", "type": "multiple", "choices": ["冷たい陸風が海面の湿った空気を冷やす", "海面が温まり上昇気流ができる", "塩分が増える", "波が止む"], "answer": 0, "explanation": "冷たい陸風で海面付近の空気が冷やされ霧が発生することがあります。" },
+
+    { "id": "sci-midterm-ocean-016", "question": "季節風とはどのような風ですか。", "type": "multiple", "choices": ["季節によって向きや強さが変わる広域の風", "一日のうちに変化する局地風", "山と谷で吹く風", "地形に関係なく常に一定の風"], "answer": 0, "explanation": "季節風（モンスーン）は季節ごとに向きや強さが変わる広域の風です。" },
+    { "id": "sci-midterm-ocean-017", "question": "日本の冬に吹く季節風の向きとして典型的なのはどれですか。", "type": "multiple", "choices": ["北西から南東へ", "南東から北西へ", "南から北へ", "東から西へ"], "answer": 0, "explanation": "冬はシベリア高気圧から北西の季節風が吹き込みます。" },
+    { "id": "sci-midterm-ocean-018", "question": "日本の夏に吹く季節風の特徴として適切なのはどれですか。", "type": "multiple", "choices": ["南から湿った風が吹き雨をもたらす", "北西から乾いた風が吹く", "常に無風", "寒波をもたらす"], "answer": 0, "explanation": "夏は太平洋高気圧から暖かく湿った南寄りの風が吹き、雨や蒸し暑さをもたらします。" },
+    { "id": "sci-midterm-ocean-019", "question": "梅雨時に季節風が弱まるとどのような現象が起こりやすいですか。", "type": "multiple", "choices": ["前線が停滞し大雨が続く", "晴天が続く", "雪が降る", "霜が降りる"], "answer": 0, "explanation": "季節風が弱まると前線が停滞しやすく、長雨になります。" },
+    { "id": "sci-midterm-ocean-020", "question": "インドや東南アジアの季節風で雨季をもたらすのはどの季節ですか。", "type": "multiple", "choices": ["夏季の南西モンスーン", "冬季の北東モンスーン", "春の季節風", "秋の季節風"], "answer": 0, "explanation": "夏の南西モンスーンは海から湿った空気を運び、雨季をもたらします。" }
+  ]
+}
