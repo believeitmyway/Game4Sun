@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-rainy-season",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-rainy-season-001",
+      "question": "梅雨の時期に日本付近で停滞する前線を何と呼びますか。",
+      "type": "multiple",
+      "choices": ["梅雨前線", "寒冷前線", "温暖前線", "台風前線"],
+      "answer": 0,
+      "explanation": "梅雨期には梅雨前線が本州付近に停滞し、長雨をもたらします。"
+    },
+    {
+      "id": "sci-late-rainy-season-002",
+      "question": "梅雨前線が長期間停滞する要因として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["北側のオホーツク海高気圧と南側の小笠原高気圧が拮抗する", "シベリア高気圧が張り出す", "台風が連続する", "海風が止む"],
+      "answer": 0,
+      "explanation": "2つの高気圧が勢力を保ち、前線が動きにくくなるため梅雨が続きます。"
+    },
+    {
+      "id": "sci-late-rainy-season-003",
+      "question": "梅雨の間に注意すべき気象災害として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["土砂災害や洪水", "熱中症", "低体温症", "霜害"],
+      "answer": 0,
+      "explanation": "降り続く雨で地盤が緩み、洪水や土砂災害の危険が高まります。"
+    },
+    {
+      "id": "sci-late-rainy-season-004",
+      "question": "梅雨の終わりに前線が北へ押し上げられる主な原因はどれですか。",
+      "type": "multiple",
+      "choices": ["小笠原高気圧が強まる", "オホーツク海高気圧が強まる", "シベリア高気圧が強まる", "台風が減る"],
+      "answer": 0,
+      "explanation": "太平洋高気圧（小笠原高気圧）が勢力を増すと梅雨前線を北上させ、梅雨明けとなります。"
+    },
+    {
+      "id": "sci-late-rainy-season-005",
+      "question": "梅雨の時期に湿度が高くなる理由として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["暖かく湿った空気が継続的に流れ込む", "冷たい乾いた空気が入る", "風が吹かない", "海水が凍る"],
+      "answer": 0,
+      "explanation": "梅雨は南から湿った空気が流れ込み続けるため、湿度が高くじめじめとした天気になります。"
+    }
+  ]
+}

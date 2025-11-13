@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-air-mass",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-air-mass-001",
+      "question": "気団とはどのような性質を持つ空気の集まりですか。",
+      "type": "multiple",
+      "choices": ["広い範囲で温度や湿度がほぼ一様", "狭い範囲で温度が急変", "常に乾燥している", "常に湿っている"],
+      "answer": 0,
+      "explanation": "気団は広い範囲でほぼ同じ温度・湿度の性質を持つ空気の塊です。"
+    },
+    {
+      "id": "sci-late-air-mass-002",
+      "question": "気団の性質を決める主な要因として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["発生した地域の地表条件", "月の引力", "地震の有無", "海の深さ"],
+      "answer": 0,
+      "explanation": "気団は形成される地域の地面や海の状態によって温度・湿度が決まります。"
+    },
+    {
+      "id": "sci-late-air-mass-003",
+      "question": "寒帯気団と熱帯気団で共通する特徴はどれですか。",
+      "type": "multiple",
+      "choices": ["広大な範囲を覆い移動する", "必ず湿っている", "必ず乾燥している", "季節に関係なく一定"],
+      "answer": 0,
+      "explanation": "気団はいずれも広い範囲を覆い、移動しながら天気に影響を与えます。"
+    },
+    {
+      "id": "sci-late-air-mass-004",
+      "question": "気団同士がぶつかる境界で生じる現象として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["前線ができる", "地震が発生する", "オーロラが発生する", "潮の満ち引きが変わる"],
+      "answer": 0,
+      "explanation": "性質の異なる気団がぶつかると境界に前線が形成されます。"
+    },
+    {
+      "id": "sci-late-air-mass-005",
+      "question": "気団が発生しやすい場所として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["広大な海洋や大陸", "山間の狭い谷", "都市の狭い地域", "火山の火口"],
+      "answer": 0,
+      "explanation": "気団は広く均一な海洋や大陸で長時間滞在することで形成されます。"
+    }
+  ]
+}

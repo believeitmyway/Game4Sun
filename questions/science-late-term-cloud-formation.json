@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-cloud-formation",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-cloud-formation-001",
+      "question": "雲ができるために必要な条件として最も基本的なものはどれですか。",
+      "type": "multiple",
+      "choices": ["空気が冷やされ水蒸気が凝結する", "空気が温まり膨張する", "地表が乾燥する", "太陽が沈む"],
+      "answer": 0,
+      "explanation": "空気が冷えて飽和水蒸気量を下回ると水蒸気が凝結し雲ができます。"
+    },
+    {
+      "id": "sci-late-cloud-formation-002",
+      "question": "雲ができる際に水蒸気が凝結するために必要な微粒子を何と呼びますか。",
+      "type": "multiple",
+      "choices": ["凝結核", "風成核", "光化核", "電荷核"],
+      "answer": 0,
+      "explanation": "凝結核となる塵や塩の粒があることで水蒸気が凝結して雲粒が生じます。"
+    },
+    {
+      "id": "sci-late-cloud-formation-003",
+      "question": "上昇気流が発生すると空気塊はどのように変化しますか。",
+      "type": "multiple",
+      "choices": ["膨張して温度が下がる", "収縮して温度が上がる", "温度が一定のまま", "乾燥する"],
+      "answer": 0,
+      "explanation": "上昇する空気塊は膨張し、断熱的に温度が低下します。"
+    },
+    {
+      "id": "sci-late-cloud-formation-004",
+      "question": "雲底ができる高度を求めるときによく利用する差はどれとどれの差ですか。",
+      "type": "multiple",
+      "choices": ["気温と露点温度", "気圧と風速", "湿度と降水量", "風向と風速"],
+      "answer": 0,
+      "explanation": "気温と露点の差に100mを掛けて凝結高度を近似します。"
+    },
+    {
+      "id": "sci-late-cloud-formation-005",
+      "question": "暖かい空気と冷たい空気が出会ってできる雲の典型例として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["層雲や乱層雲", "巻雲", "波状雲", "乳房雲だけ"],
+      "answer": 0,
+      "explanation": "暖気が冷気の上をゆっくり上昇すると層状の雲ができ、雨を降らせることが多いです。"
+    }
+  ]
+}

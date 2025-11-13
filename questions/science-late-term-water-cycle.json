@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-water-cycle",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-water-cycle-001",
+      "question": "水の循環で海や湖から水蒸気が供給される過程を何と呼びますか。",
+      "type": "multiple",
+      "choices": ["蒸発", "凝結", "降水", "浸透"],
+      "answer": 0,
+      "explanation": "水面や地表から水が水蒸気になる過程が蒸発です。"
+    },
+    {
+      "id": "sci-late-water-cycle-002",
+      "question": "水蒸気が冷えて雲粒になる過程は何と呼ばれますか。",
+      "type": "multiple",
+      "choices": ["凝結", "昇華", "蒸発", "融解"],
+      "answer": 0,
+      "explanation": "水蒸気が冷却され水滴になることを凝結といいます。"
+    },
+    {
+      "id": "sci-late-water-cycle-003",
+      "question": "地表に降った雨が地下にしみ込むことを何と呼びますか。",
+      "type": "multiple",
+      "choices": ["浸透", "蒸発", "昇華", "凍結"],
+      "answer": 0,
+      "explanation": "降水が土壌や岩石の隙間に入る過程を浸透と呼びます。"
+    },
+    {
+      "id": "sci-late-water-cycle-004",
+      "question": "水の循環が地球全体で繰り返される主なエネルギー源はどれですか。",
+      "type": "multiple",
+      "choices": ["太陽エネルギー", "地球の自転", "月の引力", "地震のエネルギー"],
+      "answer": 0,
+      "explanation": "太陽の熱によって水が蒸発し、循環が駆動されます。"
+    },
+    {
+      "id": "sci-late-water-cycle-005",
+      "question": "水の循環が私たちの生活に与える影響として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["飲料水や農業用水が供給される", "地震が発生する", "季節がなくなる", "大気がなくなる"],
+      "answer": 0,
+      "explanation": "水の循環によって河川や地下水が維持され、生活や農業に必要な水が供給されます。"
+    }
+  ]
+}
