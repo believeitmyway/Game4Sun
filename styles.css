@@ -508,6 +508,38 @@ body.shop-bg-space::before {
                 radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
 }
 
+body.shop-bg-fantasy {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    color: #fff;
+}
+
+body.shop-bg-fantasy::before {
+    background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 192, 203, 0.4) 0%, transparent 60%);
+    animation: bg-pulse 4s ease-in-out infinite;
+}
+
+body.shop-bg-diamond {
+    background: linear-gradient(135deg, #b8c6db 0%, #f5f7fa 50%, #c3cfe2 100%);
+    color: #1a1a1a;
+}
+
+body.shop-bg-diamond::before {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.6) 0%, transparent 70%);
+    animation: sparkle 3s ease-in-out infinite;
+}
+
+body.shop-bg-dragon {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 50%, #c44569 100%);
+    color: #fff;
+}
+
+body.shop-bg-dragon::before {
+    background: radial-gradient(circle at 30% 30%, rgba(255, 100, 100, 0.5) 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, rgba(255, 200, 100, 0.3) 0%, transparent 60%);
+    animation: bg-pulse 3s ease-in-out infinite;
+}
+
 body.effect-particles-active .poop-racer {
     animation-duration: 0.8s;
 }
@@ -516,12 +548,134 @@ body.effect-sound-active .menu-btn.primary {
     box-shadow: 0 10px 30px rgba(76, 175, 80, 0.4);
 }
 
+body.effect-triple-particles-active .poop-racer {
+    animation-duration: 0.6s;
+}
+
+body.effect-rainbow-active {
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-size: 400% 400%;
+    animation: rainbow-shift 3s ease infinite;
+}
+
+body.effect-gold-active {
+    background: linear-gradient(135deg, #f5d020 0%, #f53803 100%);
+}
+
+body.effect-gold-active::before {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.5) 0%, transparent 70%);
+    animation: gold-glow 2s ease-in-out infinite;
+}
+
+body.effect-slowmo-active .answer-btn.correct,
+body.effect-slowmo-active .input-answer[style*="border-color: #4CAF50"] {
+    animation: slowmo-celebration 2s ease-in-out;
+}
+
+.boost-time {
+    font-size: 0.85em;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px;
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 5px;
+}
+
 @keyframes bg-pulse {
     0%, 100% {
         opacity: 0.3;
     }
     50% {
         opacity: 0.6;
+    }
+}
+
+@keyframes diamond-sparkle {
+    0%, 100% {
+        filter: drop-shadow(0 0 10px rgba(185, 198, 219, 0.8)) brightness(1);
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 1)) brightness(1.3);
+    }
+}
+
+@keyframes timemachine-pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 15px rgba(100, 149, 237, 0.6));
+    }
+    50% {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 25px rgba(100, 149, 237, 1));
+    }
+}
+
+@keyframes dragon-fire {
+    0%, 100% {
+        filter: drop-shadow(0 0 20px rgba(255, 107, 107, 0.8)) hue-rotate(0deg);
+    }
+    50% {
+        filter: drop-shadow(0 0 30px rgba(255, 200, 100, 1)) hue-rotate(10deg);
+    }
+}
+
+@keyframes god-glow {
+    0%, 100% {
+        filter: drop-shadow(0 0 25px rgba(255, 215, 0, 0.9)) brightness(1);
+    }
+    50% {
+        filter: drop-shadow(0 0 40px rgba(255, 255, 255, 1)) brightness(1.5);
+    }
+}
+
+@keyframes rainbow-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gold-glow {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes slowmo-celebration {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2) rotate(5deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-5deg);
+    }
+    75% {
+        transform: scale(1.2) rotate(5deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
     }
 }
 
@@ -664,6 +818,30 @@ body.effect-sound-active .menu-btn.primary {
     text-shadow: 0 0 20px rgba(138, 180, 255, 0.9);
     filter: drop-shadow(0 0 16px rgba(138, 180, 255, 0.7));
     color: #b3e5fc;
+}
+
+.poop-racer.racer-style-diamond .racer-emoji,
+.racer-position.racer-style-diamond .racer-icon {
+    animation: diamond-sparkle 1.5s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px rgba(185, 198, 219, 0.8));
+}
+
+.poop-racer.racer-style-timemachine .racer-emoji,
+.racer-position.racer-style-timemachine .racer-icon {
+    animation: timemachine-pulse 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(100, 149, 237, 0.6));
+}
+
+.poop-racer.racer-style-dragon .racer-emoji,
+.racer-position.racer-style-dragon .racer-icon {
+    animation: dragon-fire 1s ease-in-out infinite;
+    filter: drop-shadow(0 0 20px rgba(255, 107, 107, 0.8));
+}
+
+.poop-racer.racer-style-god .racer-emoji,
+.racer-position.racer-style-god .racer-icon {
+    animation: god-glow 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 25px rgba(255, 215, 0, 0.9));
 }
 
 @keyframes sparkle-glow {

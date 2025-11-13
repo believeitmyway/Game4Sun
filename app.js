@@ -9,6 +9,7 @@ let correctAnswers = 0;
 let startTime = null;
 let userAnswerHistory = {};
 let currentQuestionAnswered = false;  // 現在の問題が既に回答済みかどうか
+let shopUpdateInterval = null;  // ショップ画面の更新用インターバル
 let settings = {
     bgm: true,
     sfx: true,
@@ -47,7 +48,13 @@ let shopData = {
         racer: null,
         background: null,
         effects: []
-    }
+    },
+    boosts: {  // アクティブなブースト
+        exp: null,  // { itemId: 'boost-exp', expiresAt: timestamp }
+        up: null,   // { itemId: 'boost-up', expiresAt: timestamp }
+        all: null   // { itemId: 'boost-all', expiresAt: timestamp }
+    },
+    titles: []  // 購入済み称号IDのリスト
 };
 
 // 問題データベース（JSONファイルから読み込む）
@@ -534,13 +541,24 @@ function normalizeShopData(rawData = {}) {
         )
         : [];
 
+    const boostsData = rawData.boosts && typeof rawData.boosts === 'object' ? rawData.boosts : {};
+    const titles = Array.isArray(rawData.titles)
+        ? Array.from(new Set(rawData.titles.filter(id => catalog[id] && catalog[id].category === 'title')))
+        : [];
+    
     return {
         purchased,
         active: {
             racer: normalizeActiveId(activeData.racer, 'racer'),
             background: normalizeActiveId(activeData.background, 'background'),
             effects
-        }
+        },
+        boosts: {
+            exp: boostsData.exp && typeof boostsData.exp === 'object' && boostsData.exp.expiresAt ? boostsData.exp : null,
+            up: boostsData.up && typeof boostsData.up === 'object' && boostsData.up.expiresAt ? boostsData.up : null,
+            all: boostsData.all && typeof boostsData.all === 'object' && boostsData.all.expiresAt ? boostsData.all : null
+        },
+        titles
     };
 }
 
@@ -943,6 +961,23 @@ function showScreen(screenId) {
     // ショップ画面の更新
     if (screenId === 'shop-screen') {
         displayShop();
+        // ブーストの残り時間を定期的に更新
+        if (shopUpdateInterval) {
+            clearInterval(shopUpdateInterval);
+        }
+        shopUpdateInterval = setInterval(() => {
+            if (currentScreen === 'shop-screen') {
+                displayShop();
+            } else {
+                clearInterval(shopUpdateInterval);
+                shopUpdateInterval = null;
+            }
+        }, 1000);  // 1秒ごとに更新
+    } else {
+        if (shopUpdateInterval) {
+            clearInterval(shopUpdateInterval);
+            shopUpdateInterval = null;
+        }
     }
 }
 
@@ -1442,6 +1477,15 @@ function recordAnswer(questionId, isCorrect) {
         expGained = Math.floor(expGained * (1 + streakBonus.expBonus));
         upGained = Math.floor(upGained * (1 + streakBonus.upBonus));
         
+        // ブースト適用
+        const boostMultiplier = getBoostMultiplier();
+        if (boostMultiplier.exp > 1) {
+            expGained = Math.floor(expGained * boostMultiplier.exp);
+        }
+        if (boostMultiplier.up > 1) {
+            upGained = Math.floor(upGained * boostMultiplier.up);
+        }
+        
         playerData.exp += expGained;
         playerData.upPoints += upGained;
         
@@ -1789,7 +1833,13 @@ function resetAllData() {
             racer: null,
             background: null,
             effects: []
-        }
+        },
+        boosts: {
+            exp: null,
+            up: null,
+            all: null
+        },
+        titles: []
     };
     applyShopCustomizations();
     alert('学習記録をリセットしました！');
@@ -1910,16 +1960,19 @@ function createParticles(type, x, y) {
     }
     
     const hasDoubleParticles = isEffectActive('effect-particles');
-    const particleMultiplier = hasDoubleParticles ? 2 : 1;
+    const hasTripleParticles = isEffectActive('effect-triple-particles');
+    const particleMultiplier = hasTripleParticles ? 3 : (hasDoubleParticles ? 2 : 1);
     const baseCount = type === 'correct' ? 30 : 15;
     const count = baseCount * particleMultiplier;
     const emojiPool = type === 'correct'
-        ? (hasDoubleParticles ? ['✨', '💫', '🌟'] : ['✨'])
+        ? (hasTripleParticles ? ['✨', '💫', '🌟', '⭐', '💎', '👑'] : (hasDoubleParticles ? ['✨', '💫', '🌟'] : ['✨']))
         : ['💩'];
     const colors = type === 'correct'
-        ? (hasDoubleParticles
-            ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3']
-            : ['#FFD700', '#FFA500', '#FF69B4', '#00FF00'])
+        ? (hasTripleParticles
+            ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3', '#FF1493', '#00CED1', '#FF6347', '#9370DB']
+            : (hasDoubleParticles
+                ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3']
+                : ['#FFD700', '#FFA500', '#FF69B4', '#00FF00']))
         : ['#8B4513', '#654321', '#A0522D'];
     
     for (let i = 0; i < count; i++) {
@@ -2010,6 +2063,34 @@ const SHOP_ITEMS = {
         category: 'racer',
         emoji: '🚀'
     },
+    'racer-diamond': {
+        name: 'ダイヤモンドうんち💎',
+        description: 'うんちレーサーをダイヤモンド仕様に',
+        price: 5000,
+        category: 'racer',
+        emoji: '💎'
+    },
+    'racer-timemachine': {
+        name: 'タイムマシンうんち⏰',
+        description: 'うんちレーサーをタイムマシン仕様に',
+        price: 8000,
+        category: 'racer',
+        emoji: '⏰'
+    },
+    'racer-dragon': {
+        name: 'ドラゴンうんち🐉',
+        description: 'うんちレーサーをドラゴン仕様に',
+        price: 10000,
+        category: 'racer',
+        emoji: '🐉'
+    },
+    'racer-god': {
+        name: 'ゴッドうんち👑',
+        description: 'うんちレーサーをゴッド仕様に',
+        price: 15000,
+        category: 'racer',
+        emoji: '👑'
+    },
     'bg-night': {
         name: 'トイレの夜',
         description: '背景を夜のトイレに変更',
@@ -2031,6 +2112,27 @@ const SHOP_ITEMS = {
         category: 'background',
         emoji: '🌌'
     },
+    'bg-fantasy': {
+        name: '幻想的なトイレ🌠',
+        description: '背景を幻想的なトイレに変更',
+        price: 5000,
+        category: 'background',
+        emoji: '🌠'
+    },
+    'bg-diamond': {
+        name: 'ダイヤモンドのトイレ💎',
+        description: '背景をダイヤモンドのトイレに変更',
+        price: 8000,
+        category: 'background',
+        emoji: '💎'
+    },
+    'bg-dragon': {
+        name: 'ドラゴンのトイレ🐉',
+        description: '背景をドラゴンのトイレに変更',
+        price: 10000,
+        category: 'background',
+        emoji: '🐉'
+    },
     'effect-particles': {
         name: '特大パーティクル',
         description: 'パーティクルが2倍になる',
@@ -2044,6 +2146,79 @@ const SHOP_ITEMS = {
         price: 1200,
         category: 'effect',
         emoji: '🔊'
+    },
+    'effect-triple-particles': {
+        name: '3倍パーティクル🌟',
+        description: 'パーティクルが3倍になる',
+        price: 5000,
+        category: 'effect',
+        emoji: '🌟'
+    },
+    'effect-rainbow': {
+        name: 'レインボーエフェクト🌈',
+        description: '画面全体にレインボーエフェクト',
+        price: 6000,
+        category: 'effect',
+        emoji: '🌈'
+    },
+    'effect-gold': {
+        name: 'ゴールドエフェクト✨',
+        description: '画面全体にゴールドエフェクト',
+        price: 7000,
+        category: 'effect',
+        emoji: '✨'
+    },
+    'effect-slowmo': {
+        name: 'スローモーション効果⏸️',
+        description: '正解時にスローモーション演出',
+        price: 8000,
+        category: 'effect',
+        emoji: '⏸️'
+    },
+    'boost-exp': {
+        name: 'EXP 2倍ブースト📈',
+        description: '1時間、獲得EXPが2倍になる',
+        price: 5000,
+        category: 'boost',
+        emoji: '📈',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'boost-up': {
+        name: 'U-P 2倍ブースト💰',
+        description: '1時間、獲得U-Pが2倍になる',
+        price: 5000,
+        category: 'boost',
+        emoji: '💰',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'boost-all': {
+        name: '全ブーストパック🎁',
+        description: '1時間、EXPとU-Pが2倍になる',
+        price: 15000,
+        category: 'boost',
+        emoji: '🎁',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'title-master': {
+        name: 'マスター称号🏅',
+        description: '特別な称号「うんちマスター」を獲得',
+        price: 10000,
+        category: 'title',
+        emoji: '🏅'
+    },
+    'title-legend': {
+        name: 'レジェンド称号⭐',
+        description: '特別な称号「うんちレジェンド」を獲得',
+        price: 20000,
+        category: 'title',
+        emoji: '⭐'
+    },
+    'title-god': {
+        name: 'ゴッド称号👑',
+        description: '特別な称号「うんちゴッド」を獲得',
+        price: 30000,
+        category: 'title',
+        emoji: '👑'
     }
 };
 
@@ -2083,6 +2258,30 @@ const RACER_STYLES = {
         emoji: '🚀💩',
         wheels: '🪐',
         progressIcon: '🚀💩'
+    },
+    'racer-diamond': {
+        className: 'racer-style-diamond',
+        emoji: '💎💩💎',
+        wheels: '💠💠',
+        progressIcon: '💎💩✨'
+    },
+    'racer-timemachine': {
+        className: 'racer-style-timemachine',
+        emoji: '⏰💩⏰',
+        wheels: '🕐🕐',
+        progressIcon: '⏰💩'
+    },
+    'racer-dragon': {
+        className: 'racer-style-dragon',
+        emoji: '🐉💩🐉',
+        wheels: '🔥🔥',
+        progressIcon: '🐉💩'
+    },
+    'racer-god': {
+        className: 'racer-style-god',
+        emoji: '👑💩👑',
+        wheels: '✨✨',
+        progressIcon: '👑💩👑'
     }
 };
 
@@ -2094,7 +2293,10 @@ const BACKGROUND_STYLES = {
     default: { className: null },
     'bg-night': { className: 'shop-bg-night' },
     'bg-gold': { className: 'shop-bg-gold' },
-    'bg-space': { className: 'shop-bg-space' }
+    'bg-space': { className: 'shop-bg-space' },
+    'bg-fantasy': { className: 'shop-bg-fantasy' },
+    'bg-diamond': { className: 'shop-bg-diamond' },
+    'bg-dragon': { className: 'shop-bg-dragon' }
 };
 
 const BACKGROUND_CLASSES = Array.from(
@@ -2103,7 +2305,11 @@ const BACKGROUND_CLASSES = Array.from(
 
 const EFFECT_CLASS_MAP = {
     'effect-particles': 'effect-particles-active',
-    'effect-sound': 'effect-sound-active'
+    'effect-sound': 'effect-sound-active',
+    'effect-triple-particles': 'effect-triple-particles-active',
+    'effect-rainbow': 'effect-rainbow-active',
+    'effect-gold': 'effect-gold-active',
+    'effect-slowmo': 'effect-slowmo-active'
 };
 
 function applyShopCustomizations() {
@@ -2178,6 +2384,45 @@ function isEffectActive(effectId) {
     );
 }
 
+// 新機能: ブーストの有効期限チェック
+function checkBoostExpiry() {
+    const now = Date.now();
+    if (shopData.boosts.exp && shopData.boosts.exp.expiresAt < now) {
+        shopData.boosts.exp = null;
+    }
+    if (shopData.boosts.up && shopData.boosts.up.expiresAt < now) {
+        shopData.boosts.up = null;
+    }
+    if (shopData.boosts.all && shopData.boosts.all.expiresAt < now) {
+        shopData.boosts.all = null;
+    }
+    saveShopData();
+}
+
+// 新機能: ブースト倍率取得
+function getBoostMultiplier() {
+    checkBoostExpiry();
+    const now = Date.now();
+    let expMultiplier = 1;
+    let upMultiplier = 1;
+    
+    // 全ブーストパック
+    if (shopData.boosts.all && shopData.boosts.all.expiresAt > now) {
+        expMultiplier = 2;
+        upMultiplier = 2;
+    } else {
+        // 個別ブースト
+        if (shopData.boosts.exp && shopData.boosts.exp.expiresAt > now) {
+            expMultiplier = 2;
+        }
+        if (shopData.boosts.up && shopData.boosts.up.expiresAt > now) {
+            upMultiplier = 2;
+        }
+    }
+    
+    return { exp: expMultiplier, up: upMultiplier };
+}
+
 // 新機能: ショップ画面表示
 function displayShop() {
     const shopContainer = document.getElementById('shop-items');
@@ -2186,15 +2431,20 @@ function displayShop() {
     shopContainer.innerHTML = '';
     
     // カテゴリごとに表示
-    const categories = ['racer', 'background', 'effect'];
+    const categories = ['racer', 'background', 'effect', 'boost', 'title'];
     
     categories.forEach(category => {
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'shop-category';
         
         const categoryTitle = document.createElement('h3');
-        categoryTitle.textContent = category === 'racer' ? 'うんちレーサー' : 
-                                    category === 'background' ? '背景テーマ' : 'エフェクト';
+        let categoryName = '';
+        if (category === 'racer') categoryName = 'うんちレーサー';
+        else if (category === 'background') categoryName = '背景テーマ';
+        else if (category === 'effect') categoryName = 'エフェクト';
+        else if (category === 'boost') categoryName = 'ブースト';
+        else if (category === 'title') categoryName = '称号';
+        categoryTitle.textContent = categoryName;
         categoryDiv.appendChild(categoryTitle);
         
         const itemsDiv = document.createElement('div');
@@ -2216,11 +2466,24 @@ function displayShop() {
             const isPurchased = shopData.purchased.includes(itemId);
             const isActive = isItemActive(itemId);
             
+            // ブーストの残り時間表示
+            let timeRemaining = '';
+            if (category === 'boost' && isActive) {
+                const boost = getActiveBoost(itemId);
+                if (boost && boost.expiresAt) {
+                    const remaining = Math.max(0, boost.expiresAt - Date.now());
+                    const minutes = Math.floor(remaining / 60000);
+                    const seconds = Math.floor((remaining % 60000) / 1000);
+                    timeRemaining = `<div class="boost-time">残り時間: ${minutes}:${seconds.toString().padStart(2, '0')}</div>`;
+                }
+            }
+            
             itemDiv.innerHTML = `
                 <div class="shop-item-emoji">${item.emoji}</div>
                 <div class="shop-item-name">${item.name}</div>
                 <div class="shop-item-description">${item.description}</div>
                 <div class="shop-item-price">${isPurchased ? '購入済み' : `${item.price} U-P`}</div>
+                ${timeRemaining}
                 <button class="shop-item-btn ${isPurchased ? (isActive ? 'active-btn' : 'use-btn') : 'buy-btn'}" 
                         onclick="${isPurchased ? (isActive ? '' : `useShopItem('${itemId}')`) : `buyShopItem('${itemId}')`}">
                     ${isPurchased ? (isActive ? '使用中' : '使用する') : '購入する'}
@@ -2252,8 +2515,28 @@ function isItemActive(itemId) {
         return shopData.active.background === itemId;
     } else if (item.category === 'effect') {
         return shopData.active.effects.includes(itemId);
+    } else if (item.category === 'boost') {
+        return getActiveBoost(itemId) !== null;
+    } else if (item.category === 'title') {
+        return shopData.titles.includes(itemId);
     }
     return false;
+}
+
+// 新機能: アクティブなブースト取得
+function getActiveBoost(itemId) {
+    checkBoostExpiry();
+    const now = Date.now();
+    if (itemId === 'boost-exp' && shopData.boosts.exp && shopData.boosts.exp.expiresAt > now) {
+        return shopData.boosts.exp;
+    }
+    if (itemId === 'boost-up' && shopData.boosts.up && shopData.boosts.up.expiresAt > now) {
+        return shopData.boosts.up;
+    }
+    if (itemId === 'boost-all' && shopData.boosts.all && shopData.boosts.all.expiresAt > now) {
+        return shopData.boosts.all;
+    }
+    return null;
 }
 
 // 新機能: ショップアイテム購入
@@ -2261,7 +2544,8 @@ function buyShopItem(itemId) {
     const item = SHOP_ITEMS[itemId];
     if (!item) return;
     
-    if (shopData.purchased.includes(itemId)) {
+    // ブーストは購入と同時に使用されるため、購入済みチェックをスキップ
+    if (item.category !== 'boost' && shopData.purchased.includes(itemId)) {
         alert('既に購入済みです！');
         return;
     }
@@ -2273,7 +2557,22 @@ function buyShopItem(itemId) {
     
     if (confirm(`${item.name}を${item.price} U-Pで購入しますか？`)) {
         playerData.upPoints -= item.price;
-        shopData.purchased.push(itemId);
+        
+        // ブーストは購入と同時に使用
+        if (item.category === 'boost') {
+            useShopItem(itemId);
+        } else {
+            shopData.purchased.push(itemId);
+        }
+        
+        // 称号は購入と同時に獲得
+        if (item.category === 'title') {
+            if (!shopData.titles.includes(itemId)) {
+                shopData.titles.push(itemId);
+            }
+            applyTitle(itemId);
+        }
+        
         savePlayerData();
         saveShopData();
         displayShop();
@@ -2287,7 +2586,8 @@ function useShopItem(itemId) {
     const item = SHOP_ITEMS[itemId];
     if (!item) return;
     
-    if (!shopData.purchased.includes(itemId)) {
+    // ブーストは購入済みチェックをスキップ（購入と同時に使用されるため）
+    if (item.category !== 'boost' && !shopData.purchased.includes(itemId)) {
         alert('このアイテムは購入していません！');
         return;
     }
@@ -2300,12 +2600,45 @@ function useShopItem(itemId) {
         if (!shopData.active.effects.includes(itemId)) {
             shopData.active.effects.push(itemId);
         }
+    } else if (item.category === 'boost') {
+        // ブーストをアクティブにする
+        const expiresAt = Date.now() + (item.duration || 3600000);
+        if (itemId === 'boost-exp') {
+            shopData.boosts.exp = { itemId, expiresAt };
+        } else if (itemId === 'boost-up') {
+            shopData.boosts.up = { itemId, expiresAt };
+        } else if (itemId === 'boost-all') {
+            shopData.boosts.all = { itemId, expiresAt };
+            // 全ブーストパックは個別ブーストを無効化
+            shopData.boosts.exp = null;
+            shopData.boosts.up = null;
+        }
+        // ブーストは購入済みリストに追加しない（消費アイテムのため）
     }
     
     saveShopData();
     displayShop();
     applyShopCustomizations();
-    alert(`${item.name}を使用中に設定しました！`);
+    if (item.category === 'boost') {
+        alert(`${item.name}を開始しました！1時間有効です。`);
+    } else {
+        alert(`${item.name}を使用中に設定しました！`);
+    }
+}
+
+// 新機能: 称号適用
+function applyTitle(itemId) {
+    const titleMap = {
+        'title-master': 'うんちマスター🏅',
+        'title-legend': 'うんちレジェンド⭐',
+        'title-god': 'うんちゴッド👑'
+    };
+    
+    if (titleMap[itemId]) {
+        playerData.title = titleMap[itemId];
+        updateTitle();
+        savePlayerData();
+    }
 }
 
 // 新機能: アチーブメント画面表示
