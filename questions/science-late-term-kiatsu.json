@@ -2,14 +2,19 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-kiatsu",
-  "unitName": "後期期末テスト対策",
-  "category": "気象",
+  "unitName": "気象",
+  "category": "後期期末テスト",
   "questions": [
     {
       "id": "sci-late-kiatsu-001",
       "question": "気圧が高いときの空気の密度として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["空気の密度は大きい", "空気の密度は小さい", "常に一定で変わらない", "密度は気温だけで決まる"],
+      "choices": [
+        "空気の密度は大きい",
+        "空気の密度は小さい",
+        "常に一定で変わらない",
+        "密度は気温だけで決まる"
+      ],
       "answer": 0,
       "explanation": "気圧が高いほど空気が圧縮され密度は大きくなります。"
     },
@@ -17,7 +22,12 @@
       "id": "sci-late-kiatsu-002",
       "question": "標準気圧は約何hPaとされていますか。",
       "type": "multiple",
-      "choices": ["1013hPa", "100hPa", "760hPa", "1500hPa"],
+      "choices": [
+        "1013hPa",
+        "100hPa",
+        "760hPa",
+        "1500hPa"
+      ],
       "answer": 0,
       "explanation": "海面上での標準気圧は約1013hPaです。"
     },
@@ -25,7 +35,12 @@
       "id": "sci-late-kiatsu-003",
       "question": "同じ高度で気圧が急に下がったときに起こりやすい現象として適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["雨が降りやすくなる", "必ず晴れになる", "気温が急上昇する", "風が止む"],
+      "choices": [
+        "雨が降りやすくなる",
+        "必ず晴れになる",
+        "気温が急上昇する",
+        "風が止む"
+      ],
       "answer": 0,
       "explanation": "気圧の低下は低気圧の接近を示し、上昇気流が強まって雨が降りやすくなります。"
     },
@@ -33,7 +48,12 @@
       "id": "sci-late-kiatsu-004",
       "question": "標準大気では高度が100m上がるごとに気圧はおよそどれくらい下がりますか。",
       "type": "multiple",
-      "choices": ["約1hPa", "約10hPa", "約0.1hPa", "変化しない"],
+      "choices": [
+        "約1hPa",
+        "約10hPa",
+        "約0.1hPa",
+        "変化しない"
+      ],
       "answer": 0,
       "explanation": "標準大気では高度100mで約1hPaずつ気圧が低下する近似がよく用いられます。"
     },
@@ -41,7 +61,12 @@
       "id": "sci-late-kiatsu-005",
       "question": "気圧を測定する器具として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["気圧計", "温度計", "雨量計", "照度計"],
+      "choices": [
+        "気圧計",
+        "温度計",
+        "雨量計",
+        "照度計"
+      ],
       "answer": 0,
       "explanation": "気圧を測定する器具は気圧計です。アネロイド気圧計や水銀気圧計が代表的です。"
     }

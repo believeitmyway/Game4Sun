@@ -2,14 +2,19 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-ogasawara-air-mass",
-  "unitName": "後期期末テスト対策",
-  "category": "気象",
+  "unitName": "気象",
+  "category": "後期期末テスト",
   "questions": [
     {
       "id": "sci-late-ogasawara-air-mass-001",
       "question": "小笠原気団の性質として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["温暖で湿潤", "温暖で乾燥", "寒冷で乾燥", "寒冷で湿潤"],
+      "choices": [
+        "温暖で湿潤",
+        "温暖で乾燥",
+        "寒冷で乾燥",
+        "寒冷で湿潤"
+      ],
       "answer": 0,
       "explanation": "小笠原気団は太平洋上で形成され、温暖で湿った空気です。"
     },
@@ -17,7 +22,12 @@
       "id": "sci-late-ogasawara-air-mass-002",
       "question": "小笠原気団が日本に影響しやすい季節はいつですか。",
       "type": "multiple",
-      "choices": ["夏", "冬", "春", "秋"],
+      "choices": [
+        "夏",
+        "冬",
+        "春",
+        "秋"
+      ],
       "answer": 0,
       "explanation": "夏には太平洋高気圧が張り出し、小笠原気団が日本を覆います。"
     },
@@ -25,7 +35,12 @@
       "id": "sci-late-ogasawara-air-mass-003",
       "question": "小笠原気団の影響下で日本にもたらされる天候として最も一般的なのはどれですか。",
       "type": "multiple",
-      "choices": ["蒸し暑い晴天", "乾燥した晴天", "雪", "霧"],
+      "choices": [
+        "蒸し暑い晴天",
+        "乾燥した晴天",
+        "雪",
+        "霧"
+      ],
       "answer": 0,
       "explanation": "湿った暖気により蒸し暑い晴天が続き、夕立が発生することもあります。"
     },
@@ -33,7 +48,12 @@
       "id": "sci-late-ogasawara-air-mass-004",
       "question": "小笠原気団が強い夏に注意すべき健康影響として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["熱中症", "凍傷", "低体温症", "霜焼け"],
+      "choices": [
+        "熱中症",
+        "凍傷",
+        "低体温症",
+        "霜焼け"
+      ],
       "answer": 0,
       "explanation": "高温多湿の環境では熱中症に注意が必要です。"
     },
@@ -41,7 +61,12 @@
       "id": "sci-late-ogasawara-air-mass-005",
       "question": "小笠原気団が弱まると発生しやすい天気として適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["台風や前線による雨", "大雪", "乾燥した晴天", "霜"],
+      "choices": [
+        "台風や前線による雨",
+        "大雪",
+        "乾燥した晴天",
+        "霜"
+      ],
       "answer": 0,
       "explanation": "小笠原気団が弱まると台風や前線が近づき、雨が降りやすくなります。"
     }
