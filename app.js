@@ -9,6 +9,7 @@ let correctAnswers = 0;
 let startTime = null;
 let userAnswerHistory = {};
 let currentQuestionAnswered = false;  // 現在の問題が既に回答済みかどうか
+let shopUpdateInterval = null;  // ショップ画面の更新用インターバル
 let settings = {
     bgm: true,
     sfx: true,
@@ -47,7 +48,13 @@ let shopData = {
         racer: null,
         background: null,
         effects: []
-    }
+    },
+    boosts: {  // アクティブなブースト
+        exp: null,  // { itemId: 'boost-exp', expiresAt: timestamp }
+        up: null,   // { itemId: 'boost-up', expiresAt: timestamp }
+        all: null   // { itemId: 'boost-all', expiresAt: timestamp }
+    },
+    titles: []  // 購入済み称号IDのリスト
 };
 
 // 問題データベース（JSONファイルから読み込む）
@@ -315,6 +322,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadQuestions();  // 問題データを読み込む
     advanceSplashProgress();
 
+    setSplashCTA('ミニゲームを準備中...');
+    initMinigame();
+    advanceSplashProgress();
+
     updateTitle();  // 称号を更新
     updateTopScreenDashboard();
     showScreen('top-screen');
@@ -534,13 +545,24 @@ function normalizeShopData(rawData = {}) {
         )
         : [];
 
+    const boostsData = rawData.boosts && typeof rawData.boosts === 'object' ? rawData.boosts : {};
+    const titles = Array.isArray(rawData.titles)
+        ? Array.from(new Set(rawData.titles.filter(id => catalog[id] && catalog[id].category === 'title')))
+        : [];
+    
     return {
         purchased,
         active: {
             racer: normalizeActiveId(activeData.racer, 'racer'),
             background: normalizeActiveId(activeData.background, 'background'),
             effects
-        }
+        },
+        boosts: {
+            exp: boostsData.exp && typeof boostsData.exp === 'object' && boostsData.exp.expiresAt ? boostsData.exp : null,
+            up: boostsData.up && typeof boostsData.up === 'object' && boostsData.up.expiresAt ? boostsData.up : null,
+            all: boostsData.all && typeof boostsData.all === 'object' && boostsData.all.expiresAt ? boostsData.all : null
+        },
+        titles
     };
 }
 
@@ -943,6 +965,29 @@ function showScreen(screenId) {
     // ショップ画面の更新
     if (screenId === 'shop-screen') {
         displayShop();
+        // ブーストの残り時間を定期的に更新
+        if (shopUpdateInterval) {
+            clearInterval(shopUpdateInterval);
+        }
+        shopUpdateInterval = setInterval(() => {
+            if (currentScreen === 'shop-screen') {
+                displayShop();
+            } else {
+                clearInterval(shopUpdateInterval);
+                shopUpdateInterval = null;
+            }
+        }, 1000);  // 1秒ごとに更新
+    } else {
+        if (shopUpdateInterval) {
+            clearInterval(shopUpdateInterval);
+            shopUpdateInterval = null;
+        }
+    }
+    
+    // 設定画面に移動した時にミニゲームを停止
+    if (screenId !== 'settings-screen' && minigameState.isRunning) {
+        stopMinigame();
+        resetMinigame();
     }
 }
 
@@ -1442,6 +1487,15 @@ function recordAnswer(questionId, isCorrect) {
         expGained = Math.floor(expGained * (1 + streakBonus.expBonus));
         upGained = Math.floor(upGained * (1 + streakBonus.upBonus));
         
+        // ブースト適用
+        const boostMultiplier = getBoostMultiplier();
+        if (boostMultiplier.exp > 1) {
+            expGained = Math.floor(expGained * boostMultiplier.exp);
+        }
+        if (boostMultiplier.up > 1) {
+            upGained = Math.floor(upGained * boostMultiplier.up);
+        }
+        
         playerData.exp += expGained;
         playerData.upPoints += upGained;
         
@@ -1789,7 +1843,13 @@ function resetAllData() {
             racer: null,
             background: null,
             effects: []
-        }
+        },
+        boosts: {
+            exp: null,
+            up: null,
+            all: null
+        },
+        titles: []
     };
     applyShopCustomizations();
     alert('学習記録をリセットしました！');
@@ -1910,16 +1970,19 @@ function createParticles(type, x, y) {
     }
     
     const hasDoubleParticles = isEffectActive('effect-particles');
-    const particleMultiplier = hasDoubleParticles ? 2 : 1;
+    const hasTripleParticles = isEffectActive('effect-triple-particles');
+    const particleMultiplier = hasTripleParticles ? 3 : (hasDoubleParticles ? 2 : 1);
     const baseCount = type === 'correct' ? 30 : 15;
     const count = baseCount * particleMultiplier;
     const emojiPool = type === 'correct'
-        ? (hasDoubleParticles ? ['✨', '💫', '🌟'] : ['✨'])
+        ? (hasTripleParticles ? ['✨', '💫', '🌟', '⭐', '💎', '👑'] : (hasDoubleParticles ? ['✨', '💫', '🌟'] : ['✨']))
         : ['💩'];
     const colors = type === 'correct'
-        ? (hasDoubleParticles
-            ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3']
-            : ['#FFD700', '#FFA500', '#FF69B4', '#00FF00'])
+        ? (hasTripleParticles
+            ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3', '#FF1493', '#00CED1', '#FF6347', '#9370DB']
+            : (hasDoubleParticles
+                ? ['#FFD700', '#FFA500', '#FF69B4', '#00FF00', '#87CEFA', '#BA55D3']
+                : ['#FFD700', '#FFA500', '#FF69B4', '#00FF00']))
         : ['#8B4513', '#654321', '#A0522D'];
     
     for (let i = 0; i < count; i++) {
@@ -2010,6 +2073,34 @@ const SHOP_ITEMS = {
         category: 'racer',
         emoji: '🚀'
     },
+    'racer-diamond': {
+        name: 'ダイヤモンドうんち💎',
+        description: 'うんちレーサーをダイヤモンド仕様に',
+        price: 5000,
+        category: 'racer',
+        emoji: '💎'
+    },
+    'racer-timemachine': {
+        name: 'タイムマシンうんち⏰',
+        description: 'うんちレーサーをタイムマシン仕様に',
+        price: 8000,
+        category: 'racer',
+        emoji: '⏰'
+    },
+    'racer-dragon': {
+        name: 'ドラゴンうんち🐉',
+        description: 'うんちレーサーをドラゴン仕様に',
+        price: 10000,
+        category: 'racer',
+        emoji: '🐉'
+    },
+    'racer-god': {
+        name: 'ゴッドうんち👑',
+        description: 'うんちレーサーをゴッド仕様に',
+        price: 15000,
+        category: 'racer',
+        emoji: '👑'
+    },
     'bg-night': {
         name: 'トイレの夜',
         description: '背景を夜のトイレに変更',
@@ -2031,6 +2122,27 @@ const SHOP_ITEMS = {
         category: 'background',
         emoji: '🌌'
     },
+    'bg-fantasy': {
+        name: '幻想的なトイレ🌠',
+        description: '背景を幻想的なトイレに変更',
+        price: 5000,
+        category: 'background',
+        emoji: '🌠'
+    },
+    'bg-diamond': {
+        name: 'ダイヤモンドのトイレ💎',
+        description: '背景をダイヤモンドのトイレに変更',
+        price: 8000,
+        category: 'background',
+        emoji: '💎'
+    },
+    'bg-dragon': {
+        name: 'ドラゴンのトイレ🐉',
+        description: '背景をドラゴンのトイレに変更',
+        price: 10000,
+        category: 'background',
+        emoji: '🐉'
+    },
     'effect-particles': {
         name: '特大パーティクル',
         description: 'パーティクルが2倍になる',
@@ -2044,6 +2156,79 @@ const SHOP_ITEMS = {
         price: 1200,
         category: 'effect',
         emoji: '🔊'
+    },
+    'effect-triple-particles': {
+        name: '3倍パーティクル🌟',
+        description: 'パーティクルが3倍になる',
+        price: 5000,
+        category: 'effect',
+        emoji: '🌟'
+    },
+    'effect-rainbow': {
+        name: 'レインボーエフェクト🌈',
+        description: '画面全体にレインボーエフェクト',
+        price: 6000,
+        category: 'effect',
+        emoji: '🌈'
+    },
+    'effect-gold': {
+        name: 'ゴールドエフェクト✨',
+        description: '画面全体にゴールドエフェクト',
+        price: 7000,
+        category: 'effect',
+        emoji: '✨'
+    },
+    'effect-slowmo': {
+        name: 'スローモーション効果⏸️',
+        description: '正解時にスローモーション演出',
+        price: 8000,
+        category: 'effect',
+        emoji: '⏸️'
+    },
+    'boost-exp': {
+        name: 'EXP 2倍ブースト📈',
+        description: '1時間、獲得EXPが2倍になる',
+        price: 5000,
+        category: 'boost',
+        emoji: '📈',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'boost-up': {
+        name: 'U-P 2倍ブースト💰',
+        description: '1時間、獲得U-Pが2倍になる',
+        price: 5000,
+        category: 'boost',
+        emoji: '💰',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'boost-all': {
+        name: '全ブーストパック🎁',
+        description: '1時間、EXPとU-Pが2倍になる',
+        price: 15000,
+        category: 'boost',
+        emoji: '🎁',
+        duration: 3600000  // 1時間（ミリ秒）
+    },
+    'title-master': {
+        name: 'マスター称号🏅',
+        description: '特別な称号「うんちマスター」を獲得',
+        price: 10000,
+        category: 'title',
+        emoji: '🏅'
+    },
+    'title-legend': {
+        name: 'レジェンド称号⭐',
+        description: '特別な称号「うんちレジェンド」を獲得',
+        price: 20000,
+        category: 'title',
+        emoji: '⭐'
+    },
+    'title-god': {
+        name: 'ゴッド称号👑',
+        description: '特別な称号「うんちゴッド」を獲得',
+        price: 30000,
+        category: 'title',
+        emoji: '👑'
     }
 };
 
@@ -2083,6 +2268,30 @@ const RACER_STYLES = {
         emoji: '🚀💩',
         wheels: '🪐',
         progressIcon: '🚀💩'
+    },
+    'racer-diamond': {
+        className: 'racer-style-diamond',
+        emoji: '💎💩💎',
+        wheels: '💠💠',
+        progressIcon: '💎💩✨'
+    },
+    'racer-timemachine': {
+        className: 'racer-style-timemachine',
+        emoji: '⏰💩⏰',
+        wheels: '🕐🕐',
+        progressIcon: '⏰💩'
+    },
+    'racer-dragon': {
+        className: 'racer-style-dragon',
+        emoji: '🐉💩🐉',
+        wheels: '🔥🔥',
+        progressIcon: '🐉💩'
+    },
+    'racer-god': {
+        className: 'racer-style-god',
+        emoji: '👑💩👑',
+        wheels: '✨✨',
+        progressIcon: '👑💩👑'
     }
 };
 
@@ -2094,7 +2303,10 @@ const BACKGROUND_STYLES = {
     default: { className: null },
     'bg-night': { className: 'shop-bg-night' },
     'bg-gold': { className: 'shop-bg-gold' },
-    'bg-space': { className: 'shop-bg-space' }
+    'bg-space': { className: 'shop-bg-space' },
+    'bg-fantasy': { className: 'shop-bg-fantasy' },
+    'bg-diamond': { className: 'shop-bg-diamond' },
+    'bg-dragon': { className: 'shop-bg-dragon' }
 };
 
 const BACKGROUND_CLASSES = Array.from(
@@ -2103,7 +2315,11 @@ const BACKGROUND_CLASSES = Array.from(
 
 const EFFECT_CLASS_MAP = {
     'effect-particles': 'effect-particles-active',
-    'effect-sound': 'effect-sound-active'
+    'effect-sound': 'effect-sound-active',
+    'effect-triple-particles': 'effect-triple-particles-active',
+    'effect-rainbow': 'effect-rainbow-active',
+    'effect-gold': 'effect-gold-active',
+    'effect-slowmo': 'effect-slowmo-active'
 };
 
 function applyShopCustomizations() {
@@ -2178,6 +2394,45 @@ function isEffectActive(effectId) {
     );
 }
 
+// 新機能: ブーストの有効期限チェック
+function checkBoostExpiry() {
+    const now = Date.now();
+    if (shopData.boosts.exp && shopData.boosts.exp.expiresAt < now) {
+        shopData.boosts.exp = null;
+    }
+    if (shopData.boosts.up && shopData.boosts.up.expiresAt < now) {
+        shopData.boosts.up = null;
+    }
+    if (shopData.boosts.all && shopData.boosts.all.expiresAt < now) {
+        shopData.boosts.all = null;
+    }
+    saveShopData();
+}
+
+// 新機能: ブースト倍率取得
+function getBoostMultiplier() {
+    checkBoostExpiry();
+    const now = Date.now();
+    let expMultiplier = 1;
+    let upMultiplier = 1;
+    
+    // 全ブーストパック
+    if (shopData.boosts.all && shopData.boosts.all.expiresAt > now) {
+        expMultiplier = 2;
+        upMultiplier = 2;
+    } else {
+        // 個別ブースト
+        if (shopData.boosts.exp && shopData.boosts.exp.expiresAt > now) {
+            expMultiplier = 2;
+        }
+        if (shopData.boosts.up && shopData.boosts.up.expiresAt > now) {
+            upMultiplier = 2;
+        }
+    }
+    
+    return { exp: expMultiplier, up: upMultiplier };
+}
+
 // 新機能: ショップ画面表示
 function displayShop() {
     const shopContainer = document.getElementById('shop-items');
@@ -2186,15 +2441,20 @@ function displayShop() {
     shopContainer.innerHTML = '';
     
     // カテゴリごとに表示
-    const categories = ['racer', 'background', 'effect'];
+    const categories = ['racer', 'background', 'effect', 'boost', 'title'];
     
     categories.forEach(category => {
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'shop-category';
         
         const categoryTitle = document.createElement('h3');
-        categoryTitle.textContent = category === 'racer' ? 'うんちレーサー' : 
-                                    category === 'background' ? '背景テーマ' : 'エフェクト';
+        let categoryName = '';
+        if (category === 'racer') categoryName = 'うんちレーサー';
+        else if (category === 'background') categoryName = '背景テーマ';
+        else if (category === 'effect') categoryName = 'エフェクト';
+        else if (category === 'boost') categoryName = 'ブースト';
+        else if (category === 'title') categoryName = '称号';
+        categoryTitle.textContent = categoryName;
         categoryDiv.appendChild(categoryTitle);
         
         const itemsDiv = document.createElement('div');
@@ -2216,11 +2476,24 @@ function displayShop() {
             const isPurchased = shopData.purchased.includes(itemId);
             const isActive = isItemActive(itemId);
             
+            // ブーストの残り時間表示
+            let timeRemaining = '';
+            if (category === 'boost' && isActive) {
+                const boost = getActiveBoost(itemId);
+                if (boost && boost.expiresAt) {
+                    const remaining = Math.max(0, boost.expiresAt - Date.now());
+                    const minutes = Math.floor(remaining / 60000);
+                    const seconds = Math.floor((remaining % 60000) / 1000);
+                    timeRemaining = `<div class="boost-time">残り時間: ${minutes}:${seconds.toString().padStart(2, '0')}</div>`;
+                }
+            }
+            
             itemDiv.innerHTML = `
                 <div class="shop-item-emoji">${item.emoji}</div>
                 <div class="shop-item-name">${item.name}</div>
                 <div class="shop-item-description">${item.description}</div>
                 <div class="shop-item-price">${isPurchased ? '購入済み' : `${item.price} U-P`}</div>
+                ${timeRemaining}
                 <button class="shop-item-btn ${isPurchased ? (isActive ? 'active-btn' : 'use-btn') : 'buy-btn'}" 
                         onclick="${isPurchased ? (isActive ? '' : `useShopItem('${itemId}')`) : `buyShopItem('${itemId}')`}">
                     ${isPurchased ? (isActive ? '使用中' : '使用する') : '購入する'}
@@ -2252,8 +2525,28 @@ function isItemActive(itemId) {
         return shopData.active.background === itemId;
     } else if (item.category === 'effect') {
         return shopData.active.effects.includes(itemId);
+    } else if (item.category === 'boost') {
+        return getActiveBoost(itemId) !== null;
+    } else if (item.category === 'title') {
+        return shopData.titles.includes(itemId);
     }
     return false;
+}
+
+// 新機能: アクティブなブースト取得
+function getActiveBoost(itemId) {
+    checkBoostExpiry();
+    const now = Date.now();
+    if (itemId === 'boost-exp' && shopData.boosts.exp && shopData.boosts.exp.expiresAt > now) {
+        return shopData.boosts.exp;
+    }
+    if (itemId === 'boost-up' && shopData.boosts.up && shopData.boosts.up.expiresAt > now) {
+        return shopData.boosts.up;
+    }
+    if (itemId === 'boost-all' && shopData.boosts.all && shopData.boosts.all.expiresAt > now) {
+        return shopData.boosts.all;
+    }
+    return null;
 }
 
 // 新機能: ショップアイテム購入
@@ -2261,7 +2554,8 @@ function buyShopItem(itemId) {
     const item = SHOP_ITEMS[itemId];
     if (!item) return;
     
-    if (shopData.purchased.includes(itemId)) {
+    // ブーストは購入と同時に使用されるため、購入済みチェックをスキップ
+    if (item.category !== 'boost' && shopData.purchased.includes(itemId)) {
         alert('既に購入済みです！');
         return;
     }
@@ -2273,7 +2567,22 @@ function buyShopItem(itemId) {
     
     if (confirm(`${item.name}を${item.price} U-Pで購入しますか？`)) {
         playerData.upPoints -= item.price;
-        shopData.purchased.push(itemId);
+        
+        // ブーストは購入と同時に使用
+        if (item.category === 'boost') {
+            useShopItem(itemId);
+        } else {
+            shopData.purchased.push(itemId);
+        }
+        
+        // 称号は購入と同時に獲得
+        if (item.category === 'title') {
+            if (!shopData.titles.includes(itemId)) {
+                shopData.titles.push(itemId);
+            }
+            applyTitle(itemId);
+        }
+        
         savePlayerData();
         saveShopData();
         displayShop();
@@ -2287,7 +2596,8 @@ function useShopItem(itemId) {
     const item = SHOP_ITEMS[itemId];
     if (!item) return;
     
-    if (!shopData.purchased.includes(itemId)) {
+    // ブーストは購入済みチェックをスキップ（購入と同時に使用されるため）
+    if (item.category !== 'boost' && !shopData.purchased.includes(itemId)) {
         alert('このアイテムは購入していません！');
         return;
     }
@@ -2300,12 +2610,45 @@ function useShopItem(itemId) {
         if (!shopData.active.effects.includes(itemId)) {
             shopData.active.effects.push(itemId);
         }
+    } else if (item.category === 'boost') {
+        // ブーストをアクティブにする
+        const expiresAt = Date.now() + (item.duration || 3600000);
+        if (itemId === 'boost-exp') {
+            shopData.boosts.exp = { itemId, expiresAt };
+        } else if (itemId === 'boost-up') {
+            shopData.boosts.up = { itemId, expiresAt };
+        } else if (itemId === 'boost-all') {
+            shopData.boosts.all = { itemId, expiresAt };
+            // 全ブーストパックは個別ブーストを無効化
+            shopData.boosts.exp = null;
+            shopData.boosts.up = null;
+        }
+        // ブーストは購入済みリストに追加しない（消費アイテムのため）
     }
     
     saveShopData();
     displayShop();
     applyShopCustomizations();
-    alert(`${item.name}を使用中に設定しました！`);
+    if (item.category === 'boost') {
+        alert(`${item.name}を開始しました！1時間有効です。`);
+    } else {
+        alert(`${item.name}を使用中に設定しました！`);
+    }
+}
+
+// 新機能: 称号適用
+function applyTitle(itemId) {
+    const titleMap = {
+        'title-master': 'うんちマスター🏅',
+        'title-legend': 'うんちレジェンド⭐',
+        'title-god': 'うんちゴッド👑'
+    };
+    
+    if (titleMap[itemId]) {
+        playerData.title = titleMap[itemId];
+        updateTitle();
+        savePlayerData();
+    }
 }
 
 // 新機能: アチーブメント画面表示
@@ -2341,6 +2684,462 @@ function displayAchievements() {
         const unlocked = achievements.unlocked.length;
         statsDiv.textContent = `獲得済み: ${unlocked} / ${total}`;
     }
+}
+
+// 新機能: ミニゲーム
+let minigameState = {
+    isRunning: false,
+    score: 0,
+    highScore: parseInt(localStorage.getItem('unchiDrill_minigameHighScore') || '0'),
+    playerX: 0,
+    playerY: 0,
+    playerWidth: 60,
+    playerHeight: 40,
+    poops: [],
+    gameSpeed: 2,
+    lastPoopTime: 0,
+    keys: {},
+    animationFrame: null
+};
+
+// ミニゲーム初期化
+function initMinigame() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    // スマホ対応：キャンバスサイズを調整
+    adjustCanvasSize();
+    
+    // スマホかどうかを判定して操作説明を変更
+    updateMinigameInstructions();
+    
+    const ctx = canvas.getContext('2d');
+    
+    // プレイヤーの初期位置
+    minigameState.playerX = canvas.width / 2 - minigameState.playerWidth / 2;
+    minigameState.playerY = canvas.height - minigameState.playerHeight - 20;
+    
+    // ハイスコア表示を更新
+    updateMinigameHighScore();
+    
+    // イベントリスナー
+    canvas.addEventListener('mousemove', handleMinigameMouseMove);
+    canvas.addEventListener('click', handleMinigameClick);
+    
+    // タッチイベント（スマホ対応）
+    canvas.addEventListener('touchstart', handleMinigameTouchStart, { passive: false });
+    canvas.addEventListener('touchmove', handleMinigameTouchMove, { passive: false });
+    canvas.addEventListener('touchend', handleMinigameTouchEnd);
+    
+    document.addEventListener('keydown', handleMinigameKeyDown);
+    document.addEventListener('keyup', handleMinigameKeyUp);
+    
+    // リサイズ時にキャンバスサイズを調整
+    window.addEventListener('resize', () => {
+        adjustCanvasSize();
+        updateMinigameInstructions();
+    });
+}
+
+// 操作説明を更新（スマホ/PC判定）
+function updateMinigameInstructions() {
+    const instructionsEl = document.getElementById('minigame-instructions');
+    if (!instructionsEl) return;
+    
+    // タッチデバイスかどうかを判定
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    if (isTouchDevice || window.innerWidth <= 768) {
+        instructionsEl.textContent = '画面をタッチして移動';
+    } else {
+        instructionsEl.textContent = '← → キーまたはマウスで移動';
+    }
+}
+
+// キャンバスサイズを調整（スマホ対応）
+function adjustCanvasSize() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const container = canvas.parentElement;
+    if (!container) return;
+    
+    const containerWidth = container.clientWidth - 20; // padding分を引く
+    const maxWidth = 600;
+    const aspectRatio = 600 / 400; // 元のアスペクト比
+    
+    let newWidth = Math.min(containerWidth, maxWidth);
+    let newHeight = newWidth / aspectRatio;
+    
+    // スマホの場合は画面幅に合わせる
+    if (window.innerWidth <= 768) {
+        newWidth = Math.min(window.innerWidth - 40, 600);
+        newHeight = newWidth / aspectRatio;
+    }
+    
+    canvas.style.width = newWidth + 'px';
+    canvas.style.height = newHeight + 'px';
+    
+    // 実際の描画サイズは元のサイズを維持（高解像度対応）
+    canvas.width = 600;
+    canvas.height = 400;
+}
+
+// ミニゲーム開始
+function startMinigame() {
+    const canvas = document.getElementById('minigame-canvas');
+    const overlay = document.getElementById('minigame-overlay');
+    if (!canvas || !overlay) return;
+    
+    if (minigameState.isRunning) return;
+    
+    minigameState.isRunning = true;
+    minigameState.score = 0;
+    minigameState.poops = [];
+    minigameState.gameSpeed = 2;
+    minigameState.lastPoopTime = Date.now();
+    minigameState.playerX = canvas.width / 2 - minigameState.playerWidth / 2;
+    
+    overlay.style.display = 'none';
+    updateMinigameScore();
+    
+    gameLoop();
+    playSFX('correct');
+}
+
+// ミニゲームリセット
+function resetMinigame() {
+    stopMinigame();
+    const overlay = document.getElementById('minigame-overlay');
+    if (overlay) {
+        overlay.style.display = 'flex';
+    }
+    minigameState.score = 0;
+    updateMinigameScore();
+}
+
+// ミニゲーム停止
+function stopMinigame() {
+    minigameState.isRunning = false;
+    if (minigameState.animationFrame) {
+        cancelAnimationFrame(minigameState.animationFrame);
+        minigameState.animationFrame = null;
+    }
+}
+
+// ゲームループ
+function gameLoop() {
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    
+    // 画面クリア（実際の描画サイズでクリア）
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    // スケールを調整（表示サイズに合わせる）
+    const scaleX = canvas.width / 600;
+    const scaleY = canvas.height / 400;
+    ctx.save();
+    ctx.scale(scaleX, scaleY);
+    
+    // 背景描画
+    drawMinigameBackground(ctx, canvas);
+    
+    // プレイヤー移動処理
+    updateMinigamePlayer();
+    
+    // うんち生成
+    generateMinigamePoops();
+    
+    // うんち更新・描画
+    updateMinigamePoops(ctx, canvas);
+    
+    // プレイヤー描画
+    drawMinigamePlayer(ctx);
+    
+    // 衝突判定
+    checkMinigameCollisions();
+    
+    // スコア更新
+    updateMinigameScore();
+    
+    // ゲーム速度を徐々に上げる
+    if (minigameState.score > 0 && minigameState.score % 10 === 0) {
+        minigameState.gameSpeed = Math.min(6, 2 + minigameState.score / 50);
+    }
+    
+    ctx.restore(); // スケールを元に戻す
+    
+    minigameState.animationFrame = requestAnimationFrame(gameLoop);
+}
+
+// 背景描画
+function drawMinigameBackground(ctx, canvas) {
+    // グラデーション背景
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    gradient.addColorStop(0, '#87CEEB');
+    gradient.addColorStop(1, '#E0F6FF');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // 雲を描画
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+    drawCloud(ctx, 100, 50, 40);
+    drawCloud(ctx, 300, 80, 35);
+    drawCloud(ctx, 500, 60, 45);
+}
+
+// 雲を描画
+function drawCloud(ctx, x, y, size) {
+    ctx.beginPath();
+    ctx.arc(x, y, size, 0, Math.PI * 2);
+    ctx.arc(x + size * 0.6, y, size * 0.8, 0, Math.PI * 2);
+    ctx.arc(x + size * 1.2, y, size * 0.7, 0, Math.PI * 2);
+    ctx.fill();
+}
+
+// プレイヤー更新
+function updateMinigamePlayer() {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    // 実際の描画サイズ（600x400）を基準にする
+    const gameWidth = 600;
+    const speed = 5;
+    
+    if (minigameState.keys['ArrowLeft'] || minigameState.keys['a'] || minigameState.keys['A']) {
+        minigameState.playerX = Math.max(0, minigameState.playerX - speed);
+    }
+    if (minigameState.keys['ArrowRight'] || minigameState.keys['d'] || minigameState.keys['D']) {
+        minigameState.playerX = Math.min(gameWidth - minigameState.playerWidth, minigameState.playerX + speed);
+    }
+}
+
+// プレイヤー描画
+function drawMinigamePlayer(ctx) {
+    const x = minigameState.playerX;
+    const y = minigameState.playerY;
+    const w = minigameState.playerWidth;
+    const h = minigameState.playerHeight;
+    
+    // バケツを描画
+    ctx.fillStyle = '#8B4513';
+    ctx.fillRect(x, y + h * 0.3, w, h * 0.7);
+    
+    // バケツの縁
+    ctx.fillStyle = '#654321';
+    ctx.fillRect(x - 2, y + h * 0.3, w + 4, 5);
+    
+    // うんちを描画（キャッチしたうんちを表現）
+    ctx.fillStyle = '#8B4513';
+    ctx.beginPath();
+    ctx.ellipse(x + w / 2, y + h * 0.5, w * 0.3, h * 0.2, 0, 0, Math.PI * 2);
+    ctx.fill();
+    
+    // ハンドル
+    ctx.strokeStyle = '#654321';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(x + w / 2, y + h * 0.2, w * 0.15, Math.PI, 0);
+    ctx.stroke();
+}
+
+// うんち生成
+function generateMinigamePoops() {
+    const now = Date.now();
+    const spawnInterval = Math.max(500, 2000 - minigameState.score * 10);
+    
+    if (now - minigameState.lastPoopTime > spawnInterval) {
+        // 実際のゲームサイズ（600x400）を基準にする
+        minigameState.poops.push({
+            x: Math.random() * (600 - 30),
+            y: -30,
+            size: 20 + Math.random() * 15,
+            speed: minigameState.gameSpeed + Math.random() * 2,
+            emoji: Math.random() > 0.7 ? '💩' : '💩',
+            rotation: Math.random() * Math.PI * 2
+        });
+        minigameState.lastPoopTime = now;
+    }
+}
+
+// うんち更新・描画
+function updateMinigamePoops(ctx, canvas) {
+    const gameHeight = 400; // 実際のゲームサイズ
+    
+    for (let i = minigameState.poops.length - 1; i >= 0; i--) {
+        const poop = minigameState.poops[i];
+        poop.y += poop.speed;
+        poop.rotation += 0.1;
+        
+        // 画面外に出たら削除（実際のゲームサイズで判定）
+        if (poop.y > gameHeight + 50) {
+            minigameState.poops.splice(i, 1);
+            continue;
+        }
+        
+        // うんちを描画
+        ctx.save();
+        ctx.translate(poop.x + poop.size / 2, poop.y + poop.size / 2);
+        ctx.rotate(poop.rotation);
+        ctx.font = `${poop.size}px Arial`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText(poop.emoji, 0, 0);
+        ctx.restore();
+    }
+}
+
+// 衝突判定
+function checkMinigameCollisions() {
+    const playerLeft = minigameState.playerX;
+    const playerRight = minigameState.playerX + minigameState.playerWidth;
+    const playerTop = minigameState.playerY;
+    const playerBottom = minigameState.playerY + minigameState.playerHeight;
+    
+    for (let i = minigameState.poops.length - 1; i >= 0; i--) {
+        const poop = minigameState.poops[i];
+        const poopLeft = poop.x;
+        const poopRight = poop.x + poop.size;
+        const poopTop = poop.y;
+        const poopBottom = poop.y + poop.size;
+        
+        // 衝突判定
+        if (poopRight > playerLeft && poopLeft < playerRight &&
+            poopBottom > playerTop && poopTop < playerBottom) {
+            // キャッチ成功
+            minigameState.poops.splice(i, 1);
+            minigameState.score += 10;
+            playSFX('correct');
+            
+            // パーティクルの位置を実際の表示位置に変換
+            const canvas = document.getElementById('minigame-canvas');
+            if (canvas) {
+                const rect = canvas.getBoundingClientRect();
+                const scaleX = rect.width / 600;
+                const scaleY = rect.height / 400;
+                const displayX = (poop.x + poop.size / 2) * scaleX + rect.left;
+                const displayY = (poop.y + poop.size / 2) * scaleY + rect.top;
+                createParticles('correct', displayX, displayY);
+            }
+        }
+    }
+}
+
+// スコア更新
+function updateMinigameScore() {
+    const scoreEl = document.getElementById('minigame-score');
+    if (scoreEl) {
+        scoreEl.textContent = minigameState.score;
+    }
+    
+    // ハイスコア更新
+    if (minigameState.score > minigameState.highScore) {
+        minigameState.highScore = minigameState.score;
+        localStorage.setItem('unchiDrill_minigameHighScore', minigameState.highScore.toString());
+        updateMinigameHighScore();
+    }
+}
+
+// ハイスコア表示更新
+function updateMinigameHighScore() {
+    const highScoreEl = document.getElementById('minigame-highscore');
+    if (highScoreEl) {
+        highScoreEl.textContent = minigameState.highScore;
+    }
+}
+
+// マウス移動処理
+function handleMinigameMouseMove(event) {
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    
+    // 表示サイズから実際のゲームサイズ（600x400）に変換
+    const scaleX = 600 / rect.width;
+    const gameX = mouseX * scaleX;
+    
+    minigameState.playerX = Math.max(0, Math.min(600 - minigameState.playerWidth, gameX - minigameState.playerWidth / 2));
+}
+
+// クリック処理
+function handleMinigameClick(event) {
+    const overlay = document.getElementById('minigame-overlay');
+    if (overlay && overlay.style.display !== 'none') {
+        startMinigame();
+    }
+}
+
+// キーダウン処理
+function handleMinigameKeyDown(event) {
+    if (currentScreen !== 'settings-screen') return;
+    minigameState.keys[event.key] = true;
+}
+
+// キーアップ処理
+function handleMinigameKeyUp(event) {
+    minigameState.keys[event.key] = false;
+}
+
+// タッチ開始処理（スマホ対応）
+function handleMinigameTouchStart(event) {
+    event.preventDefault();
+    if (!minigameState.isRunning) {
+        const overlay = document.getElementById('minigame-overlay');
+        if (overlay && overlay.style.display !== 'none') {
+            startMinigame();
+        }
+        return;
+    }
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const touch = event.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    updatePlayerPositionFromTouch(touchX);
+}
+
+// タッチ移動処理（スマホ対応）
+function handleMinigameTouchMove(event) {
+    event.preventDefault();
+    if (!minigameState.isRunning) return;
+    
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const touch = event.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    const touchX = touch.clientX - rect.left;
+    updatePlayerPositionFromTouch(touchX);
+}
+
+// タッチ終了処理（スマホ対応）
+function handleMinigameTouchEnd(event) {
+    event.preventDefault();
+    // タッチ終了時の処理（必要に応じて）
+}
+
+// タッチ位置からプレイヤー位置を更新
+function updatePlayerPositionFromTouch(touchX) {
+    const canvas = document.getElementById('minigame-canvas');
+    if (!canvas) return;
+    
+    const rect = canvas.getBoundingClientRect();
+    
+    // 表示サイズから実際のゲームサイズ（600x400）に変換
+    const scaleX = 600 / rect.width;
+    const gameX = touchX * scaleX;
+    
+    minigameState.playerX = Math.max(0, Math.min(600 - minigameState.playerWidth, gameX - minigameState.playerWidth / 2));
 }
 
 if (typeof module !== 'undefined' && module.exports) {

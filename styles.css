@@ -508,6 +508,38 @@ body.shop-bg-space::before {
                 radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
 }
 
+body.shop-bg-fantasy {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    color: #fff;
+}
+
+body.shop-bg-fantasy::before {
+    background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 192, 203, 0.4) 0%, transparent 60%);
+    animation: bg-pulse 4s ease-in-out infinite;
+}
+
+body.shop-bg-diamond {
+    background: linear-gradient(135deg, #b8c6db 0%, #f5f7fa 50%, #c3cfe2 100%);
+    color: #1a1a1a;
+}
+
+body.shop-bg-diamond::before {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.6) 0%, transparent 70%);
+    animation: sparkle 3s ease-in-out infinite;
+}
+
+body.shop-bg-dragon {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 50%, #c44569 100%);
+    color: #fff;
+}
+
+body.shop-bg-dragon::before {
+    background: radial-gradient(circle at 30% 30%, rgba(255, 100, 100, 0.5) 0%, transparent 50%),
+                radial-gradient(circle at 70% 70%, rgba(255, 200, 100, 0.3) 0%, transparent 60%);
+    animation: bg-pulse 3s ease-in-out infinite;
+}
+
 body.effect-particles-active .poop-racer {
     animation-duration: 0.8s;
 }
@@ -516,12 +548,134 @@ body.effect-sound-active .menu-btn.primary {
     box-shadow: 0 10px 30px rgba(76, 175, 80, 0.4);
 }
 
+body.effect-triple-particles-active .poop-racer {
+    animation-duration: 0.6s;
+}
+
+body.effect-rainbow-active {
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-size: 400% 400%;
+    animation: rainbow-shift 3s ease infinite;
+}
+
+body.effect-gold-active {
+    background: linear-gradient(135deg, #f5d020 0%, #f53803 100%);
+}
+
+body.effect-gold-active::before {
+    background: radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.5) 0%, transparent 70%);
+    animation: gold-glow 2s ease-in-out infinite;
+}
+
+body.effect-slowmo-active .answer-btn.correct,
+body.effect-slowmo-active .input-answer[style*="border-color: #4CAF50"] {
+    animation: slowmo-celebration 2s ease-in-out;
+}
+
+.boost-time {
+    font-size: 0.85em;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px;
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 5px;
+}
+
 @keyframes bg-pulse {
     0%, 100% {
         opacity: 0.3;
     }
     50% {
         opacity: 0.6;
+    }
+}
+
+@keyframes diamond-sparkle {
+    0%, 100% {
+        filter: drop-shadow(0 0 10px rgba(185, 198, 219, 0.8)) brightness(1);
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 1)) brightness(1.3);
+    }
+}
+
+@keyframes timemachine-pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 15px rgba(100, 149, 237, 0.6));
+    }
+    50% {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 25px rgba(100, 149, 237, 1));
+    }
+}
+
+@keyframes dragon-fire {
+    0%, 100% {
+        filter: drop-shadow(0 0 20px rgba(255, 107, 107, 0.8)) hue-rotate(0deg);
+    }
+    50% {
+        filter: drop-shadow(0 0 30px rgba(255, 200, 100, 1)) hue-rotate(10deg);
+    }
+}
+
+@keyframes god-glow {
+    0%, 100% {
+        filter: drop-shadow(0 0 25px rgba(255, 215, 0, 0.9)) brightness(1);
+    }
+    50% {
+        filter: drop-shadow(0 0 40px rgba(255, 255, 255, 1)) brightness(1.5);
+    }
+}
+
+@keyframes rainbow-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gold-glow {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes slowmo-celebration {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2) rotate(5deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-5deg);
+    }
+    75% {
+        transform: scale(1.2) rotate(5deg);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
     }
 }
 
@@ -664,6 +818,30 @@ body.effect-sound-active .menu-btn.primary {
     text-shadow: 0 0 20px rgba(138, 180, 255, 0.9);
     filter: drop-shadow(0 0 16px rgba(138, 180, 255, 0.7));
     color: #b3e5fc;
+}
+
+.poop-racer.racer-style-diamond .racer-emoji,
+.racer-position.racer-style-diamond .racer-icon {
+    animation: diamond-sparkle 1.5s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px rgba(185, 198, 219, 0.8));
+}
+
+.poop-racer.racer-style-timemachine .racer-emoji,
+.racer-position.racer-style-timemachine .racer-icon {
+    animation: timemachine-pulse 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px rgba(100, 149, 237, 0.6));
+}
+
+.poop-racer.racer-style-dragon .racer-emoji,
+.racer-position.racer-style-dragon .racer-icon {
+    animation: dragon-fire 1s ease-in-out infinite;
+    filter: drop-shadow(0 0 20px rgba(255, 107, 107, 0.8));
+}
+
+.poop-racer.racer-style-god .racer-emoji,
+.racer-position.racer-style-god .racer-icon {
+    animation: god-glow 2s ease-in-out infinite;
+    filter: drop-shadow(0 0 25px rgba(255, 215, 0, 0.9));
 }
 
 @keyframes sparkle-glow {
@@ -2082,6 +2260,206 @@ input:checked + .slider:before {
     background: #9e9e9e;
     color: white;
     cursor: not-allowed;
+}
+
+/* ミニゲームセクション */
+.minigame-section {
+    margin-top: 40px;
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.minigame-section h3 {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.minigame-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.minigame-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.minigame-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.minigame-score {
+    display: flex;
+    gap: 20px;
+    font-size: 0.95em;
+    color: var(--text-dark);
+}
+
+.minigame-score span {
+    font-weight: bold;
+}
+
+.minigame-canvas-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+#minigame-canvas {
+    border-radius: var(--border-radius);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.minigame-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.minigame-start-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.minigame-start-screen h4 {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.minigame-start-screen p {
+    color: var(--text-light);
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+.minigame-start-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.minigame-start-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.minigame-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.minigame-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow);
+}
+
+.minigame-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.minigame-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    #minigame-canvas {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        touch-action: none; /* タッチ操作のスクロールを防ぐ */
+    }
+    
+    .minigame-canvas-container {
+        padding: 5px;
+    }
+    
+    .minigame-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .minigame-score {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 0.9em;
+    }
+    
+    .minigame-title {
+        font-size: 1em;
+    }
+    
+    .minigame-controls {
+        flex-wrap: wrap;
+    }
+    
+    .minigame-btn {
+        flex: 1;
+        min-width: 120px;
+        padding: 12px;
+        font-size: 0.95em;
+    }
+    
+    .minigame-start-screen h4 {
+        font-size: 1.3em;
+    }
+    
+    .minigame-start-screen p {
+        font-size: 0.9em;
+    }
+}
+
+/* スマホ向けのタッチ操作ヒント */
+@media (max-width: 768px) and (pointer: coarse) {
+    .minigame-start-screen p {
+        font-size: 0.95em;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
 }
 
 /* 新機能: アチーブメント画面 */

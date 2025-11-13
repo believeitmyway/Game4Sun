@@ -304,6 +304,35 @@
                         </button>
                     </div>
                 </div>
+                
+                <!-- ミニゲームセクション -->
+                <div class="minigame-section">
+                    <h3>🎮 ミニゲーム</h3>
+                    <div class="minigame-container">
+                        <div class="minigame-header">
+                            <div class="minigame-title">💩 うんちキャッチゲーム</div>
+                            <div class="minigame-score">
+                                <span>スコア: <span id="minigame-score">0</span></span>
+                                <span>ハイスコア: <span id="minigame-highscore">0</span></span>
+                            </div>
+                        </div>
+                        <div class="minigame-canvas-container">
+                            <canvas id="minigame-canvas" width="600" height="400"></canvas>
+                            <div id="minigame-overlay" class="minigame-overlay">
+                                <div class="minigame-start-screen">
+                                    <h4>💩 うんちキャッチゲーム</h4>
+                                    <p>落ちてくるうんちをキャッチしよう！</p>
+                                    <p id="minigame-instructions">← → キーまたはマウスで移動</p>
+                                    <button class="minigame-start-btn" onclick="startMinigame()">スタート</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="minigame-controls">
+                            <button class="minigame-btn" onclick="startMinigame()" id="minigame-start-btn">▶️ スタート</button>
+                            <button class="minigame-btn" onclick="resetMinigame()" id="minigame-reset-btn">🔄 リセット</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
