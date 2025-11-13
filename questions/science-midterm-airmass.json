@@ -1,0 +1,32 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "meteorology-midterm-airmass-front",
+  "unitName": "気団と前線",
+  "category": "後期期末テスト対策",
+  "questions": [
+    { "id": "sci-midterm-airmass-001", "question": "気団とはどのような空気のかたまりですか。", "type": "multiple", "choices": ["広い範囲で性質がほぼ一様な空気塊", "山頂付近だけの空気", "地中にある空気", "砂漠だけにある空気"], "answer": 0, "explanation": "気団は広い範囲で温度や湿度がほぼ同じ空気のかたまりです。" },
+    { "id": "sci-midterm-airmass-002", "question": "シベリア気団の特徴として正しいものはどれですか。", "type": "multiple", "choices": ["寒冷で乾燥", "高温で湿潤", "寒冷で湿潤", "高温で乾燥"], "answer": 0, "explanation": "シベリア気団は大陸上で作られ、寒く乾いた性質を持ちます。" },
+    { "id": "sci-midterm-airmass-003", "question": "小笠原気団は日本にどのような天候をもたらすことが多いですか。", "type": "multiple", "choices": ["高温多湿の晴天", "寒冷で雪", "乾燥した晴れ", "霧が多い天気"], "answer": 0, "explanation": "小笠原気団は暖かく湿っており、夏の晴れて蒸し暑い天気をもたらします。" },
+    { "id": "sci-midterm-airmass-004", "question": "オホーツク海気団が本州付近に張り出すとどのような影響がありますか。", "type": "multiple", "choices": ["気温が下がり霧や小雨", "猛暑", "乾燥した晴天", "台風"], "answer": 0, "explanation": "冷たく湿ったオホーツク海気団で低温や霧雨が続きます。" },
+    { "id": "sci-midterm-airmass-005", "question": "揚子江気団が優勢になる季節はいつですか。", "type": "multiple", "choices": ["春と秋の移り変わり期", "真夏", "真冬", "梅雨の時期"], "answer": 0, "explanation": "揚子江気団は春・秋に移動性高気圧として日本に影響します。" },
+
+    { "id": "sci-midterm-airmass-006", "question": "前線とは何と何の境界ですか。", "type": "multiple", "choices": ["性質の異なる気団", "海と陸", "山と谷", "高気圧と高気圧"], "answer": 0, "explanation": "前線は異なる気団がぶつかった境目にできます。" },
+    { "id": "sci-midterm-airmass-007", "question": "寒冷前線の通過前後で気温はどう変化することが多いですか。", "type": "multiple", "choices": ["通過後に下がる", "通過後に上がる", "変わらない", "一度上がってから下がるが短時間"], "answer": 0, "explanation": "寒冷前線の後ろには寒気が入り、気温が下がります。" },
+    { "id": "sci-midterm-airmass-008", "question": "温暖前線の通過前に見られる雲の並び順として正しいものはどれですか。", "type": "multiple", "choices": ["巻雲→巻層雲→高層雲→乱層雲", "積雲→積乱雲→巻雲", "層雲→乱層雲→高積雲", "雲は生じない"], "answer": 0, "explanation": "温暖前線接近時は薄い雲から次第に厚くなる順番で雲が現れます。" },
+    { "id": "sci-midterm-airmass-009", "question": "停滞前線の特徴として適切なのはどれですか。", "type": "multiple", "choices": ["同じ場所に長くとどまり雨を降らせる", "非常に速く移動する", "雨をまったく降らせない", "冬にしか現れない"], "answer": 0, "explanation": "停滞前線は動きが遅く、長時間雨を降らせます。" },
+    { "id": "sci-midterm-airmass-010", "question": "梅雨前線はどのような前線に分類されますか。", "type": "multiple", "choices": ["停滞前線", "寒冷前線", "温暖前線", "閉塞前線"], "answer": 0, "explanation": "梅雨前線は停滞前線の一種で、長雨をもたらします。" },
+
+    { "id": "sci-midterm-airmass-011", "question": "低気圧が発生する主な要因はどれですか。", "type": "multiple", "choices": ["上昇気流による気圧の低下", "下降気流による気圧の上昇", "太陽光の減少", "地震"], "answer": 0, "explanation": "暖かい空気が上昇して気圧が下がると低気圧が発生します。" },
+    { "id": "sci-midterm-airmass-012", "question": "日本の南岸で低気圧が発生しやすいのはどのような条件が整ったときですか。", "type": "multiple", "choices": ["南から暖かく湿った空気と北から冷たい空気がぶつかる", "海水温が極端に低い", "気圧が非常に高い", "強い乾燥"], "answer": 0, "explanation": "異なる性質の空気がぶつかると低気圧が発達しやすくなります。" },
+    { "id": "sci-midterm-airmass-013", "question": "温帯低気圧が発生する地域として典型的なのはどれですか。", "type": "multiple", "choices": ["寒帯と暖帯の境界", "赤道直下", "砂漠の中心", "極地"], "answer": 0, "explanation": "温帯低気圧は温度差が大きい偏西風帯で発生します。" },
+    { "id": "sci-midterm-airmass-014", "question": "低気圧が発達するほど周囲の風にどのような影響が出ますか。", "type": "multiple", "choices": ["風が強まる", "風が弱まる", "風向が一定になる", "風が止む"], "answer": 0, "explanation": "中心気圧が低いほど気圧差が大きくなり、風が強くなります。" },
+    { "id": "sci-midterm-airmass-015", "question": "低気圧が衰退するときの主な要因として適切なのはどれですか。", "type": "multiple", "choices": ["温度差が小さくなる", "温度差が大きくなる", "海水温が上がる", "蒸発が増える"], "answer": 0, "explanation": "気団の温度差が小さくなると前線が弱まり、低気圧も衰退します。" },
+
+    { "id": "sci-midterm-airmass-016", "question": "温帯低気圧の中心付近でどのような前線配置になることが多いですか。", "type": "multiple", "choices": ["寒冷前線と温暖前線がのびている", "停滞前線のみ", "前線が存在しない", "寒冷前線だけ"], "answer": 0, "explanation": "温帯低気圧には暖域と寒域を分ける寒冷前線と温暖前線が伴います。" },
+    { "id": "sci-midterm-airmass-017", "question": "閉塞前線はどのようにしてできる前線ですか。", "type": "multiple", "choices": ["寒冷前線が温暖前線に追いつく", "停滞前線が分裂する", "高気圧同士が合体する", "台風が変化する"], "answer": 0, "explanation": "寒冷前線が温暖前線に追いつき暖気が地上から押し上げられると閉塞前線になります。" },
+    { "id": "sci-midterm-airmass-018", "question": "低気圧の東側（進行方向の前方）に位置する前線は一般にどちらですか。", "type": "multiple", "choices": ["温暖前線", "寒冷前線", "停滞前線", "閉塞前線"], "answer": 0, "explanation": "温帯低気圧では進行方向の前方に温暖前線がのびます。" },
+    { "id": "sci-midterm-airmass-019", "question": "寒冷前線付近で予想される降水の特徴として適切なのはどれですか。", "type": "multiple", "choices": ["短時間に激しい雨", "長時間の霧雨", "雨が降らない", "雪が必ず降る"], "answer": 0, "explanation": "寒冷前線では積乱雲が発達し、短時間で激しい雨が降ります。" },
+    { "id": "sci-midterm-airmass-020", "question": "温暖前線付近で見られる降水の特徴として正しいものはどれですか。", "type": "multiple", "choices": ["広い範囲で弱い雨が続く", "雷を伴う豪雨のみ", "雨が降らない", "ひょうが必ず降る"], "answer": 0, "explanation": "温暖前線では層状の雲が広がり、弱い雨が長く続きます。" }
+  ]
+}

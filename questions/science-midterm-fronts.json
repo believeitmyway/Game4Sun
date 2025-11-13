@@ -1,0 +1,38 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "meteorology-midterm-fronts-weather",
+  "unitName": "前線と天気",
+  "category": "後期期末テスト対策",
+  "questions": [
+    { "id": "sci-midterm-fronts-001", "question": "寒冷前線の前面で観測される雲の種類として最も発達しやすいものはどれですか。", "type": "multiple", "choices": ["積乱雲", "巻雲", "層雲", "高層雲"], "answer": 0, "explanation": "寒冷前線は強い上昇気流を伴い、積乱雲が発達しやすくなります。" },
+    { "id": "sci-midterm-fronts-002", "question": "寒冷前線の通過時に体感する天気の変化として適切なのはどれですか。", "type": "multiple", "choices": ["気温が下がり風向が変わる", "気温が上がり湿度が下がる", "気温が変わらず風が止む", "晴天が続く"], "answer": 0, "explanation": "寒冷前線通過後は寒気が入り、気温が下がり風向も変わります。" },
+    { "id": "sci-midterm-fronts-003", "question": "寒冷前線が通過した直後によく見られる天気はどれですか。", "type": "multiple", "choices": ["乾燥した晴天", "長雨", "霧が続く", "雪が必ず降る"], "answer": 0, "explanation": "寒冷前線の後面は乾燥した寒気で晴れることが多いです。" },
+    { "id": "sci-midterm-fronts-004", "question": "寒冷前線で雷が発生しやすい理由として正しいものはどれですか。", "type": "multiple", "choices": ["積乱雲が急発達するから", "雲が薄いから", "気温が高いから", "風が弱いから"], "answer": 0, "explanation": "寒冷前線の強い上昇気流で積乱雲が成長し、雷が発生しやすくなります。" },
+    { "id": "sci-midterm-fronts-005", "question": "冬の日本海側で雪雲をもたらす寒冷前線はどの方向から進んでくることが多いですか。", "type": "multiple", "choices": ["北西から南東へ", "南東から北西へ", "南西から北東へ", "北東から南西へ"], "answer": 0, "explanation": "冬型気圧配置では北西から寒冷前線や寒気が進み雪を降らせます。" },
+
+    { "id": "sci-midterm-fronts-006", "question": "温暖前線の接近時に最初に見られる雲として典型的なのはどれですか。", "type": "multiple", "choices": ["巻雲", "積乱雲", "積雲", "層積雲"], "answer": 0, "explanation": "温暖前線が近づくとまず高い場所に薄い巻雲が現れます。" },
+    { "id": "sci-midterm-fronts-007", "question": "温暖前線の通過後に予想される天気の特徴として適切なのはどれですか。", "type": "multiple", "choices": ["気温が上がり湿った暖かい空気が続く", "気温が下がり乾燥する", "晴れて風が止む", "雪が必ず降る"], "answer": 0, "explanation": "温暖前線通過後は暖かい空気に覆われ、気温が上がり湿った天気になります。" },
+    { "id": "sci-midterm-fronts-008", "question": "温暖前線に伴う降水の降り方として正しいものはどれですか。", "type": "multiple", "choices": ["広範囲で弱い雨が長く続く", "短時間で激しい雨", "夕立のように止む", "雪だけが降る"], "answer": 0, "explanation": "層状の雲から弱い雨が長時間降り続くのが特徴です。" },
+    { "id": "sci-midterm-fronts-009", "question": "春の長雨前線は温暖前線として扱われることが多いが、そのとき気温はどうなりますか。", "type": "multiple", "choices": ["前線通過後に上がる", "前線通過後に下がる", "変化しない", "前線の前で急降下する"], "answer": 0, "explanation": "温暖前線後面の暖気に覆われるため気温が上昇します。" },
+    { "id": "sci-midterm-fronts-010", "question": "温暖前線が地上観測で確認されるサインとして正しいものはどれですか。", "type": "multiple", "choices": ["気温上昇と南寄りの風", "気温下降と北西風", "気圧の急上昇", "湿度の低下"], "answer": 0, "explanation": "温暖前線通過で気温が上がり、南よりの風が吹きやすくなります。" },
+
+    { "id": "sci-midterm-fronts-011", "question": "停滞前線が日本列島付近に長くとどまるとどのような現象が起こりやすいですか。", "type": "multiple", "choices": ["長雨や大雨", "乾燥", "晴天続き", "気温が急低下"], "answer": 0, "explanation": "停滞前線は動かず雨雲が次々発生するため、長雨や大雨をもたらします。" },
+    { "id": "sci-midterm-fronts-012", "question": "停滞前線ができる原因として適切なのはどれですか。", "type": "multiple", "choices": ["南北の気団が拮抗する", "太陽が沈む", "山が低くなる", "海水が凍る"], "answer": 0, "explanation": "性質の異なる気団が互いに押し合い、前線が動かなくなると停滞前線になります。" },
+    { "id": "sci-midterm-fronts-013", "question": "前線付近で線状降水帯が発生するとどのような危険が高まりますか。", "type": "multiple", "choices": ["同じ場所で大雨が続き土砂災害のリスクが高まる", "乾燥する", "雪が降り積もる", "気温が急上昇"], "answer": 0, "explanation": "線状降水帯は狭い範囲で大雨を降らせ、災害リスクを高めます。" },
+    { "id": "sci-midterm-fronts-014", "question": "停滞前線の北側に位置する気団は一般にどのような性質を持ちますか。", "type": "multiple", "choices": ["冷たく湿っている", "暖かく乾燥", "非常に乾燥", "熱く乾燥"], "answer": 0, "explanation": "梅雨前線では北側に冷たく湿ったオホーツク海気団が位置します。" },
+    { "id": "sci-midterm-fronts-015", "question": "停滞前線が南下すると日本の天気はどう変わることが多いですか。", "type": "multiple", "choices": ["関東以北で肌寒くなる", "全国で猛暑", "九州で雪", "晴天が続く"], "answer": 0, "explanation": "前線が南下すると北側の冷たい空気が広がり、気温が下がります。" },
+
+    { "id": "sci-midterm-fronts-016", "question": "前線が通過するとき、気圧はどのように変化しますか。", "type": "multiple", "choices": ["通過前に下がり通過後に上がる", "常に上がる", "常に下がる", "まったく変化しない"], "answer": 0, "explanation": "低気圧に伴う前線通過前は気圧が下がり、通過後は上昇に転じます。" },
+    { "id": "sci-midterm-fronts-017", "question": "寒冷前線が通過した際の風向変化として正しいものはどれですか。", "type": "multiple", "choices": ["南→西または北西", "東→南東", "北→北東", "南→南東"], "answer": 0, "explanation": "寒冷前線通過で南よりの風が北西寄りに変わることが多いです。" },
+    { "id": "sci-midterm-fronts-018", "question": "温暖前線が通過した際、風向は一般にどう変わりますか。", "type": "multiple", "choices": ["東や北東風から南寄りに変わる", "南西から北西へ", "北から西へ", "南から北東へ"], "answer": 0, "explanation": "温暖前線の前面では北東風、通過後は南寄りの風へ変わります。" },
+    { "id": "sci-midterm-fronts-019", "question": "前線通過後に急に晴れて気温が上がる場合、どの前線の影響が考えられますか。", "type": "multiple", "choices": ["温暖前線", "寒冷前線", "停滞前線", "閉塞前線"], "answer": 0, "explanation": "温暖前線後面は暖かく湿った空気で温度が上がり晴れることがあります。" },
+    { "id": "sci-midterm-fronts-020", "question": "寒冷前線の通過時に気圧が上昇に転じる理由として正しいものはどれですか。", "type": "multiple", "choices": ["寒気が流入し高気圧性の空気になる", "暖気が入り込む", "地面が温まる", "湿度が下がる"], "answer": 0, "explanation": "寒冷前線の後ろは高気圧性の寒気で、気圧が上昇します。" },
+
+    { "id": "sci-midterm-fronts-021", "question": "低気圧は一般にどちらの方向へ移動することが多いですか（日本付近）。", "type": "multiple", "choices": ["西から東へ", "東から西へ", "南から北へ", "北から南へ"], "answer": 0, "explanation": "偏西風の影響で日本付近の低気圧は西から東へ進みます。" },
+    { "id": "sci-midterm-fronts-022", "question": "高気圧の中心はどの方向へ移動することが多いですか（春・秋の移動性高気圧）。", "type": "multiple", "choices": ["西から東へ", "東から西へ", "北から南へ", "南から北へ"], "answer": 0, "explanation": "移動性高気圧も偏西風に乗って西から東へ移動します。" },
+    { "id": "sci-midterm-fronts-023", "question": "低気圧と高気圧が交互に通過すると日本の天気はどう変わりやすいですか。", "type": "multiple", "choices": ["晴天と雨天が周期的に入れ替わる", "一日中同じ天気", "常に雪", "ずっと曇り"], "answer": 0, "explanation": "移動性高気圧で晴れ、低気圧や前線で雨が交互に訪れます。" },
+    { "id": "sci-midterm-fronts-024", "question": "高気圧と低気圧の配置から天気の移り変わりを予測するとき、重要なのは何ですか。", "type": "multiple", "choices": ["気圧配置の移動速度", "月の満ち欠け", "地震の有無", "植物の様子"], "answer": 0, "explanation": "気圧配置がどれくらいの速度で移動するかで次の天気を予測します。" },
+    { "id": "sci-midterm-fronts-025", "question": "高気圧の縁が通過するときに起こりやすい現象として適切なのはどれですか。", "type": "multiple", "choices": ["雲が増え次第に天気が下り坂", "急に晴れる", "雷が必ず鳴る", "雪が降る"], "answer": 0, "explanation": "高気圧の縁では湿った空気が流れ込み、雲が増えて天気が崩れやすくなります。" }
+  ]
+}
