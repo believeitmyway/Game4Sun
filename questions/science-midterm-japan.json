@@ -5,46 +5,461 @@
   "unitName": "日本の天気の特徴",
   "category": "後期期末テスト対策",
   "questions": [
-    { "id": "sci-midterm-japan-001", "question": "シベリア気団が勢力を強める季節はいつですか。", "type": "multiple", "choices": ["冬", "夏", "春", "秋"], "answer": 0, "explanation": "冬はシベリア気団が発達し、日本に寒気をもたらします。" },
-    { "id": "sci-midterm-japan-002", "question": "シベリア気団の性質として正しいものはどれですか。", "type": "multiple", "choices": ["寒冷で乾燥", "寒冷で湿潤", "高温多湿", "高温で乾燥"], "answer": 0, "explanation": "大陸内部で形成されるシベリア気団は寒く乾燥しています。" },
-    { "id": "sci-midterm-japan-003", "question": "シベリア気団に覆われた太平洋側で見られる天気の特徴はどれですか。", "type": "multiple", "choices": ["晴れて乾燥する", "大雪が続く", "霧が出る", "雨が降り続く"], "answer": 0, "explanation": "山を越えた乾いた風で太平洋側は晴れて乾燥します。" },
-    { "id": "sci-midterm-japan-004", "question": "シベリア気団の影響で日本海側に雪が多くなる理由はどれですか。", "type": "multiple", "choices": ["寒気が日本海で水蒸気を含み雪雲を作る", "太平洋の暖かい空気が入る", "海水が蒸発しない", "気圧が高い"], "answer": 0, "explanation": "寒気が日本海を渡る際に水蒸気を含み雪雲となります。" },
-    { "id": "sci-midterm-japan-005", "question": "冬の関東地方でシベリア気団の影響により注意が必要な現象はどれですか。", "type": "multiple", "choices": ["からっ風による乾燥", "霧による視界不良", "台風", "強い黄砂"], "answer": 0, "explanation": "北西からの乾いた風で乾燥し、火災が起こりやすくなります。" },
-
-    { "id": "sci-midterm-japan-006", "question": "小笠原気団が優勢になる主な季節はいつですか。", "type": "multiple", "choices": ["夏", "冬", "春", "晩秋"], "answer": 0, "explanation": "夏は小笠原気団が張り出し、日本を覆います。" },
-    { "id": "sci-midterm-japan-007", "question": "小笠原気団の性質として適切なのはどれですか。", "type": "multiple", "choices": ["高温多湿", "低温乾燥", "高温乾燥", "低温多湿"], "answer": 0, "explanation": "太平洋上で形成されるため暖かく湿った性質です。" },
-    { "id": "sci-midterm-japan-008", "question": "小笠原気団に覆われたときの典型的な天気はどれですか。", "type": "multiple", "choices": ["晴れて蒸し暑い", "雪が降る", "どんより曇る", "冷え込む"], "answer": 0, "explanation": "小笠原気団の下降気流で晴天が続き、蒸し暑くなります。" },
-    { "id": "sci-midterm-japan-009", "question": "猛暑日に影響する気団として最も関係が深いのはどれですか。", "type": "multiple", "choices": ["小笠原気団", "シベリア気団", "オホーツク気団", "揚子江気団"], "answer": 0, "explanation": "夏の猛暑は小笠原気団の強い張り出しと関係があります。" },
-    { "id": "sci-midterm-japan-010", "question": "小笠原気団が弱まると夏の天候はどう変わることがありますか。", "type": "multiple", "choices": ["前線が北上できず長雨になる", "猛暑が続く", "雪になる", "乾燥する"], "answer": 0, "explanation": "小笠原気団が弱まると前線が停滞し、雨が続くことがあります。" },
-
-    { "id": "sci-midterm-japan-011", "question": "オホーツク気団が日本に影響を与える季節は主にいつですか。", "type": "multiple", "choices": ["初夏から夏にかけて", "冬", "秋の終わり", "真夏のみ"], "answer": 0, "explanation": "6月頃からオホーツク海気団が張り出し、梅雨寒をもたらします。" },
-    { "id": "sci-midterm-japan-012", "question": "オホーツク気団の性質として正しいものはどれですか。", "type": "multiple", "choices": ["冷たく湿っている", "暖かく乾燥", "寒冷で乾燥", "高温多湿"], "answer": 0, "explanation": "オホーツク気団は冷たく湿った性質を持ち、霧や小雨をもたらします。" },
-    { "id": "sci-midterm-japan-013", "question": "オホーツク気団が張り出すと関東地方ではどのような天気が続きやすいですか。", "type": "multiple", "choices": ["曇りや霧雨で肌寒い", "猛暑", "乾燥した晴天", "豪雪"], "answer": 0, "explanation": "冷たい湿った空気で曇りや霧雨が続き、気温が低くなります。" },
-    { "id": "sci-midterm-japan-014", "question": "北海道の初夏に濃霧が発生しやすいのはどの気団の影響ですか。", "type": "multiple", "choices": ["オホーツク気団", "小笠原気団", "シベリア気団", "揚子江気団"], "answer": 0, "explanation": "冷たいオホーツク気団が湿った空気を冷やし、濃霧を発生させます。" },
-    { "id": "sci-midterm-japan-015", "question": "オホーツク気団の影響で東北地方太平洋側に発生する冷たい風を何と呼びますか。", "type": "multiple", "choices": ["やませ", "からっ風", "フェーン", "木枯らし"], "answer": 0, "explanation": "オホーツク海気団による冷たい東風は「やませ」と呼ばれ冷害を起こします。" },
-
-    { "id": "sci-midterm-japan-016", "question": "揚子江気団が日本に影響するのは主にどの季節ですか。", "type": "multiple", "choices": ["春と秋", "夏", "冬", "梅雨明け"], "answer": 0, "explanation": "揚子江気団は春と秋の移動性高気圧として日本にやってきます。" },
-    { "id": "sci-midterm-japan-017", "question": "揚子江気団の性質として適切なのはどれですか。", "type": "multiple", "choices": ["温暖で乾燥", "高温多湿", "寒冷で湿潤", "低温乾燥"], "answer": 0, "explanation": "大陸の沿岸で形成される揚子江気団は温暖で比較的乾燥しています。" },
-    { "id": "sci-midterm-japan-018", "question": "揚子江気団が張り出すと春の日本でどのような天候になりますか。", "type": "multiple", "choices": ["晴れて気温が上がる", "雪が降る", "長雨が続く", "台風が接近する"], "answer": 0, "explanation": "揚子江気団の移動性高気圧で晴天と穏やかな陽気になります。" },
-    { "id": "sci-midterm-japan-019", "question": "秋に揚子江気団が日本を覆うとどのような天気が続きますか。", "type": "multiple", "choices": ["爽やかな晴天", "蒸し暑い天気", "雪が続く", "大雨"], "answer": 0, "explanation": "秋晴れと呼ばれる爽やかで湿度の低い晴天になります。" },
-    { "id": "sci-midterm-japan-020", "question": "揚子江気団とシベリア気団が交互に影響すると、秋の天気はどう変わりますか。", "type": "multiple", "choices": ["晴天のあと急に冷え込む", "雨が降り続く", "雪になる", "常に高温"], "answer": 0, "explanation": "移動性高気圧の晴天のあと寒気が入り、気温が上下します。" },
-
-    { "id": "sci-midterm-japan-021", "question": "日本の春の天気の特徴として正しいものはどれですか。", "type": "multiple", "choices": ["移動性高気圧と低気圧が交互に通過", "冬型気圧配置が続く", "台風が頻発", "日照時間が最も短い"], "answer": 0, "explanation": "春は気圧配置が周期的に変わり、晴れと雨が交互に訪れます。" },
-    { "id": "sci-midterm-japan-022", "question": "日本の夏の天気で正しい記述はどれですか。", "type": "multiple", "choices": ["太平洋高気圧に覆われ蒸し暑い", "シベリア気団で乾燥", "寒気で雪", "前線がなく晴れが続かない"], "answer": 0, "explanation": "夏は太平洋高気圧が張り出し、晴れて蒸し暑い日が続きます。" },
-    { "id": "sci-midterm-japan-023", "question": "日本の秋に見られる典型的な気象現象はどれですか。", "type": "multiple", "choices": ["秋雨前線や台風", "豪雪", "梅雨", "黄砂"], "answer": 0, "explanation": "秋は秋雨前線や台風が通過し、雨や風が強まります。" },
-    { "id": "sci-midterm-japan-024", "question": "冬の日本海側と太平洋側の天気の違いとして正しいものはどれですか。", "type": "multiple", "choices": ["日本海側は雪が多く太平洋側は晴れる", "どちらも晴れる", "どちらも雪", "太平洋側が雪で日本海側が晴れ"], "answer": 0, "explanation": "冬型気圧配置で日本海側は雪、太平洋側は晴れが多くなります。" },
-    { "id": "sci-midterm-japan-025", "question": "春に発生する黄砂は日本の天気にどのような影響を与えますか。", "type": "multiple", "choices": ["視界が悪化し空がかすむ", "雪になる", "雨が続く", "気温が急上昇"], "answer": 0, "explanation": "偏西風で運ばれた黄砂が空をかすませ、視界を悪くします。" },
-
-    { "id": "sci-midterm-japan-026", "question": "梅雨の期間に日本列島付近に停滞する前線を何と呼びますか。", "type": "multiple", "choices": ["梅雨前線", "寒冷前線", "閉塞前線", "極前線"], "answer": 0, "explanation": "梅雨時期に本州付近に停滞する前線を梅雨前線と呼びます。" },
-    { "id": "sci-midterm-japan-027", "question": "梅雨の雨の降り方として最も一般的なのはどれですか。", "type": "multiple", "choices": ["弱い雨が長く続く", "短時間の豪雨のみ", "雪", "霧"], "answer": 0, "explanation": "梅雨前線に伴って広範囲で弱い雨が長く降り続きます。" },
-    { "id": "sci-midterm-japan-028", "question": "梅雨の末期に発生する集中豪雨の原因として適切なのはどれですか。", "type": "multiple", "choices": ["線状降水帯の形成", "黄砂", "放射霧", "寒気の流入が止まる"], "answer": 0, "explanation": "梅雨末期は暖かく湿った空気が流入し、線状降水帯ができやすく豪雨になります。" },
-    { "id": "sci-midterm-japan-029", "question": "梅雨が最も早く始まる地域はどこですか。", "type": "multiple", "choices": ["沖縄地方", "東北北部", "関東地方", "北海道"], "answer": 0, "explanation": "梅雨前線は南から北へ移動するため、沖縄で最も早く梅雨入りします。" },
-    { "id": "sci-midterm-japan-030", "question": "梅雨が明けるときに日本付近で勢力を増す気団はどれですか。", "type": "multiple", "choices": ["小笠原気団", "シベリア気団", "オホーツク気団", "揚子江気団"], "answer": 0, "explanation": "梅雨明け後は小笠原気団が強まり、真夏の高温多湿な天気になります。" },
-
-    { "id": "sci-midterm-japan-031", "question": "台風の勢力が強いときに気象庁が発表する特別警報はどのような基準で発表されますか。", "type": "multiple", "choices": ["甚大な被害が予想されるとき", "台風の直径が大きいとき", "台風の数が多いとき", "海水温が高いとき"], "answer": 0, "explanation": "命に危険が及ぶような激しい現象が予想されると特別警報が出ます。" },
-    { "id": "sci-midterm-japan-032", "question": "台風の中心気圧が低いほどどのような特徴がありますか。", "type": "multiple", "choices": ["風が強く雨が激しい", "風が弱い", "雨が降らない", "進む速度が遅くなる"], "answer": 0, "explanation": "中心気圧が低いほど気圧差が大きく、風雨が強まります。" },
-    { "id": "sci-midterm-japan-033", "question": "台風が上陸すると特に注意が必要な現象として適切なのはどれですか。", "type": "multiple", "choices": ["高潮と暴風", "黄砂", "霧", "低温"], "answer": 0, "explanation": "台風は暴風と高潮をもたらし、沿岸部で大きな被害が出る恐れがあります。" },
-    { "id": "sci-midterm-japan-034", "question": "台風の進行方向の右側（危険半円）で被害が大きくなる理由はどれですか。", "type": "multiple", "choices": ["台風の回転と進行が合わさり風が強くなる", "海水温が低い", "雨が全く降らない", "気圧が高い"], "answer": 0, "explanation": "進行方向の右側では回転と進行の風が重なり、風速が強まります。" },
-    { "id": "sci-midterm-japan-035", "question": "台風が温帯低気圧に変わる現象を何と呼びますか。", "type": "multiple", "choices": ["温帯低気圧化", "台風前線化", "停滞化", "閉塞化"], "answer": 0, "explanation": "台風が北上し性質が変わると温帯低気圧に変わり、温帯低気圧化といいます。" }
-  ]
+    {
+      "id": "sci-midterm-japan-001",
+      "question": "シベリア気団が勢力を強める季節はいつですか。",
+      "type": "multiple",
+      "choices": [
+        "冬",
+        "夏",
+        "春",
+        "秋"
+      ],
+      "answer": 0,
+      "explanation": "冬はシベリア気団が発達し、日本に寒気をもたらします。"
+    },
+    {
+      "id": "sci-midterm-japan-002",
+      "question": "シベリア気団の性質として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "寒冷で乾燥",
+        "寒冷で湿潤",
+        "高温多湿",
+        "高温で乾燥"
+      ],
+      "answer": 0,
+      "explanation": "大陸内部で形成されるシベリア気団は寒く乾燥しています。"
+    },
+    {
+      "id": "sci-midterm-japan-003",
+      "question": "シベリア気団に覆われた太平洋側で見られる天気の特徴はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "晴れて乾燥する",
+        "大雪が続く",
+        "霧が出る",
+        "雨が降り続く"
+      ],
+      "answer": 0,
+      "explanation": "山を越えた乾いた風で太平洋側は晴れて乾燥します。"
+    },
+    {
+      "id": "sci-midterm-japan-004",
+      "question": "シベリア気団の影響で日本海側に雪が多くなる理由はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "寒気が日本海で水蒸気を含み雪雲を作る",
+        "太平洋の暖かい空気が入る",
+        "海水が蒸発しない",
+        "気圧が高い"
+      ],
+      "answer": 0,
+      "explanation": "寒気が日本海を渡る際に水蒸気を含み雪雲となります。"
+    },
+    {
+      "id": "sci-midterm-japan-005",
+      "question": "冬の関東地方でシベリア気団の影響により注意が必要な現象はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "からっ風による乾燥",
+        "霧による視界不良",
+        "台風",
+        "強い黄砂"
+      ],
+      "answer": 0,
+      "explanation": "北西からの乾いた風で乾燥し、火災が起こりやすくなります。"
+    },
+    {
+      "id": "sci-midterm-japan-006",
+      "question": "小笠原気団が優勢になる主な季節はいつですか。",
+      "type": "multiple",
+      "choices": [
+        "夏",
+        "冬",
+        "春",
+        "晩秋"
+      ],
+      "answer": 0,
+      "explanation": "夏は小笠原気団が張り出し、日本を覆います。"
+    },
+    {
+      "id": "sci-midterm-japan-007",
+      "question": "小笠原気団の性質として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "高温多湿",
+        "低温乾燥",
+        "高温乾燥",
+        "低温多湿"
+      ],
+      "answer": 0,
+      "explanation": "太平洋上で形成されるため暖かく湿った性質です。"
+    },
+    {
+      "id": "sci-midterm-japan-008",
+      "question": "小笠原気団に覆われたときの典型的な天気はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "晴れて蒸し暑い",
+        "雪が降る",
+        "どんより曇る",
+        "冷え込む"
+      ],
+      "answer": 0,
+      "explanation": "小笠原気団の下降気流で晴天が続き、蒸し暑くなります。"
+    },
+    {
+      "id": "sci-midterm-japan-009",
+      "question": "猛暑日に影響する気団として最も関係が深いのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "小笠原気団",
+        "シベリア気団",
+        "オホーツク気団",
+        "揚子江気団"
+      ],
+      "answer": 0,
+      "explanation": "夏の猛暑は小笠原気団の強い張り出しと関係があります。"
+    },
+    {
+      "id": "sci-midterm-japan-010",
+      "question": "小笠原気団が弱まると夏の天候はどう変わることがありますか。",
+      "type": "multiple",
+      "choices": [
+        "前線が北上できず長雨になる",
+        "猛暑が続く",
+        "雪になる",
+        "乾燥する"
+      ],
+      "answer": 0,
+      "explanation": "小笠原気団が弱まると前線が停滞し、雨が続くことがあります。"
+    },
+    {
+      "id": "sci-midterm-japan-011",
+      "question": "オホーツク気団が日本に影響を与える季節は主にいつですか。",
+      "type": "multiple",
+      "choices": [
+        "初夏から夏にかけて",
+        "冬",
+        "秋の終わり",
+        "真夏のみ"
+      ],
+      "answer": 0,
+      "explanation": "6月頃からオホーツク海気団が張り出し、梅雨寒をもたらします。"
+    },
+    {
+      "id": "sci-midterm-japan-012",
+      "question": "オホーツク気団の性質として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "冷たく湿っている",
+        "暖かく乾燥",
+        "寒冷で乾燥",
+        "高温多湿"
+      ],
+      "answer": 0,
+      "explanation": "オホーツク気団は冷たく湿った性質を持ち、霧や小雨をもたらします。"
+    },
+    {
+      "id": "sci-midterm-japan-013",
+      "question": "オホーツク気団が張り出すと関東地方ではどのような天気が続きやすいですか。",
+      "type": "multiple",
+      "choices": [
+        "曇りや霧雨で肌寒い",
+        "猛暑",
+        "乾燥した晴天",
+        "豪雪"
+      ],
+      "answer": 0,
+      "explanation": "冷たい湿った空気で曇りや霧雨が続き、気温が低くなります。"
+    },
+    {
+      "id": "sci-midterm-japan-014",
+      "question": "北海道の初夏に濃霧が発生しやすいのはどの気団の影響ですか。",
+      "type": "multiple",
+      "choices": [
+        "オホーツク気団",
+        "小笠原気団",
+        "シベリア気団",
+        "揚子江気団"
+      ],
+      "answer": 0,
+      "explanation": "冷たいオホーツク気団が湿った空気を冷やし、濃霧を発生させます。"
+    },
+    {
+      "id": "sci-midterm-japan-015",
+      "question": "オホーツク気団の影響で東北地方太平洋側に発生する冷たい風を何と呼びますか。",
+      "type": "multiple",
+      "choices": [
+        "やませ",
+        "からっ風",
+        "フェーン",
+        "木枯らし"
+      ],
+      "answer": 0,
+      "explanation": "オホーツク海気団による冷たい東風は「やませ」と呼ばれ冷害を起こします。"
+    },
+    {
+      "id": "sci-midterm-japan-016",
+      "question": "揚子江気団が日本に影響するのは主にどの季節ですか。",
+      "type": "multiple",
+      "choices": [
+        "春と秋",
+        "夏",
+        "冬",
+        "梅雨明け"
+      ],
+      "answer": 0,
+      "explanation": "揚子江気団は春と秋の移動性高気圧として日本にやってきます。"
+    },
+    {
+      "id": "sci-midterm-japan-017",
+      "question": "揚子江気団の性質として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "温暖で乾燥",
+        "高温多湿",
+        "寒冷で湿潤",
+        "低温乾燥"
+      ],
+      "answer": 0,
+      "explanation": "大陸の沿岸で形成される揚子江気団は温暖で比較的乾燥しています。"
+    },
+    {
+      "id": "sci-midterm-japan-018",
+      "question": "揚子江気団が張り出すと春の日本でどのような天候になりますか。",
+      "type": "multiple",
+      "choices": [
+        "晴れて気温が上がる",
+        "雪が降る",
+        "長雨が続く",
+        "台風が接近する"
+      ],
+      "answer": 0,
+      "explanation": "揚子江気団の移動性高気圧で晴天と穏やかな陽気になります。"
+    },
+    {
+      "id": "sci-midterm-japan-019",
+      "question": "秋に揚子江気団が日本を覆うとどのような天気が続きますか。",
+      "type": "multiple",
+      "choices": [
+        "爽やかな晴天",
+        "蒸し暑い天気",
+        "雪が続く",
+        "大雨"
+      ],
+      "answer": 0,
+      "explanation": "秋晴れと呼ばれる爽やかで湿度の低い晴天になります。"
+    },
+    {
+      "id": "sci-midterm-japan-020",
+      "question": "揚子江気団とシベリア気団が交互に影響すると、秋の天気はどう変わりますか。",
+      "type": "multiple",
+      "choices": [
+        "晴天のあと急に冷え込む",
+        "雨が降り続く",
+        "雪になる",
+        "常に高温"
+      ],
+      "answer": 0,
+      "explanation": "移動性高気圧の晴天のあと寒気が入り、気温が上下します。"
+    },
+    {
+      "id": "sci-midterm-japan-021",
+      "question": "日本の春の天気の特徴として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "移動性高気圧と低気圧が交互に通過",
+        "冬型気圧配置が続く",
+        "台風が頻発",
+        "日照時間が最も短い"
+      ],
+      "answer": 0,
+      "explanation": "春は気圧配置が周期的に変わり、晴れと雨が交互に訪れます。"
+    },
+    {
+      "id": "sci-midterm-japan-022",
+      "question": "日本の夏の天気で正しい記述はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "太平洋高気圧に覆われ蒸し暑い",
+        "シベリア気団で乾燥",
+        "寒気で雪",
+        "前線がなく晴れが続かない"
+      ],
+      "answer": 0,
+      "explanation": "夏は太平洋高気圧が張り出し、晴れて蒸し暑い日が続きます。"
+    },
+    {
+      "id": "sci-midterm-japan-023",
+      "question": "日本の秋に見られる典型的な気象現象はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "秋雨前線や台風",
+        "豪雪",
+        "梅雨",
+        "黄砂"
+      ],
+      "answer": 0,
+      "explanation": "秋は秋雨前線や台風が通過し、雨や風が強まります。"
+    },
+    {
+      "id": "sci-midterm-japan-024",
+      "question": "冬の日本海側と太平洋側の天気の違いとして正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "日本海側は雪が多く太平洋側は晴れる",
+        "どちらも晴れる",
+        "どちらも雪",
+        "太平洋側が雪で日本海側が晴れ"
+      ],
+      "answer": 0,
+      "explanation": "冬型気圧配置で日本海側は雪、太平洋側は晴れが多くなります。"
+    },
+    {
+      "id": "sci-midterm-japan-025",
+      "question": "春に発生する黄砂は日本の天気にどのような影響を与えますか。",
+      "type": "multiple",
+      "choices": [
+        "視界が悪化し空がかすむ",
+        "雪になる",
+        "雨が続く",
+        "気温が急上昇"
+      ],
+      "answer": 0,
+      "explanation": "偏西風で運ばれた黄砂が空をかすませ、視界を悪くします。"
+    },
+    {
+      "id": "sci-midterm-japan-026",
+      "question": "梅雨の期間に日本列島付近に停滞する前線を何と呼びますか。",
+      "type": "multiple",
+      "choices": [
+        "梅雨前線",
+        "寒冷前線",
+        "閉塞前線",
+        "極前線"
+      ],
+      "answer": 0,
+      "explanation": "梅雨時期に本州付近に停滞する前線を梅雨前線と呼びます。"
+    },
+    {
+      "id": "sci-midterm-japan-027",
+      "question": "梅雨の雨の降り方として最も一般的なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "弱い雨が長く続く",
+        "短時間の豪雨のみ",
+        "雪",
+        "霧"
+      ],
+      "answer": 0,
+      "explanation": "梅雨前線に伴って広範囲で弱い雨が長く降り続きます。"
+    },
+    {
+      "id": "sci-midterm-japan-028",
+      "question": "梅雨の末期に発生する集中豪雨の原因として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "線状降水帯の形成",
+        "黄砂",
+        "放射霧",
+        "寒気の流入が止まる"
+      ],
+      "answer": 0,
+      "explanation": "梅雨末期は暖かく湿った空気が流入し、線状降水帯ができやすく豪雨になります。"
+    },
+    {
+      "id": "sci-midterm-japan-029",
+      "question": "梅雨が最も早く始まる地域はどこですか。",
+      "type": "multiple",
+      "choices": [
+        "沖縄地方",
+        "東北北部",
+        "関東地方",
+        "北海道"
+      ],
+      "answer": 0,
+      "explanation": "梅雨前線は南から北へ移動するため、沖縄で最も早く梅雨入りします。"
+    },
+    {
+      "id": "sci-midterm-japan-030",
+      "question": "梅雨が明けるときに日本付近で勢力を増す気団はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "小笠原気団",
+        "シベリア気団",
+        "オホーツク気団",
+        "揚子江気団"
+      ],
+      "answer": 0,
+      "explanation": "梅雨明け後は小笠原気団が強まり、真夏の高温多湿な天気になります。"
+    },
+    {
+      "id": "sci-midterm-japan-031",
+      "question": "台風の勢力が強いときに気象庁が発表する特別警報はどのような基準で発表されますか。",
+      "type": "multiple",
+      "choices": [
+        "甚大な被害が予想されるとき",
+        "台風の直径が大きいとき",
+        "台風の数が多いとき",
+        "海水温が高いとき"
+      ],
+      "answer": 0,
+      "explanation": "命に危険が及ぶような激しい現象が予想されると特別警報が出ます。"
+    },
+    {
+      "id": "sci-midterm-japan-032",
+      "question": "台風の中心気圧が低いほどどのような特徴がありますか。",
+      "type": "multiple",
+      "choices": [
+        "風が強く雨が激しい",
+        "風が弱い",
+        "雨が降らない",
+        "進む速度が遅くなる"
+      ],
+      "answer": 0,
+      "explanation": "中心気圧が低いほど気圧差が大きく、風雨が強まります。"
+    },
+    {
+      "id": "sci-midterm-japan-033",
+      "question": "台風が上陸すると特に注意が必要な現象として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "高潮と暴風",
+        "黄砂",
+        "霧",
+        "低温"
+      ],
+      "answer": 0,
+      "explanation": "台風は暴風と高潮をもたらし、沿岸部で大きな被害が出る恐れがあります。"
+    },
+    {
+      "id": "sci-midterm-japan-034",
+      "question": "台風の進行方向の右側（危険半円）で被害が大きくなる理由はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "台風の回転と進行が合わさり風が強くなる",
+        "海水温が低い",
+        "雨が全く降らない",
+        "気圧が高い"
+      ],
+      "answer": 0,
+      "explanation": "進行方向の右側では回転と進行の風が重なり、風速が強まります。"
+    },
+    {
+      "id": "sci-midterm-japan-035",
+      "question": "台風が温帯低気圧に変わる現象を何と呼びますか。",
+      "type": "multiple",
+      "choices": [
+        "温帯低気圧化",
+        "台風前線化",
+        "停滞化",
+        "閉塞化"
+      ],
+      "answer": 0,
+      "explanation": "台風が北上し性質が変わると温帯低気圧に変わり、温帯低気圧化といいます。"
+    }
+  ],
+  "grade": "中2"
 }

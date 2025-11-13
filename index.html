@@ -85,8 +85,27 @@
                     <h2>ドリル設定</h2>
                 </div>
 
-                <!-- ステップ1: 科目選択 -->
-                <div id="subject-selection" class="setup-step active">
+                <!-- ステップ1: 学年選択 -->
+                <div id="grade-selection" class="setup-step active">
+                    <h3>学年を選んでね！</h3>
+                    <div class="grade-grid">
+                        <button class="grade-btn" onclick="selectGrade('中1')">
+                            <div class="grade-icon">📘</div>
+                            <div class="grade-name">中学1年</div>
+                        </button>
+                        <button class="grade-btn" onclick="selectGrade('中2')">
+                            <div class="grade-icon">📗</div>
+                            <div class="grade-name">中学2年</div>
+                        </button>
+                        <button class="grade-btn" onclick="selectGrade('中3')">
+                            <div class="grade-icon">📙</div>
+                            <div class="grade-name">中学3年</div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ステップ2: 科目選択 -->
+                <div id="subject-selection" class="setup-step">
                     <h3>科目を選んでね！</h3>
                     <div class="subject-grid">
                         <button class="subject-btn" data-subject="english" onclick="selectSubject('english')">
@@ -116,7 +135,7 @@
                     </div>
                 </div>
 
-                <!-- ステップ2: 単元選択 -->
+                <!-- ステップ3: 単元選択 -->
                 <div id="unit-selection" class="setup-step">
                     <h3><span id="selected-subject-name"></span> の単元を選んでね！</h3>
                     <div id="unit-tree" class="unit-tree"></div>

@@ -1,5 +1,6 @@
 // グローバル変数
 let currentScreen = 'top-screen';
+let selectedGrade = null;  // 選択された学年
 let selectedSubject = null;
 let selectedUnits = [];
 let questionCount = 10;
@@ -452,10 +453,11 @@ async function loadQuestions() {
                     };
                 }
                 
-                // 単元を追加
+                // 単元を追加（gradeフィールドも含める）
                 QUESTION_DATABASE[subject].units[unitId] = {
                     name: unitName,
                     category: category,
+                    grade: file.grade || null,  // gradeフィールドを追加
                     questions: questions
                 };
             } catch (error) {
@@ -1094,9 +1096,10 @@ function showScreen(screenId) {
     }
 }
 
-// ドリル設定をリセットして科目選択画面から開始
+// ドリル設定をリセットして学年選択画面から開始
 function resetDrillSetup() {
     // 選択状態をクリア
+    selectedGrade = null;
     selectedSubject = null;
     selectedUnits = [];
     questionCount = 10; // デフォルト値に戻す
@@ -1106,8 +1109,13 @@ function resetDrillSetup() {
         step.classList.remove('active');
     });
     
-    // 科目選択画面だけを表示
-    document.getElementById('subject-selection').classList.add('active');
+    // 学年選択画面だけを表示
+    document.getElementById('grade-selection').classList.add('active');
+    
+    // 学年ボタンの選択状態をクリア
+    document.querySelectorAll('.grade-btn').forEach(btn => {
+        btn.classList.remove('selected');
+    });
     
     // 科目ボタンの選択状態をクリア
     document.querySelectorAll('.subject-btn').forEach(btn => {
@@ -1115,8 +1123,77 @@ function resetDrillSetup() {
     });
 }
 
+// ドリル設定 - 学年選択
+function selectGrade(grade) {
+    selectedGrade = grade;
+    
+    // 学年ボタンのスタイル更新
+    document.querySelectorAll('.grade-btn').forEach(btn => {
+        btn.classList.remove('selected');
+    });
+    event.target.closest('.grade-btn').classList.add('selected');
+    
+    // 科目選択画面に移動
+    setTimeout(() => {
+        document.getElementById('grade-selection').classList.remove('active');
+        document.getElementById('subject-selection').classList.add('active');
+        
+        // 選択された学年に基づいて科目をフィルタリングして表示
+        filterSubjectsByGrade(grade);
+    }, 300);
+}
+
+// 学年に基づいて科目をフィルタリング
+function filterSubjectsByGrade(grade) {
+    const subjectButtons = document.querySelectorAll('.subject-btn');
+    
+    subjectButtons.forEach(btn => {
+        const subject = btn.getAttribute('data-subject');
+        // 選択された学年に該当する科目があるかチェック
+        const hasQuestions = checkSubjectHasGradeQuestions(subject, grade);
+        
+        if (hasQuestions) {
+            btn.style.display = '';  // 表示
+            btn.disabled = false;
+        } else {
+            btn.style.display = 'none';  // 非表示
+            btn.disabled = true;
+        }
+    });
+}
+
+// 科目に選択された学年の問題があるかチェック
+function checkSubjectHasGradeQuestions(subject, grade) {
+    if (!QUESTION_DATABASE[subject]) {
+        return false;
+    }
+    
+    const units = QUESTION_DATABASE[subject].units;
+    for (let unitId in units) {
+        const unit = units[unitId];
+        // 単元にgradeフィールドがあるか、またはquestionsにgradeフィールドがあるかチェック
+        if (unit.grade === grade) {
+            return true;
+        }
+        // 問題レベルでgradeをチェック（後方互換性のため）
+        if (unit.questions && unit.questions.length > 0) {
+            const firstQuestion = unit.questions[0];
+            if (firstQuestion.grade === grade) {
+                return true;
+            }
+        }
+    }
+    
+    return false;
+}
+
 // ドリル設定 - 科目選択
 function selectSubject(subject) {
+    if (!selectedGrade) {
+        alert('学年を選択してください！');
+        return;
+    }
+    
     selectedSubject = subject;
     
     // 科目ボタンのスタイル更新
@@ -1133,7 +1210,7 @@ function selectSubject(subject) {
         // 科目名表示
         document.getElementById('selected-subject-name').textContent = QUESTION_DATABASE[subject].name;
         
-        // 単元ツリーを生成
+        // 単元ツリーを生成（学年でフィルタリング）
         generateUnitTree(subject);
     }, 300);
 }
@@ -1145,13 +1222,16 @@ function generateUnitTree(subject) {
     const units = QUESTION_DATABASE[subject].units;
     const categories = {};
     
-    // カテゴリごとにグループ化
+    // カテゴリごとにグループ化（選択された学年でフィルタリング）
     Object.keys(units).forEach(unitId => {
         const unit = units[unitId];
-        if (!categories[unit.category]) {
-            categories[unit.category] = [];
+        // 学年でフィルタリング
+        if (unit.grade === selectedGrade) {
+            if (!categories[unit.category]) {
+                categories[unit.category] = [];
+            }
+            categories[unit.category].push({ id: unitId, name: unit.name });
         }
-        categories[unit.category].push({ id: unitId, name: unit.name });
     });
     
     // カテゴリごとに表示
@@ -1225,17 +1305,35 @@ function selectQuestionCount(count) {
 
 // ドリル開始
 function startDrill() {
+    if (!selectedGrade) {
+        alert('学年を選択してください！');
+        return;
+    }
     if (!questionCount) {
         alert('問題数を選択してください！');
         return;
     }
     
-    // 選択された単元から問題を取得
+    // 選択された単元から問題を取得（学年でフィルタリング）
     currentQuestions = [];
     selectedUnits.forEach(unitId => {
-        const questions = QUESTION_DATABASE[selectedSubject].units[unitId].questions;
-        currentQuestions.push(...questions);
+        const unit = QUESTION_DATABASE[selectedSubject].units[unitId];
+        // 学年が一致する単元のみから問題を取得
+        if (unit.grade === selectedGrade) {
+            const questions = unit.questions;
+            // 問題レベルでもgradeをチェック（後方互換性のため）
+            const filteredQuestions = questions.filter(q => {
+                // 問題にgradeフィールドがある場合はそれもチェック
+                return !q.grade || q.grade === selectedGrade;
+            });
+            currentQuestions.push(...filteredQuestions);
+        }
     });
+    
+    if (currentQuestions.length === 0) {
+        alert('選択された学年・科目・単元に問題がありません。');
+        return;
+    }
     
     // 苦手問題優先アルゴリズムで問題を選択
     currentQuestions = selectQuestionsByWeakness(currentQuestions, questionCount);

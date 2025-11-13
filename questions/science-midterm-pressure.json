@@ -5,70 +5,721 @@
   "unitName": "気圧",
   "category": "後期期末テスト対策",
   "questions": [
-    { "id": "sci-midterm-pressure-001", "question": "標準気圧は海面上で約何hPaと定義されていますか。", "type": "multiple", "choices": ["1013hPa", "1000hPa", "980hPa", "900hPa"], "answer": 0, "explanation": "標準気圧は1013hPaと定められており、気象観測の基準になります。" },
-    { "id": "sci-midterm-pressure-002", "question": "山に登るにつれて気圧はどのように変化しますか。", "type": "multiple", "choices": ["低くなる", "高くなる", "変わらない", "一度上がってから下がる"], "answer": 0, "explanation": "高度が上がると上の空気の重さが減るため、気圧は低くなります。" },
-    { "id": "sci-midterm-pressure-003", "question": "気圧を直接測定するために用いられる器具はどれですか。", "type": "multiple", "choices": ["気圧計", "風速計", "湿度計", "雨量計"], "answer": 0, "explanation": "気圧は気圧計（バロメータ）で測定します。" },
-    { "id": "sci-midterm-pressure-004", "question": "気圧が急激に低下するサインは、天気の変化として何を示すことが多いですか。", "type": "multiple", "choices": ["低気圧の接近", "移動性高気圧の張り出し", "乾燥した空気の流入", "地震の前兆"], "answer": 0, "explanation": "気圧の急低下は低気圧の接近や発達を示し、天気が崩れる前触れです。" },
-    { "id": "sci-midterm-pressure-005", "question": "冬の寒い朝に気圧が高くなる理由として最も適切なのはどれですか。", "type": "multiple", "choices": ["冷たい空気が重くなる", "湿った空気が軽くなる", "地面が温まる", "風が止まる"], "answer": 0, "explanation": "冷たい空気は密度が高く重いため、冬の晴れた朝などは気圧が高くなります。" },
-
-    { "id": "sci-midterm-pressure-006", "question": "等高線が詰まって描かれている地形図の場所はどのような地形ですか。", "type": "multiple", "choices": ["急な斜面", "なだらかな平地", "海岸線", "河口"], "answer": 0, "explanation": "等高線が密な場所は高低差が大きく、急な斜面を示します。" },
-    { "id": "sci-midterm-pressure-007", "question": "等高線が複雑に曲がっている場所で予想される地形はどれですか。", "type": "multiple", "choices": ["谷や尾根が入り組む地形", "完全に平坦な土地", "湖の中心", "砂丘のみ"], "answer": 0, "explanation": "等高線が入り組む場所では谷や尾根が交互に現れる複雑な地形が想像できます。" },
-    { "id": "sci-midterm-pressure-008", "question": "等高線から読み取れる情報として適切なのはどれですか。", "type": "multiple", "choices": ["標高", "気圧", "降水量", "風速"], "answer": 0, "explanation": "地形図の等高線は標高を表し、地形の起伏を読み取ることができます。" },
-    { "id": "sci-midterm-pressure-009", "question": "地形図で等高線が開いた部分（U字）の開いている方向は何を表しますか。", "type": "multiple", "choices": ["谷の下流方向", "尾根の上流方向", "風の向き", "川の深さ"], "answer": 0, "explanation": "等高線のU字形状は谷を表し、開いている方向が下流（低い方）になります。" },
-    { "id": "sci-midterm-pressure-010", "question": "1/25000地形図で隣り合う等高線の標高差は通常何mですか。", "type": "multiple", "choices": ["10m", "1m", "5m", "50m"], "answer": 0, "explanation": "1/25000地形図では基本等高線の間隔は10mです。" },
-
-    { "id": "sci-midterm-pressure-011", "question": "冬型の気圧配置とはどのような配置を指しますか。", "type": "multiple", "choices": ["西高東低", "南高北低", "東高西低", "南低北高"], "answer": 0, "explanation": "冬型はシベリア高気圧が日本海側に張り出し、西高東低の配置になります。" },
-    { "id": "sci-midterm-pressure-012", "question": "夏型の気圧配置で日本が晴れやすい理由として正しいものはどれですか。", "type": "multiple", "choices": ["太平洋高気圧が張り出し沈降気流が働く", "シベリア高気圧が強まる", "低気圧が停滞する", "前線が本州に停滞する"], "answer": 0, "explanation": "夏は太平洋高気圧が張り出し、下降気流で晴れが続き蒸し暑くなります。" },
-    { "id": "sci-midterm-pressure-013", "question": "春や秋に見られる移動性高気圧と低気圧が交互に通過する気圧配置は何と呼ばれますか。", "type": "multiple", "choices": ["胴長型気圧配置", "冬型気圧配置", "オホーツク海気団型", "台風型"], "answer": 0, "explanation": "移動性高気圧と低気圧が交互に通過する典型的な配置を胴長型気圧配置と呼びます。" },
-    { "id": "sci-midterm-pressure-014", "question": "梅雨時に日本付近に停滞する前線を挟む気圧配置はどれですか。", "type": "multiple", "choices": ["オホーツク海高気圧と太平洋高気圧が拮抗", "シベリア高気圧が卓越", "南極高気圧が張り出す", "低気圧のみが存在"], "answer": 0, "explanation": "梅雨前線は北側のオホーツク海高気圧と南側の太平洋高気圧が拮抗することで停滞します。" },
-    { "id": "sci-midterm-pressure-015", "question": "南岸低気圧による関東の雪はどのような気圧配置で起こりやすいですか。", "type": "multiple", "choices": ["本州の南岸を低気圧が東進する", "東シナ海に高気圧が停滞する", "北海道に台風が接近する", "太平洋高気圧が勢力を強める"], "answer": 0, "explanation": "南岸低気圧が本州南岸を進むと太平洋側に湿った空気が流れ込み、雪になることがあります。" },
-
-    { "id": "sci-midterm-pressure-016", "question": "風が吹く原因として最も基本的なものはどれですか。", "type": "multiple", "choices": ["気圧差", "地震", "地磁気", "潮の干満"], "answer": 0, "explanation": "風は高い気圧から低い気圧へ空気が移動することで生じます。" },
-    { "id": "sci-midterm-pressure-017", "question": "風は高気圧と低気圧のどちらからどちらへ吹き出しますか。", "type": "multiple", "choices": ["高気圧から低気圧へ", "低気圧から高気圧へ", "常に東から西へ", "常に西から東へ"], "answer": 0, "explanation": "風は気圧が高い方から低い方へ向かう空気の動きです。" },
-    { "id": "sci-midterm-pressure-018", "question": "地表付近の風が直線ではなく曲がって吹く主な原因は何ですか。", "type": "multiple", "choices": ["コリオリの力", "太陽光", "海水温", "土壌の種類"], "answer": 0, "explanation": "地球の自転によるコリオリの力で風向きが右に曲がります（北半球）。" },
-    { "id": "sci-midterm-pressure-019", "question": "北半球の高気圧で地表の風はどの向きに回りながら吹き出しますか。", "type": "multiple", "choices": ["時計回り", "反時計回り", "放射状に外側へまっすぐ", "上下運動のみ"], "answer": 0, "explanation": "北半球の高気圧では時計回りに吹き出す性質があります。" },
-    { "id": "sci-midterm-pressure-020", "question": "北半球の低気圧に向かう風はどのように回り込みますか。", "type": "multiple", "choices": ["反時計回りに吹き込み", "時計回りに吹き込み", "まっすぐ東から", "まっすぐ西から"], "answer": 0, "explanation": "低気圧では風が反時計回りに集まり上昇気流をつくります（北半球）。" },
-
-    { "id": "sci-midterm-pressure-021", "question": "日本の天気予報で風向が「北西の風」と表記された場合、風はどちらから吹いてきますか。", "type": "multiple", "choices": ["北西から南東へ", "南東から北西へ", "北東から南西へ", "南西から北東へ"], "answer": 0, "explanation": "風向は風が吹いてくる方向を示すため、北西の風は北西から吹きます。" },
-    { "id": "sci-midterm-pressure-022", "question": "冬型気圧配置で日本海側に雪を降らせる風向として典型的なのはどれですか。", "type": "multiple", "choices": ["北西の季節風", "南東の風", "南の海風", "東の弱風"], "answer": 0, "explanation": "西高東低のとき北西からの季節風が日本海で湿り雪雲を作ります。" },
-    { "id": "sci-midterm-pressure-023", "question": "真夏の昼に海岸付近で感じる涼しい風の向きはどうなることが多いですか。", "type": "multiple", "choices": ["海から陸へ", "陸から海へ", "山から谷へ", "北から南へ一定"], "answer": 0, "explanation": "昼は海の方が温度変化が小さく、海から陸へと海風が吹きます。" },
-    { "id": "sci-midterm-pressure-024", "question": "台風の進行方向の右側で風が特に強まる理由はどれですか。", "type": "multiple", "choices": ["台風の回転と進行の向きが合わさるため", "太陽光が強いから", "雨が少ないから", "気温が低いから"], "answer": 0, "explanation": "台風の反時計回りの風と進行方向が合成され、右側半円で風が強くなります。" },
-    { "id": "sci-midterm-pressure-025", "question": "天気図で風向を示す矢羽根記号が南西を向くとき、風はどちらへ向かって吹いていますか。", "type": "multiple", "choices": ["南西から北東へ", "北東から南西へ", "北西から南東へ", "南東から北西へ"], "answer": 0, "explanation": "矢羽根記号は矢が向く方向が風下であり、風は南西から北東へ吹きます。" },
-
-    { "id": "sci-midterm-pressure-026", "question": "風速の単位として気象庁が用いるものはどれですか。", "type": "multiple", "choices": ["m/s", "km/h", "cm/s", "ノット"], "answer": 0, "explanation": "気象庁では風速を毎秒メートル（m/s）で表します。" },
-    { "id": "sci-midterm-pressure-027", "question": "秒速10mの風が吹いているとき、1秒間に風はどのくらい進みますか。", "type": "multiple", "choices": ["10m", "1m", "5m", "100m"], "answer": 0, "explanation": "秒速10mは1秒間に10m進む速さです。" },
-    { "id": "sci-midterm-pressure-028", "question": "風速が大きいほど波が高くなる理由として適切なのはどれですか。", "type": "multiple", "choices": ["風が海面にエネルギーを与えるため", "気圧が上昇するため", "海水が冷えるため", "潮の満ち引きが止まるため"], "answer": 0, "explanation": "強い風は海面にエネルギーを与え、波が高くなります。" },
-    { "id": "sci-midterm-pressure-029", "question": "平均風速が10m/s以上で最大瞬間風速が25m/s以上となった場合、発表される可能性がある警報はどれですか。", "type": "multiple", "choices": ["暴風警報", "大雨注意報", "高潮警報", "乾燥注意報"], "answer": 0, "explanation": "強い風が予想されると暴風警報が発表されます。" },
-    { "id": "sci-midterm-pressure-030", "question": "気象庁の風力階級で「強風注意報」が検討されるのはおおよそどの風速からですか。", "type": "multiple", "choices": ["10m/s前後", "1m/s", "3m/s", "30m/s"], "answer": 0, "explanation": "平均風速10m/s程度から強風による被害が懸念されます。" },
-
-    { "id": "sci-midterm-pressure-031", "question": "移動性高気圧が通過するとき日本の天気はどのようになりやすいですか。", "type": "multiple", "choices": ["晴れて気温が上がる", "長雨が続く", "雪が降り続く", "台風が発生する"], "answer": 0, "explanation": "移動性高気圧の下では下降気流により晴天となりやすいです。" },
-    { "id": "sci-midterm-pressure-032", "question": "高気圧の中心付近で空気はどのように動いていますか。", "type": "multiple", "choices": ["上空から降りる", "地表から上昇する", "水平に集まる", "渦を巻いて上昇する"], "answer": 0, "explanation": "高気圧では上空から空気が降りる下降気流が起こります。" },
-    { "id": "sci-midterm-pressure-033", "question": "高気圧に覆われた地域で夜間に放射冷却が強まるとどのような現象が起きやすいですか。", "type": "multiple", "choices": ["朝霜や霜柱", "雷の発生", "豪雨", "地震"], "answer": 0, "explanation": "晴れて風の弱い夜は地面の熱が奪われ、霜が発生しやすくなります。" },
-    { "id": "sci-midterm-pressure-034", "question": "高気圧が張り出しているときに湿度が低くなる理由として適切なのはどれですか。", "type": "multiple", "choices": ["下降気流で空気が乾燥する", "上昇気流で水蒸気が供給される", "海から湿った空気が入る", "地面が凍る"], "answer": 0, "explanation": "高気圧では下降気流が水蒸気を含みにくい乾いた空気をもたらします。" },
-    { "id": "sci-midterm-pressure-035", "question": "オホーツク海高気圧が日本付近に停滞するとどのような天候になりやすいですか。", "type": "multiple", "choices": ["北海道や東北の太平洋側で低温・霧雨", "全国的に猛暑", "全国で快晴", "日本海側で豪雪"], "answer": 0, "explanation": "オホーツク海高気圧の冷たい湿った空気で東日本太平洋側は低温・霧雨となります。" },
-
-    { "id": "sci-midterm-pressure-036", "question": "積乱雲が発達して短時間に降る雨を何と呼びますか。", "type": "multiple", "choices": ["にわか雨", "霧雨", "地雨", "筋状雲"], "answer": 0, "explanation": "積乱雲による短時間の激しい雨はにわか雨（夕立）と呼ばれます。" },
-    { "id": "sci-midterm-pressure-037", "question": "日本海側の冬に見られる長時間の雨や雪をもたらす主な要因はどれですか。", "type": "multiple", "choices": ["季節風による雪雲の流入", "前線の停滞", "台風の接近", "放射冷却"], "answer": 0, "explanation": "冬型気圧配置で季節風が日本海上で湿り雪雲を運びます。" },
-    { "id": "sci-midterm-pressure-038", "question": "梅雨の時期に長雨をもたらす雨はどのような性質を持ちますか。", "type": "multiple", "choices": ["広い範囲で弱い雨が長く続く", "非常に冷たい雪","砂を含む", "夜だけ降る"], "answer": 0, "explanation": "梅雨前線に伴う雨は広範囲で長く降り続く地雨が多いです。" },
-    { "id": "sci-midterm-pressure-039", "question": "台風接近時に注意すべき主な降水災害はどれですか。", "type": "multiple", "choices": ["土砂災害や河川氾濫", "霜害", "雹害", "乾燥"], "answer": 0, "explanation": "台風による集中豪雨は土砂災害や河川の氾濫を引き起こします。" },
-    { "id": "sci-midterm-pressure-040", "question": "レーダーで観測される降水強度が50mm/h以上になると、どのような状況が想定されますか。", "type": "multiple", "choices": ["滝のような激しい雨で視界が悪化", "霧雨程度", "ほとんど降っていない", "粉雪が舞う"], "answer": 0, "explanation": "50mm/h以上は滝のような雨で、道路冠水などの危険が高まります。" },
-
-    { "id": "sci-midterm-pressure-041", "question": "積雲が積乱雲へ成長するために必要な条件として最も重要なのはどれですか。", "type": "multiple", "choices": ["強い上昇気流", "弱い風", "冷たい地表", "夜間の放射冷却"], "answer": 0, "explanation": "強い上昇気流があると積雲が発達し積乱雲になります。" },
-    { "id": "sci-midterm-pressure-042", "question": "雲ができるときの空気の変化で正しいものはどれですか。", "type": "multiple", "choices": ["上昇して冷え、飽和して水滴ができる", "下降して暖まり、飽和水蒸気量が増える", "上昇して暖まる", "冷えて水蒸気量が増える"], "answer": 0, "explanation": "空気が上昇して冷えると水蒸気が凝結し雲となります。" },
-    { "id": "sci-midterm-pressure-043", "question": "積雲が朝から夕方にかけて発達する日で共通している条件はどれですか。", "type": "multiple", "choices": ["日中の強い日射", "夜間の降雪", "大陸からの乾燥空気", "海風の停止"], "answer": 0, "explanation": "強い日射で地面が温められ上昇気流が発生し積雲が発達します。" },
-    { "id": "sci-midterm-pressure-044", "question": "層雲が広がる天気で予想される天候はどれですか。", "type": "multiple", "choices": ["空一面が雲に覆われた曇り", "真夏の快晴", "激しい雷雨", "雪嵐"], "answer": 0, "explanation": "層雲は空全体を覆う雲で、しとしとした雨や曇りをもたらします。" },
-    { "id": "sci-midterm-pressure-045", "question": "レンズ雲が山の風下側に現れるとき、上空では何が起きていますか。", "type": "multiple", "choices": ["強い風が山を越えて波状の上昇下降を繰り返す", "気圧が急降下している", "雨が降り始めている", "地震波が伝わっている"], "answer": 0, "explanation": "山岳波による上昇・下降で結露し、風下にレンズ雲ができます。" },
-
-    { "id": "sci-midterm-pressure-046", "question": "雨滴が大きく成長して地表に落ちる主な仕組みとして正しいものはどれですか。", "type": "multiple", "choices": ["成長した水滴が衝突・合体する", "水滴が蒸発し続ける", "雪が直接溶ける", "空気が乾燥する"], "answer": 0, "explanation": "雲の中で水滴や氷が衝突・合体して成長し、重くなると雨として落下します。" },
-    { "id": "sci-midterm-pressure-047", "question": "雪が降る雲の中で行われている現象として適切なのはどれですか。", "type": "multiple", "choices": ["氷晶が成長して大きな雪片になる", "水滴が完全に蒸発する", "気圧が上昇する", "気温が上昇する"], "answer": 0, "explanation": "氷晶が成長し雪片となり、地表付近が冷たければ雪として降ります。" },
-    { "id": "sci-midterm-pressure-048", "question": "霰（あられ）と雹（ひょう）の違いとして正しいものはどれですか。", "type": "multiple", "choices": ["大きさが直径5mmより小さいと霰、大きいと雹", "色が違う", "成分が違う", "落ちる速度が違う"], "answer": 0, "explanation": "直径5mm未満が霰、5mm以上が雹として区別されます。" },
-    { "id": "sci-midterm-pressure-049", "question": "降水量1mmとはどのような意味ですか。", "type": "multiple", "choices": ["1平方メートル当たり1リットルの水が降った", "1立方メートルの水が降った", "1滴の雨が降った", "1時間雨が降った"], "answer": 0, "explanation": "降水量1mmは、1㎡に落ちた水の体積が1リットル（1mmの厚さ）に相当します。" },
-    { "id": "sci-midterm-pressure-050", "question": "霧雨の降水強度として適切なのはどれですか。", "type": "multiple", "choices": ["1mm/h未満の弱い雨", "30mm/hの激しい雨", "50mm/hの豪雨", "10mm/hの集中豪雨"], "answer": 0, "explanation": "霧雨は粒が細かく、降水強度は1mm/h未満の弱い雨です。" },
-
-    { "id": "sci-midterm-pressure-051", "question": "水循環で海水が蒸発した後、水蒸気は通常どこで雲になりますか。", "type": "multiple", "choices": ["大気中で凝結して雲になる", "地中に染み込む", "そのまま宇宙に出る", "海底に沈む"], "answer": 0, "explanation": "蒸発した水蒸気は上昇して冷え、凝結して雲になります。" },
-    { "id": "sci-midterm-pressure-052", "question": "地表に降った雨水が再び蒸発して大気に戻る過程を何と呼びますか。", "type": "multiple", "choices": ["蒸発", "凝結", "昇華", "沈殿"], "answer": 0, "explanation": "地表から水蒸気として大気に戻る過程は蒸発です。" },
-    { "id": "sci-midterm-pressure-053", "question": "山の風側で雨が多く、風下で少ない現象は水循環のどの働きと関係がありますか。", "type": "multiple", "choices": ["地形性降水", "対流性降水", "熱帯低気圧", "フェーン現象"], "answer": 0, "explanation": "湿った空気が山にぶつかると上昇し、風上で雨を降らせる地形性降水が起こります。" },
-    { "id": "sci-midterm-pressure-054", "question": "地下水が湧き出して川の水量を保つ働きは水循環のどの部分ですか。", "type": "multiple", "choices": ["地下水の流出", "蒸発", "蒸散", "降雪"], "answer": 0, "explanation": "降水が地中にしみ込み地下水となり、湧水として川に戻る循環です。" },
-    { "id": "sci-midterm-pressure-055", "question": "森林が水循環に果たす役割として正しいものはどれですか。", "type": "multiple", "choices": ["蒸散により大気に水蒸気を供給する", "海水を直接蒸発させる", "潮の満ち引きを起こす", "気圧を直接下げる"], "answer": 0, "explanation": "植物は葉から水蒸気を放出する蒸散を通じて大気に水を供給します。" }
-  ]
+    {
+      "id": "sci-midterm-pressure-001",
+      "question": "標準気圧は海面上で約何hPaと定義されていますか。",
+      "type": "multiple",
+      "choices": [
+        "1013hPa",
+        "1000hPa",
+        "980hPa",
+        "900hPa"
+      ],
+      "answer": 0,
+      "explanation": "標準気圧は1013hPaと定められており、気象観測の基準になります。"
+    },
+    {
+      "id": "sci-midterm-pressure-002",
+      "question": "山に登るにつれて気圧はどのように変化しますか。",
+      "type": "multiple",
+      "choices": [
+        "低くなる",
+        "高くなる",
+        "変わらない",
+        "一度上がってから下がる"
+      ],
+      "answer": 0,
+      "explanation": "高度が上がると上の空気の重さが減るため、気圧は低くなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-003",
+      "question": "気圧を直接測定するために用いられる器具はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "気圧計",
+        "風速計",
+        "湿度計",
+        "雨量計"
+      ],
+      "answer": 0,
+      "explanation": "気圧は気圧計（バロメータ）で測定します。"
+    },
+    {
+      "id": "sci-midterm-pressure-004",
+      "question": "気圧が急激に低下するサインは、天気の変化として何を示すことが多いですか。",
+      "type": "multiple",
+      "choices": [
+        "低気圧の接近",
+        "移動性高気圧の張り出し",
+        "乾燥した空気の流入",
+        "地震の前兆"
+      ],
+      "answer": 0,
+      "explanation": "気圧の急低下は低気圧の接近や発達を示し、天気が崩れる前触れです。"
+    },
+    {
+      "id": "sci-midterm-pressure-005",
+      "question": "冬の寒い朝に気圧が高くなる理由として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "冷たい空気が重くなる",
+        "湿った空気が軽くなる",
+        "地面が温まる",
+        "風が止まる"
+      ],
+      "answer": 0,
+      "explanation": "冷たい空気は密度が高く重いため、冬の晴れた朝などは気圧が高くなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-006",
+      "question": "等高線が詰まって描かれている地形図の場所はどのような地形ですか。",
+      "type": "multiple",
+      "choices": [
+        "急な斜面",
+        "なだらかな平地",
+        "海岸線",
+        "河口"
+      ],
+      "answer": 0,
+      "explanation": "等高線が密な場所は高低差が大きく、急な斜面を示します。"
+    },
+    {
+      "id": "sci-midterm-pressure-007",
+      "question": "等高線が複雑に曲がっている場所で予想される地形はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "谷や尾根が入り組む地形",
+        "完全に平坦な土地",
+        "湖の中心",
+        "砂丘のみ"
+      ],
+      "answer": 0,
+      "explanation": "等高線が入り組む場所では谷や尾根が交互に現れる複雑な地形が想像できます。"
+    },
+    {
+      "id": "sci-midterm-pressure-008",
+      "question": "等高線から読み取れる情報として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "標高",
+        "気圧",
+        "降水量",
+        "風速"
+      ],
+      "answer": 0,
+      "explanation": "地形図の等高線は標高を表し、地形の起伏を読み取ることができます。"
+    },
+    {
+      "id": "sci-midterm-pressure-009",
+      "question": "地形図で等高線が開いた部分（U字）の開いている方向は何を表しますか。",
+      "type": "multiple",
+      "choices": [
+        "谷の下流方向",
+        "尾根の上流方向",
+        "風の向き",
+        "川の深さ"
+      ],
+      "answer": 0,
+      "explanation": "等高線のU字形状は谷を表し、開いている方向が下流（低い方）になります。"
+    },
+    {
+      "id": "sci-midterm-pressure-010",
+      "question": "1/25000地形図で隣り合う等高線の標高差は通常何mですか。",
+      "type": "multiple",
+      "choices": [
+        "10m",
+        "1m",
+        "5m",
+        "50m"
+      ],
+      "answer": 0,
+      "explanation": "1/25000地形図では基本等高線の間隔は10mです。"
+    },
+    {
+      "id": "sci-midterm-pressure-011",
+      "question": "冬型の気圧配置とはどのような配置を指しますか。",
+      "type": "multiple",
+      "choices": [
+        "西高東低",
+        "南高北低",
+        "東高西低",
+        "南低北高"
+      ],
+      "answer": 0,
+      "explanation": "冬型はシベリア高気圧が日本海側に張り出し、西高東低の配置になります。"
+    },
+    {
+      "id": "sci-midterm-pressure-012",
+      "question": "夏型の気圧配置で日本が晴れやすい理由として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "太平洋高気圧が張り出し沈降気流が働く",
+        "シベリア高気圧が強まる",
+        "低気圧が停滞する",
+        "前線が本州に停滞する"
+      ],
+      "answer": 0,
+      "explanation": "夏は太平洋高気圧が張り出し、下降気流で晴れが続き蒸し暑くなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-013",
+      "question": "春や秋に見られる移動性高気圧と低気圧が交互に通過する気圧配置は何と呼ばれますか。",
+      "type": "multiple",
+      "choices": [
+        "胴長型気圧配置",
+        "冬型気圧配置",
+        "オホーツク海気団型",
+        "台風型"
+      ],
+      "answer": 0,
+      "explanation": "移動性高気圧と低気圧が交互に通過する典型的な配置を胴長型気圧配置と呼びます。"
+    },
+    {
+      "id": "sci-midterm-pressure-014",
+      "question": "梅雨時に日本付近に停滞する前線を挟む気圧配置はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "オホーツク海高気圧と太平洋高気圧が拮抗",
+        "シベリア高気圧が卓越",
+        "南極高気圧が張り出す",
+        "低気圧のみが存在"
+      ],
+      "answer": 0,
+      "explanation": "梅雨前線は北側のオホーツク海高気圧と南側の太平洋高気圧が拮抗することで停滞します。"
+    },
+    {
+      "id": "sci-midterm-pressure-015",
+      "question": "南岸低気圧による関東の雪はどのような気圧配置で起こりやすいですか。",
+      "type": "multiple",
+      "choices": [
+        "本州の南岸を低気圧が東進する",
+        "東シナ海に高気圧が停滞する",
+        "北海道に台風が接近する",
+        "太平洋高気圧が勢力を強める"
+      ],
+      "answer": 0,
+      "explanation": "南岸低気圧が本州南岸を進むと太平洋側に湿った空気が流れ込み、雪になることがあります。"
+    },
+    {
+      "id": "sci-midterm-pressure-016",
+      "question": "風が吹く原因として最も基本的なものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "気圧差",
+        "地震",
+        "地磁気",
+        "潮の干満"
+      ],
+      "answer": 0,
+      "explanation": "風は高い気圧から低い気圧へ空気が移動することで生じます。"
+    },
+    {
+      "id": "sci-midterm-pressure-017",
+      "question": "風は高気圧と低気圧のどちらからどちらへ吹き出しますか。",
+      "type": "multiple",
+      "choices": [
+        "高気圧から低気圧へ",
+        "低気圧から高気圧へ",
+        "常に東から西へ",
+        "常に西から東へ"
+      ],
+      "answer": 0,
+      "explanation": "風は気圧が高い方から低い方へ向かう空気の動きです。"
+    },
+    {
+      "id": "sci-midterm-pressure-018",
+      "question": "地表付近の風が直線ではなく曲がって吹く主な原因は何ですか。",
+      "type": "multiple",
+      "choices": [
+        "コリオリの力",
+        "太陽光",
+        "海水温",
+        "土壌の種類"
+      ],
+      "answer": 0,
+      "explanation": "地球の自転によるコリオリの力で風向きが右に曲がります（北半球）。"
+    },
+    {
+      "id": "sci-midterm-pressure-019",
+      "question": "北半球の高気圧で地表の風はどの向きに回りながら吹き出しますか。",
+      "type": "multiple",
+      "choices": [
+        "時計回り",
+        "反時計回り",
+        "放射状に外側へまっすぐ",
+        "上下運動のみ"
+      ],
+      "answer": 0,
+      "explanation": "北半球の高気圧では時計回りに吹き出す性質があります。"
+    },
+    {
+      "id": "sci-midterm-pressure-020",
+      "question": "北半球の低気圧に向かう風はどのように回り込みますか。",
+      "type": "multiple",
+      "choices": [
+        "反時計回りに吹き込み",
+        "時計回りに吹き込み",
+        "まっすぐ東から",
+        "まっすぐ西から"
+      ],
+      "answer": 0,
+      "explanation": "低気圧では風が反時計回りに集まり上昇気流をつくります（北半球）。"
+    },
+    {
+      "id": "sci-midterm-pressure-021",
+      "question": "日本の天気予報で風向が「北西の風」と表記された場合、風はどちらから吹いてきますか。",
+      "type": "multiple",
+      "choices": [
+        "北西から南東へ",
+        "南東から北西へ",
+        "北東から南西へ",
+        "南西から北東へ"
+      ],
+      "answer": 0,
+      "explanation": "風向は風が吹いてくる方向を示すため、北西の風は北西から吹きます。"
+    },
+    {
+      "id": "sci-midterm-pressure-022",
+      "question": "冬型気圧配置で日本海側に雪を降らせる風向として典型的なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "北西の季節風",
+        "南東の風",
+        "南の海風",
+        "東の弱風"
+      ],
+      "answer": 0,
+      "explanation": "西高東低のとき北西からの季節風が日本海で湿り雪雲を作ります。"
+    },
+    {
+      "id": "sci-midterm-pressure-023",
+      "question": "真夏の昼に海岸付近で感じる涼しい風の向きはどうなることが多いですか。",
+      "type": "multiple",
+      "choices": [
+        "海から陸へ",
+        "陸から海へ",
+        "山から谷へ",
+        "北から南へ一定"
+      ],
+      "answer": 0,
+      "explanation": "昼は海の方が温度変化が小さく、海から陸へと海風が吹きます。"
+    },
+    {
+      "id": "sci-midterm-pressure-024",
+      "question": "台風の進行方向の右側で風が特に強まる理由はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "台風の回転と進行の向きが合わさるため",
+        "太陽光が強いから",
+        "雨が少ないから",
+        "気温が低いから"
+      ],
+      "answer": 0,
+      "explanation": "台風の反時計回りの風と進行方向が合成され、右側半円で風が強くなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-025",
+      "question": "天気図で風向を示す矢羽根記号が南西を向くとき、風はどちらへ向かって吹いていますか。",
+      "type": "multiple",
+      "choices": [
+        "南西から北東へ",
+        "北東から南西へ",
+        "北西から南東へ",
+        "南東から北西へ"
+      ],
+      "answer": 0,
+      "explanation": "矢羽根記号は矢が向く方向が風下であり、風は南西から北東へ吹きます。"
+    },
+    {
+      "id": "sci-midterm-pressure-026",
+      "question": "風速の単位として気象庁が用いるものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "m/s",
+        "km/h",
+        "cm/s",
+        "ノット"
+      ],
+      "answer": 0,
+      "explanation": "気象庁では風速を毎秒メートル（m/s）で表します。"
+    },
+    {
+      "id": "sci-midterm-pressure-027",
+      "question": "秒速10mの風が吹いているとき、1秒間に風はどのくらい進みますか。",
+      "type": "multiple",
+      "choices": [
+        "10m",
+        "1m",
+        "5m",
+        "100m"
+      ],
+      "answer": 0,
+      "explanation": "秒速10mは1秒間に10m進む速さです。"
+    },
+    {
+      "id": "sci-midterm-pressure-028",
+      "question": "風速が大きいほど波が高くなる理由として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "風が海面にエネルギーを与えるため",
+        "気圧が上昇するため",
+        "海水が冷えるため",
+        "潮の満ち引きが止まるため"
+      ],
+      "answer": 0,
+      "explanation": "強い風は海面にエネルギーを与え、波が高くなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-029",
+      "question": "平均風速が10m/s以上で最大瞬間風速が25m/s以上となった場合、発表される可能性がある警報はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "暴風警報",
+        "大雨注意報",
+        "高潮警報",
+        "乾燥注意報"
+      ],
+      "answer": 0,
+      "explanation": "強い風が予想されると暴風警報が発表されます。"
+    },
+    {
+      "id": "sci-midterm-pressure-030",
+      "question": "気象庁の風力階級で「強風注意報」が検討されるのはおおよそどの風速からですか。",
+      "type": "multiple",
+      "choices": [
+        "10m/s前後",
+        "1m/s",
+        "3m/s",
+        "30m/s"
+      ],
+      "answer": 0,
+      "explanation": "平均風速10m/s程度から強風による被害が懸念されます。"
+    },
+    {
+      "id": "sci-midterm-pressure-031",
+      "question": "移動性高気圧が通過するとき日本の天気はどのようになりやすいですか。",
+      "type": "multiple",
+      "choices": [
+        "晴れて気温が上がる",
+        "長雨が続く",
+        "雪が降り続く",
+        "台風が発生する"
+      ],
+      "answer": 0,
+      "explanation": "移動性高気圧の下では下降気流により晴天となりやすいです。"
+    },
+    {
+      "id": "sci-midterm-pressure-032",
+      "question": "高気圧の中心付近で空気はどのように動いていますか。",
+      "type": "multiple",
+      "choices": [
+        "上空から降りる",
+        "地表から上昇する",
+        "水平に集まる",
+        "渦を巻いて上昇する"
+      ],
+      "answer": 0,
+      "explanation": "高気圧では上空から空気が降りる下降気流が起こります。"
+    },
+    {
+      "id": "sci-midterm-pressure-033",
+      "question": "高気圧に覆われた地域で夜間に放射冷却が強まるとどのような現象が起きやすいですか。",
+      "type": "multiple",
+      "choices": [
+        "朝霜や霜柱",
+        "雷の発生",
+        "豪雨",
+        "地震"
+      ],
+      "answer": 0,
+      "explanation": "晴れて風の弱い夜は地面の熱が奪われ、霜が発生しやすくなります。"
+    },
+    {
+      "id": "sci-midterm-pressure-034",
+      "question": "高気圧が張り出しているときに湿度が低くなる理由として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "下降気流で空気が乾燥する",
+        "上昇気流で水蒸気が供給される",
+        "海から湿った空気が入る",
+        "地面が凍る"
+      ],
+      "answer": 0,
+      "explanation": "高気圧では下降気流が水蒸気を含みにくい乾いた空気をもたらします。"
+    },
+    {
+      "id": "sci-midterm-pressure-035",
+      "question": "オホーツク海高気圧が日本付近に停滞するとどのような天候になりやすいですか。",
+      "type": "multiple",
+      "choices": [
+        "北海道や東北の太平洋側で低温・霧雨",
+        "全国的に猛暑",
+        "全国で快晴",
+        "日本海側で豪雪"
+      ],
+      "answer": 0,
+      "explanation": "オホーツク海高気圧の冷たい湿った空気で東日本太平洋側は低温・霧雨となります。"
+    },
+    {
+      "id": "sci-midterm-pressure-036",
+      "question": "積乱雲が発達して短時間に降る雨を何と呼びますか。",
+      "type": "multiple",
+      "choices": [
+        "にわか雨",
+        "霧雨",
+        "地雨",
+        "筋状雲"
+      ],
+      "answer": 0,
+      "explanation": "積乱雲による短時間の激しい雨はにわか雨（夕立）と呼ばれます。"
+    },
+    {
+      "id": "sci-midterm-pressure-037",
+      "question": "日本海側の冬に見られる長時間の雨や雪をもたらす主な要因はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "季節風による雪雲の流入",
+        "前線の停滞",
+        "台風の接近",
+        "放射冷却"
+      ],
+      "answer": 0,
+      "explanation": "冬型気圧配置で季節風が日本海上で湿り雪雲を運びます。"
+    },
+    {
+      "id": "sci-midterm-pressure-038",
+      "question": "梅雨の時期に長雨をもたらす雨はどのような性質を持ちますか。",
+      "type": "multiple",
+      "choices": [
+        "広い範囲で弱い雨が長く続く",
+        "非常に冷たい雪",
+        "砂を含む",
+        "夜だけ降る"
+      ],
+      "answer": 0,
+      "explanation": "梅雨前線に伴う雨は広範囲で長く降り続く地雨が多いです。"
+    },
+    {
+      "id": "sci-midterm-pressure-039",
+      "question": "台風接近時に注意すべき主な降水災害はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "土砂災害や河川氾濫",
+        "霜害",
+        "雹害",
+        "乾燥"
+      ],
+      "answer": 0,
+      "explanation": "台風による集中豪雨は土砂災害や河川の氾濫を引き起こします。"
+    },
+    {
+      "id": "sci-midterm-pressure-040",
+      "question": "レーダーで観測される降水強度が50mm/h以上になると、どのような状況が想定されますか。",
+      "type": "multiple",
+      "choices": [
+        "滝のような激しい雨で視界が悪化",
+        "霧雨程度",
+        "ほとんど降っていない",
+        "粉雪が舞う"
+      ],
+      "answer": 0,
+      "explanation": "50mm/h以上は滝のような雨で、道路冠水などの危険が高まります。"
+    },
+    {
+      "id": "sci-midterm-pressure-041",
+      "question": "積雲が積乱雲へ成長するために必要な条件として最も重要なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "強い上昇気流",
+        "弱い風",
+        "冷たい地表",
+        "夜間の放射冷却"
+      ],
+      "answer": 0,
+      "explanation": "強い上昇気流があると積雲が発達し積乱雲になります。"
+    },
+    {
+      "id": "sci-midterm-pressure-042",
+      "question": "雲ができるときの空気の変化で正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "上昇して冷え、飽和して水滴ができる",
+        "下降して暖まり、飽和水蒸気量が増える",
+        "上昇して暖まる",
+        "冷えて水蒸気量が増える"
+      ],
+      "answer": 0,
+      "explanation": "空気が上昇して冷えると水蒸気が凝結し雲となります。"
+    },
+    {
+      "id": "sci-midterm-pressure-043",
+      "question": "積雲が朝から夕方にかけて発達する日で共通している条件はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "日中の強い日射",
+        "夜間の降雪",
+        "大陸からの乾燥空気",
+        "海風の停止"
+      ],
+      "answer": 0,
+      "explanation": "強い日射で地面が温められ上昇気流が発生し積雲が発達します。"
+    },
+    {
+      "id": "sci-midterm-pressure-044",
+      "question": "層雲が広がる天気で予想される天候はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "空一面が雲に覆われた曇り",
+        "真夏の快晴",
+        "激しい雷雨",
+        "雪嵐"
+      ],
+      "answer": 0,
+      "explanation": "層雲は空全体を覆う雲で、しとしとした雨や曇りをもたらします。"
+    },
+    {
+      "id": "sci-midterm-pressure-045",
+      "question": "レンズ雲が山の風下側に現れるとき、上空では何が起きていますか。",
+      "type": "multiple",
+      "choices": [
+        "強い風が山を越えて波状の上昇下降を繰り返す",
+        "気圧が急降下している",
+        "雨が降り始めている",
+        "地震波が伝わっている"
+      ],
+      "answer": 0,
+      "explanation": "山岳波による上昇・下降で結露し、風下にレンズ雲ができます。"
+    },
+    {
+      "id": "sci-midterm-pressure-046",
+      "question": "雨滴が大きく成長して地表に落ちる主な仕組みとして正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "成長した水滴が衝突・合体する",
+        "水滴が蒸発し続ける",
+        "雪が直接溶ける",
+        "空気が乾燥する"
+      ],
+      "answer": 0,
+      "explanation": "雲の中で水滴や氷が衝突・合体して成長し、重くなると雨として落下します。"
+    },
+    {
+      "id": "sci-midterm-pressure-047",
+      "question": "雪が降る雲の中で行われている現象として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "氷晶が成長して大きな雪片になる",
+        "水滴が完全に蒸発する",
+        "気圧が上昇する",
+        "気温が上昇する"
+      ],
+      "answer": 0,
+      "explanation": "氷晶が成長し雪片となり、地表付近が冷たければ雪として降ります。"
+    },
+    {
+      "id": "sci-midterm-pressure-048",
+      "question": "霰（あられ）と雹（ひょう）の違いとして正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "大きさが直径5mmより小さいと霰、大きいと雹",
+        "色が違う",
+        "成分が違う",
+        "落ちる速度が違う"
+      ],
+      "answer": 0,
+      "explanation": "直径5mm未満が霰、5mm以上が雹として区別されます。"
+    },
+    {
+      "id": "sci-midterm-pressure-049",
+      "question": "降水量1mmとはどのような意味ですか。",
+      "type": "multiple",
+      "choices": [
+        "1平方メートル当たり1リットルの水が降った",
+        "1立方メートルの水が降った",
+        "1滴の雨が降った",
+        "1時間雨が降った"
+      ],
+      "answer": 0,
+      "explanation": "降水量1mmは、1㎡に落ちた水の体積が1リットル（1mmの厚さ）に相当します。"
+    },
+    {
+      "id": "sci-midterm-pressure-050",
+      "question": "霧雨の降水強度として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "1mm/h未満の弱い雨",
+        "30mm/hの激しい雨",
+        "50mm/hの豪雨",
+        "10mm/hの集中豪雨"
+      ],
+      "answer": 0,
+      "explanation": "霧雨は粒が細かく、降水強度は1mm/h未満の弱い雨です。"
+    },
+    {
+      "id": "sci-midterm-pressure-051",
+      "question": "水循環で海水が蒸発した後、水蒸気は通常どこで雲になりますか。",
+      "type": "multiple",
+      "choices": [
+        "大気中で凝結して雲になる",
+        "地中に染み込む",
+        "そのまま宇宙に出る",
+        "海底に沈む"
+      ],
+      "answer": 0,
+      "explanation": "蒸発した水蒸気は上昇して冷え、凝結して雲になります。"
+    },
+    {
+      "id": "sci-midterm-pressure-052",
+      "question": "地表に降った雨水が再び蒸発して大気に戻る過程を何と呼びますか。",
+      "type": "multiple",
+      "choices": [
+        "蒸発",
+        "凝結",
+        "昇華",
+        "沈殿"
+      ],
+      "answer": 0,
+      "explanation": "地表から水蒸気として大気に戻る過程は蒸発です。"
+    },
+    {
+      "id": "sci-midterm-pressure-053",
+      "question": "山の風側で雨が多く、風下で少ない現象は水循環のどの働きと関係がありますか。",
+      "type": "multiple",
+      "choices": [
+        "地形性降水",
+        "対流性降水",
+        "熱帯低気圧",
+        "フェーン現象"
+      ],
+      "answer": 0,
+      "explanation": "湿った空気が山にぶつかると上昇し、風上で雨を降らせる地形性降水が起こります。"
+    },
+    {
+      "id": "sci-midterm-pressure-054",
+      "question": "地下水が湧き出して川の水量を保つ働きは水循環のどの部分ですか。",
+      "type": "multiple",
+      "choices": [
+        "地下水の流出",
+        "蒸発",
+        "蒸散",
+        "降雪"
+      ],
+      "answer": 0,
+      "explanation": "降水が地中にしみ込み地下水となり、湧水として川に戻る循環です。"
+    },
+    {
+      "id": "sci-midterm-pressure-055",
+      "question": "森林が水循環に果たす役割として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": [
+        "蒸散により大気に水蒸気を供給する",
+        "海水を直接蒸発させる",
+        "潮の満ち引きを起こす",
+        "気圧を直接下げる"
+      ],
+      "answer": 0,
+      "explanation": "植物は葉から水蒸気を放出する蒸散を通じて大気に水を供給します。"
+    }
+  ],
+  "grade": "中2"
 }
