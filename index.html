@@ -3,22 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <title>爆走！うんちドリル</title>
-    <script>
-        // キャッシュバスティング: CSSとJSを動的に読み込み
-        // タイムスタンプをグローバル変数として保存（JSファイルでも使用可能にするため）
-        window.APP_VERSION = new Date().getTime();
-        (function() {
-            // CSSを動的に読み込み
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = `styles.css?v=${window.APP_VERSION}`;
-            document.head.appendChild(link);
-        })();
-    </script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
       <div id="splash-screen" class="splash-screen active" tabindex="0">
@@ -395,15 +381,6 @@
         </div>
     </div>
 
-    <script>
-        // キャッシュバスティング: ページ読み込み時のタイムスタンプを使用
-        (function() {
-            const timestamp = window.APP_VERSION || new Date().getTime();
-            const script = document.createElement('script');
-            script.src = `app.js?v=${timestamp}`;
-            script.type = 'text/javascript';
-            document.head.appendChild(script);
-        })();
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>

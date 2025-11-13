@@ -1,24 +1,3 @@
-// キャッシュ対策: Service Workerの無効化とキャッシュクリア
-(function() {
-    // Service Workerが登録されている場合は無効化
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            for(let registration of registrations) {
-                registration.unregister();
-            }
-        });
-    }
-    
-    // キャッシュストレージをクリア（可能な場合）
-    if ('caches' in window) {
-        caches.keys().then(function(names) {
-            for (let name of names) {
-                caches.delete(name);
-            }
-        });
-    }
-})();
-
 // グローバル変数
 let currentScreen = 'top-screen';
 let selectedSubject = null;
