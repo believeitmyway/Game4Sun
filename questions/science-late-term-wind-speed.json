@@ -2,19 +2,14 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-wind-speed",
-  "unitName": "気象",
-  "category": "後期期末テスト",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
   "questions": [
     {
       "id": "sci-late-wind-speed-001",
       "question": "風の強さを表すために日本でよく用いられる指標はどれですか。",
       "type": "multiple",
-      "choices": [
-        "風力階級",
-        "湿度指数",
-        "紫外線指数",
-        "気圧指数"
-      ],
+      "choices": ["風力階級", "湿度指数", "紫外線指数", "気圧指数"],
       "answer": 0,
       "explanation": "風の強さはビューフォート風力階級などで表され、天気予報でも用いられます。"
     },
@@ -22,12 +17,7 @@
       "id": "sci-late-wind-speed-002",
       "question": "風速を測定する器具として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": [
-        "風速計",
-        "温度計",
-        "雨量計",
-        "照度計"
-      ],
+      "choices": ["風速計", "温度計", "雨量計", "照度計"],
       "answer": 0,
       "explanation": "風速計（アネモメーター）は風の速さを測定する器具です。"
     },
@@ -35,12 +25,7 @@
       "id": "sci-late-wind-speed-003",
       "question": "風速1m/sの風が1秒間に移動する距離はどれくらいですか。",
       "type": "multiple",
-      "choices": [
-        "約1m",
-        "約10m",
-        "約100m",
-        "約1km"
-      ],
+      "choices": ["約1m", "約10m", "約100m", "約1km"],
       "answer": 0,
       "explanation": "風速1m/sは1秒間に約1m進む速さです。"
     },
@@ -48,12 +33,7 @@
       "id": "sci-late-wind-speed-004",
       "question": "台風の暴風域は通常どの程度の風速以上の範囲を指しますか。",
       "type": "multiple",
-      "choices": [
-        "風速25m/s以上",
-        "風速10m/s以上",
-        "風速5m/s以上",
-        "風速50m/s以上"
-      ],
+      "choices": ["風速25m/s以上", "風速10m/s以上", "風速5m/s以上", "風速50m/s以上"],
       "answer": 0,
       "explanation": "台風の暴風域は最大風速が25m/s以上の範囲を指します。"
     },
@@ -61,12 +41,7 @@
       "id": "sci-late-wind-speed-005",
       "question": "地表付近で風が弱まる主な原因はどれですか。",
       "type": "multiple",
-      "choices": [
-        "地面との摩擦",
-        "太陽光の減少",
-        "月齢の変化",
-        "海水温の上昇"
-      ],
+      "choices": ["地面との摩擦", "太陽光の減少", "月齢の変化", "海水温の上昇"],
       "answer": 0,
       "explanation": "地表面との摩擦が風速を小さくする要因となります。"
     }
