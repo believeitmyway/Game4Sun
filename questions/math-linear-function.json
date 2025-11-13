@@ -4,6 +4,7 @@
   "unitId": "linear-function",
   "unitName": "一次関数",
   "category": "関数",
+  "grade": "中2",
   "questions": [
     {
       "id": "math-linear-func-001",
@@ -1305,5 +1306,6 @@
       "answer": 0,
       "explanation": "一次関数 y = ax + b の y切片は定数項 b であり、この場合 2 です。"
     }
-  ]
+  ],
+  "grade": "中2"
 }

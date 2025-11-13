@@ -5,10 +5,41 @@
   "unitName": "漢字の読み",
   "category": "漢字",
   "questions": [
-    { "id": "jpn-kr-001", "question": "「矛盾」の読みをひらがなで答えなさい。", "type": "input", "answer": "むじゅん", "explanation": "「矛」と「盾」が食い違うことから「むじゅん」と読みます。" },
-    { "id": "jpn-kr-002", "question": "「傍観」の読みをひらがなで答えなさい。", "type": "input", "answer": "ぼうかん", "explanation": "そばで見ている意味で「ぼうかん」と読みます。" },
-    { "id": "jpn-kr-003", "question": "「周到」の読みをひらがなで答えなさい。", "type": "input", "answer": "しゅうとう", "explanation": "細部まで行き届くことを「しゅうとう」と読みます。" },
-    { "id": "jpn-kr-004", "question": "「克服」の読みをひらがなで答えなさい。", "type": "input", "answer": "こくふく", "explanation": "困難などを乗り越える意味で「こくふく」と読みます。" },
-    { "id": "jpn-kr-005", "question": "「概念」の読みをひらがなで答えなさい。", "type": "input", "answer": "がいねん", "explanation": "物事を大まかにとらえる意味で「がいねん」と読みます。" }
-  ]
+    {
+      "id": "jpn-kr-001",
+      "question": "「矛盾」の読みをひらがなで答えなさい。",
+      "type": "input",
+      "answer": "むじゅん",
+      "explanation": "「矛」と「盾」が食い違うことから「むじゅん」と読みます。"
+    },
+    {
+      "id": "jpn-kr-002",
+      "question": "「傍観」の読みをひらがなで答えなさい。",
+      "type": "input",
+      "answer": "ぼうかん",
+      "explanation": "そばで見ている意味で「ぼうかん」と読みます。"
+    },
+    {
+      "id": "jpn-kr-003",
+      "question": "「周到」の読みをひらがなで答えなさい。",
+      "type": "input",
+      "answer": "しゅうとう",
+      "explanation": "細部まで行き届くことを「しゅうとう」と読みます。"
+    },
+    {
+      "id": "jpn-kr-004",
+      "question": "「克服」の読みをひらがなで答えなさい。",
+      "type": "input",
+      "answer": "こくふく",
+      "explanation": "困難などを乗り越える意味で「こくふく」と読みます。"
+    },
+    {
+      "id": "jpn-kr-005",
+      "question": "「概念」の読みをひらがなで答えなさい。",
+      "type": "input",
+      "answer": "がいねん",
+      "explanation": "物事を大まかにとらえる意味で「がいねん」と読みます。"
+    }
+  ],
+  "grade": "中2"
 }
