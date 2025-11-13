@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-land-breeze",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-land-breeze-001",
+      "question": "陸風が吹くのは主にどの時間帯ですか。",
+      "type": "multiple",
+      "choices": ["夜間", "昼間", "夕方のみ", "早朝のみ"],
+      "answer": 0,
+      "explanation": "夜間は陸が早く冷えるため、陸から海へ陸風が吹きます。"
+    },
+    {
+      "id": "sci-late-land-breeze-002",
+      "question": "陸風が発生する原因として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["陸地の方が海より早く冷える", "海の方が陸より早く冷える", "月の引力", "台風の中心"],
+      "answer": 0,
+      "explanation": "夜間は陸地が海より早く冷え、気圧が高くなるため海へ向かう風が吹きます。"
+    },
+    {
+      "id": "sci-late-land-breeze-003",
+      "question": "陸風が吹いているときの地表付近の空気の流れとして正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["陸から海へ吹く", "海から陸へ吹く", "地表から上空へ上がる", "上空から地表へ下りる"],
+      "answer": 0,
+      "explanation": "陸風は陸地から海へ向かって吹く地表の風です。"
+    },
+    {
+      "id": "sci-late-land-breeze-004",
+      "question": "陸風が弱まる条件として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["夜でも雲が多く気温差が小さい", "夜が晴れて放射冷却が強い", "昼間に雨が降る", "台風が近づく"],
+      "answer": 0,
+      "explanation": "雲が多いと放射冷却が弱まり、陸と海の温度差が小さくなるため陸風も弱まります。"
+    },
+    {
+      "id": "sci-late-land-breeze-005",
+      "question": "陸風と海風が交互に入れ替わる現象を何と呼びますか。",
+      "type": "multiple",
+      "choices": ["海陸風循環", "偏西風", "季節風", "フェーン現象"],
+      "answer": 0,
+      "explanation": "昼の海風と夜の陸風が循環する現象を海陸風循環といいます。"
+    }
+  ]
+}

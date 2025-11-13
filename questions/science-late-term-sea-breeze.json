@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-sea-breeze",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-sea-breeze-001",
+      "question": "海風が吹くのは主にどの時間帯ですか。",
+      "type": "multiple",
+      "choices": ["昼間", "夜間", "早朝のみ", "真夜中のみ"],
+      "answer": 0,
+      "explanation": "昼間は陸地が暖まり気圧が下がるため、海から陸へ海風が吹き込みます。"
+    },
+    {
+      "id": "sci-late-sea-breeze-002",
+      "question": "海風が発生する原因として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["陸地の方が海より早く暖まる", "海の方が陸より早く暖まる", "月の引力", "台風の接近"],
+      "answer": 0,
+      "explanation": "陸地は比熱が小さく昼間に急に温まるため、海から涼しい風が吹き込みます。"
+    },
+    {
+      "id": "sci-late-sea-breeze-003",
+      "question": "海風が吹くとき、地表付近の空気の動きとして正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["海から陸へ流れ込む", "陸から海へ流れ出す", "上空から地表へ下降する", "地表から上空へ上がる"],
+      "answer": 0,
+      "explanation": "海風は海面から陸地へ向かって吹く風です。"
+    },
+    {
+      "id": "sci-late-sea-breeze-004",
+      "question": "海風が強くなる条件として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["晴天で日射が強い", "曇天で気温が低い", "夜が長い", "冬で寒い"],
+      "answer": 0,
+      "explanation": "晴れて日射が強いほど陸地が暖まり、海風が強まります。"
+    },
+    {
+      "id": "sci-late-sea-breeze-005",
+      "question": "海風が吹いているときの上空の風の向きとして最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["陸から海へ戻る", "海から陸へ吹く", "全く吹かない", "常に東から西へ"],
+      "answer": 0,
+      "explanation": "循環を保つため、上空では陸から海へ風が戻る形（海陸風循環）が形成されます。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-stationary-front",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-stationary-front-001",
+      "question": "停滞前線とはどのような状態の前線ですか。",
+      "type": "multiple",
+      "choices": ["ほとんど移動しない前線", "急速に移動する前線", "消滅した前線", "台風の目の前線"],
+      "answer": 0,
+      "explanation": "停滞前線は気団の勢力が拮抗し、位置がほとんど変わらない前線です。"
+    },
+    {
+      "id": "sci-late-stationary-front-002",
+      "question": "停滞前線の周辺で起こりやすい天気として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["雨や曇りが長時間続く", "快晴が続く", "雪が必ず降る", "風が止む"],
+      "answer": 0,
+      "explanation": "停滞前線付近では上昇気流が続き、雨や曇りが長く続くことが多いです。"
+    },
+    {
+      "id": "sci-late-stationary-front-003",
+      "question": "日本で停滞前線が代表的に現れる時期として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["梅雨の時期", "真冬", "初秋の台風シーズン", "真夏の猛暑日"],
+      "answer": 0,
+      "explanation": "梅雨期には北の冷たい気団と南の暖かい気団が拮抗し、停滞前線が長期間現れます。"
+    },
+    {
+      "id": "sci-late-stationary-front-004",
+      "question": "停滞前線の記号として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["青い三角と赤い半円が交互に並ぶ", "青い線に三角", "赤い線に半円", "黒い線に四角"],
+      "answer": 0,
+      "explanation": "停滞前線は寒冷前線と温暖前線の記号が交互に並ぶ形で表されます。"
+    },
+    {
+      "id": "sci-late-stationary-front-005",
+      "question": "停滞前線付近で注意すべき災害として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["長雨による洪水や土砂災害", "地震", "火山噴火", "オーロラ観測"],
+      "answer": 0,
+      "explanation": "停滞前線は長期間雨が降り続くため、洪水や土砂災害に注意が必要です。"
+    }
+  ]
+}

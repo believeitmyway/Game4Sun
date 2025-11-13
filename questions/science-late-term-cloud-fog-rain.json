@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-cloud-fog-rain",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-cloud-fog-rain-001",
+      "question": "霧と雲の共通点として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["どちらも水滴や氷晶が空気中に浮いている", "霧だけが氷晶でできている", "雲だけが水滴でできている", "どちらも降水量を表す"],
+      "answer": 0,
+      "explanation": "霧も雲も水滴や氷晶が浮遊する現象で、発生高度が異なるだけです。"
+    },
+    {
+      "id": "sci-late-cloud-fog-rain-002",
+      "question": "霧が発生しやすい条件として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["湿った空気が冷える", "乾いた空気が温まる", "風が非常に強い", "太陽が昇っている"],
+      "answer": 0,
+      "explanation": "湿った空気が冷えて飽和すると地表近くに霧が発生します。"
+    },
+    {
+      "id": "sci-late-cloud-fog-rain-003",
+      "question": "霧雨が発生すると視程はどのようになりますか。",
+      "type": "multiple",
+      "choices": ["短くなり見通しが悪くなる", "長くなり見通しが良くなる", "変化しない", "夜だけ見通しが悪くなる"],
+      "answer": 0,
+      "explanation": "霧雨は微細な水滴が漂うため視程を悪くします。"
+    },
+    {
+      "id": "sci-late-cloud-fog-rain-004",
+      "question": "雲から雨が降り始める際に必要な過程として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["雲粒が衝突合体して大きくなる", "雲粒が蒸発して消える", "霧が下から押し上げる", "地表の温度が急上昇する"],
+      "answer": 0,
+      "explanation": "雲粒が衝突・合体して重力に耐えられない大きさになると雨粒として落下します。"
+    },
+    {
+      "id": "sci-late-cloud-fog-rain-005",
+      "question": "霧が晴れるときの原因として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["日射で空気が暖まり蒸発する", "雨が強く降る", "地震が起きる", "風が完全に止む"],
+      "answer": 0,
+      "explanation": "日射や風で空気が暖まり霧の水滴が蒸発すると視界が回復します。"
+    }
+  ]
+}

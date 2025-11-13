@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-siberian-air-mass",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-siberian-air-mass-001",
+      "question": "シベリア気団の性質として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["寒冷で乾燥", "寒冷で湿潤", "温暖で乾燥", "温暖で湿潤"],
+      "answer": 0,
+      "explanation": "シベリア気団は寒冷で乾燥した大陸性の空気です。"
+    },
+    {
+      "id": "sci-late-siberian-air-mass-002",
+      "question": "シベリア気団が張り出す季節として最も代表的なのはどれですか。",
+      "type": "multiple",
+      "choices": ["冬", "夏", "春", "秋"],
+      "answer": 0,
+      "explanation": "冬にシベリア高気圧が発達し、日本へ寒気をもたらします。"
+    },
+    {
+      "id": "sci-late-siberian-air-mass-003",
+      "question": "シベリア気団が影響するとき、日本海側で起こりやすい現象はどれですか。",
+      "type": "multiple",
+      "choices": ["大雪", "猛暑", "梅雨", "台風"],
+      "answer": 0,
+      "explanation": "寒気が日本海で湿り気を得て雪雲が発生し、日本海側に大雪を降らせます。"
+    },
+    {
+      "id": "sci-late-siberian-air-mass-004",
+      "question": "シベリア気団の中心付近の気圧配置として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["高気圧", "低気圧", "停滞前線", "台風"],
+      "answer": 0,
+      "explanation": "シベリア気団は大陸性高気圧を形成し、周囲へ乾いた風を吹き出します。"
+    },
+    {
+      "id": "sci-late-siberian-air-mass-005",
+      "question": "シベリア気団の影響下で太平洋側に現れやすい天気はどれですか。",
+      "type": "multiple",
+      "choices": ["乾燥した晴天", "長雨", "台風", "霧"],
+      "answer": 0,
+      "explanation": "冬の太平洋側は山で雪雲が遮られ乾燥した晴天となります。"
+    }
+  ]
+}

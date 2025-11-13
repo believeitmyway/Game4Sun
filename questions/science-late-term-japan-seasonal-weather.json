@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-japan-seasonal-weather",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-japan-seasonal-weather-001",
+      "question": "春の日本で特徴的な天気の変化として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["移動性高気圧と低気圧が交互に通過し天気が周期的に変わる", "大雪が続く", "常に猛暑", "台風が連続する"],
+      "answer": 0,
+      "explanation": "春は移動性高気圧と低気圧が交互に通過し、周期的に晴れと雨が入れ替わります。"
+    },
+    {
+      "id": "sci-late-japan-seasonal-weather-002",
+      "question": "夏の日本で特徴的な天気として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["太平洋高気圧に覆われ蒸し暑い", "シベリア高気圧に覆われ乾燥", "湿った寒気で霧が続く", "移動性高気圧で寒くなる"],
+      "answer": 0,
+      "explanation": "夏は太平洋高気圧に覆われ、気温が高く湿度も高くなります。"
+    },
+    {
+      "id": "sci-late-japan-seasonal-weather-003",
+      "question": "秋の日本で多くみられる天気の特徴はどれですか。",
+      "type": "multiple",
+      "choices": ["移動性高気圧により晴れて乾燥した日が多い", "台風が必ず連続する", "大雪が降る", "霧がずっと続く"],
+      "answer": 0,
+      "explanation": "秋は移動性高気圧に覆われると晴れて乾燥したさわやかな天気になります。"
+    },
+    {
+      "id": "sci-late-japan-seasonal-weather-004",
+      "question": "冬の日本海側で雪が多く降る主な原因として正しいものはどれですか。",
+      "type": "multiple",
+      "choices": ["北西の季節風が日本海で湿り気を得る", "南風が吹く", "太平洋高気圧が張り出す", "台風が毎日上陸する"],
+      "answer": 0,
+      "explanation": "冬は北西の季節風が日本海で水蒸気を補給し、雪雲となって日本海側に雪を降らせます。"
+    },
+    {
+      "id": "sci-late-japan-seasonal-weather-005",
+      "question": "冬の太平洋側で晴れの日が多い理由として最も適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["山脈が雪雲をせき止める", "太平洋が冷たいため", "台風が来ないため", "海流が止まるため"],
+      "answer": 0,
+      "explanation": "日本海側で発生した雪雲は山脈に遮られ、太平洋側は乾燥した晴天になりやすいです。"
+    }
+  ]
+}

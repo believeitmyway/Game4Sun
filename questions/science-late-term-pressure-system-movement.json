@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-pressure-system-movement",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-pressure-system-movement-001",
+      "question": "温帯低気圧は日本付近で一般にどの方向へ移動しますか。",
+      "type": "multiple",
+      "choices": ["西から東へ", "東から西へ", "南から北へ", "北から南へ"],
+      "answer": 0,
+      "explanation": "偏西風の影響で温帯低気圧は西から東へ進むことが多いです。"
+    },
+    {
+      "id": "sci-late-pressure-system-movement-002",
+      "question": "移動性高気圧は日本付近でどのように移動しますか。",
+      "type": "multiple",
+      "choices": ["西から東へ移動しながら天気を回復させる", "東から西へ移動する", "南から北へ移動し台風になる", "動かない"],
+      "answer": 0,
+      "explanation": "移動性高気圧も偏西風に乗って西から東に移動し、晴天をもたらします。"
+    },
+    {
+      "id": "sci-late-pressure-system-movement-003",
+      "question": "台風が日本付近で進路を東寄りに変える主な原因はどれですか。",
+      "type": "multiple",
+      "choices": ["偏西風の流れ", "地震", "火山活動", "潮の満ち引き"],
+      "answer": 0,
+      "explanation": "台風は北上して偏西風に乗ると進路が東寄りに変わります。"
+    },
+    {
+      "id": "sci-late-pressure-system-movement-004",
+      "question": "高気圧と低気圧が交互に通過する春と秋の日本で見られる天気の変化を何と呼びますか。",
+      "type": "multiple",
+      "choices": ["移動性高気圧と低気圧による周期変化", "停滞前線", "冬型の気圧配置", "台風一過"],
+      "answer": 0,
+      "explanation": "春秋には高気圧と低気圧が交互に通過し、天気が周期的に変わります。"
+    },
+    {
+      "id": "sci-late-pressure-system-movement-005",
+      "question": "低気圧が通過した後に天気が回復しやすいのはどのような理由からですか。",
+      "type": "multiple",
+      "choices": ["後面の高気圧が張り出すため", "海水温が上昇するため", "月が満ちるため", "地震波の影響"],
+      "answer": 0,
+      "explanation": "低気圧の後面に高気圧が張り出してくると下降気流が強まり天気が回復します。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "subject": "science",
+  "subjectName": "理科",
+  "unitId": "late-term-front",
+  "unitName": "後期期末テスト対策",
+  "category": "気象",
+  "questions": [
+    {
+      "id": "sci-late-front-001",
+      "question": "前線とはどのような境界ですか。",
+      "type": "multiple",
+      "choices": ["性質の異なる気団の境界", "大陸と海洋の境界", "地震の震源域", "海流の境界"],
+      "answer": 0,
+      "explanation": "前線は温度や湿度が異なる気団が接する境界です。"
+    },
+    {
+      "id": "sci-late-front-002",
+      "question": "前線付近で起こりやすい現象として適切なのはどれですか。",
+      "type": "multiple",
+      "choices": ["雲が発生し、雨が降りやすい", "空が快晴になる", "風が完全に止む", "気温変化がなくなる"],
+      "answer": 0,
+      "explanation": "前線付近は上昇気流が発生し雲や雨が生じやすくなります。"
+    },
+    {
+      "id": "sci-late-front-003",
+      "question": "温暖前線が接近するときの気温変化として最も一般的なのはどれですか。",
+      "type": "multiple",
+      "choices": ["気温が上昇する", "気温が急降下する", "気温が一定", "気温が0℃になる"],
+      "answer": 0,
+      "explanation": "暖かい空気が冷たい空気の上を進むため、気温が上昇していきます。"
+    },
+    {
+      "id": "sci-late-front-004",
+      "question": "寒冷前線が通過するときの天気の変化で特徴的なのはどれですか。",
+      "type": "multiple",
+      "choices": ["短時間の強い雨とその後の気温低下", "長時間の霧", "気温上昇", "風が止む"],
+      "answer": 0,
+      "explanation": "寒冷前線では積乱雲による強雨が起こり、その後冷たい空気で気温が下がります。"
+    },
+    {
+      "id": "sci-late-front-005",
+      "question": "前線が停滞するとき、天気はどのようになりやすいですか。",
+      "type": "multiple",
+      "choices": ["雨や曇りが長く続く", "快晴が続く", "雪が必ず降る", "風が完全に止む"],
+      "answer": 0,
+      "explanation": "停滞前線付近では雨や曇りが長期間続くことが多くなります。"
+    }
+  ]
+}
