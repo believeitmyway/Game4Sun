@@ -2,14 +2,19 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-precipitation",
-  "unitName": "後期期末テスト対策",
-  "category": "気象",
+  "unitName": "気象",
+  "category": "後期期末テスト",
   "questions": [
     {
       "id": "sci-late-precipitation-001",
       "question": "降水量を測る器具として正しいものはどれですか。",
       "type": "multiple",
-      "choices": ["雨量計", "気圧計", "照度計", "温度計"],
+      "choices": [
+        "雨量計",
+        "気圧計",
+        "照度計",
+        "温度計"
+      ],
       "answer": 0,
       "explanation": "降水量を測るには雨量計（転倒ますなど）を用います。"
     },
@@ -17,7 +22,12 @@
       "id": "sci-late-precipitation-002",
       "question": "1時間降水量が50mmを超えるとどのような雨と表現されますか。",
       "type": "multiple",
-      "choices": ["非常に激しい雨", "強い雨", "弱い雨", "小雨"],
+      "choices": [
+        "非常に激しい雨",
+        "強い雨",
+        "弱い雨",
+        "小雨"
+      ],
       "answer": 0,
       "explanation": "1時間に50mmを超える降水は「非常に激しい雨」とされ、災害の危険が高まります。"
     },
@@ -25,7 +35,12 @@
       "id": "sci-late-precipitation-003",
       "question": "雪や雹などを含めた空から降る水のことをまとめて何と呼びますか。",
       "type": "multiple",
-      "choices": ["降水", "蒸発", "結露", "融雪"],
+      "choices": [
+        "降水",
+        "蒸発",
+        "結露",
+        "融雪"
+      ],
       "answer": 0,
       "explanation": "雨、雪、霰、雹など空から降る水の総称が降水です。"
     },
@@ -33,7 +48,12 @@
       "id": "sci-late-precipitation-004",
       "question": "降水の強さに影響を与える主な要因として適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["上昇気流の強さ", "地震の規模", "月の位相", "星の明るさ"],
+      "choices": [
+        "上昇気流の強さ",
+        "地震の規模",
+        "月の位相",
+        "星の明るさ"
+      ],
       "answer": 0,
       "explanation": "強い上昇気流があると雲粒が次々と供給され、降水が激しくなります。"
     },
@@ -41,7 +61,12 @@
       "id": "sci-late-precipitation-005",
       "question": "積乱雲による短時間強雨の際に注意すべき現象として正しいものはどれですか。",
       "type": "multiple",
-      "choices": ["都市型水害", "地震津波", "オーロラ", "流星雨"],
+      "choices": [
+        "都市型水害",
+        "地震津波",
+        "オーロラ",
+        "流星雨"
+      ],
       "answer": 0,
       "explanation": "短時間強雨は排水が追いつかず都市型水害を引き起こすことがあるため注意が必要です。"
     }

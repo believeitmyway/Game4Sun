@@ -2,14 +2,19 @@
   "subject": "science",
   "subjectName": "理科",
   "unitId": "late-term-yangtze-air-mass",
-  "unitName": "後期期末テスト対策",
-  "category": "気象",
+  "unitName": "気象",
+  "category": "後期期末テスト",
   "questions": [
     {
       "id": "sci-late-yangtze-air-mass-001",
       "question": "揚子江気団の性質として最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["温暖で乾燥", "温暖で湿潤", "寒冷で乾燥", "寒冷で湿潤"],
+      "choices": [
+        "温暖で乾燥",
+        "温暖で湿潤",
+        "寒冷で乾燥",
+        "寒冷で湿潤"
+      ],
       "answer": 0,
       "explanation": "揚子江気団は中国大陸東部で形成され、温暖で乾燥した空気です。"
     },
@@ -17,7 +22,12 @@
       "id": "sci-late-yangtze-air-mass-002",
       "question": "揚子江気団が日本に影響しやすい時期はいつですか。",
       "type": "multiple",
-      "choices": ["春と秋", "真夏", "真冬", "梅雨"],
+      "choices": [
+        "春と秋",
+        "真夏",
+        "真冬",
+        "梅雨"
+      ],
       "answer": 0,
       "explanation": "春や秋に揚子江気団が張り出すと、さわやかな晴天になります。"
     },
@@ -25,7 +35,12 @@
       "id": "sci-late-yangtze-air-mass-003",
       "question": "揚子江気団の影響下で太平洋側に現れる天気として適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["晴れて湿度が低い", "長雨", "大雪", "濃霧"],
+      "choices": [
+        "晴れて湿度が低い",
+        "長雨",
+        "大雪",
+        "濃霧"
+      ],
       "answer": 0,
       "explanation": "乾いた暖気のため晴れて湿度が低く、過ごしやすい天気になります。"
     },
@@ -33,7 +48,12 @@
       "id": "sci-late-yangtze-air-mass-004",
       "question": "揚子江気団が後退し、オホーツク気団が勢力を強めると何が始まりやすいですか。",
       "type": "multiple",
-      "choices": ["梅雨", "雪", "猛暑", "台風"],
+      "choices": [
+        "梅雨",
+        "雪",
+        "猛暑",
+        "台風"
+      ],
       "answer": 0,
       "explanation": "揚子江気団が退きオホーツク気団が強まると、梅雨前線が北上し梅雨が始まりやすくなります。"
     },
@@ -41,7 +61,12 @@
       "id": "sci-late-yangtze-air-mass-005",
       "question": "揚子江気団が影響する際に注意すべきこととして最も適切なのはどれですか。",
       "type": "multiple",
-      "choices": ["空気が乾燥するため火の取り扱い", "大雪対策", "低温障害", "高潮"],
+      "choices": [
+        "空気が乾燥するため火の取り扱い",
+        "大雪対策",
+        "低温障害",
+        "高潮"
+      ],
       "answer": 0,
       "explanation": "暖かく乾いた空気は乾燥しやすいため、火災予防が重要です。"
     }
