@@ -1171,16 +1171,9 @@ function checkSubjectHasGradeQuestions(subject, grade) {
     const units = QUESTION_DATABASE[subject].units;
     for (let unitId in units) {
         const unit = units[unitId];
-        // 単元にgradeフィールドがあるか、またはquestionsにgradeフィールドがあるかチェック
+        // 単元のgradeフィールドが選択された学年と一致するかチェック
         if (unit.grade === grade) {
             return true;
-        }
-        // 問題レベルでgradeをチェック（後方互換性のため）
-        if (unit.questions && unit.questions.length > 0) {
-            const firstQuestion = unit.questions[0];
-            if (firstQuestion.grade === grade) {
-                return true;
-            }
         }
     }
     
@@ -1321,12 +1314,7 @@ function startDrill() {
         // 学年が一致する単元のみから問題を取得
         if (unit.grade === selectedGrade) {
             const questions = unit.questions;
-            // 問題レベルでもgradeをチェック（後方互換性のため）
-            const filteredQuestions = questions.filter(q => {
-                // 問題にgradeフィールドがある場合はそれもチェック
-                return !q.grade || q.grade === selectedGrade;
-            });
-            currentQuestions.push(...filteredQuestions);
+            currentQuestions.push(...questions);
         }
     });
     
