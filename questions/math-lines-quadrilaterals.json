@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "lines-quadrilaterals",
+  "unitName": "直線と四角形",
+  "category": "図形",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "math-lines-quad-001",
+      "question": "長方形の縦が 6 cm、横が 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm",
+        "22 cm",
+        "18 cm",
+        "24 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 4) × 2 = 20 cm です。"
+    },
+    {
+      "id": "math-lines-quad-002",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-003",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-004",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-005",
+      "question": "長方形の縦が 10 cm、横が 3 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "28 cm",
+        "24 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 3) × 2 = 26 cm です。"
+    },
+    {
+      "id": "math-lines-quad-006",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-007",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-008",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-009",
+      "question": "長方形の縦が 8 cm、横が 7 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm",
+        "32 cm",
+        "28 cm",
+        "34 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 7) × 2 = 30 cm です。"
+    },
+    {
+      "id": "math-lines-quad-010",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-011",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-012",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-013",
+      "question": "長方形の縦が 6 cm、横が 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 6) × 2 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-014",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-015",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-016",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-017",
+      "question": "長方形の縦が 10 cm、横が 5 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm",
+        "32 cm",
+        "28 cm",
+        "34 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 5) × 2 = 30 cm です。"
+    },
+    {
+      "id": "math-lines-quad-018",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-019",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-020",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-021",
+      "question": "長方形の縦が 8 cm、横が 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 4) × 2 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-022",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-023",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-024",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-025",
+      "question": "長方形の縦が 6 cm、横が 3 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18 cm",
+        "20 cm",
+        "16 cm",
+        "22 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 3) × 2 = 18 cm です。"
+    },
+    {
+      "id": "math-lines-quad-026",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-027",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-028",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-029",
+      "question": "長方形の縦が 10 cm、横が 7 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "34 cm",
+        "36 cm",
+        "32 cm",
+        "38 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 7) × 2 = 34 cm です。"
+    },
+    {
+      "id": "math-lines-quad-030",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-031",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-032",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-033",
+      "question": "長方形の縦が 8 cm、横が 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm",
+        "30 cm",
+        "26 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 6) × 2 = 28 cm です。"
+    },
+    {
+      "id": "math-lines-quad-034",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-035",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-036",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-037",
+      "question": "長方形の縦が 6 cm、横が 5 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "24 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 5) × 2 = 22 cm です。"
+    },
+    {
+      "id": "math-lines-quad-038",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-039",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-040",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-041",
+      "question": "長方形の縦が 10 cm、横が 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm",
+        "30 cm",
+        "26 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 4) × 2 = 28 cm です。"
+    },
+    {
+      "id": "math-lines-quad-042",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-043",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-044",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-045",
+      "question": "長方形の縦が 8 cm、横が 3 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "24 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 3) × 2 = 22 cm です。"
+    },
+    {
+      "id": "math-lines-quad-046",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-047",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-048",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-049",
+      "question": "長方形の縦が 6 cm、横が 7 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "28 cm",
+        "24 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 7) × 2 = 26 cm です。"
+    },
+    {
+      "id": "math-lines-quad-050",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-051",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-052",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-053",
+      "question": "長方形の縦が 10 cm、横が 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 6) × 2 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-054",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-055",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-056",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-057",
+      "question": "長方形の縦が 8 cm、横が 5 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "28 cm",
+        "24 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 5) × 2 = 26 cm です。"
+    },
+    {
+      "id": "math-lines-quad-058",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-059",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-060",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-061",
+      "question": "長方形の縦が 6 cm、横が 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "20 cm",
+        "22 cm",
+        "18 cm",
+        "24 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 4) × 2 = 20 cm です。"
+    },
+    {
+      "id": "math-lines-quad-062",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-063",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-064",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-065",
+      "question": "長方形の縦が 10 cm、横が 3 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "26 cm",
+        "28 cm",
+        "24 cm",
+        "30 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 3) × 2 = 26 cm です。"
+    },
+    {
+      "id": "math-lines-quad-066",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-067",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-068",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-069",
+      "question": "長方形の縦が 8 cm、横が 7 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm",
+        "32 cm",
+        "28 cm",
+        "34 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 7) × 2 = 30 cm です。"
+    },
+    {
+      "id": "math-lines-quad-070",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-071",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-072",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-073",
+      "question": "長方形の縦が 6 cm、横が 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 6) × 2 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-074",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-075",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-076",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-077",
+      "question": "長方形の縦が 10 cm、横が 5 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "30 cm",
+        "32 cm",
+        "28 cm",
+        "34 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 5) × 2 = 30 cm です。"
+    },
+    {
+      "id": "math-lines-quad-078",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-079",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-080",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-081",
+      "question": "長方形の縦が 8 cm、横が 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 4) × 2 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-082",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-083",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-084",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-085",
+      "question": "長方形の縦が 6 cm、横が 3 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "18 cm",
+        "20 cm",
+        "16 cm",
+        "22 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 3) × 2 = 18 cm です。"
+    },
+    {
+      "id": "math-lines-quad-086",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-087",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-088",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-089",
+      "question": "長方形の縦が 10 cm、横が 7 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "34 cm",
+        "36 cm",
+        "32 cm",
+        "38 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (10 + 7) × 2 = 34 cm です。"
+    },
+    {
+      "id": "math-lines-quad-090",
+      "question": "正方形の1辺の長さが 4 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm",
+        "18 cm",
+        "14 cm",
+        "20 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 4 × 4 = 16 cm です。"
+    },
+    {
+      "id": "math-lines-quad-091",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-092",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-093",
+      "question": "長方形の縦が 8 cm、横が 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "28 cm",
+        "30 cm",
+        "26 cm",
+        "32 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (8 + 6) × 2 = 28 cm です。"
+    },
+    {
+      "id": "math-lines-quad-094",
+      "question": "正方形の1辺の長さが 8 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "32 cm",
+        "34 cm",
+        "30 cm",
+        "36 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 8 × 4 = 32 cm です。"
+    },
+    {
+      "id": "math-lines-quad-095",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-096",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    },
+    {
+      "id": "math-lines-quad-097",
+      "question": "長方形の縦が 6 cm、横が 5 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "22 cm",
+        "24 cm",
+        "20 cm",
+        "26 cm"
+      ],
+      "answer": 0,
+      "explanation": "長方形の周の長さは (縦 + 横) × 2 = (6 + 5) × 2 = 22 cm です。"
+    },
+    {
+      "id": "math-lines-quad-098",
+      "question": "正方形の1辺の長さが 6 cm のとき、周の長さを求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "24 cm",
+        "26 cm",
+        "22 cm",
+        "28 cm"
+      ],
+      "answer": 0,
+      "explanation": "正方形の周の長さは 1辺 × 4 = 6 × 4 = 24 cm です。"
+    },
+    {
+      "id": "math-lines-quad-099",
+      "question": "2本の直線が直角に交わっています。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "垂直",
+        "平行",
+        "斜交",
+        "対角"
+      ],
+      "answer": 0,
+      "explanation": "2本の直線が直角に交わるとき、それらは垂直であるといいます。"
+    },
+    {
+      "id": "math-lines-quad-100",
+      "question": "平行な2本の直線があります。この2本の直線の関係を表す言葉はどれですか。",
+      "type": "multiple",
+      "choices": [
+        "平行線",
+        "垂直線",
+        "交線",
+        "対角線"
+      ],
+      "answer": 0,
+      "explanation": "同じ平面上で交わらない2本の直線を平行線といいます。"
+    }
+  ]
+}

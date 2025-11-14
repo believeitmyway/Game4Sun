@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "decimal-divide-integer",
+  "unitName": "小数÷整数",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "math-dec-div-int-001",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-002",
+      "question": "0.7 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-003",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-004",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-005",
+      "question": "0.5 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-006",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-007",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-008",
+      "question": "0.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.4",
+        "0.5",
+        "0.3",
+        "0.6"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 2 = 0.4 です。"
+    },
+    {
+      "id": "math-dec-div-int-009",
+      "question": "0.30000000000000004 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.30000000000000004 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-010",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-011",
+      "question": "0.6 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-012",
+      "question": "0.6000000000000001 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-013",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-014",
+      "question": "0.9 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-015",
+      "question": "0.9 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-016",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-017",
+      "question": "0.7 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-018",
+      "question": "0.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-019",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-020",
+      "question": "0.5 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.3",
+        "0.1",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-021",
+      "question": "0.7000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-022",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-023",
+      "question": "0.8 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-024",
+      "question": "0.2 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 2 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-025",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-026",
+      "question": "0.6 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.3",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-027",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-028",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-029",
+      "question": "0.9 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-030",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-031",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-032",
+      "question": "0.7 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.6"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-033",
+      "question": "0.30000000000000004 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.30000000000000004 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-034",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-035",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-036",
+      "question": "0.6000000000000001 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-037",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-038",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-039",
+      "question": "0.9 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-040",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-041",
+      "question": "0.6 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-042",
+      "question": "0.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-043",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-044",
+      "question": "0.9 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.5",
+        "0.6",
+        "0.3",
+        "0.7"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 2 = 0.5 です。"
+    },
+    {
+      "id": "math-dec-div-int-045",
+      "question": "0.7000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-046",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-047",
+      "question": "0.7 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-048",
+      "question": "0.2 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 2 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-049",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-050",
+      "question": "0.5 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-051",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-052",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-053",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-054",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-055",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-056",
+      "question": "0.6 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-057",
+      "question": "0.30000000000000004 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.30000000000000004 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-058",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-059",
+      "question": "0.9 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-060",
+      "question": "0.6000000000000001 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-061",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-062",
+      "question": "0.7 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-063",
+      "question": "0.9 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-064",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-065",
+      "question": "0.5 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-066",
+      "question": "0.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-067",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-068",
+      "question": "0.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.4",
+        "0.5",
+        "0.3",
+        "0.6"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 2 = 0.4 です。"
+    },
+    {
+      "id": "math-dec-div-int-069",
+      "question": "0.7000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-070",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-071",
+      "question": "0.6 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-072",
+      "question": "0.2 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 2 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-073",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-074",
+      "question": "0.9 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-075",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-076",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-077",
+      "question": "0.7 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-078",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-079",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-080",
+      "question": "0.5 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.3",
+        "0.1",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-081",
+      "question": "0.30000000000000004 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.30000000000000004 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-082",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-083",
+      "question": "0.8 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-084",
+      "question": "0.6000000000000001 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-085",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-086",
+      "question": "0.6 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.3",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.6 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-087",
+      "question": "0.9 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 5 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-088",
+      "question": "0.8 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-089",
+      "question": "0.9 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "0.9 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-090",
+      "question": "0.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 4 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-091",
+      "question": "0.4 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.4 ÷ 3 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-092",
+      "question": "0.7 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.6"
+      ],
+      "answer": 0,
+      "explanation": "0.7 ÷ 2 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-093",
+      "question": "0.7000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.7000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-094",
+      "question": "1 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.3",
+        "0.4",
+        "0.2",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "1 ÷ 3 = 0.3 です。"
+    },
+    {
+      "id": "math-dec-div-int-095",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-096",
+      "question": "0.2 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 2 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-097",
+      "question": "0.6000000000000001 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.6000000000000001 ÷ 3 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-098",
+      "question": "0.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.2",
+        "0.3",
+        "0.1",
+        "0.4"
+      ],
+      "answer": 0,
+      "explanation": "0.8 ÷ 4 = 0.2 です。"
+    },
+    {
+      "id": "math-dec-div-int-099",
+      "question": "0.5 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.5 ÷ 5 = 0.1 です。"
+    },
+    {
+      "id": "math-dec-div-int-100",
+      "question": "0.2 ÷ 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.1",
+        "0.2",
+        "-0.0",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "0.2 ÷ 3 = 0.1 です。"
+    }
+  ]
+}

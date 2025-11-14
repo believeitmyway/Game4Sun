@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "area-4th",
+  "unitName": "面積",
+  "category": "図形",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "math-area-4th-001",
+      "question": "1辺が 5 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "27 cm²",
+        "23 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 5 × 5 = 25 cm² です。"
+    },
+    {
+      "id": "math-area-4th-002",
+      "question": "底辺が 8 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "51 cm²",
+        "45 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-003",
+      "question": "縦 8 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "50 cm²",
+        "46 cm²",
+        "52 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-004",
+      "question": "1辺が 8 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "66 cm²",
+        "62 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-area-4th-005",
+      "question": "底辺が 11 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "99 cm²",
+        "102 cm²",
+        "96 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 11 × 9 = 99 cm² です。"
+    },
+    {
+      "id": "math-area-4th-006",
+      "question": "縦 11 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "33 cm²",
+        "35 cm²",
+        "31 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 11 × 3 = 33 cm² です。"
+    },
+    {
+      "id": "math-area-4th-007",
+      "question": "1辺が 4 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm²",
+        "18 cm²",
+        "14 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 4 × 4 = 16 cm² です。"
+    },
+    {
+      "id": "math-area-4th-008",
+      "question": "底辺が 7 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42 cm²",
+        "45 cm²",
+        "39 cm²",
+        "47 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 7 × 6 = 42 cm² です。"
+    },
+    {
+      "id": "math-area-4th-009",
+      "question": "縦 6 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-010",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "51 cm²",
+        "47 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "math-area-4th-011",
+      "question": "底辺が 10 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "93 cm²",
+        "87 cm²",
+        "95 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "math-area-4th-012",
+      "question": "縦 9 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27 cm²",
+        "29 cm²",
+        "25 cm²",
+        "31 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 9 × 3 = 27 cm² です。"
+    },
+    {
+      "id": "math-area-4th-013",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "102 cm²",
+        "98 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "math-area-4th-014",
+      "question": "底辺が 6 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "33 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-015",
+      "question": "縦 12 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "74 cm²",
+        "70 cm²",
+        "76 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-016",
+      "question": "1辺が 6 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-017",
+      "question": "底辺が 9 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "84 cm²",
+        "78 cm²",
+        "86 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-018",
+      "question": "縦 7 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm²",
+        "23 cm²",
+        "19 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 7 × 3 = 21 cm² です。"
+    },
+    {
+      "id": "math-area-4th-019",
+      "question": "1辺が 9 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "83 cm²",
+        "79 cm²",
+        "85 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-020",
+      "question": "底辺が 12 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "75 cm²",
+        "69 cm²",
+        "77 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-021",
+      "question": "縦 10 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "62 cm²",
+        "58 cm²",
+        "64 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-022",
+      "question": "1辺が 5 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "27 cm²",
+        "23 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 5 × 5 = 25 cm² です。"
+    },
+    {
+      "id": "math-area-4th-023",
+      "question": "底辺が 8 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "75 cm²",
+        "69 cm²",
+        "77 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 8 × 9 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-024",
+      "question": "縦 5 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "17 cm²",
+        "13 cm²",
+        "19 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 5 × 3 = 15 cm² です。"
+    },
+    {
+      "id": "math-area-4th-025",
+      "question": "1辺が 8 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "66 cm²",
+        "62 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-area-4th-026",
+      "question": "底辺が 11 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "66 cm²",
+        "69 cm²",
+        "63 cm²",
+        "71 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 11 × 6 = 66 cm² です。"
+    },
+    {
+      "id": "math-area-4th-027",
+      "question": "縦 8 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "50 cm²",
+        "46 cm²",
+        "52 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-028",
+      "question": "1辺が 4 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm²",
+        "18 cm²",
+        "14 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 4 × 4 = 16 cm² です。"
+    },
+    {
+      "id": "math-area-4th-029",
+      "question": "底辺が 7 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "63 cm²",
+        "66 cm²",
+        "60 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 7 × 9 = 63 cm² です。"
+    },
+    {
+      "id": "math-area-4th-030",
+      "question": "縦 11 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "33 cm²",
+        "35 cm²",
+        "31 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 11 × 3 = 33 cm² です。"
+    },
+    {
+      "id": "math-area-4th-031",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "51 cm²",
+        "47 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "math-area-4th-032",
+      "question": "底辺が 10 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "63 cm²",
+        "57 cm²",
+        "65 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-033",
+      "question": "縦 6 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-034",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "102 cm²",
+        "98 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "math-area-4th-035",
+      "question": "底辺が 6 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "54 cm²",
+        "57 cm²",
+        "51 cm²",
+        "59 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 6 × 9 = 54 cm² です。"
+    },
+    {
+      "id": "math-area-4th-036",
+      "question": "縦 9 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27 cm²",
+        "29 cm²",
+        "25 cm²",
+        "31 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 9 × 3 = 27 cm² です。"
+    },
+    {
+      "id": "math-area-4th-037",
+      "question": "1辺が 6 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-038",
+      "question": "底辺が 9 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "54 cm²",
+        "57 cm²",
+        "51 cm²",
+        "59 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 9 × 6 = 54 cm² です。"
+    },
+    {
+      "id": "math-area-4th-039",
+      "question": "縦 12 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "74 cm²",
+        "70 cm²",
+        "76 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-040",
+      "question": "1辺が 9 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "83 cm²",
+        "79 cm²",
+        "85 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-041",
+      "question": "底辺が 12 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "108 cm²",
+        "111 cm²",
+        "105 cm²",
+        "113 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 12 × 9 = 108 cm² です。"
+    },
+    {
+      "id": "math-area-4th-042",
+      "question": "縦 7 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm²",
+        "23 cm²",
+        "19 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 7 × 3 = 21 cm² です。"
+    },
+    {
+      "id": "math-area-4th-043",
+      "question": "1辺が 5 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "27 cm²",
+        "23 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 5 × 5 = 25 cm² です。"
+    },
+    {
+      "id": "math-area-4th-044",
+      "question": "底辺が 8 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "51 cm²",
+        "45 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-045",
+      "question": "縦 10 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "62 cm²",
+        "58 cm²",
+        "64 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-046",
+      "question": "1辺が 8 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "66 cm²",
+        "62 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-area-4th-047",
+      "question": "底辺が 11 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "99 cm²",
+        "102 cm²",
+        "96 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 11 × 9 = 99 cm² です。"
+    },
+    {
+      "id": "math-area-4th-048",
+      "question": "縦 5 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "17 cm²",
+        "13 cm²",
+        "19 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 5 × 3 = 15 cm² です。"
+    },
+    {
+      "id": "math-area-4th-049",
+      "question": "1辺が 4 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm²",
+        "18 cm²",
+        "14 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 4 × 4 = 16 cm² です。"
+    },
+    {
+      "id": "math-area-4th-050",
+      "question": "底辺が 7 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42 cm²",
+        "45 cm²",
+        "39 cm²",
+        "47 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 7 × 6 = 42 cm² です。"
+    },
+    {
+      "id": "math-area-4th-051",
+      "question": "縦 8 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "50 cm²",
+        "46 cm²",
+        "52 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-052",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "51 cm²",
+        "47 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "math-area-4th-053",
+      "question": "底辺が 10 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "93 cm²",
+        "87 cm²",
+        "95 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "math-area-4th-054",
+      "question": "縦 11 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "33 cm²",
+        "35 cm²",
+        "31 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 11 × 3 = 33 cm² です。"
+    },
+    {
+      "id": "math-area-4th-055",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "102 cm²",
+        "98 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "math-area-4th-056",
+      "question": "底辺が 6 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "33 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-057",
+      "question": "縦 6 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-058",
+      "question": "1辺が 6 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-059",
+      "question": "底辺が 9 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "84 cm²",
+        "78 cm²",
+        "86 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-060",
+      "question": "縦 9 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27 cm²",
+        "29 cm²",
+        "25 cm²",
+        "31 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 9 × 3 = 27 cm² です。"
+    },
+    {
+      "id": "math-area-4th-061",
+      "question": "1辺が 9 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "83 cm²",
+        "79 cm²",
+        "85 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-062",
+      "question": "底辺が 12 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "75 cm²",
+        "69 cm²",
+        "77 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-063",
+      "question": "縦 12 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "74 cm²",
+        "70 cm²",
+        "76 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-064",
+      "question": "1辺が 5 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "27 cm²",
+        "23 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 5 × 5 = 25 cm² です。"
+    },
+    {
+      "id": "math-area-4th-065",
+      "question": "底辺が 8 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "75 cm²",
+        "69 cm²",
+        "77 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 8 × 9 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-066",
+      "question": "縦 7 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm²",
+        "23 cm²",
+        "19 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 7 × 3 = 21 cm² です。"
+    },
+    {
+      "id": "math-area-4th-067",
+      "question": "1辺が 8 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "66 cm²",
+        "62 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-area-4th-068",
+      "question": "底辺が 11 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "66 cm²",
+        "69 cm²",
+        "63 cm²",
+        "71 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 11 × 6 = 66 cm² です。"
+    },
+    {
+      "id": "math-area-4th-069",
+      "question": "縦 10 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "62 cm²",
+        "58 cm²",
+        "64 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-070",
+      "question": "1辺が 4 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm²",
+        "18 cm²",
+        "14 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 4 × 4 = 16 cm² です。"
+    },
+    {
+      "id": "math-area-4th-071",
+      "question": "底辺が 7 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "63 cm²",
+        "66 cm²",
+        "60 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 7 × 9 = 63 cm² です。"
+    },
+    {
+      "id": "math-area-4th-072",
+      "question": "縦 5 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "17 cm²",
+        "13 cm²",
+        "19 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 5 × 3 = 15 cm² です。"
+    },
+    {
+      "id": "math-area-4th-073",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "51 cm²",
+        "47 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "math-area-4th-074",
+      "question": "底辺が 10 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "63 cm²",
+        "57 cm²",
+        "65 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-075",
+      "question": "縦 8 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "50 cm²",
+        "46 cm²",
+        "52 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-076",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "102 cm²",
+        "98 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "math-area-4th-077",
+      "question": "底辺が 6 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "54 cm²",
+        "57 cm²",
+        "51 cm²",
+        "59 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 6 × 9 = 54 cm² です。"
+    },
+    {
+      "id": "math-area-4th-078",
+      "question": "縦 11 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "33 cm²",
+        "35 cm²",
+        "31 cm²",
+        "37 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 11 × 3 = 33 cm² です。"
+    },
+    {
+      "id": "math-area-4th-079",
+      "question": "1辺が 6 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-080",
+      "question": "底辺が 9 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "54 cm²",
+        "57 cm²",
+        "51 cm²",
+        "59 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 9 × 6 = 54 cm² です。"
+    },
+    {
+      "id": "math-area-4th-081",
+      "question": "縦 6 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-082",
+      "question": "1辺が 9 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "81 cm²",
+        "83 cm²",
+        "79 cm²",
+        "85 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 9 × 9 = 81 cm² です。"
+    },
+    {
+      "id": "math-area-4th-083",
+      "question": "底辺が 12 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "108 cm²",
+        "111 cm²",
+        "105 cm²",
+        "113 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 12 × 9 = 108 cm² です。"
+    },
+    {
+      "id": "math-area-4th-084",
+      "question": "縦 9 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27 cm²",
+        "29 cm²",
+        "25 cm²",
+        "31 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 9 × 3 = 27 cm² です。"
+    },
+    {
+      "id": "math-area-4th-085",
+      "question": "1辺が 5 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "25 cm²",
+        "27 cm²",
+        "23 cm²",
+        "29 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 5 × 5 = 25 cm² です。"
+    },
+    {
+      "id": "math-area-4th-086",
+      "question": "底辺が 8 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "51 cm²",
+        "45 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-087",
+      "question": "縦 12 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "74 cm²",
+        "70 cm²",
+        "76 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 12 × 6 = 72 cm² です。"
+    },
+    {
+      "id": "math-area-4th-088",
+      "question": "1辺が 8 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm²",
+        "66 cm²",
+        "62 cm²",
+        "68 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 8 × 8 = 64 cm² です。"
+    },
+    {
+      "id": "math-area-4th-089",
+      "question": "底辺が 11 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "99 cm²",
+        "102 cm²",
+        "96 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 11 × 9 = 99 cm² です。"
+    },
+    {
+      "id": "math-area-4th-090",
+      "question": "縦 7 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "21 cm²",
+        "23 cm²",
+        "19 cm²",
+        "25 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 7 × 3 = 21 cm² です。"
+    },
+    {
+      "id": "math-area-4th-091",
+      "question": "1辺が 4 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "16 cm²",
+        "18 cm²",
+        "14 cm²",
+        "20 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 4 × 4 = 16 cm² です。"
+    },
+    {
+      "id": "math-area-4th-092",
+      "question": "底辺が 7 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42 cm²",
+        "45 cm²",
+        "39 cm²",
+        "47 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 7 × 6 = 42 cm² です。"
+    },
+    {
+      "id": "math-area-4th-093",
+      "question": "縦 10 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "62 cm²",
+        "58 cm²",
+        "64 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 10 × 6 = 60 cm² です。"
+    },
+    {
+      "id": "math-area-4th-094",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "51 cm²",
+        "47 cm²",
+        "53 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "math-area-4th-095",
+      "question": "底辺が 10 cm、高さが 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "93 cm²",
+        "87 cm²",
+        "95 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "math-area-4th-096",
+      "question": "縦 5 cm、横 3 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "15 cm²",
+        "17 cm²",
+        "13 cm²",
+        "19 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 5 × 3 = 15 cm² です。"
+    },
+    {
+      "id": "math-area-4th-097",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "102 cm²",
+        "98 cm²",
+        "104 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "math-area-4th-098",
+      "question": "底辺が 6 cm、高さが 6 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "39 cm²",
+        "33 cm²",
+        "41 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺 × 高さ = 6 × 6 = 36 cm² です。"
+    },
+    {
+      "id": "math-area-4th-099",
+      "question": "縦 8 cm、横 6 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "48 cm²",
+        "50 cm²",
+        "46 cm²",
+        "52 cm²"
+      ],
+      "answer": 0,
+      "explanation": "長方形の面積は 縦 × 横 = 8 × 6 = 48 cm² です。"
+    },
+    {
+      "id": "math-area-4th-100",
+      "question": "1辺が 6 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "36 cm²",
+        "38 cm²",
+        "34 cm²",
+        "40 cm²"
+      ],
+      "answer": 0,
+      "explanation": "正方形の面積は 1辺 × 1辺 = 6 × 6 = 36 cm² です。"
+    }
+  ]
+}
