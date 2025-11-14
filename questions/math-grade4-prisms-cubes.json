@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-prisms-cubes",
+  "unitName": "直方体と立方体",
+  "category": "図形",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-prisms-cubes-001",
+      "question": "縦 4 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "112 cm³",
+        "116 cm³",
+        "108 cm³",
+        "119 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 7 = 112 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-002",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-003",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-004",
+      "question": "縦 7 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "147 cm³",
+        "154 cm³",
+        "144 cm³",
+        "137 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 3 × 7 = 147 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-005",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-006",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-007",
+      "question": "縦 5 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "210 cm³",
+        "215 cm³",
+        "204 cm³",
+        "217 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 6 × 7 = 210 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-008",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-009",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-010",
+      "question": "縦 8 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "280 cm³",
+        "288 cm³",
+        "275 cm³",
+        "287 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 5 × 7 = 280 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-011",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-012",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-013",
+      "question": "縦 6 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "174 cm³",
+        "164 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 × 7 = 168 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-014",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-015",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-016",
+      "question": "縦 4 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "84 cm³",
+        "88 cm³",
+        "81 cm³",
+        "91 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 3 × 7 = 84 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-017",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-018",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-019",
+      "question": "縦 7 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "294 cm³",
+        "301 cm³",
+        "288 cm³",
+        "284 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 6 × 7 = 294 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-020",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-021",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-022",
+      "question": "縦 5 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "175 cm³",
+        "180 cm³",
+        "170 cm³",
+        "182 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 5 × 7 = 175 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-023",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-024",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-025",
+      "question": "縦 8 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "224 cm³",
+        "232 cm³",
+        "220 cm³",
+        "231 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 × 7 = 224 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-026",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-027",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-028",
+      "question": "縦 6 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "126 cm³",
+        "132 cm³",
+        "123 cm³",
+        "133 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 3 × 7 = 126 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-029",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-030",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-031",
+      "question": "縦 4 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "172 cm³",
+        "162 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 6 × 7 = 168 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-032",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-033",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-034",
+      "question": "縦 7 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "245 cm³",
+        "252 cm³",
+        "240 cm³",
+        "235 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 5 × 7 = 245 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-035",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-036",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-037",
+      "question": "縦 5 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "140 cm³",
+        "145 cm³",
+        "136 cm³",
+        "147 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 4 × 7 = 140 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-038",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-039",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-040",
+      "question": "縦 8 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "176 cm³",
+        "165 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 3 × 7 = 168 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-041",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-042",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-043",
+      "question": "縦 6 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "252 cm³",
+        "258 cm³",
+        "246 cm³",
+        "259 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 6 × 7 = 252 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-044",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-045",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-046",
+      "question": "縦 4 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "140 cm³",
+        "144 cm³",
+        "135 cm³",
+        "147 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 5 × 7 = 140 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-047",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-048",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-049",
+      "question": "縦 7 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "196 cm³",
+        "203 cm³",
+        "192 cm³",
+        "186 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 4 × 7 = 196 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-050",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-051",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-052",
+      "question": "縦 5 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "105 cm³",
+        "110 cm³",
+        "102 cm³",
+        "112 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 3 × 7 = 105 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-053",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-054",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-055",
+      "question": "縦 8 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "336 cm³",
+        "344 cm³",
+        "330 cm³",
+        "343 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 6 × 7 = 336 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-056",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-057",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-058",
+      "question": "縦 6 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "210 cm³",
+        "216 cm³",
+        "205 cm³",
+        "217 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 5 × 7 = 210 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-059",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-060",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-061",
+      "question": "縦 4 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "112 cm³",
+        "116 cm³",
+        "108 cm³",
+        "119 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 7 = 112 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-062",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-063",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-064",
+      "question": "縦 7 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "147 cm³",
+        "154 cm³",
+        "144 cm³",
+        "137 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 3 × 7 = 147 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-065",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-066",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-067",
+      "question": "縦 5 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "210 cm³",
+        "215 cm³",
+        "204 cm³",
+        "217 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 6 × 7 = 210 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-068",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-069",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-070",
+      "question": "縦 8 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "280 cm³",
+        "288 cm³",
+        "275 cm³",
+        "287 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 5 × 7 = 280 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-071",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-072",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-073",
+      "question": "縦 6 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "174 cm³",
+        "164 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 × 7 = 168 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-074",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-075",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-076",
+      "question": "縦 4 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "84 cm³",
+        "88 cm³",
+        "81 cm³",
+        "91 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 3 × 7 = 84 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-077",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-078",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-079",
+      "question": "縦 7 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "294 cm³",
+        "301 cm³",
+        "288 cm³",
+        "284 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 6 × 7 = 294 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-080",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-081",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-082",
+      "question": "縦 5 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "175 cm³",
+        "180 cm³",
+        "170 cm³",
+        "182 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 5 × 7 = 175 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-083",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-084",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-085",
+      "question": "縦 8 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "224 cm³",
+        "232 cm³",
+        "220 cm³",
+        "231 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 × 7 = 224 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-086",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-087",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-088",
+      "question": "縦 6 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "126 cm³",
+        "132 cm³",
+        "123 cm³",
+        "133 cm³"
+      ],
+      "answer": 0,
+      "explanation": "6 × 3 × 7 = 126 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-089",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-090",
+      "question": "縦 6 cm、横 6 cm、高さ 5 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "186",
+        "174",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 6 × 6 × 5 = 180 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-091",
+      "question": "縦 4 cm、横 6 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "172 cm³",
+        "162 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 6 × 7 = 168 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-092",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-093",
+      "question": "縦 5 cm、横 5 cm、高さ 4 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "105",
+        "95",
+        "104"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 5 × 5 × 4 = 100 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-094",
+      "question": "縦 7 cm、横 5 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "245 cm³",
+        "252 cm³",
+        "240 cm³",
+        "235 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 5 × 7 = 245 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-095",
+      "question": "1辺が 7 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "343 cm³",
+        "350 cm³",
+        "336 cm³",
+        "353 cm³"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 × 7 = 343 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-096",
+      "question": "縦 8 cm、横 4 cm、高さ 3 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "96",
+        "104",
+        "92",
+        "99"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 8 × 4 × 3 = 96 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-097",
+      "question": "縦 5 cm、横 4 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "140 cm³",
+        "145 cm³",
+        "136 cm³",
+        "147 cm³"
+      ],
+      "answer": 0,
+      "explanation": "5 × 4 × 7 = 140 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-098",
+      "question": "1辺が 4 cm の立方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "64 cm³",
+        "68 cm³",
+        "60 cm³",
+        "74 cm³"
+      ],
+      "answer": 0,
+      "explanation": "4 × 4 × 4 = 64 cm³ です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-099",
+      "question": "縦 7 cm、横 7 cm、高さ 2 cm の直方体を、1辺1 cm の小さな立方体で作ると何個必要ですか。",
+      "type": "multiple",
+      "choices": [
+        "98",
+        "105",
+        "91",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "必要な小さな立方体の個数は体積 7 × 7 × 2 = 98 個です。"
+    },
+    {
+      "id": "grade4-prisms-cubes-100",
+      "question": "縦 8 cm、横 3 cm、高さ 7 cm の直方体の体積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "168 cm³",
+        "176 cm³",
+        "165 cm³",
+        "175 cm³"
+      ],
+      "answer": 0,
+      "explanation": "8 × 3 × 7 = 168 cm³ です。"
+    }
+  ]
+}

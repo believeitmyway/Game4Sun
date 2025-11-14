@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-long-division",
+  "unitName": "わり算の筆算",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-long-division-001",
+      "question": "60 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "32",
+        "27",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "60 ÷ 2 = 30 となります。"
+    },
+    {
+      "id": "grade4-long-division-002",
+      "question": "113 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り2",
+        "商38 余り1",
+        "商36 余り3",
+        "商37 余り4"
+      ],
+      "answer": 0,
+      "explanation": "113 = 3 × 37 + 2 なので、商37、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-003",
+      "question": "176 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "44",
+        "46",
+        "41",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "176 ÷ 4 = 44 となります。"
+    },
+    {
+      "id": "grade4-long-division-004",
+      "question": "259 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商51 余り4",
+        "商52 余り3",
+        "商50 余り5",
+        "商51 余り6"
+      ],
+      "answer": 0,
+      "explanation": "259 = 5 × 51 + 4 なので、商51、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-005",
+      "question": "348 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "58",
+        "60",
+        "55",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "348 ÷ 6 = 58 となります。"
+    },
+    {
+      "id": "grade4-long-division-006",
+      "question": "461 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商65 余り6",
+        "商66 余り5",
+        "商64 余り7",
+        "商65 余り8"
+      ],
+      "answer": 0,
+      "explanation": "461 = 7 × 65 + 6 なので、商65、余り6です。"
+    },
+    {
+      "id": "grade4-long-division-007",
+      "question": "576 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "72",
+        "74",
+        "69",
+        "77"
+      ],
+      "answer": 0,
+      "explanation": "576 ÷ 8 = 72 となります。"
+    },
+    {
+      "id": "grade4-long-division-008",
+      "question": "719 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商79 余り8",
+        "商80 余り7",
+        "商78 余り9",
+        "商79 余り10"
+      ],
+      "answer": 0,
+      "explanation": "719 = 9 × 79 + 8 なので、商79、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-009",
+      "question": "172 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "86",
+        "88",
+        "83",
+        "91"
+      ],
+      "answer": 0,
+      "explanation": "172 ÷ 2 = 86 となります。"
+    },
+    {
+      "id": "grade4-long-division-010",
+      "question": "101 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商33 余り2",
+        "商34 余り1",
+        "商32 余り3",
+        "商33 余り4"
+      ],
+      "answer": 0,
+      "explanation": "101 = 3 × 33 + 2 なので、商33、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-011",
+      "question": "160 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "42",
+        "37",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "160 ÷ 4 = 40 となります。"
+    },
+    {
+      "id": "grade4-long-division-012",
+      "question": "239 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り4",
+        "商48 余り3",
+        "商46 余り5",
+        "商47 余り6"
+      ],
+      "answer": 0,
+      "explanation": "239 = 5 × 47 + 4 なので、商47、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-013",
+      "question": "324 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "54",
+        "56",
+        "51",
+        "59"
+      ],
+      "answer": 0,
+      "explanation": "324 ÷ 6 = 54 となります。"
+    },
+    {
+      "id": "grade4-long-division-014",
+      "question": "429 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商61 余り2",
+        "商62 余り1",
+        "商60 余り3",
+        "商61 余り4"
+      ],
+      "answer": 0,
+      "explanation": "429 = 7 × 61 + 2 なので、商61、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-015",
+      "question": "544 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "68",
+        "70",
+        "65",
+        "73"
+      ],
+      "answer": 0,
+      "explanation": "544 ÷ 8 = 68 となります。"
+    },
+    {
+      "id": "grade4-long-division-016",
+      "question": "683 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商75 余り8",
+        "商76 余り7",
+        "商74 余り9",
+        "商75 余り10"
+      ],
+      "answer": 0,
+      "explanation": "683 = 9 × 75 + 8 なので、商75、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-017",
+      "question": "164 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "82",
+        "84",
+        "79",
+        "87"
+      ],
+      "answer": 0,
+      "explanation": "164 ÷ 2 = 82 となります。"
+    },
+    {
+      "id": "grade4-long-division-018",
+      "question": "269 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商89 余り2",
+        "商90 余り1",
+        "商88 余り3",
+        "商89 余り4"
+      ],
+      "answer": 0,
+      "explanation": "269 = 3 × 89 + 2 なので、商89、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-019",
+      "question": "144 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "36",
+        "38",
+        "33",
+        "41"
+      ],
+      "answer": 0,
+      "explanation": "144 ÷ 4 = 36 となります。"
+    },
+    {
+      "id": "grade4-long-division-020",
+      "question": "219 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商43 余り4",
+        "商44 余り3",
+        "商42 余り5",
+        "商43 余り6"
+      ],
+      "answer": 0,
+      "explanation": "219 = 5 × 43 + 4 なので、商43、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-021",
+      "question": "300 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "50",
+        "52",
+        "47",
+        "55"
+      ],
+      "answer": 0,
+      "explanation": "300 ÷ 6 = 50 となります。"
+    },
+    {
+      "id": "grade4-long-division-022",
+      "question": "403 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商57 余り4",
+        "商58 余り3",
+        "商56 余り5",
+        "商57 余り6"
+      ],
+      "answer": 0,
+      "explanation": "403 = 7 × 57 + 4 なので、商57、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-023",
+      "question": "512 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "64",
+        "66",
+        "61",
+        "69"
+      ],
+      "answer": 0,
+      "explanation": "512 ÷ 8 = 64 となります。"
+    },
+    {
+      "id": "grade4-long-division-024",
+      "question": "647 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商71 余り8",
+        "商72 余り7",
+        "商70 余り9",
+        "商71 余り10"
+      ],
+      "answer": 0,
+      "explanation": "647 = 9 × 71 + 8 なので、商71、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-025",
+      "question": "156 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "78",
+        "80",
+        "75",
+        "83"
+      ],
+      "answer": 0,
+      "explanation": "156 ÷ 2 = 78 となります。"
+    },
+    {
+      "id": "grade4-long-division-026",
+      "question": "257 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商85 余り2",
+        "商86 余り1",
+        "商84 余り3",
+        "商85 余り4"
+      ],
+      "answer": 0,
+      "explanation": "257 = 3 × 85 + 2 なので、商85、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-027",
+      "question": "128 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "34",
+        "29",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "128 ÷ 4 = 32 となります。"
+    },
+    {
+      "id": "grade4-long-division-028",
+      "question": "199 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商39 余り4",
+        "商40 余り3",
+        "商38 余り5",
+        "商39 余り6"
+      ],
+      "answer": 0,
+      "explanation": "199 = 5 × 39 + 4 なので、商39、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-029",
+      "question": "276 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "46",
+        "48",
+        "43",
+        "51"
+      ],
+      "answer": 0,
+      "explanation": "276 ÷ 6 = 46 となります。"
+    },
+    {
+      "id": "grade4-long-division-030",
+      "question": "377 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商53 余り6",
+        "商54 余り5",
+        "商52 余り7",
+        "商53 余り8"
+      ],
+      "answer": 0,
+      "explanation": "377 = 7 × 53 + 6 なので、商53、余り6です。"
+    },
+    {
+      "id": "grade4-long-division-031",
+      "question": "480 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "60",
+        "62",
+        "57",
+        "65"
+      ],
+      "answer": 0,
+      "explanation": "480 ÷ 8 = 60 となります。"
+    },
+    {
+      "id": "grade4-long-division-032",
+      "question": "611 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り8",
+        "商68 余り7",
+        "商66 余り9",
+        "商67 余り10"
+      ],
+      "answer": 0,
+      "explanation": "611 = 9 × 67 + 8 なので、商67、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-033",
+      "question": "148 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "74",
+        "76",
+        "71",
+        "79"
+      ],
+      "answer": 0,
+      "explanation": "148 ÷ 2 = 74 となります。"
+    },
+    {
+      "id": "grade4-long-division-034",
+      "question": "245 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商81 余り2",
+        "商82 余り1",
+        "商80 余り3",
+        "商81 余り4"
+      ],
+      "answer": 0,
+      "explanation": "245 = 3 × 81 + 2 なので、商81、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-035",
+      "question": "352 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "88",
+        "90",
+        "85",
+        "93"
+      ],
+      "answer": 0,
+      "explanation": "352 ÷ 4 = 88 となります。"
+    },
+    {
+      "id": "grade4-long-division-036",
+      "question": "179 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商35 余り4",
+        "商36 余り3",
+        "商34 余り5",
+        "商35 余り6"
+      ],
+      "answer": 0,
+      "explanation": "179 = 5 × 35 + 4 なので、商35、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-037",
+      "question": "252 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "44",
+        "39",
+        "47"
+      ],
+      "answer": 0,
+      "explanation": "252 ÷ 6 = 42 となります。"
+    },
+    {
+      "id": "grade4-long-division-038",
+      "question": "345 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商49 余り2",
+        "商50 余り1",
+        "商48 余り3",
+        "商49 余り4"
+      ],
+      "answer": 0,
+      "explanation": "345 = 7 × 49 + 2 なので、商49、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-039",
+      "question": "448 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "58",
+        "53",
+        "61"
+      ],
+      "answer": 0,
+      "explanation": "448 ÷ 8 = 56 となります。"
+    },
+    {
+      "id": "grade4-long-division-040",
+      "question": "575 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商63 余り8",
+        "商64 余り7",
+        "商62 余り9",
+        "商63 余り10"
+      ],
+      "answer": 0,
+      "explanation": "575 = 9 × 63 + 8 なので、商63、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-041",
+      "question": "140 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "70",
+        "72",
+        "67",
+        "75"
+      ],
+      "answer": 0,
+      "explanation": "140 ÷ 2 = 70 となります。"
+    },
+    {
+      "id": "grade4-long-division-042",
+      "question": "233 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商77 余り2",
+        "商78 余り1",
+        "商76 余り3",
+        "商77 余り4"
+      ],
+      "answer": 0,
+      "explanation": "233 = 3 × 77 + 2 なので、商77、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-043",
+      "question": "336 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "84",
+        "86",
+        "81",
+        "89"
+      ],
+      "answer": 0,
+      "explanation": "336 ÷ 4 = 84 となります。"
+    },
+    {
+      "id": "grade4-long-division-044",
+      "question": "159 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商31 余り4",
+        "商32 余り3",
+        "商30 余り5",
+        "商31 余り6"
+      ],
+      "answer": 0,
+      "explanation": "159 = 5 × 31 + 4 なので、商31、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-045",
+      "question": "228 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "38",
+        "40",
+        "35",
+        "43"
+      ],
+      "answer": 0,
+      "explanation": "228 ÷ 6 = 38 となります。"
+    },
+    {
+      "id": "grade4-long-division-046",
+      "question": "319 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商45 余り4",
+        "商46 余り3",
+        "商44 余り5",
+        "商45 余り6"
+      ],
+      "answer": 0,
+      "explanation": "319 = 7 × 45 + 4 なので、商45、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-047",
+      "question": "416 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "52",
+        "54",
+        "49",
+        "57"
+      ],
+      "answer": 0,
+      "explanation": "416 ÷ 8 = 52 となります。"
+    },
+    {
+      "id": "grade4-long-division-048",
+      "question": "539 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商59 余り8",
+        "商60 余り7",
+        "商58 余り9",
+        "商59 余り10"
+      ],
+      "answer": 0,
+      "explanation": "539 = 9 × 59 + 8 なので、商59、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-049",
+      "question": "132 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "66",
+        "68",
+        "63",
+        "71"
+      ],
+      "answer": 0,
+      "explanation": "132 ÷ 2 = 66 となります。"
+    },
+    {
+      "id": "grade4-long-division-050",
+      "question": "221 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商73 余り2",
+        "商74 余り1",
+        "商72 余り3",
+        "商73 余り4"
+      ],
+      "answer": 0,
+      "explanation": "221 = 3 × 73 + 2 なので、商73、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-051",
+      "question": "320 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "80",
+        "82",
+        "77",
+        "85"
+      ],
+      "answer": 0,
+      "explanation": "320 ÷ 4 = 80 となります。"
+    },
+    {
+      "id": "grade4-long-division-052",
+      "question": "439 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商87 余り4",
+        "商88 余り3",
+        "商86 余り5",
+        "商87 余り6"
+      ],
+      "answer": 0,
+      "explanation": "439 = 5 × 87 + 4 なので、商87、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-053",
+      "question": "204 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "34",
+        "36",
+        "31",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "204 ÷ 6 = 34 となります。"
+    },
+    {
+      "id": "grade4-long-division-054",
+      "question": "293 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商41 余り6",
+        "商42 余り5",
+        "商40 余り7",
+        "商41 余り8"
+      ],
+      "answer": 0,
+      "explanation": "293 = 7 × 41 + 6 なので、商41、余り6です。"
+    },
+    {
+      "id": "grade4-long-division-055",
+      "question": "384 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "50",
+        "45",
+        "53"
+      ],
+      "answer": 0,
+      "explanation": "384 ÷ 8 = 48 となります。"
+    },
+    {
+      "id": "grade4-long-division-056",
+      "question": "503 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商55 余り8",
+        "商56 余り7",
+        "商54 余り9",
+        "商55 余り10"
+      ],
+      "answer": 0,
+      "explanation": "503 = 9 × 55 + 8 なので、商55、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-057",
+      "question": "124 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "62",
+        "64",
+        "59",
+        "67"
+      ],
+      "answer": 0,
+      "explanation": "124 ÷ 2 = 62 となります。"
+    },
+    {
+      "id": "grade4-long-division-058",
+      "question": "209 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商69 余り2",
+        "商70 余り1",
+        "商68 余り3",
+        "商69 余り4"
+      ],
+      "answer": 0,
+      "explanation": "209 = 3 × 69 + 2 なので、商69、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-059",
+      "question": "304 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "76",
+        "78",
+        "73",
+        "81"
+      ],
+      "answer": 0,
+      "explanation": "304 ÷ 4 = 76 となります。"
+    },
+    {
+      "id": "grade4-long-division-060",
+      "question": "419 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商83 余り4",
+        "商84 余り3",
+        "商82 余り5",
+        "商83 余り6"
+      ],
+      "answer": 0,
+      "explanation": "419 = 5 × 83 + 4 なので、商83、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-061",
+      "question": "180 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "32",
+        "27",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "180 ÷ 6 = 30 となります。"
+    },
+    {
+      "id": "grade4-long-division-062",
+      "question": "261 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り2",
+        "商38 余り1",
+        "商36 余り3",
+        "商37 余り4"
+      ],
+      "answer": 0,
+      "explanation": "261 = 7 × 37 + 2 なので、商37、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-063",
+      "question": "352 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "44",
+        "46",
+        "41",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "352 ÷ 8 = 44 となります。"
+    },
+    {
+      "id": "grade4-long-division-064",
+      "question": "467 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商51 余り8",
+        "商52 余り7",
+        "商50 余り9",
+        "商51 余り10"
+      ],
+      "answer": 0,
+      "explanation": "467 = 9 × 51 + 8 なので、商51、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-065",
+      "question": "116 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "58",
+        "60",
+        "55",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "116 ÷ 2 = 58 となります。"
+    },
+    {
+      "id": "grade4-long-division-066",
+      "question": "197 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商65 余り2",
+        "商66 余り1",
+        "商64 余り3",
+        "商65 余り4"
+      ],
+      "answer": 0,
+      "explanation": "197 = 3 × 65 + 2 なので、商65、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-067",
+      "question": "288 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "72",
+        "74",
+        "69",
+        "77"
+      ],
+      "answer": 0,
+      "explanation": "288 ÷ 4 = 72 となります。"
+    },
+    {
+      "id": "grade4-long-division-068",
+      "question": "399 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商79 余り4",
+        "商80 余り3",
+        "商78 余り5",
+        "商79 余り6"
+      ],
+      "answer": 0,
+      "explanation": "399 = 5 × 79 + 4 なので、商79、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-069",
+      "question": "516 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "86",
+        "88",
+        "83",
+        "91"
+      ],
+      "answer": 0,
+      "explanation": "516 ÷ 6 = 86 となります。"
+    },
+    {
+      "id": "grade4-long-division-070",
+      "question": "235 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商33 余り4",
+        "商34 余り3",
+        "商32 余り5",
+        "商33 余り6"
+      ],
+      "answer": 0,
+      "explanation": "235 = 7 × 33 + 4 なので、商33、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-071",
+      "question": "320 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "42",
+        "37",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "320 ÷ 8 = 40 となります。"
+    },
+    {
+      "id": "grade4-long-division-072",
+      "question": "431 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り8",
+        "商48 余り7",
+        "商46 余り9",
+        "商47 余り10"
+      ],
+      "answer": 0,
+      "explanation": "431 = 9 × 47 + 8 なので、商47、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-073",
+      "question": "108 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "54",
+        "56",
+        "51",
+        "59"
+      ],
+      "answer": 0,
+      "explanation": "108 ÷ 2 = 54 となります。"
+    },
+    {
+      "id": "grade4-long-division-074",
+      "question": "185 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商61 余り2",
+        "商62 余り1",
+        "商60 余り3",
+        "商61 余り4"
+      ],
+      "answer": 0,
+      "explanation": "185 = 3 × 61 + 2 なので、商61、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-075",
+      "question": "272 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "68",
+        "70",
+        "65",
+        "73"
+      ],
+      "answer": 0,
+      "explanation": "272 ÷ 4 = 68 となります。"
+    },
+    {
+      "id": "grade4-long-division-076",
+      "question": "379 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商75 余り4",
+        "商76 余り3",
+        "商74 余り5",
+        "商75 余り6"
+      ],
+      "answer": 0,
+      "explanation": "379 = 5 × 75 + 4 なので、商75、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-077",
+      "question": "492 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "82",
+        "84",
+        "79",
+        "87"
+      ],
+      "answer": 0,
+      "explanation": "492 ÷ 6 = 82 となります。"
+    },
+    {
+      "id": "grade4-long-division-078",
+      "question": "629 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商89 余り6",
+        "商90 余り5",
+        "商88 余り7",
+        "商89 余り8"
+      ],
+      "answer": 0,
+      "explanation": "629 = 7 × 89 + 6 なので、商89、余り6です。"
+    },
+    {
+      "id": "grade4-long-division-079",
+      "question": "288 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "36",
+        "38",
+        "33",
+        "41"
+      ],
+      "answer": 0,
+      "explanation": "288 ÷ 8 = 36 となります。"
+    },
+    {
+      "id": "grade4-long-division-080",
+      "question": "395 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商43 余り8",
+        "商44 余り7",
+        "商42 余り9",
+        "商43 余り10"
+      ],
+      "answer": 0,
+      "explanation": "395 = 9 × 43 + 8 なので、商43、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-081",
+      "question": "100 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "50",
+        "52",
+        "47",
+        "55"
+      ],
+      "answer": 0,
+      "explanation": "100 ÷ 2 = 50 となります。"
+    },
+    {
+      "id": "grade4-long-division-082",
+      "question": "173 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商57 余り2",
+        "商58 余り1",
+        "商56 余り3",
+        "商57 余り4"
+      ],
+      "answer": 0,
+      "explanation": "173 = 3 × 57 + 2 なので、商57、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-083",
+      "question": "256 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "64",
+        "66",
+        "61",
+        "69"
+      ],
+      "answer": 0,
+      "explanation": "256 ÷ 4 = 64 となります。"
+    },
+    {
+      "id": "grade4-long-division-084",
+      "question": "359 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商71 余り4",
+        "商72 余り3",
+        "商70 余り5",
+        "商71 余り6"
+      ],
+      "answer": 0,
+      "explanation": "359 = 5 × 71 + 4 なので、商71、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-085",
+      "question": "468 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "78",
+        "80",
+        "75",
+        "83"
+      ],
+      "answer": 0,
+      "explanation": "468 ÷ 6 = 78 となります。"
+    },
+    {
+      "id": "grade4-long-division-086",
+      "question": "597 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商85 余り2",
+        "商86 余り1",
+        "商84 余り3",
+        "商85 余り4"
+      ],
+      "answer": 0,
+      "explanation": "597 = 7 × 85 + 2 なので、商85、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-087",
+      "question": "256 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "34",
+        "29",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "256 ÷ 8 = 32 となります。"
+    },
+    {
+      "id": "grade4-long-division-088",
+      "question": "359 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商39 余り8",
+        "商40 余り7",
+        "商38 余り9",
+        "商39 余り10"
+      ],
+      "answer": 0,
+      "explanation": "359 = 9 × 39 + 8 なので、商39、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-089",
+      "question": "92 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "46",
+        "48",
+        "43",
+        "51"
+      ],
+      "answer": 0,
+      "explanation": "92 ÷ 2 = 46 となります。"
+    },
+    {
+      "id": "grade4-long-division-090",
+      "question": "161 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商53 余り2",
+        "商54 余り1",
+        "商52 余り3",
+        "商53 余り4"
+      ],
+      "answer": 0,
+      "explanation": "161 = 3 × 53 + 2 なので、商53、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-091",
+      "question": "240 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "60",
+        "62",
+        "57",
+        "65"
+      ],
+      "answer": 0,
+      "explanation": "240 ÷ 4 = 60 となります。"
+    },
+    {
+      "id": "grade4-long-division-092",
+      "question": "339 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り4",
+        "商68 余り3",
+        "商66 余り5",
+        "商67 余り6"
+      ],
+      "answer": 0,
+      "explanation": "339 = 5 × 67 + 4 なので、商67、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-093",
+      "question": "444 ÷ 6 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "74",
+        "76",
+        "71",
+        "79"
+      ],
+      "answer": 0,
+      "explanation": "444 ÷ 6 = 74 となります。"
+    },
+    {
+      "id": "grade4-long-division-094",
+      "question": "571 ÷ 7 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商81 余り4",
+        "商82 余り3",
+        "商80 余り5",
+        "商81 余り6"
+      ],
+      "answer": 0,
+      "explanation": "571 = 7 × 81 + 4 なので、商81、余り4です。"
+    },
+    {
+      "id": "grade4-long-division-095",
+      "question": "704 ÷ 8 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "88",
+        "90",
+        "85",
+        "93"
+      ],
+      "answer": 0,
+      "explanation": "704 ÷ 8 = 88 となります。"
+    },
+    {
+      "id": "grade4-long-division-096",
+      "question": "323 ÷ 9 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商35 余り8",
+        "商36 余り7",
+        "商34 余り9",
+        "商35 余り10"
+      ],
+      "answer": 0,
+      "explanation": "323 = 9 × 35 + 8 なので、商35、余り8です。"
+    },
+    {
+      "id": "grade4-long-division-097",
+      "question": "84 ÷ 2 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "44",
+        "39",
+        "47"
+      ],
+      "answer": 0,
+      "explanation": "84 ÷ 2 = 42 となります。"
+    },
+    {
+      "id": "grade4-long-division-098",
+      "question": "149 ÷ 3 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商49 余り2",
+        "商50 余り1",
+        "商48 余り3",
+        "商49 余り4"
+      ],
+      "answer": 0,
+      "explanation": "149 = 3 × 49 + 2 なので、商49、余り2です。"
+    },
+    {
+      "id": "grade4-long-division-099",
+      "question": "224 ÷ 4 を筆算で計算すると、商はいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "58",
+        "53",
+        "61"
+      ],
+      "answer": 0,
+      "explanation": "224 ÷ 4 = 56 となります。"
+    },
+    {
+      "id": "grade4-long-division-100",
+      "question": "319 ÷ 5 を筆算で計算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商63 余り4",
+        "商64 余り3",
+        "商62 余り5",
+        "商63 余り6"
+      ],
+      "answer": 0,
+      "explanation": "319 = 5 × 63 + 4 なので、商63、余り4です。"
+    }
+  ]
+}

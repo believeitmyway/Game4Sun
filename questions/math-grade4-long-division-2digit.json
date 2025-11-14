@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-long-division-2digit",
+  "unitName": "２けたでわる わり算の筆算",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-long-division-2digit-001",
+      "question": "144 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "144 ÷ 12 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-002",
+      "question": "225 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り4",
+        "商19 余り3",
+        "商15 余り6",
+        "商18 余り5"
+      ],
+      "answer": 0,
+      "explanation": "225 = 13 × 17 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-003",
+      "question": "313 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り5",
+        "商24 余り4",
+        "商20 余り7",
+        "商23 余り6"
+      ],
+      "answer": 0,
+      "explanation": "313 = 14 × 22 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-004",
+      "question": "405 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "405 ÷ 15 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-005",
+      "question": "519 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り7",
+        "商34 余り6",
+        "商30 余り9",
+        "商33 余り8"
+      ],
+      "answer": 0,
+      "explanation": "519 = 16 × 32 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-006",
+      "question": "632 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り3",
+        "商39 余り2",
+        "商35 余り5",
+        "商38 余り4"
+      ],
+      "answer": 0,
+      "explanation": "632 = 17 × 37 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-007",
+      "question": "756 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "756 ÷ 18 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-008",
+      "question": "898 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り5",
+        "商49 余り4",
+        "商45 余り7",
+        "商48 余り6"
+      ],
+      "answer": 0,
+      "explanation": "898 = 19 × 47 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-009",
+      "question": "1046 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り6",
+        "商54 余り5",
+        "商50 余り8",
+        "商53 余り7"
+      ],
+      "answer": 0,
+      "explanation": "1046 = 20 × 52 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-010",
+      "question": "1197 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "1197 ÷ 21 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-011",
+      "question": "1367 ÷ 22 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り3",
+        "商64 余り2",
+        "商60 余り5",
+        "商63 余り4"
+      ],
+      "answer": 0,
+      "explanation": "1367 = 22 × 62 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-012",
+      "question": "1545 ÷ 23 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り4",
+        "商69 余り3",
+        "商65 余り6",
+        "商68 余り5"
+      ],
+      "answer": 0,
+      "explanation": "1545 = 23 × 67 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-013",
+      "question": "288 ÷ 24 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "288 ÷ 24 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-014",
+      "question": "431 ÷ 25 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り6",
+        "商19 余り5",
+        "商15 余り8",
+        "商18 余り7"
+      ],
+      "answer": 0,
+      "explanation": "431 = 25 × 17 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-015",
+      "question": "579 ÷ 26 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り7",
+        "商24 余り6",
+        "商20 余り9",
+        "商23 余り8"
+      ],
+      "answer": 0,
+      "explanation": "579 = 26 × 22 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-016",
+      "question": "729 ÷ 27 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "729 ÷ 27 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-017",
+      "question": "900 ÷ 28 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り4",
+        "商34 余り3",
+        "商30 余り6",
+        "商33 余り5"
+      ],
+      "answer": 0,
+      "explanation": "900 = 28 × 32 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-018",
+      "question": "1078 ÷ 29 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り5",
+        "商39 余り4",
+        "商35 余り7",
+        "商38 余り6"
+      ],
+      "answer": 0,
+      "explanation": "1078 = 29 × 37 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-019",
+      "question": "504 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "504 ÷ 12 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-020",
+      "question": "618 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り7",
+        "商49 余り6",
+        "商45 余り9",
+        "商48 余り8"
+      ],
+      "answer": 0,
+      "explanation": "618 = 13 × 47 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-021",
+      "question": "731 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り3",
+        "商54 余り2",
+        "商50 余り5",
+        "商53 余り4"
+      ],
+      "answer": 0,
+      "explanation": "731 = 14 × 52 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-022",
+      "question": "855 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "855 ÷ 15 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-023",
+      "question": "997 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り5",
+        "商64 余り4",
+        "商60 余り7",
+        "商63 余り6"
+      ],
+      "answer": 0,
+      "explanation": "997 = 16 × 62 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-024",
+      "question": "1145 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り6",
+        "商69 余り5",
+        "商65 余り8",
+        "商68 余り7"
+      ],
+      "answer": 0,
+      "explanation": "1145 = 17 × 67 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-025",
+      "question": "216 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "216 ÷ 18 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-026",
+      "question": "326 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り3",
+        "商19 余り2",
+        "商15 余り5",
+        "商18 余り4"
+      ],
+      "answer": 0,
+      "explanation": "326 = 19 × 17 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-027",
+      "question": "444 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り4",
+        "商24 余り3",
+        "商20 余り6",
+        "商23 余り5"
+      ],
+      "answer": 0,
+      "explanation": "444 = 20 × 22 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-028",
+      "question": "567 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "567 ÷ 21 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-029",
+      "question": "710 ÷ 22 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り6",
+        "商34 余り5",
+        "商30 余り8",
+        "商33 余り7"
+      ],
+      "answer": 0,
+      "explanation": "710 = 22 × 32 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-030",
+      "question": "858 ÷ 23 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り7",
+        "商39 余り6",
+        "商35 余り9",
+        "商38 余り8"
+      ],
+      "answer": 0,
+      "explanation": "858 = 23 × 37 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-031",
+      "question": "1008 ÷ 24 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "1008 ÷ 24 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-032",
+      "question": "1179 ÷ 25 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り4",
+        "商49 余り3",
+        "商45 余り6",
+        "商48 余り5"
+      ],
+      "answer": 0,
+      "explanation": "1179 = 25 × 47 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-033",
+      "question": "1357 ÷ 26 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り5",
+        "商54 余り4",
+        "商50 余り7",
+        "商53 余り6"
+      ],
+      "answer": 0,
+      "explanation": "1357 = 26 × 52 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-034",
+      "question": "1539 ÷ 27 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "1539 ÷ 27 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-035",
+      "question": "1743 ÷ 28 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り7",
+        "商64 余り6",
+        "商60 余り9",
+        "商63 余り8"
+      ],
+      "answer": 0,
+      "explanation": "1743 = 28 × 62 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-036",
+      "question": "1946 ÷ 29 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り3",
+        "商69 余り2",
+        "商65 余り5",
+        "商68 余り4"
+      ],
+      "answer": 0,
+      "explanation": "1946 = 29 × 67 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-037",
+      "question": "144 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "144 ÷ 12 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-038",
+      "question": "226 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り5",
+        "商19 余り4",
+        "商15 余り7",
+        "商18 余り6"
+      ],
+      "answer": 0,
+      "explanation": "226 = 13 × 17 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-039",
+      "question": "314 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り6",
+        "商24 余り5",
+        "商20 余り8",
+        "商23 余り7"
+      ],
+      "answer": 0,
+      "explanation": "314 = 14 × 22 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-040",
+      "question": "405 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "405 ÷ 15 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-041",
+      "question": "515 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り3",
+        "商34 余り2",
+        "商30 余り5",
+        "商33 余り4"
+      ],
+      "answer": 0,
+      "explanation": "515 = 16 × 32 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-042",
+      "question": "633 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り4",
+        "商39 余り3",
+        "商35 余り6",
+        "商38 余り5"
+      ],
+      "answer": 0,
+      "explanation": "633 = 17 × 37 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-043",
+      "question": "756 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "756 ÷ 18 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-044",
+      "question": "899 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り6",
+        "商49 余り5",
+        "商45 余り8",
+        "商48 余り7"
+      ],
+      "answer": 0,
+      "explanation": "899 = 19 × 47 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-045",
+      "question": "1047 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り7",
+        "商54 余り6",
+        "商50 余り9",
+        "商53 余り8"
+      ],
+      "answer": 0,
+      "explanation": "1047 = 20 × 52 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-046",
+      "question": "1197 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "1197 ÷ 21 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-047",
+      "question": "1368 ÷ 22 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り4",
+        "商64 余り3",
+        "商60 余り6",
+        "商63 余り5"
+      ],
+      "answer": 0,
+      "explanation": "1368 = 22 × 62 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-048",
+      "question": "1546 ÷ 23 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り5",
+        "商69 余り4",
+        "商65 余り7",
+        "商68 余り6"
+      ],
+      "answer": 0,
+      "explanation": "1546 = 23 × 67 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-049",
+      "question": "288 ÷ 24 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "288 ÷ 24 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-050",
+      "question": "432 ÷ 25 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り7",
+        "商19 余り6",
+        "商15 余り9",
+        "商18 余り8"
+      ],
+      "answer": 0,
+      "explanation": "432 = 25 × 17 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-051",
+      "question": "575 ÷ 26 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り3",
+        "商24 余り2",
+        "商20 余り5",
+        "商23 余り4"
+      ],
+      "answer": 0,
+      "explanation": "575 = 26 × 22 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-052",
+      "question": "729 ÷ 27 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "729 ÷ 27 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-053",
+      "question": "901 ÷ 28 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り5",
+        "商34 余り4",
+        "商30 余り7",
+        "商33 余り6"
+      ],
+      "answer": 0,
+      "explanation": "901 = 28 × 32 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-054",
+      "question": "1079 ÷ 29 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り6",
+        "商39 余り5",
+        "商35 余り8",
+        "商38 余り7"
+      ],
+      "answer": 0,
+      "explanation": "1079 = 29 × 37 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-055",
+      "question": "504 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "504 ÷ 12 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-056",
+      "question": "614 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り3",
+        "商49 余り2",
+        "商45 余り5",
+        "商48 余り4"
+      ],
+      "answer": 0,
+      "explanation": "614 = 13 × 47 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-057",
+      "question": "732 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り4",
+        "商54 余り3",
+        "商50 余り6",
+        "商53 余り5"
+      ],
+      "answer": 0,
+      "explanation": "732 = 14 × 52 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-058",
+      "question": "855 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "855 ÷ 15 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-059",
+      "question": "998 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り6",
+        "商64 余り5",
+        "商60 余り8",
+        "商63 余り7"
+      ],
+      "answer": 0,
+      "explanation": "998 = 16 × 62 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-060",
+      "question": "1146 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り7",
+        "商69 余り6",
+        "商65 余り9",
+        "商68 余り8"
+      ],
+      "answer": 0,
+      "explanation": "1146 = 17 × 67 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-061",
+      "question": "216 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "216 ÷ 18 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-062",
+      "question": "327 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り4",
+        "商19 余り3",
+        "商15 余り6",
+        "商18 余り5"
+      ],
+      "answer": 0,
+      "explanation": "327 = 19 × 17 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-063",
+      "question": "445 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り5",
+        "商24 余り4",
+        "商20 余り7",
+        "商23 余り6"
+      ],
+      "answer": 0,
+      "explanation": "445 = 20 × 22 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-064",
+      "question": "567 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "567 ÷ 21 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-065",
+      "question": "711 ÷ 22 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り7",
+        "商34 余り6",
+        "商30 余り9",
+        "商33 余り8"
+      ],
+      "answer": 0,
+      "explanation": "711 = 22 × 32 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-066",
+      "question": "854 ÷ 23 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り3",
+        "商39 余り2",
+        "商35 余り5",
+        "商38 余り4"
+      ],
+      "answer": 0,
+      "explanation": "854 = 23 × 37 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-067",
+      "question": "1008 ÷ 24 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "1008 ÷ 24 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-068",
+      "question": "1180 ÷ 25 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り5",
+        "商49 余り4",
+        "商45 余り7",
+        "商48 余り6"
+      ],
+      "answer": 0,
+      "explanation": "1180 = 25 × 47 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-069",
+      "question": "1358 ÷ 26 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り6",
+        "商54 余り5",
+        "商50 余り8",
+        "商53 余り7"
+      ],
+      "answer": 0,
+      "explanation": "1358 = 26 × 52 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-070",
+      "question": "1539 ÷ 27 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "1539 ÷ 27 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-071",
+      "question": "1739 ÷ 28 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り3",
+        "商64 余り2",
+        "商60 余り5",
+        "商63 余り4"
+      ],
+      "answer": 0,
+      "explanation": "1739 = 28 × 62 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-072",
+      "question": "1947 ÷ 29 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り4",
+        "商69 余り3",
+        "商65 余り6",
+        "商68 余り5"
+      ],
+      "answer": 0,
+      "explanation": "1947 = 29 × 67 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-073",
+      "question": "144 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "144 ÷ 12 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-074",
+      "question": "227 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り6",
+        "商19 余り5",
+        "商15 余り8",
+        "商18 余り7"
+      ],
+      "answer": 0,
+      "explanation": "227 = 13 × 17 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-075",
+      "question": "315 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り7",
+        "商24 余り6",
+        "商20 余り9",
+        "商23 余り8"
+      ],
+      "answer": 0,
+      "explanation": "315 = 14 × 22 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-076",
+      "question": "405 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "405 ÷ 15 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-077",
+      "question": "516 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り4",
+        "商34 余り3",
+        "商30 余り6",
+        "商33 余り5"
+      ],
+      "answer": 0,
+      "explanation": "516 = 16 × 32 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-078",
+      "question": "634 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り5",
+        "商39 余り4",
+        "商35 余り7",
+        "商38 余り6"
+      ],
+      "answer": 0,
+      "explanation": "634 = 17 × 37 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-079",
+      "question": "756 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "756 ÷ 18 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-080",
+      "question": "900 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り7",
+        "商49 余り6",
+        "商45 余り9",
+        "商48 余り8"
+      ],
+      "answer": 0,
+      "explanation": "900 = 19 × 47 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-081",
+      "question": "1043 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り3",
+        "商54 余り2",
+        "商50 余り5",
+        "商53 余り4"
+      ],
+      "answer": 0,
+      "explanation": "1043 = 20 × 52 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-082",
+      "question": "1197 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "1197 ÷ 21 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-083",
+      "question": "1369 ÷ 22 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り5",
+        "商64 余り4",
+        "商60 余り7",
+        "商63 余り6"
+      ],
+      "answer": 0,
+      "explanation": "1369 = 22 × 62 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-084",
+      "question": "1547 ÷ 23 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り6",
+        "商69 余り5",
+        "商65 余り8",
+        "商68 余り7"
+      ],
+      "answer": 0,
+      "explanation": "1547 = 23 × 67 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-085",
+      "question": "288 ÷ 24 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "288 ÷ 24 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-086",
+      "question": "428 ÷ 25 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り3",
+        "商19 余り2",
+        "商15 余り5",
+        "商18 余り4"
+      ],
+      "answer": 0,
+      "explanation": "428 = 25 × 17 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-087",
+      "question": "576 ÷ 26 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り4",
+        "商24 余り3",
+        "商20 余り6",
+        "商23 余り5"
+      ],
+      "answer": 0,
+      "explanation": "576 = 26 × 22 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-088",
+      "question": "729 ÷ 27 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "729 ÷ 27 = 27 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-089",
+      "question": "902 ÷ 28 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商32 余り6",
+        "商34 余り5",
+        "商30 余り8",
+        "商33 余り7"
+      ],
+      "answer": 0,
+      "explanation": "902 = 28 × 32 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-090",
+      "question": "1080 ÷ 29 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商37 余り7",
+        "商39 余り6",
+        "商35 余り9",
+        "商38 余り8"
+      ],
+      "answer": 0,
+      "explanation": "1080 = 29 × 37 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-091",
+      "question": "504 ÷ 12 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "37",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "504 ÷ 12 = 42 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-092",
+      "question": "615 ÷ 13 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商47 余り4",
+        "商49 余り3",
+        "商45 余り6",
+        "商48 余り5"
+      ],
+      "answer": 0,
+      "explanation": "615 = 13 × 47 + 4 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-093",
+      "question": "733 ÷ 14 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商52 余り5",
+        "商54 余り4",
+        "商50 余り7",
+        "商53 余り6"
+      ],
+      "answer": 0,
+      "explanation": "733 = 14 × 52 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-094",
+      "question": "855 ÷ 15 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "57",
+        "61",
+        "52",
+        "63"
+      ],
+      "answer": 0,
+      "explanation": "855 ÷ 15 = 57 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-095",
+      "question": "999 ÷ 16 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商62 余り7",
+        "商64 余り6",
+        "商60 余り9",
+        "商63 余り8"
+      ],
+      "answer": 0,
+      "explanation": "999 = 16 × 62 + 7 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-096",
+      "question": "1142 ÷ 17 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商67 余り3",
+        "商69 余り2",
+        "商65 余り5",
+        "商68 余り4"
+      ],
+      "answer": 0,
+      "explanation": "1142 = 17 × 67 + 3 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-097",
+      "question": "216 ÷ 18 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "216 ÷ 18 = 12 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-098",
+      "question": "328 ÷ 19 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商17 余り5",
+        "商19 余り4",
+        "商15 余り7",
+        "商18 余り6"
+      ],
+      "answer": 0,
+      "explanation": "328 = 19 × 17 + 5 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-099",
+      "question": "446 ÷ 20 を筆算すると、商と余りはいくつになりますか。",
+      "type": "multiple",
+      "choices": [
+        "商22 余り6",
+        "商24 余り5",
+        "商20 余り8",
+        "商23 余り7"
+      ],
+      "answer": 0,
+      "explanation": "446 = 20 × 22 + 6 です。"
+    },
+    {
+      "id": "grade4-long-division-2digit-100",
+      "question": "567 ÷ 21 の商を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "27",
+        "31",
+        "22",
+        "33"
+      ],
+      "answer": 0,
+      "explanation": "567 ÷ 21 = 27 です。"
+    }
+  ]
+}

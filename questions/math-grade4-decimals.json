@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-decimals",
+  "unitName": "小数（４年生）",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-decimals-001",
+      "question": "1.0 + 0.00 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.00",
+        "1.10",
+        "0.90",
+        "1.20"
+      ],
+      "answer": 0,
+      "explanation": "1.0 + 0.00 = 1.00 です。"
+    },
+    {
+      "id": "grade4-decimals-002",
+      "question": "3.2 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.75",
+        "2.85",
+        "2.65",
+        "2.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.45 を引くと 2.75 です。"
+    },
+    {
+      "id": "grade4-decimals-003",
+      "question": "1.2 + 0.06 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.26",
+        "1.36",
+        "1.16",
+        "1.46"
+      ],
+      "answer": 0,
+      "explanation": "1.2 + 0.06 = 1.26 です。"
+    },
+    {
+      "id": "grade4-decimals-004",
+      "question": "3.6 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.85",
+        "2.95",
+        "2.75",
+        "2.90"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.75 を引くと 2.85 です。"
+    },
+    {
+      "id": "grade4-decimals-005",
+      "question": "1.4 + 0.12 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.52",
+        "1.62",
+        "1.42",
+        "1.72"
+      ],
+      "answer": 0,
+      "explanation": "1.4 + 0.12 = 1.52 です。"
+    },
+    {
+      "id": "grade4-decimals-006",
+      "question": "4.0 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.95",
+        "3.05",
+        "2.85",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 1.05 を引くと 2.95 です。"
+    },
+    {
+      "id": "grade4-decimals-007",
+      "question": "1.6 + 0.18 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.78",
+        "1.88",
+        "1.68",
+        "1.98"
+      ],
+      "answer": 0,
+      "explanation": "1.6 + 0.18 = 1.78 です。"
+    },
+    {
+      "id": "grade4-decimals-008",
+      "question": "4.4 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.95",
+        "4.05",
+        "3.85",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.45 を引くと 3.95 です。"
+    },
+    {
+      "id": "grade4-decimals-009",
+      "question": "1.8 + 0.24 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.04",
+        "2.14",
+        "1.94",
+        "2.24"
+      ],
+      "answer": 0,
+      "explanation": "1.8 + 0.24 = 2.04 です。"
+    },
+    {
+      "id": "grade4-decimals-010",
+      "question": "4.8 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.05",
+        "4.15",
+        "3.95",
+        "4.10"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.75 を引くと 4.05 です。"
+    },
+    {
+      "id": "grade4-decimals-011",
+      "question": "2.0 + 0.30 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.30",
+        "2.40",
+        "2.20",
+        "2.50"
+      ],
+      "answer": 0,
+      "explanation": "2.0 + 0.30 = 2.30 です。"
+    },
+    {
+      "id": "grade4-decimals-012",
+      "question": "3.2 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.15",
+        "2.25",
+        "2.05",
+        "2.20"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 1.05 を引くと 2.15 です。"
+    },
+    {
+      "id": "grade4-decimals-013",
+      "question": "2.2 + 0.36 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.56",
+        "2.66",
+        "2.46",
+        "2.76"
+      ],
+      "answer": 0,
+      "explanation": "2.2 + 0.36 = 2.56 です。"
+    },
+    {
+      "id": "grade4-decimals-014",
+      "question": "3.6 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.15",
+        "3.25",
+        "3.05",
+        "3.20"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.45 を引くと 3.15 です。"
+    },
+    {
+      "id": "grade4-decimals-015",
+      "question": "2.4 + 0.42 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.82",
+        "2.92",
+        "2.72",
+        "3.02"
+      ],
+      "answer": 0,
+      "explanation": "2.4 + 0.42 = 2.82 です。"
+    },
+    {
+      "id": "grade4-decimals-016",
+      "question": "4.0 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.25",
+        "3.35",
+        "3.15",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.75 を引くと 3.25 です。"
+    },
+    {
+      "id": "grade4-decimals-017",
+      "question": "1.1 + 0.48 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.58",
+        "1.68",
+        "1.48",
+        "1.78"
+      ],
+      "answer": 0,
+      "explanation": "1.1 + 0.48 = 1.58 です。"
+    },
+    {
+      "id": "grade4-decimals-018",
+      "question": "4.4 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.35",
+        "3.45",
+        "3.25",
+        "3.40"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 1.05 を引くと 3.35 です。"
+    },
+    {
+      "id": "grade4-decimals-019",
+      "question": "1.3 + 0.04 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.34",
+        "1.44",
+        "1.24",
+        "1.54"
+      ],
+      "answer": 0,
+      "explanation": "1.3 + 0.04 = 1.34 です。"
+    },
+    {
+      "id": "grade4-decimals-020",
+      "question": "4.8 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.35",
+        "4.45",
+        "4.25",
+        "4.40"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.45 を引くと 4.35 です。"
+    },
+    {
+      "id": "grade4-decimals-021",
+      "question": "1.5 + 0.10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.60",
+        "1.70",
+        "1.50",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "1.5 + 0.10 = 1.60 です。"
+    },
+    {
+      "id": "grade4-decimals-022",
+      "question": "3.2 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.45",
+        "2.55",
+        "2.35",
+        "2.50"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.75 を引くと 2.45 です。"
+    },
+    {
+      "id": "grade4-decimals-023",
+      "question": "1.7 + 0.16 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.86",
+        "1.96",
+        "1.76",
+        "2.06"
+      ],
+      "answer": 0,
+      "explanation": "1.7 + 0.16 = 1.86 です。"
+    },
+    {
+      "id": "grade4-decimals-024",
+      "question": "3.6 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.55",
+        "2.65",
+        "2.45",
+        "2.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 1.05 を引くと 2.55 です。"
+    },
+    {
+      "id": "grade4-decimals-025",
+      "question": "1.9 + 0.22 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.12",
+        "2.22",
+        "2.02",
+        "2.32"
+      ],
+      "answer": 0,
+      "explanation": "1.9 + 0.22 = 2.12 です。"
+    },
+    {
+      "id": "grade4-decimals-026",
+      "question": "4.0 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.55",
+        "3.65",
+        "3.45",
+        "3.60"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.45 を引くと 3.55 です。"
+    },
+    {
+      "id": "grade4-decimals-027",
+      "question": "2.1 + 0.28 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.38",
+        "2.48",
+        "2.28",
+        "2.58"
+      ],
+      "answer": 0,
+      "explanation": "2.1 + 0.28 = 2.38 です。"
+    },
+    {
+      "id": "grade4-decimals-028",
+      "question": "4.4 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.65",
+        "3.75",
+        "3.55",
+        "3.70"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.75 を引くと 3.65 です。"
+    },
+    {
+      "id": "grade4-decimals-029",
+      "question": "2.3 + 0.34 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.64",
+        "2.74",
+        "2.54",
+        "2.84"
+      ],
+      "answer": 0,
+      "explanation": "2.3 + 0.34 = 2.64 です。"
+    },
+    {
+      "id": "grade4-decimals-030",
+      "question": "4.8 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.75",
+        "3.85",
+        "3.65",
+        "3.80"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 1.05 を引くと 3.75 です。"
+    },
+    {
+      "id": "grade4-decimals-031",
+      "question": "1.0 + 0.40 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.40",
+        "1.50",
+        "1.30",
+        "1.60"
+      ],
+      "answer": 0,
+      "explanation": "1.0 + 0.40 = 1.40 です。"
+    },
+    {
+      "id": "grade4-decimals-032",
+      "question": "3.2 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.75",
+        "2.85",
+        "2.65",
+        "2.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.45 を引くと 2.75 です。"
+    },
+    {
+      "id": "grade4-decimals-033",
+      "question": "1.2 + 0.46 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.66",
+        "1.76",
+        "1.56",
+        "1.86"
+      ],
+      "answer": 0,
+      "explanation": "1.2 + 0.46 = 1.66 です。"
+    },
+    {
+      "id": "grade4-decimals-034",
+      "question": "3.6 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.85",
+        "2.95",
+        "2.75",
+        "2.90"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.75 を引くと 2.85 です。"
+    },
+    {
+      "id": "grade4-decimals-035",
+      "question": "1.4 + 0.02 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.42",
+        "1.52",
+        "1.32",
+        "1.62"
+      ],
+      "answer": 0,
+      "explanation": "1.4 + 0.02 = 1.42 です。"
+    },
+    {
+      "id": "grade4-decimals-036",
+      "question": "4.0 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.95",
+        "3.05",
+        "2.85",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 1.05 を引くと 2.95 です。"
+    },
+    {
+      "id": "grade4-decimals-037",
+      "question": "1.6 + 0.08 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.68",
+        "1.78",
+        "1.58",
+        "1.88"
+      ],
+      "answer": 0,
+      "explanation": "1.6 + 0.08 = 1.68 です。"
+    },
+    {
+      "id": "grade4-decimals-038",
+      "question": "4.4 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.95",
+        "4.05",
+        "3.85",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.45 を引くと 3.95 です。"
+    },
+    {
+      "id": "grade4-decimals-039",
+      "question": "1.8 + 0.14 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.94",
+        "2.04",
+        "1.84",
+        "2.14"
+      ],
+      "answer": 0,
+      "explanation": "1.8 + 0.14 = 1.94 です。"
+    },
+    {
+      "id": "grade4-decimals-040",
+      "question": "4.8 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.05",
+        "4.15",
+        "3.95",
+        "4.10"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.75 を引くと 4.05 です。"
+    },
+    {
+      "id": "grade4-decimals-041",
+      "question": "2.0 + 0.20 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.20",
+        "2.30",
+        "2.10",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "2.0 + 0.20 = 2.20 です。"
+    },
+    {
+      "id": "grade4-decimals-042",
+      "question": "3.2 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.15",
+        "2.25",
+        "2.05",
+        "2.20"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 1.05 を引くと 2.15 です。"
+    },
+    {
+      "id": "grade4-decimals-043",
+      "question": "2.2 + 0.26 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.46",
+        "2.56",
+        "2.36",
+        "2.66"
+      ],
+      "answer": 0,
+      "explanation": "2.2 + 0.26 = 2.46 です。"
+    },
+    {
+      "id": "grade4-decimals-044",
+      "question": "3.6 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.15",
+        "3.25",
+        "3.05",
+        "3.20"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.45 を引くと 3.15 です。"
+    },
+    {
+      "id": "grade4-decimals-045",
+      "question": "2.4 + 0.32 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.72",
+        "2.82",
+        "2.62",
+        "2.92"
+      ],
+      "answer": 0,
+      "explanation": "2.4 + 0.32 = 2.72 です。"
+    },
+    {
+      "id": "grade4-decimals-046",
+      "question": "4.0 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.25",
+        "3.35",
+        "3.15",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.75 を引くと 3.25 です。"
+    },
+    {
+      "id": "grade4-decimals-047",
+      "question": "1.1 + 0.38 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.48",
+        "1.58",
+        "1.38",
+        "1.68"
+      ],
+      "answer": 0,
+      "explanation": "1.1 + 0.38 = 1.48 です。"
+    },
+    {
+      "id": "grade4-decimals-048",
+      "question": "4.4 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.35",
+        "3.45",
+        "3.25",
+        "3.40"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 1.05 を引くと 3.35 です。"
+    },
+    {
+      "id": "grade4-decimals-049",
+      "question": "1.3 + 0.44 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.74",
+        "1.84",
+        "1.64",
+        "1.94"
+      ],
+      "answer": 0,
+      "explanation": "1.3 + 0.44 = 1.74 です。"
+    },
+    {
+      "id": "grade4-decimals-050",
+      "question": "4.8 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.35",
+        "4.45",
+        "4.25",
+        "4.40"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.45 を引くと 4.35 です。"
+    },
+    {
+      "id": "grade4-decimals-051",
+      "question": "1.5 + 0.00 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.60",
+        "1.40",
+        "1.70"
+      ],
+      "answer": 0,
+      "explanation": "1.5 + 0.00 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimals-052",
+      "question": "3.2 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.45",
+        "2.55",
+        "2.35",
+        "2.50"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.75 を引くと 2.45 です。"
+    },
+    {
+      "id": "grade4-decimals-053",
+      "question": "1.7 + 0.06 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.76",
+        "1.86",
+        "1.66",
+        "1.96"
+      ],
+      "answer": 0,
+      "explanation": "1.7 + 0.06 = 1.76 です。"
+    },
+    {
+      "id": "grade4-decimals-054",
+      "question": "3.6 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.55",
+        "2.65",
+        "2.45",
+        "2.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 1.05 を引くと 2.55 です。"
+    },
+    {
+      "id": "grade4-decimals-055",
+      "question": "1.9 + 0.12 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.02",
+        "2.12",
+        "1.92",
+        "2.22"
+      ],
+      "answer": 0,
+      "explanation": "1.9 + 0.12 = 2.02 です。"
+    },
+    {
+      "id": "grade4-decimals-056",
+      "question": "4.0 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.55",
+        "3.65",
+        "3.45",
+        "3.60"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.45 を引くと 3.55 です。"
+    },
+    {
+      "id": "grade4-decimals-057",
+      "question": "2.1 + 0.18 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.28",
+        "2.38",
+        "2.18",
+        "2.48"
+      ],
+      "answer": 0,
+      "explanation": "2.1 + 0.18 = 2.28 です。"
+    },
+    {
+      "id": "grade4-decimals-058",
+      "question": "4.4 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.65",
+        "3.75",
+        "3.55",
+        "3.70"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.75 を引くと 3.65 です。"
+    },
+    {
+      "id": "grade4-decimals-059",
+      "question": "2.3 + 0.24 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.54",
+        "2.64",
+        "2.44",
+        "2.74"
+      ],
+      "answer": 0,
+      "explanation": "2.3 + 0.24 = 2.54 です。"
+    },
+    {
+      "id": "grade4-decimals-060",
+      "question": "4.8 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.75",
+        "3.85",
+        "3.65",
+        "3.80"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 1.05 を引くと 3.75 です。"
+    },
+    {
+      "id": "grade4-decimals-061",
+      "question": "1.0 + 0.30 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.30",
+        "1.40",
+        "1.20",
+        "1.50"
+      ],
+      "answer": 0,
+      "explanation": "1.0 + 0.30 = 1.30 です。"
+    },
+    {
+      "id": "grade4-decimals-062",
+      "question": "3.2 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.75",
+        "2.85",
+        "2.65",
+        "2.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.45 を引くと 2.75 です。"
+    },
+    {
+      "id": "grade4-decimals-063",
+      "question": "1.2 + 0.36 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.56",
+        "1.66",
+        "1.46",
+        "1.76"
+      ],
+      "answer": 0,
+      "explanation": "1.2 + 0.36 = 1.56 です。"
+    },
+    {
+      "id": "grade4-decimals-064",
+      "question": "3.6 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.85",
+        "2.95",
+        "2.75",
+        "2.90"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.75 を引くと 2.85 です。"
+    },
+    {
+      "id": "grade4-decimals-065",
+      "question": "1.4 + 0.42 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.82",
+        "1.92",
+        "1.72",
+        "2.02"
+      ],
+      "answer": 0,
+      "explanation": "1.4 + 0.42 = 1.82 です。"
+    },
+    {
+      "id": "grade4-decimals-066",
+      "question": "4.0 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.95",
+        "3.05",
+        "2.85",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 1.05 を引くと 2.95 です。"
+    },
+    {
+      "id": "grade4-decimals-067",
+      "question": "1.6 + 0.48 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.08",
+        "2.18",
+        "1.98",
+        "2.28"
+      ],
+      "answer": 0,
+      "explanation": "1.6 + 0.48 = 2.08 です。"
+    },
+    {
+      "id": "grade4-decimals-068",
+      "question": "4.4 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.95",
+        "4.05",
+        "3.85",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.45 を引くと 3.95 です。"
+    },
+    {
+      "id": "grade4-decimals-069",
+      "question": "1.8 + 0.04 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.84",
+        "1.94",
+        "1.74",
+        "2.04"
+      ],
+      "answer": 0,
+      "explanation": "1.8 + 0.04 = 1.84 です。"
+    },
+    {
+      "id": "grade4-decimals-070",
+      "question": "4.8 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.05",
+        "4.15",
+        "3.95",
+        "4.10"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.75 を引くと 4.05 です。"
+    },
+    {
+      "id": "grade4-decimals-071",
+      "question": "2.0 + 0.10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.20",
+        "2.00",
+        "2.30"
+      ],
+      "answer": 0,
+      "explanation": "2.0 + 0.10 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimals-072",
+      "question": "3.2 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.15",
+        "2.25",
+        "2.05",
+        "2.20"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 1.05 を引くと 2.15 です。"
+    },
+    {
+      "id": "grade4-decimals-073",
+      "question": "2.2 + 0.16 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.36",
+        "2.46",
+        "2.26",
+        "2.56"
+      ],
+      "answer": 0,
+      "explanation": "2.2 + 0.16 = 2.36 です。"
+    },
+    {
+      "id": "grade4-decimals-074",
+      "question": "3.6 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.15",
+        "3.25",
+        "3.05",
+        "3.20"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.45 を引くと 3.15 です。"
+    },
+    {
+      "id": "grade4-decimals-075",
+      "question": "2.4 + 0.22 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.62",
+        "2.72",
+        "2.52",
+        "2.82"
+      ],
+      "answer": 0,
+      "explanation": "2.4 + 0.22 = 2.62 です。"
+    },
+    {
+      "id": "grade4-decimals-076",
+      "question": "4.0 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.25",
+        "3.35",
+        "3.15",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.75 を引くと 3.25 です。"
+    },
+    {
+      "id": "grade4-decimals-077",
+      "question": "1.1 + 0.28 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.38",
+        "1.48",
+        "1.28",
+        "1.58"
+      ],
+      "answer": 0,
+      "explanation": "1.1 + 0.28 = 1.38 です。"
+    },
+    {
+      "id": "grade4-decimals-078",
+      "question": "4.4 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.35",
+        "3.45",
+        "3.25",
+        "3.40"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 1.05 を引くと 3.35 です。"
+    },
+    {
+      "id": "grade4-decimals-079",
+      "question": "1.3 + 0.34 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.64",
+        "1.74",
+        "1.54",
+        "1.84"
+      ],
+      "answer": 0,
+      "explanation": "1.3 + 0.34 = 1.64 です。"
+    },
+    {
+      "id": "grade4-decimals-080",
+      "question": "4.8 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.35",
+        "4.45",
+        "4.25",
+        "4.40"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.45 を引くと 4.35 です。"
+    },
+    {
+      "id": "grade4-decimals-081",
+      "question": "1.5 + 0.40 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.90",
+        "2.00",
+        "1.80",
+        "2.10"
+      ],
+      "answer": 0,
+      "explanation": "1.5 + 0.40 = 1.90 です。"
+    },
+    {
+      "id": "grade4-decimals-082",
+      "question": "3.2 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.45",
+        "2.55",
+        "2.35",
+        "2.50"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.75 を引くと 2.45 です。"
+    },
+    {
+      "id": "grade4-decimals-083",
+      "question": "1.7 + 0.46 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.16",
+        "2.26",
+        "2.06",
+        "2.36"
+      ],
+      "answer": 0,
+      "explanation": "1.7 + 0.46 = 2.16 です。"
+    },
+    {
+      "id": "grade4-decimals-084",
+      "question": "3.6 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.55",
+        "2.65",
+        "2.45",
+        "2.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 1.05 を引くと 2.55 です。"
+    },
+    {
+      "id": "grade4-decimals-085",
+      "question": "1.9 + 0.02 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.92",
+        "2.02",
+        "1.82",
+        "2.12"
+      ],
+      "answer": 0,
+      "explanation": "1.9 + 0.02 = 1.92 です。"
+    },
+    {
+      "id": "grade4-decimals-086",
+      "question": "4.0 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.55",
+        "3.65",
+        "3.45",
+        "3.60"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 0.45 を引くと 3.55 です。"
+    },
+    {
+      "id": "grade4-decimals-087",
+      "question": "2.1 + 0.08 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.18",
+        "2.28",
+        "2.08",
+        "2.38"
+      ],
+      "answer": 0,
+      "explanation": "2.1 + 0.08 = 2.18 です。"
+    },
+    {
+      "id": "grade4-decimals-088",
+      "question": "4.4 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.65",
+        "3.75",
+        "3.55",
+        "3.70"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.75 を引くと 3.65 です。"
+    },
+    {
+      "id": "grade4-decimals-089",
+      "question": "2.3 + 0.14 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.44",
+        "2.54",
+        "2.34",
+        "2.64"
+      ],
+      "answer": 0,
+      "explanation": "2.3 + 0.14 = 2.44 です。"
+    },
+    {
+      "id": "grade4-decimals-090",
+      "question": "4.8 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.75",
+        "3.85",
+        "3.65",
+        "3.80"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 1.05 を引くと 3.75 です。"
+    },
+    {
+      "id": "grade4-decimals-091",
+      "question": "1.0 + 0.20 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.20",
+        "1.30",
+        "1.10",
+        "1.40"
+      ],
+      "answer": 0,
+      "explanation": "1.0 + 0.20 = 1.20 です。"
+    },
+    {
+      "id": "grade4-decimals-092",
+      "question": "3.2 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.75",
+        "2.85",
+        "2.65",
+        "2.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 から 0.45 を引くと 2.75 です。"
+    },
+    {
+      "id": "grade4-decimals-093",
+      "question": "1.2 + 0.26 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.46",
+        "1.56",
+        "1.36",
+        "1.66"
+      ],
+      "answer": 0,
+      "explanation": "1.2 + 0.26 = 1.46 です。"
+    },
+    {
+      "id": "grade4-decimals-094",
+      "question": "3.6 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.85",
+        "2.95",
+        "2.75",
+        "2.90"
+      ],
+      "answer": 0,
+      "explanation": "3.6 から 0.75 を引くと 2.85 です。"
+    },
+    {
+      "id": "grade4-decimals-095",
+      "question": "1.4 + 0.32 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.72",
+        "1.82",
+        "1.62",
+        "1.92"
+      ],
+      "answer": 0,
+      "explanation": "1.4 + 0.32 = 1.72 です。"
+    },
+    {
+      "id": "grade4-decimals-096",
+      "question": "4.0 - 1.05 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.95",
+        "3.05",
+        "2.85",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "4.0 から 1.05 を引くと 2.95 です。"
+    },
+    {
+      "id": "grade4-decimals-097",
+      "question": "1.6 + 0.38 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.98",
+        "2.08",
+        "1.88",
+        "2.18"
+      ],
+      "answer": 0,
+      "explanation": "1.6 + 0.38 = 1.98 です。"
+    },
+    {
+      "id": "grade4-decimals-098",
+      "question": "4.4 - 0.45 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.95",
+        "4.05",
+        "3.85",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "4.4 から 0.45 を引くと 3.95 です。"
+    },
+    {
+      "id": "grade4-decimals-099",
+      "question": "1.8 + 0.44 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.24",
+        "2.34",
+        "2.14",
+        "2.44"
+      ],
+      "answer": 0,
+      "explanation": "1.8 + 0.44 = 2.24 です。"
+    },
+    {
+      "id": "grade4-decimals-100",
+      "question": "4.8 - 0.75 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.05",
+        "4.15",
+        "3.95",
+        "4.10"
+      ],
+      "answer": 0,
+      "explanation": "4.8 から 0.75 を引くと 4.05 です。"
+    }
+  ]
+}
