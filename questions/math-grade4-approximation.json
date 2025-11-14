@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-approximation",
+  "unitName": "がい数（およその数）",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-approximation-001",
+      "question": "100 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "110",
+        "90",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "100 を十の位で四捨五入すると 100 になります。"
+    },
+    {
+      "id": "grade4-approximation-002",
+      "question": "137 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "200",
+        "0",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 100 になります。"
+    },
+    {
+      "id": "grade4-approximation-003",
+      "question": "10.74 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.7",
+        "10.8",
+        "10.6",
+        "10.9"
+      ],
+      "answer": 0,
+      "explanation": "10.74 を四捨五入すると 10.7 です。"
+    },
+    {
+      "id": "grade4-approximation-004",
+      "question": "211 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "210",
+        "220",
+        "200",
+        "230"
+      ],
+      "answer": 0,
+      "explanation": "211 を十の位で四捨五入すると 210 になります。"
+    },
+    {
+      "id": "grade4-approximation-005",
+      "question": "248 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "300",
+        "100",
+        "400"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 200 になります。"
+    },
+    {
+      "id": "grade4-approximation-006",
+      "question": "11.85 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11.8",
+        "11.9",
+        "11.7",
+        "12.0"
+      ],
+      "answer": 0,
+      "explanation": "11.85 を四捨五入すると 11.8 です。"
+    },
+    {
+      "id": "grade4-approximation-007",
+      "question": "322 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "320",
+        "330",
+        "310",
+        "340"
+      ],
+      "answer": 0,
+      "explanation": "322 を十の位で四捨五入すると 320 になります。"
+    },
+    {
+      "id": "grade4-approximation-008",
+      "question": "359 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "400",
+        "500",
+        "300",
+        "600"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 400 になります。"
+    },
+    {
+      "id": "grade4-approximation-009",
+      "question": "12.96 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.0",
+        "13.1",
+        "12.9",
+        "13.2"
+      ],
+      "answer": 0,
+      "explanation": "12.96 を四捨五入すると 13.0 です。"
+    },
+    {
+      "id": "grade4-approximation-010",
+      "question": "433 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "430",
+        "440",
+        "420",
+        "450"
+      ],
+      "answer": 0,
+      "explanation": "433 を十の位で四捨五入すると 430 になります。"
+    },
+    {
+      "id": "grade4-approximation-011",
+      "question": "470 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "500",
+        "600",
+        "400",
+        "700"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 500 になります。"
+    },
+    {
+      "id": "grade4-approximation-012",
+      "question": "14.07 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.1",
+        "14.2",
+        "14.0",
+        "14.3"
+      ],
+      "answer": 0,
+      "explanation": "14.07 を四捨五入すると 14.1 です。"
+    },
+    {
+      "id": "grade4-approximation-013",
+      "question": "544 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "550",
+        "530",
+        "560"
+      ],
+      "answer": 0,
+      "explanation": "544 を十の位で四捨五入すると 540 になります。"
+    },
+    {
+      "id": "grade4-approximation-014",
+      "question": "581 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "600",
+        "700",
+        "500",
+        "800"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 600 になります。"
+    },
+    {
+      "id": "grade4-approximation-015",
+      "question": "15.18 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.2",
+        "15.3",
+        "15.1",
+        "15.4"
+      ],
+      "answer": 0,
+      "explanation": "15.18 を四捨五入すると 15.2 です。"
+    },
+    {
+      "id": "grade4-approximation-016",
+      "question": "655 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "660",
+        "670",
+        "650",
+        "680"
+      ],
+      "answer": 0,
+      "explanation": "655 を十の位で四捨五入すると 660 になります。"
+    },
+    {
+      "id": "grade4-approximation-017",
+      "question": "692 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "700",
+        "800",
+        "600",
+        "900"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 700 になります。"
+    },
+    {
+      "id": "grade4-approximation-018",
+      "question": "16.29 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.3",
+        "16.4",
+        "16.2",
+        "16.5"
+      ],
+      "answer": 0,
+      "explanation": "16.29 を四捨五入すると 16.3 です。"
+    },
+    {
+      "id": "grade4-approximation-019",
+      "question": "766 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "770",
+        "780",
+        "760",
+        "790"
+      ],
+      "answer": 0,
+      "explanation": "766 を十の位で四捨五入すると 770 になります。"
+    },
+    {
+      "id": "grade4-approximation-020",
+      "question": "803 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "800",
+        "900",
+        "700",
+        "1000"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 800 になります。"
+    },
+    {
+      "id": "grade4-approximation-021",
+      "question": "10.00 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.0",
+        "10.1",
+        "9.9",
+        "10.2"
+      ],
+      "answer": 0,
+      "explanation": "10.00 を四捨五入すると 10.0 です。"
+    },
+    {
+      "id": "grade4-approximation-022",
+      "question": "877 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "880",
+        "890",
+        "870",
+        "900"
+      ],
+      "answer": 0,
+      "explanation": "877 を十の位で四捨五入すると 880 になります。"
+    },
+    {
+      "id": "grade4-approximation-023",
+      "question": "914 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "900",
+        "1000",
+        "800",
+        "1100"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 900 になります。"
+    },
+    {
+      "id": "grade4-approximation-024",
+      "question": "11.11 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11.1",
+        "11.2",
+        "11.0",
+        "11.3"
+      ],
+      "answer": 0,
+      "explanation": "11.11 を四捨五入すると 11.1 です。"
+    },
+    {
+      "id": "grade4-approximation-025",
+      "question": "988 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "990",
+        "1000",
+        "980",
+        "1010"
+      ],
+      "answer": 0,
+      "explanation": "988 を十の位で四捨五入すると 990 になります。"
+    },
+    {
+      "id": "grade4-approximation-026",
+      "question": "125 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "200",
+        "0",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 100 になります。"
+    },
+    {
+      "id": "grade4-approximation-027",
+      "question": "12.22 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.2",
+        "12.3",
+        "12.1",
+        "12.4"
+      ],
+      "answer": 0,
+      "explanation": "12.22 を四捨五入すると 12.2 です。"
+    },
+    {
+      "id": "grade4-approximation-028",
+      "question": "199 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "210",
+        "190",
+        "220"
+      ],
+      "answer": 0,
+      "explanation": "199 を十の位で四捨五入すると 200 になります。"
+    },
+    {
+      "id": "grade4-approximation-029",
+      "question": "236 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "300",
+        "100",
+        "400"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 200 になります。"
+    },
+    {
+      "id": "grade4-approximation-030",
+      "question": "13.33 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.3",
+        "13.4",
+        "13.2",
+        "13.5"
+      ],
+      "answer": 0,
+      "explanation": "13.33 を四捨五入すると 13.3 です。"
+    },
+    {
+      "id": "grade4-approximation-031",
+      "question": "310 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "310",
+        "320",
+        "300",
+        "330"
+      ],
+      "answer": 0,
+      "explanation": "310 を十の位で四捨五入すると 310 になります。"
+    },
+    {
+      "id": "grade4-approximation-032",
+      "question": "347 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "300",
+        "400",
+        "200",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 300 になります。"
+    },
+    {
+      "id": "grade4-approximation-033",
+      "question": "14.44 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.4",
+        "14.5",
+        "14.3",
+        "14.6"
+      ],
+      "answer": 0,
+      "explanation": "14.44 を四捨五入すると 14.4 です。"
+    },
+    {
+      "id": "grade4-approximation-034",
+      "question": "421 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "420",
+        "430",
+        "410",
+        "440"
+      ],
+      "answer": 0,
+      "explanation": "421 を十の位で四捨五入すると 420 になります。"
+    },
+    {
+      "id": "grade4-approximation-035",
+      "question": "458 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "500",
+        "600",
+        "400",
+        "700"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 500 になります。"
+    },
+    {
+      "id": "grade4-approximation-036",
+      "question": "15.55 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.6",
+        "15.7",
+        "15.5",
+        "15.8"
+      ],
+      "answer": 0,
+      "explanation": "15.55 を四捨五入すると 15.6 です。"
+    },
+    {
+      "id": "grade4-approximation-037",
+      "question": "532 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "530",
+        "540",
+        "520",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "532 を十の位で四捨五入すると 530 になります。"
+    },
+    {
+      "id": "grade4-approximation-038",
+      "question": "569 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "600",
+        "700",
+        "500",
+        "800"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 600 になります。"
+    },
+    {
+      "id": "grade4-approximation-039",
+      "question": "16.66 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.7",
+        "16.8",
+        "16.6",
+        "16.9"
+      ],
+      "answer": 0,
+      "explanation": "16.66 を四捨五入すると 16.7 です。"
+    },
+    {
+      "id": "grade4-approximation-040",
+      "question": "643 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "640",
+        "650",
+        "630",
+        "660"
+      ],
+      "answer": 0,
+      "explanation": "643 を十の位で四捨五入すると 640 になります。"
+    },
+    {
+      "id": "grade4-approximation-041",
+      "question": "680 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "700",
+        "800",
+        "600",
+        "900"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 700 になります。"
+    },
+    {
+      "id": "grade4-approximation-042",
+      "question": "10.37 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.4",
+        "10.5",
+        "10.3",
+        "10.6"
+      ],
+      "answer": 0,
+      "explanation": "10.37 を四捨五入すると 10.4 です。"
+    },
+    {
+      "id": "grade4-approximation-043",
+      "question": "754 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "750",
+        "760",
+        "740",
+        "770"
+      ],
+      "answer": 0,
+      "explanation": "754 を十の位で四捨五入すると 750 になります。"
+    },
+    {
+      "id": "grade4-approximation-044",
+      "question": "791 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "800",
+        "900",
+        "700",
+        "1000"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 800 になります。"
+    },
+    {
+      "id": "grade4-approximation-045",
+      "question": "11.48 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11.5",
+        "11.6",
+        "11.4",
+        "11.7"
+      ],
+      "answer": 0,
+      "explanation": "11.48 を四捨五入すると 11.5 です。"
+    },
+    {
+      "id": "grade4-approximation-046",
+      "question": "865 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "880",
+        "860",
+        "890"
+      ],
+      "answer": 0,
+      "explanation": "865 を十の位で四捨五入すると 870 になります。"
+    },
+    {
+      "id": "grade4-approximation-047",
+      "question": "902 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "900",
+        "1000",
+        "800",
+        "1100"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 900 になります。"
+    },
+    {
+      "id": "grade4-approximation-048",
+      "question": "12.59 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.6",
+        "12.7",
+        "12.5",
+        "12.8"
+      ],
+      "answer": 0,
+      "explanation": "12.59 を四捨五入すると 12.6 です。"
+    },
+    {
+      "id": "grade4-approximation-049",
+      "question": "976 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "980",
+        "990",
+        "970",
+        "1000"
+      ],
+      "answer": 0,
+      "explanation": "976 を十の位で四捨五入すると 980 になります。"
+    },
+    {
+      "id": "grade4-approximation-050",
+      "question": "113 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "200",
+        "0",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 100 になります。"
+    },
+    {
+      "id": "grade4-approximation-051",
+      "question": "13.70 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.7",
+        "13.8",
+        "13.6",
+        "13.9"
+      ],
+      "answer": 0,
+      "explanation": "13.70 を四捨五入すると 13.7 です。"
+    },
+    {
+      "id": "grade4-approximation-052",
+      "question": "187 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "190",
+        "200",
+        "180",
+        "210"
+      ],
+      "answer": 0,
+      "explanation": "187 を十の位で四捨五入すると 190 になります。"
+    },
+    {
+      "id": "grade4-approximation-053",
+      "question": "224 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "300",
+        "100",
+        "400"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 200 になります。"
+    },
+    {
+      "id": "grade4-approximation-054",
+      "question": "14.81 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.8",
+        "14.9",
+        "14.7",
+        "15.0"
+      ],
+      "answer": 0,
+      "explanation": "14.81 を四捨五入すると 14.8 です。"
+    },
+    {
+      "id": "grade4-approximation-055",
+      "question": "298 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "300",
+        "310",
+        "290",
+        "320"
+      ],
+      "answer": 0,
+      "explanation": "298 を十の位で四捨五入すると 300 になります。"
+    },
+    {
+      "id": "grade4-approximation-056",
+      "question": "335 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "300",
+        "400",
+        "200",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 300 になります。"
+    },
+    {
+      "id": "grade4-approximation-057",
+      "question": "15.92 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.9",
+        "16.0",
+        "15.8",
+        "16.1"
+      ],
+      "answer": 0,
+      "explanation": "15.92 を四捨五入すると 15.9 です。"
+    },
+    {
+      "id": "grade4-approximation-058",
+      "question": "409 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "410",
+        "420",
+        "400",
+        "430"
+      ],
+      "answer": 0,
+      "explanation": "409 を十の位で四捨五入すると 410 になります。"
+    },
+    {
+      "id": "grade4-approximation-059",
+      "question": "446 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "400",
+        "500",
+        "300",
+        "600"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 400 になります。"
+    },
+    {
+      "id": "grade4-approximation-060",
+      "question": "17.03 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.0",
+        "17.1",
+        "16.9",
+        "17.2"
+      ],
+      "answer": 0,
+      "explanation": "17.03 を四捨五入すると 17.0 です。"
+    },
+    {
+      "id": "grade4-approximation-061",
+      "question": "520 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "530",
+        "510",
+        "540"
+      ],
+      "answer": 0,
+      "explanation": "520 を十の位で四捨五入すると 520 になります。"
+    },
+    {
+      "id": "grade4-approximation-062",
+      "question": "557 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "600",
+        "700",
+        "500",
+        "800"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 600 になります。"
+    },
+    {
+      "id": "grade4-approximation-063",
+      "question": "10.74 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.7",
+        "10.8",
+        "10.6",
+        "10.9"
+      ],
+      "answer": 0,
+      "explanation": "10.74 を四捨五入すると 10.7 です。"
+    },
+    {
+      "id": "grade4-approximation-064",
+      "question": "631 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "630",
+        "640",
+        "620",
+        "650"
+      ],
+      "answer": 0,
+      "explanation": "631 を十の位で四捨五入すると 630 になります。"
+    },
+    {
+      "id": "grade4-approximation-065",
+      "question": "668 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "700",
+        "800",
+        "600",
+        "900"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 700 になります。"
+    },
+    {
+      "id": "grade4-approximation-066",
+      "question": "11.85 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11.8",
+        "11.9",
+        "11.7",
+        "12.0"
+      ],
+      "answer": 0,
+      "explanation": "11.85 を四捨五入すると 11.8 です。"
+    },
+    {
+      "id": "grade4-approximation-067",
+      "question": "742 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "740",
+        "750",
+        "730",
+        "760"
+      ],
+      "answer": 0,
+      "explanation": "742 を十の位で四捨五入すると 740 になります。"
+    },
+    {
+      "id": "grade4-approximation-068",
+      "question": "779 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "800",
+        "900",
+        "700",
+        "1000"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 800 になります。"
+    },
+    {
+      "id": "grade4-approximation-069",
+      "question": "12.96 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.0",
+        "13.1",
+        "12.9",
+        "13.2"
+      ],
+      "answer": 0,
+      "explanation": "12.96 を四捨五入すると 13.0 です。"
+    },
+    {
+      "id": "grade4-approximation-070",
+      "question": "853 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "850",
+        "860",
+        "840",
+        "870"
+      ],
+      "answer": 0,
+      "explanation": "853 を十の位で四捨五入すると 850 になります。"
+    },
+    {
+      "id": "grade4-approximation-071",
+      "question": "890 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "900",
+        "1000",
+        "800",
+        "1100"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 900 になります。"
+    },
+    {
+      "id": "grade4-approximation-072",
+      "question": "14.07 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.1",
+        "14.2",
+        "14.0",
+        "14.3"
+      ],
+      "answer": 0,
+      "explanation": "14.07 を四捨五入すると 14.1 です。"
+    },
+    {
+      "id": "grade4-approximation-073",
+      "question": "964 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "960",
+        "970",
+        "950",
+        "980"
+      ],
+      "answer": 0,
+      "explanation": "964 を十の位で四捨五入すると 960 になります。"
+    },
+    {
+      "id": "grade4-approximation-074",
+      "question": "101 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "200",
+        "0",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 100 になります。"
+    },
+    {
+      "id": "grade4-approximation-075",
+      "question": "15.18 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.2",
+        "15.3",
+        "15.1",
+        "15.4"
+      ],
+      "answer": 0,
+      "explanation": "15.18 を四捨五入すると 15.2 です。"
+    },
+    {
+      "id": "grade4-approximation-076",
+      "question": "175 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "190",
+        "170",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "175 を十の位で四捨五入すると 180 になります。"
+    },
+    {
+      "id": "grade4-approximation-077",
+      "question": "212 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "300",
+        "100",
+        "400"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 200 になります。"
+    },
+    {
+      "id": "grade4-approximation-078",
+      "question": "16.29 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.3",
+        "16.4",
+        "16.2",
+        "16.5"
+      ],
+      "answer": 0,
+      "explanation": "16.29 を四捨五入すると 16.3 です。"
+    },
+    {
+      "id": "grade4-approximation-079",
+      "question": "286 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "290",
+        "300",
+        "280",
+        "310"
+      ],
+      "answer": 0,
+      "explanation": "286 を十の位で四捨五入すると 290 になります。"
+    },
+    {
+      "id": "grade4-approximation-080",
+      "question": "323 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "300",
+        "400",
+        "200",
+        "500"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 300 になります。"
+    },
+    {
+      "id": "grade4-approximation-081",
+      "question": "10.00 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.0",
+        "10.1",
+        "9.9",
+        "10.2"
+      ],
+      "answer": 0,
+      "explanation": "10.00 を四捨五入すると 10.0 です。"
+    },
+    {
+      "id": "grade4-approximation-082",
+      "question": "397 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "400",
+        "410",
+        "390",
+        "420"
+      ],
+      "answer": 0,
+      "explanation": "397 を十の位で四捨五入すると 400 になります。"
+    },
+    {
+      "id": "grade4-approximation-083",
+      "question": "434 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "400",
+        "500",
+        "300",
+        "600"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 400 になります。"
+    },
+    {
+      "id": "grade4-approximation-084",
+      "question": "11.11 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11.1",
+        "11.2",
+        "11.0",
+        "11.3"
+      ],
+      "answer": 0,
+      "explanation": "11.11 を四捨五入すると 11.1 です。"
+    },
+    {
+      "id": "grade4-approximation-085",
+      "question": "508 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "510",
+        "520",
+        "500",
+        "530"
+      ],
+      "answer": 0,
+      "explanation": "508 を十の位で四捨五入すると 510 になります。"
+    },
+    {
+      "id": "grade4-approximation-086",
+      "question": "545 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "500",
+        "600",
+        "400",
+        "700"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 500 になります。"
+    },
+    {
+      "id": "grade4-approximation-087",
+      "question": "12.22 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.2",
+        "12.3",
+        "12.1",
+        "12.4"
+      ],
+      "answer": 0,
+      "explanation": "12.22 を四捨五入すると 12.2 です。"
+    },
+    {
+      "id": "grade4-approximation-088",
+      "question": "619 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "620",
+        "630",
+        "610",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "619 を十の位で四捨五入すると 620 になります。"
+    },
+    {
+      "id": "grade4-approximation-089",
+      "question": "656 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "700",
+        "800",
+        "600",
+        "900"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 700 になります。"
+    },
+    {
+      "id": "grade4-approximation-090",
+      "question": "13.33 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.3",
+        "13.4",
+        "13.2",
+        "13.5"
+      ],
+      "answer": 0,
+      "explanation": "13.33 を四捨五入すると 13.3 です。"
+    },
+    {
+      "id": "grade4-approximation-091",
+      "question": "730 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "730",
+        "740",
+        "720",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "730 を十の位で四捨五入すると 730 になります。"
+    },
+    {
+      "id": "grade4-approximation-092",
+      "question": "767 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "800",
+        "900",
+        "700",
+        "1000"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 800 になります。"
+    },
+    {
+      "id": "grade4-approximation-093",
+      "question": "14.44 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.4",
+        "14.5",
+        "14.3",
+        "14.6"
+      ],
+      "answer": 0,
+      "explanation": "14.44 を四捨五入すると 14.4 です。"
+    },
+    {
+      "id": "grade4-approximation-094",
+      "question": "841 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "840",
+        "850",
+        "830",
+        "860"
+      ],
+      "answer": 0,
+      "explanation": "841 を十の位で四捨五入すると 840 になります。"
+    },
+    {
+      "id": "grade4-approximation-095",
+      "question": "878 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "900",
+        "1000",
+        "800",
+        "1100"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 900 になります。"
+    },
+    {
+      "id": "grade4-approximation-096",
+      "question": "15.55 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.6",
+        "15.7",
+        "15.5",
+        "15.8"
+      ],
+      "answer": 0,
+      "explanation": "15.55 を四捨五入すると 15.6 です。"
+    },
+    {
+      "id": "grade4-approximation-097",
+      "question": "952 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "950",
+        "960",
+        "940",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "952 を十の位で四捨五入すると 950 になります。"
+    },
+    {
+      "id": "grade4-approximation-098",
+      "question": "989 を百の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "百の位で四捨五入すると 1000 になります。"
+    },
+    {
+      "id": "grade4-approximation-099",
+      "question": "16.66 を小数第一位で四捨五入しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.7",
+        "16.8",
+        "16.6",
+        "16.9"
+      ],
+      "answer": 0,
+      "explanation": "16.66 を四捨五入すると 16.7 です。"
+    },
+    {
+      "id": "grade4-approximation-100",
+      "question": "163 を十の位で四捨五入したがい数を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "160",
+        "170",
+        "150",
+        "180"
+      ],
+      "answer": 0,
+      "explanation": "163 を十の位で四捨五入すると 160 になります。"
+    }
+  ]
+}

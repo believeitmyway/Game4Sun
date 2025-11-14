@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-multiples-ratio",
+  "unitName": "倍の見方と割合",
+  "category": "割合",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-multiples-ratio-001",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "6 × 2 = 12 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-002",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 40 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "20",
+        "10",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "合計 40 本は 8 の 5 倍なので、赤い花は 3 × 5 = 15 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-003",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "10 × 4 = 40 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-004",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "21",
+        "7",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 6 の 7 倍なので、赤い花は 2 × 7 = 14 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-005",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "42",
+        "14",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "14 × 2 = 28 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-006",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 28 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "20",
+        "12",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 28 本は 7 の 4 倍なので、赤い花は 4 × 4 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-007",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 = 32 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-008",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "12",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 8 の 6 倍なので、赤い花は 3 × 6 = 18 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-009",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "36",
+        "12",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "12 × 2 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-010",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 6 の 8 倍なので、赤い花は 2 × 8 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-011",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-012",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 35 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "15",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 35 本は 7 の 5 倍なので、赤い花は 4 × 5 = 20 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-013",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "30",
+        "10",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "10 × 2 = 20 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-014",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "28",
+        "14",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 8 の 7 倍なので、赤い花は 3 × 7 = 21 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-015",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "70",
+        "42",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "14 × 4 = 56 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-016",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 24 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "8",
+        "12",
+        "4",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "合計 24 本は 6 の 4 倍なので、赤い花は 2 × 4 = 8 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-017",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "8 × 2 = 16 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-018",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 7 の 6 倍なので、赤い花は 4 × 6 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-019",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "60",
+        "36",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "12 × 4 = 48 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-020",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 64 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "32",
+        "16",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "合計 64 本は 8 の 8 倍なので、赤い花は 3 × 8 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-021",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "6 × 2 = 12 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-022",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 30 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "10",
+        "15",
+        "5",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 30 本は 6 の 5 倍なので、赤い花は 2 × 5 = 10 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-023",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "10 × 4 = 40 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-024",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 49 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "35",
+        "21",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "合計 49 本は 7 の 7 倍なので、赤い花は 4 × 7 = 28 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-025",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "42",
+        "14",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "14 × 2 = 28 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-026",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 32 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "8",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 32 本は 8 の 4 倍なので、赤い花は 3 × 4 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-027",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 = 32 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-028",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 36 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 36 本は 6 の 6 倍なので、赤い花は 2 × 6 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-029",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "36",
+        "12",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "12 × 2 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-030",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 7 の 8 倍なので、赤い花は 4 × 8 = 32 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-031",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-032",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 40 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "20",
+        "10",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "合計 40 本は 8 の 5 倍なので、赤い花は 3 × 5 = 15 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-033",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "30",
+        "10",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "10 × 2 = 20 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-034",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "21",
+        "7",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 6 の 7 倍なので、赤い花は 2 × 7 = 14 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-035",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "70",
+        "42",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "14 × 4 = 56 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-036",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 28 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "20",
+        "12",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 28 本は 7 の 4 倍なので、赤い花は 4 × 4 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-037",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "8 × 2 = 16 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-038",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "12",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 8 の 6 倍なので、赤い花は 3 × 6 = 18 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-039",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "60",
+        "36",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "12 × 4 = 48 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-040",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 6 の 8 倍なので、赤い花は 2 × 8 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-041",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "6 × 2 = 12 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-042",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 35 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "15",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 35 本は 7 の 5 倍なので、赤い花は 4 × 5 = 20 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-043",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "10 × 4 = 40 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-044",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "28",
+        "14",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 8 の 7 倍なので、赤い花は 3 × 7 = 21 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-045",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "42",
+        "14",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "14 × 2 = 28 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-046",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 24 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "8",
+        "12",
+        "4",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "合計 24 本は 6 の 4 倍なので、赤い花は 2 × 4 = 8 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-047",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 = 32 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-048",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 7 の 6 倍なので、赤い花は 4 × 6 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-049",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "36",
+        "12",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "12 × 2 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-050",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 64 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "32",
+        "16",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "合計 64 本は 8 の 8 倍なので、赤い花は 3 × 8 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-051",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-052",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 30 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "10",
+        "15",
+        "5",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 30 本は 6 の 5 倍なので、赤い花は 2 × 5 = 10 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-053",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "30",
+        "10",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "10 × 2 = 20 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-054",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 49 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "35",
+        "21",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "合計 49 本は 7 の 7 倍なので、赤い花は 4 × 7 = 28 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-055",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "70",
+        "42",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "14 × 4 = 56 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-056",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 32 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "8",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 32 本は 8 の 4 倍なので、赤い花は 3 × 4 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-057",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "8 × 2 = 16 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-058",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 36 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 36 本は 6 の 6 倍なので、赤い花は 2 × 6 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-059",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "60",
+        "36",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "12 × 4 = 48 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-060",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 7 の 8 倍なので、赤い花は 4 × 8 = 32 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-061",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "6 × 2 = 12 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-062",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 40 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "20",
+        "10",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "合計 40 本は 8 の 5 倍なので、赤い花は 3 × 5 = 15 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-063",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "10 × 4 = 40 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-064",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "21",
+        "7",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 6 の 7 倍なので、赤い花は 2 × 7 = 14 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-065",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "42",
+        "14",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "14 × 2 = 28 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-066",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 28 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "20",
+        "12",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 28 本は 7 の 4 倍なので、赤い花は 4 × 4 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-067",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 = 32 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-068",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "12",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 8 の 6 倍なので、赤い花は 3 × 6 = 18 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-069",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "36",
+        "12",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "12 × 2 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-070",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 6 の 8 倍なので、赤い花は 2 × 8 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-071",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-072",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 35 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "15",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 35 本は 7 の 5 倍なので、赤い花は 4 × 5 = 20 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-073",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "30",
+        "10",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "10 × 2 = 20 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-074",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "21",
+        "28",
+        "14",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 8 の 7 倍なので、赤い花は 3 × 7 = 21 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-075",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "70",
+        "42",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "14 × 4 = 56 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-076",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 24 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "8",
+        "12",
+        "4",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "合計 24 本は 6 の 4 倍なので、赤い花は 2 × 4 = 8 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-077",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "8 × 2 = 16 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-078",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 7 の 6 倍なので、赤い花は 4 × 6 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-079",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "60",
+        "36",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "12 × 4 = 48 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-080",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 64 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "32",
+        "16",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "合計 64 本は 8 の 8 倍なので、赤い花は 3 × 8 = 24 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-081",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "6 × 2 = 12 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-082",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 30 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "10",
+        "15",
+        "5",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 30 本は 6 の 5 倍なので、赤い花は 2 × 5 = 10 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-083",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "10 × 4 = 40 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-084",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 49 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "35",
+        "21",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "合計 49 本は 7 の 7 倍なので、赤い花は 4 × 7 = 28 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-085",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "42",
+        "14",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "14 × 2 = 28 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-086",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 32 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "16",
+        "8",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "合計 32 本は 8 の 4 倍なので、赤い花は 3 × 4 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-087",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "8 × 4 = 32 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-088",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 36 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "12",
+        "18",
+        "6",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 36 本は 6 の 6 倍なので、赤い花は 2 × 6 = 12 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-089",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "36",
+        "12",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "12 × 2 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-090",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 56 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "40",
+        "24",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "合計 56 本は 7 の 8 倍なので、赤い花は 4 × 8 = 32 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-091",
+      "question": "青いビーズが6個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "24",
+        "30",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "6 × 4 = 24 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-092",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 40 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "15",
+        "20",
+        "10",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "合計 40 本は 8 の 5 倍なので、赤い花は 3 × 5 = 15 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-093",
+      "question": "青いビーズが10個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "30",
+        "10",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "10 × 2 = 20 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-094",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 42 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "21",
+        "7",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "合計 42 本は 6 の 7 倍なので、赤い花は 2 × 7 = 14 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-095",
+      "question": "青いビーズが14個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "70",
+        "42",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "14 × 4 = 56 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-096",
+      "question": "赤色と青色の花の本数の比が 4:3 で、全部で 28 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "20",
+        "12",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "合計 28 本は 7 の 4 倍なので、赤い花は 4 × 4 = 16 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-097",
+      "question": "青いビーズが8個あります。赤いビーズは青いビーズの2倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "8 × 2 = 16 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-098",
+      "question": "赤色と青色の花の本数の比が 3:5 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "18",
+        "24",
+        "12",
+        "30"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 8 の 6 倍なので、赤い花は 3 × 6 = 18 本です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-099",
+      "question": "青いビーズが12個あります。赤いビーズは青いビーズの4倍です。赤いビーズは何個ですか。",
+      "type": "multiple",
+      "choices": [
+        "48",
+        "60",
+        "36",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "12 × 4 = 48 です。"
+    },
+    {
+      "id": "grade4-multiples-ratio-100",
+      "question": "赤色と青色の花の本数の比が 2:4 で、全部で 48 本あります。赤い花は何本ですか。",
+      "type": "multiple",
+      "choices": [
+        "16",
+        "24",
+        "8",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "合計 48 本は 6 の 8 倍なので、赤い花は 2 × 8 = 16 本です。"
+    }
+  ]
+}

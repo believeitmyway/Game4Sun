@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-area",
+  "unitName": "面積",
+  "category": "図形",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-area-001",
+      "question": "縦 8 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56 cm²",
+        "64 cm²",
+        "49 cm²",
+        "66 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 7 = 56 cm² です。"
+    },
+    {
+      "id": "grade4-area-002",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-003",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-004",
+      "question": "縦 14 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70 cm²",
+        "84 cm²",
+        "65 cm²",
+        "80 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 5 = 70 cm² です。"
+    },
+    {
+      "id": "grade4-area-005",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-006",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-007",
+      "question": "縦 10 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "110 cm²",
+        "120 cm²",
+        "99 cm²",
+        "98 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 11 = 110 cm² です。"
+    },
+    {
+      "id": "grade4-area-008",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-009",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-010",
+      "question": "縦 16 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "144 cm²",
+        "160 cm²",
+        "135 cm²",
+        "154 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 9 = 144 cm² です。"
+    },
+    {
+      "id": "grade4-area-011",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-012",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-013",
+      "question": "縦 12 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "84 cm²",
+        "96 cm²",
+        "77 cm²",
+        "94 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 7 = 84 cm² です。"
+    },
+    {
+      "id": "grade4-area-014",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-015",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-016",
+      "question": "縦 8 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "35 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "grade4-area-017",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-018",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-019",
+      "question": "縦 14 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "154 cm²",
+        "168 cm²",
+        "143 cm²",
+        "164 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 11 = 154 cm² です。"
+    },
+    {
+      "id": "grade4-area-020",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-021",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-022",
+      "question": "縦 10 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "78 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-023",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-024",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-025",
+      "question": "縦 16 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "112 cm²",
+        "128 cm²",
+        "105 cm²",
+        "122 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 7 = 112 cm² です。"
+    },
+    {
+      "id": "grade4-area-026",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-027",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-028",
+      "question": "縦 12 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "72 cm²",
+        "55 cm²",
+        "70 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 5 = 60 cm² です。"
+    },
+    {
+      "id": "grade4-area-029",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-030",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-031",
+      "question": "縦 8 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "88 cm²",
+        "96 cm²",
+        "77 cm²",
+        "98 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 11 = 88 cm² です。"
+    },
+    {
+      "id": "grade4-area-032",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-033",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-034",
+      "question": "縦 14 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "126 cm²",
+        "140 cm²",
+        "117 cm²",
+        "136 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 9 = 126 cm² です。"
+    },
+    {
+      "id": "grade4-area-035",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-036",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-037",
+      "question": "縦 10 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70 cm²",
+        "80 cm²",
+        "63 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 7 = 70 cm² です。"
+    },
+    {
+      "id": "grade4-area-038",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-039",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-040",
+      "question": "縦 16 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "96 cm²",
+        "75 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 5 = 80 cm² です。"
+    },
+    {
+      "id": "grade4-area-041",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-042",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-043",
+      "question": "縦 12 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "132 cm²",
+        "144 cm²",
+        "121 cm²",
+        "142 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 11 = 132 cm² です。"
+    },
+    {
+      "id": "grade4-area-044",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-045",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-046",
+      "question": "縦 8 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "72 cm²",
+        "80 cm²",
+        "63 cm²",
+        "82 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 9 = 72 cm² です。"
+    },
+    {
+      "id": "grade4-area-047",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-048",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-049",
+      "question": "縦 14 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "98 cm²",
+        "112 cm²",
+        "91 cm²",
+        "108 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 7 = 98 cm² です。"
+    },
+    {
+      "id": "grade4-area-050",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-051",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-052",
+      "question": "縦 10 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "50 cm²",
+        "60 cm²",
+        "45 cm²",
+        "38 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 5 = 50 cm² です。"
+    },
+    {
+      "id": "grade4-area-053",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-054",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-055",
+      "question": "縦 16 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "176 cm²",
+        "192 cm²",
+        "165 cm²",
+        "186 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 11 = 176 cm² です。"
+    },
+    {
+      "id": "grade4-area-056",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-057",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-058",
+      "question": "縦 12 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "108 cm²",
+        "120 cm²",
+        "99 cm²",
+        "118 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 9 = 108 cm² です。"
+    },
+    {
+      "id": "grade4-area-059",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-060",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-061",
+      "question": "縦 8 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "56 cm²",
+        "64 cm²",
+        "49 cm²",
+        "66 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 7 = 56 cm² です。"
+    },
+    {
+      "id": "grade4-area-062",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-063",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-064",
+      "question": "縦 14 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70 cm²",
+        "84 cm²",
+        "65 cm²",
+        "80 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 5 = 70 cm² です。"
+    },
+    {
+      "id": "grade4-area-065",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-066",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-067",
+      "question": "縦 10 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "110 cm²",
+        "120 cm²",
+        "99 cm²",
+        "98 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 11 = 110 cm² です。"
+    },
+    {
+      "id": "grade4-area-068",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-069",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-070",
+      "question": "縦 16 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "144 cm²",
+        "160 cm²",
+        "135 cm²",
+        "154 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 9 = 144 cm² です。"
+    },
+    {
+      "id": "grade4-area-071",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-072",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-073",
+      "question": "縦 12 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "84 cm²",
+        "96 cm²",
+        "77 cm²",
+        "94 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 7 = 84 cm² です。"
+    },
+    {
+      "id": "grade4-area-074",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-075",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-076",
+      "question": "縦 8 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "40 cm²",
+        "48 cm²",
+        "35 cm²",
+        "50 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 5 = 40 cm² です。"
+    },
+    {
+      "id": "grade4-area-077",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-078",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-079",
+      "question": "縦 14 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "154 cm²",
+        "168 cm²",
+        "143 cm²",
+        "164 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 11 = 154 cm² です。"
+    },
+    {
+      "id": "grade4-area-080",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-081",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-082",
+      "question": "縦 10 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "78 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-083",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-084",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-085",
+      "question": "縦 16 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "112 cm²",
+        "128 cm²",
+        "105 cm²",
+        "122 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 7 = 112 cm² です。"
+    },
+    {
+      "id": "grade4-area-086",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-087",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-088",
+      "question": "縦 12 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "60 cm²",
+        "72 cm²",
+        "55 cm²",
+        "70 cm²"
+      ],
+      "answer": 0,
+      "explanation": "12 × 5 = 60 cm² です。"
+    },
+    {
+      "id": "grade4-area-089",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-090",
+      "question": "底辺 13 cm、高さ 11 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "143 cm²",
+        "156 cm²",
+        "132 cm²",
+        "158 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 13 × 11 = 143 cm² です。"
+    },
+    {
+      "id": "grade4-area-091",
+      "question": "縦 8 cm、横 11 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "88 cm²",
+        "96 cm²",
+        "77 cm²",
+        "98 cm²"
+      ],
+      "answer": 0,
+      "explanation": "8 × 11 = 88 cm² です。"
+    },
+    {
+      "id": "grade4-area-092",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-093",
+      "question": "底辺 10 cm、高さ 9 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "90 cm²",
+        "100 cm²",
+        "81 cm²",
+        "105 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 10 × 9 = 90 cm² です。"
+    },
+    {
+      "id": "grade4-area-094",
+      "question": "縦 14 cm、横 9 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "126 cm²",
+        "140 cm²",
+        "117 cm²",
+        "136 cm²"
+      ],
+      "answer": 0,
+      "explanation": "14 × 9 = 126 cm² です。"
+    },
+    {
+      "id": "grade4-area-095",
+      "question": "1辺が 10 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "100 cm²",
+        "110 cm²",
+        "90 cm²",
+        "112 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 10 = 100 cm² です。"
+    },
+    {
+      "id": "grade4-area-096",
+      "question": "底辺 19 cm、高さ 7 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "133 cm²",
+        "152 cm²",
+        "126 cm²",
+        "148 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 19 × 7 = 133 cm² です。"
+    },
+    {
+      "id": "grade4-area-097",
+      "question": "縦 10 cm、横 7 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "70 cm²",
+        "80 cm²",
+        "63 cm²",
+        "58 cm²"
+      ],
+      "answer": 0,
+      "explanation": "10 × 7 = 70 cm² です。"
+    },
+    {
+      "id": "grade4-area-098",
+      "question": "1辺が 7 cm の正方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "49 cm²",
+        "56 cm²",
+        "42 cm²",
+        "61 cm²"
+      ],
+      "answer": 0,
+      "explanation": "7 × 7 = 49 cm² です。"
+    },
+    {
+      "id": "grade4-area-099",
+      "question": "底辺 16 cm、高さ 13 cm の平行四辺形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "208 cm²",
+        "224 cm²",
+        "195 cm²",
+        "223 cm²"
+      ],
+      "answer": 0,
+      "explanation": "平行四辺形の面積は 底辺×高さ = 16 × 13 = 208 cm² です。"
+    },
+    {
+      "id": "grade4-area-100",
+      "question": "縦 16 cm、横 5 cm の長方形の面積を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "80 cm²",
+        "96 cm²",
+        "75 cm²",
+        "90 cm²"
+      ],
+      "answer": 0,
+      "explanation": "16 × 5 = 80 cm² です。"
+    }
+  ]
+}

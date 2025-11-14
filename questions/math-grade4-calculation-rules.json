@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-calculation-rules",
+  "unitName": "計算のきまり",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-calculation-rules-001",
+      "question": "計算のきまり（分配法則）を使って 20 × 3 + 20 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "200",
+        "160",
+        "280"
+      ],
+      "answer": 0,
+      "explanation": "20 × (3 + 6) = 20 × 9 = 180 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-002",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1080",
+        "1140",
+        "1030",
+        "1180"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 4 = 270 × 4 = 1080 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-003",
+      "question": "計算のきまり（分配法則）を使って 40 × 5 + 40 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "560",
+        "480",
+        "620"
+      ],
+      "answer": 0,
+      "explanation": "40 × (5 + 8) = 40 × 13 = 520 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-004",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1740",
+        "1800",
+        "1690",
+        "1840"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 6 = 290 × 6 = 1740 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-005",
+      "question": "計算のきまり（分配法則）を使って 60 × 3 + 60 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "600",
+        "480",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "60 × (3 + 6) = 60 × 9 = 540 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-006",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "810",
+        "870",
+        "760",
+        "910"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 3 = 270 × 3 = 810 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-007",
+      "question": "計算のきまり（分配法則）を使って 30 × 5 + 30 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "390",
+        "420",
+        "360",
+        "490"
+      ],
+      "answer": 0,
+      "explanation": "30 × (5 + 8) = 30 × 13 = 390 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-008",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1450",
+        "1510",
+        "1400",
+        "1550"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 5 = 290 × 5 = 1450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-009",
+      "question": "計算のきまり（分配法則）を使って 50 × 3 + 50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "450",
+        "500",
+        "400",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "50 × (3 + 6) = 50 × 9 = 450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-010",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1890",
+        "1950",
+        "1840",
+        "1990"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 7 = 270 × 7 = 1890 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-011",
+      "question": "計算のきまり（分配法則）を使って 20 × 5 + 20 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "260",
+        "280",
+        "240",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "20 × (5 + 8) = 20 × 13 = 260 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-012",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1160",
+        "1220",
+        "1110",
+        "1260"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 4 = 290 × 4 = 1160 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-013",
+      "question": "計算のきまり（分配法則）を使って 40 × 3 + 40 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "360",
+        "400",
+        "320",
+        "460"
+      ],
+      "answer": 0,
+      "explanation": "40 × (3 + 6) = 40 × 9 = 360 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-014",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1620",
+        "1680",
+        "1570",
+        "1720"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 6 = 270 × 6 = 1620 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-015",
+      "question": "計算のきまり（分配法則）を使って 60 × 5 + 60 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "780",
+        "840",
+        "720",
+        "880"
+      ],
+      "answer": 0,
+      "explanation": "60 × (5 + 8) = 60 × 13 = 780 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-016",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "930",
+        "820",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 3 = 290 × 3 = 870 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-017",
+      "question": "計算のきまり（分配法則）を使って 30 × 3 + 30 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "270",
+        "300",
+        "240",
+        "370"
+      ],
+      "answer": 0,
+      "explanation": "30 × (3 + 6) = 30 × 9 = 270 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-018",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1350",
+        "1410",
+        "1300",
+        "1450"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 5 = 270 × 5 = 1350 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-019",
+      "question": "計算のきまり（分配法則）を使って 50 × 5 + 50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "650",
+        "700",
+        "600",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "50 × (5 + 8) = 50 × 13 = 650 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-020",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2030",
+        "2090",
+        "1980",
+        "2130"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 7 = 290 × 7 = 2030 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-021",
+      "question": "計算のきまり（分配法則）を使って 20 × 3 + 20 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "200",
+        "160",
+        "280"
+      ],
+      "answer": 0,
+      "explanation": "20 × (3 + 6) = 20 × 9 = 180 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-022",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1080",
+        "1140",
+        "1030",
+        "1180"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 4 = 270 × 4 = 1080 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-023",
+      "question": "計算のきまり（分配法則）を使って 40 × 5 + 40 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "560",
+        "480",
+        "620"
+      ],
+      "answer": 0,
+      "explanation": "40 × (5 + 8) = 40 × 13 = 520 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-024",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1740",
+        "1800",
+        "1690",
+        "1840"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 6 = 290 × 6 = 1740 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-025",
+      "question": "計算のきまり（分配法則）を使って 60 × 3 + 60 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "600",
+        "480",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "60 × (3 + 6) = 60 × 9 = 540 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-026",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "810",
+        "870",
+        "760",
+        "910"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 3 = 270 × 3 = 810 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-027",
+      "question": "計算のきまり（分配法則）を使って 30 × 5 + 30 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "390",
+        "420",
+        "360",
+        "490"
+      ],
+      "answer": 0,
+      "explanation": "30 × (5 + 8) = 30 × 13 = 390 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-028",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1450",
+        "1510",
+        "1400",
+        "1550"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 5 = 290 × 5 = 1450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-029",
+      "question": "計算のきまり（分配法則）を使って 50 × 3 + 50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "450",
+        "500",
+        "400",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "50 × (3 + 6) = 50 × 9 = 450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-030",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1890",
+        "1950",
+        "1840",
+        "1990"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 7 = 270 × 7 = 1890 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-031",
+      "question": "計算のきまり（分配法則）を使って 20 × 5 + 20 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "260",
+        "280",
+        "240",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "20 × (5 + 8) = 20 × 13 = 260 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-032",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1160",
+        "1220",
+        "1110",
+        "1260"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 4 = 290 × 4 = 1160 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-033",
+      "question": "計算のきまり（分配法則）を使って 40 × 3 + 40 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "360",
+        "400",
+        "320",
+        "460"
+      ],
+      "answer": 0,
+      "explanation": "40 × (3 + 6) = 40 × 9 = 360 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-034",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1620",
+        "1680",
+        "1570",
+        "1720"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 6 = 270 × 6 = 1620 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-035",
+      "question": "計算のきまり（分配法則）を使って 60 × 5 + 60 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "780",
+        "840",
+        "720",
+        "880"
+      ],
+      "answer": 0,
+      "explanation": "60 × (5 + 8) = 60 × 13 = 780 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-036",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "930",
+        "820",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 3 = 290 × 3 = 870 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-037",
+      "question": "計算のきまり（分配法則）を使って 30 × 3 + 30 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "270",
+        "300",
+        "240",
+        "370"
+      ],
+      "answer": 0,
+      "explanation": "30 × (3 + 6) = 30 × 9 = 270 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-038",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1350",
+        "1410",
+        "1300",
+        "1450"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 5 = 270 × 5 = 1350 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-039",
+      "question": "計算のきまり（分配法則）を使って 50 × 5 + 50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "650",
+        "700",
+        "600",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "50 × (5 + 8) = 50 × 13 = 650 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-040",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2030",
+        "2090",
+        "1980",
+        "2130"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 7 = 290 × 7 = 2030 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-041",
+      "question": "計算のきまり（分配法則）を使って 20 × 3 + 20 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "200",
+        "160",
+        "280"
+      ],
+      "answer": 0,
+      "explanation": "20 × (3 + 6) = 20 × 9 = 180 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-042",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1080",
+        "1140",
+        "1030",
+        "1180"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 4 = 270 × 4 = 1080 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-043",
+      "question": "計算のきまり（分配法則）を使って 40 × 5 + 40 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "560",
+        "480",
+        "620"
+      ],
+      "answer": 0,
+      "explanation": "40 × (5 + 8) = 40 × 13 = 520 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-044",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1740",
+        "1800",
+        "1690",
+        "1840"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 6 = 290 × 6 = 1740 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-045",
+      "question": "計算のきまり（分配法則）を使って 60 × 3 + 60 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "600",
+        "480",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "60 × (3 + 6) = 60 × 9 = 540 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-046",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "810",
+        "870",
+        "760",
+        "910"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 3 = 270 × 3 = 810 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-047",
+      "question": "計算のきまり（分配法則）を使って 30 × 5 + 30 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "390",
+        "420",
+        "360",
+        "490"
+      ],
+      "answer": 0,
+      "explanation": "30 × (5 + 8) = 30 × 13 = 390 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-048",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1450",
+        "1510",
+        "1400",
+        "1550"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 5 = 290 × 5 = 1450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-049",
+      "question": "計算のきまり（分配法則）を使って 50 × 3 + 50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "450",
+        "500",
+        "400",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "50 × (3 + 6) = 50 × 9 = 450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-050",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1890",
+        "1950",
+        "1840",
+        "1990"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 7 = 270 × 7 = 1890 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-051",
+      "question": "計算のきまり（分配法則）を使って 20 × 5 + 20 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "260",
+        "280",
+        "240",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "20 × (5 + 8) = 20 × 13 = 260 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-052",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1160",
+        "1220",
+        "1110",
+        "1260"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 4 = 290 × 4 = 1160 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-053",
+      "question": "計算のきまり（分配法則）を使って 40 × 3 + 40 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "360",
+        "400",
+        "320",
+        "460"
+      ],
+      "answer": 0,
+      "explanation": "40 × (3 + 6) = 40 × 9 = 360 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-054",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1620",
+        "1680",
+        "1570",
+        "1720"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 6 = 270 × 6 = 1620 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-055",
+      "question": "計算のきまり（分配法則）を使って 60 × 5 + 60 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "780",
+        "840",
+        "720",
+        "880"
+      ],
+      "answer": 0,
+      "explanation": "60 × (5 + 8) = 60 × 13 = 780 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-056",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "930",
+        "820",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 3 = 290 × 3 = 870 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-057",
+      "question": "計算のきまり（分配法則）を使って 30 × 3 + 30 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "270",
+        "300",
+        "240",
+        "370"
+      ],
+      "answer": 0,
+      "explanation": "30 × (3 + 6) = 30 × 9 = 270 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-058",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1350",
+        "1410",
+        "1300",
+        "1450"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 5 = 270 × 5 = 1350 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-059",
+      "question": "計算のきまり（分配法則）を使って 50 × 5 + 50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "650",
+        "700",
+        "600",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "50 × (5 + 8) = 50 × 13 = 650 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-060",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2030",
+        "2090",
+        "1980",
+        "2130"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 7 = 290 × 7 = 2030 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-061",
+      "question": "計算のきまり（分配法則）を使って 20 × 3 + 20 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "200",
+        "160",
+        "280"
+      ],
+      "answer": 0,
+      "explanation": "20 × (3 + 6) = 20 × 9 = 180 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-062",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1080",
+        "1140",
+        "1030",
+        "1180"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 4 = 270 × 4 = 1080 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-063",
+      "question": "計算のきまり（分配法則）を使って 40 × 5 + 40 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "560",
+        "480",
+        "620"
+      ],
+      "answer": 0,
+      "explanation": "40 × (5 + 8) = 40 × 13 = 520 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-064",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1740",
+        "1800",
+        "1690",
+        "1840"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 6 = 290 × 6 = 1740 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-065",
+      "question": "計算のきまり（分配法則）を使って 60 × 3 + 60 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "600",
+        "480",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "60 × (3 + 6) = 60 × 9 = 540 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-066",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "810",
+        "870",
+        "760",
+        "910"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 3 = 270 × 3 = 810 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-067",
+      "question": "計算のきまり（分配法則）を使って 30 × 5 + 30 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "390",
+        "420",
+        "360",
+        "490"
+      ],
+      "answer": 0,
+      "explanation": "30 × (5 + 8) = 30 × 13 = 390 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-068",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1450",
+        "1510",
+        "1400",
+        "1550"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 5 = 290 × 5 = 1450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-069",
+      "question": "計算のきまり（分配法則）を使って 50 × 3 + 50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "450",
+        "500",
+        "400",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "50 × (3 + 6) = 50 × 9 = 450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-070",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1890",
+        "1950",
+        "1840",
+        "1990"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 7 = 270 × 7 = 1890 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-071",
+      "question": "計算のきまり（分配法則）を使って 20 × 5 + 20 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "260",
+        "280",
+        "240",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "20 × (5 + 8) = 20 × 13 = 260 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-072",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1160",
+        "1220",
+        "1110",
+        "1260"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 4 = 290 × 4 = 1160 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-073",
+      "question": "計算のきまり（分配法則）を使って 40 × 3 + 40 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "360",
+        "400",
+        "320",
+        "460"
+      ],
+      "answer": 0,
+      "explanation": "40 × (3 + 6) = 40 × 9 = 360 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-074",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1620",
+        "1680",
+        "1570",
+        "1720"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 6 = 270 × 6 = 1620 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-075",
+      "question": "計算のきまり（分配法則）を使って 60 × 5 + 60 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "780",
+        "840",
+        "720",
+        "880"
+      ],
+      "answer": 0,
+      "explanation": "60 × (5 + 8) = 60 × 13 = 780 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-076",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "930",
+        "820",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 3 = 290 × 3 = 870 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-077",
+      "question": "計算のきまり（分配法則）を使って 30 × 3 + 30 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "270",
+        "300",
+        "240",
+        "370"
+      ],
+      "answer": 0,
+      "explanation": "30 × (3 + 6) = 30 × 9 = 270 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-078",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1350",
+        "1410",
+        "1300",
+        "1450"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 5 = 270 × 5 = 1350 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-079",
+      "question": "計算のきまり（分配法則）を使って 50 × 5 + 50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "650",
+        "700",
+        "600",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "50 × (5 + 8) = 50 × 13 = 650 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-080",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2030",
+        "2090",
+        "1980",
+        "2130"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 7 = 290 × 7 = 2030 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-081",
+      "question": "計算のきまり（分配法則）を使って 20 × 3 + 20 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "200",
+        "160",
+        "280"
+      ],
+      "answer": 0,
+      "explanation": "20 × (3 + 6) = 20 × 9 = 180 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-082",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1080",
+        "1140",
+        "1030",
+        "1180"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 4 = 270 × 4 = 1080 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-083",
+      "question": "計算のきまり（分配法則）を使って 40 × 5 + 40 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "520",
+        "560",
+        "480",
+        "620"
+      ],
+      "answer": 0,
+      "explanation": "40 × (5 + 8) = 40 × 13 = 520 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-084",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1740",
+        "1800",
+        "1690",
+        "1840"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 6 = 290 × 6 = 1740 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-085",
+      "question": "計算のきまり（分配法則）を使って 60 × 3 + 60 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "540",
+        "600",
+        "480",
+        "640"
+      ],
+      "answer": 0,
+      "explanation": "60 × (3 + 6) = 60 × 9 = 540 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-086",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "810",
+        "870",
+        "760",
+        "910"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 3 = 270 × 3 = 810 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-087",
+      "question": "計算のきまり（分配法則）を使って 30 × 5 + 30 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "390",
+        "420",
+        "360",
+        "490"
+      ],
+      "answer": 0,
+      "explanation": "30 × (5 + 8) = 30 × 13 = 390 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-088",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1450",
+        "1510",
+        "1400",
+        "1550"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 5 = 290 × 5 = 1450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-089",
+      "question": "計算のきまり（分配法則）を使って 50 × 3 + 50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "450",
+        "500",
+        "400",
+        "550"
+      ],
+      "answer": 0,
+      "explanation": "50 × (3 + 6) = 50 × 9 = 450 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-090",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1890",
+        "1950",
+        "1840",
+        "1990"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 7 = 270 × 7 = 1890 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-091",
+      "question": "計算のきまり（分配法則）を使って 20 × 5 + 20 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "260",
+        "280",
+        "240",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "20 × (5 + 8) = 20 × 13 = 260 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-092",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1160",
+        "1220",
+        "1110",
+        "1260"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 4 = 290 × 4 = 1160 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-093",
+      "question": "計算のきまり（分配法則）を使って 40 × 3 + 40 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "360",
+        "400",
+        "320",
+        "460"
+      ],
+      "answer": 0,
+      "explanation": "40 × (3 + 6) = 40 × 9 = 360 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-094",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1620",
+        "1680",
+        "1570",
+        "1720"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 6 = 270 × 6 = 1620 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-095",
+      "question": "計算のきまり（分配法則）を使って 60 × 5 + 60 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "780",
+        "840",
+        "720",
+        "880"
+      ],
+      "answer": 0,
+      "explanation": "60 × (5 + 8) = 60 × 13 = 780 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-096",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "870",
+        "930",
+        "820",
+        "970"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 3 = 290 × 3 = 870 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-097",
+      "question": "計算のきまり（分配法則）を使って 30 × 3 + 30 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "270",
+        "300",
+        "240",
+        "370"
+      ],
+      "answer": 0,
+      "explanation": "30 × (3 + 6) = 30 × 9 = 270 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-098",
+      "question": "計算のきまり（結合法則）を使って (150 + 120) × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1350",
+        "1410",
+        "1300",
+        "1450"
+      ],
+      "answer": 0,
+      "explanation": "(150 + 120) × 5 = 270 × 5 = 1350 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-099",
+      "question": "計算のきまり（分配法則）を使って 50 × 5 + 50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "650",
+        "700",
+        "600",
+        "750"
+      ],
+      "answer": 0,
+      "explanation": "50 × (5 + 8) = 50 × 13 = 650 です。"
+    },
+    {
+      "id": "grade4-calculation-rules-100",
+      "question": "計算のきまり（結合法則）を使って (210 + 80) × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2030",
+        "2090",
+        "1980",
+        "2130"
+      ],
+      "answer": 0,
+      "explanation": "(210 + 80) × 7 = 290 × 7 = 2030 です。"
+    }
+  ]
+}

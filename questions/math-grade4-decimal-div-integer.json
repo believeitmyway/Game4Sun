@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-decimal-div-integer",
+  "unitName": "小数÷整数",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-decimal-div-integer-001",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-002",
+      "question": "3.75 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 5 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-003",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-004",
+      "question": "5.25 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.313",
+        "1.363",
+        "1.263",
+        "1.413"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 4 = 1.313 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-005",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-006",
+      "question": "3.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.500",
+        "0.550",
+        "0.450",
+        "0.600"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 6 = 0.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-007",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-008",
+      "question": "4.50 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.900",
+        "0.950",
+        "0.850",
+        "1.000"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 5 = 0.900 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-009",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-010",
+      "question": "6.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.500",
+        "1.550",
+        "1.450",
+        "1.600"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 4 = 1.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-011",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-012",
+      "question": "3.75 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.625",
+        "0.675",
+        "0.575",
+        "0.725"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 6 = 0.625 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-013",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-014",
+      "question": "5.25 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.050",
+        "1.100",
+        "1.000",
+        "1.150"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 5 = 1.050 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-015",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-016",
+      "question": "3.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 4 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-017",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-018",
+      "question": "4.50 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 6 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-019",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-020",
+      "question": "6.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.200",
+        "1.250",
+        "1.150",
+        "1.300"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 5 = 1.200 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-021",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-022",
+      "question": "3.75 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.938",
+        "0.988",
+        "0.888",
+        "1.038"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 4 = 0.938 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-023",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-024",
+      "question": "5.25 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.875",
+        "0.925",
+        "0.825",
+        "0.975"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 6 = 0.875 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-025",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-026",
+      "question": "3.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.600",
+        "0.650",
+        "0.550",
+        "0.700"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 5 = 0.600 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-027",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-028",
+      "question": "4.50 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.125",
+        "1.175",
+        "1.075",
+        "1.225"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 4 = 1.125 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-029",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-030",
+      "question": "6.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.000",
+        "1.050",
+        "0.950",
+        "1.100"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 6 = 1.000 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-031",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-032",
+      "question": "3.75 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 5 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-033",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-034",
+      "question": "5.25 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.313",
+        "1.363",
+        "1.263",
+        "1.413"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 4 = 1.313 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-035",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-036",
+      "question": "3.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.500",
+        "0.550",
+        "0.450",
+        "0.600"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 6 = 0.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-037",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-038",
+      "question": "4.50 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.900",
+        "0.950",
+        "0.850",
+        "1.000"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 5 = 0.900 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-039",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-040",
+      "question": "6.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.500",
+        "1.550",
+        "1.450",
+        "1.600"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 4 = 1.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-041",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-042",
+      "question": "3.75 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.625",
+        "0.675",
+        "0.575",
+        "0.725"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 6 = 0.625 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-043",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-044",
+      "question": "5.25 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.050",
+        "1.100",
+        "1.000",
+        "1.150"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 5 = 1.050 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-045",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-046",
+      "question": "3.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 4 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-047",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-048",
+      "question": "4.50 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 6 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-049",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-050",
+      "question": "6.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.200",
+        "1.250",
+        "1.150",
+        "1.300"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 5 = 1.200 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-051",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-052",
+      "question": "3.75 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.938",
+        "0.988",
+        "0.888",
+        "1.038"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 4 = 0.938 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-053",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-054",
+      "question": "5.25 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.875",
+        "0.925",
+        "0.825",
+        "0.975"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 6 = 0.875 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-055",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-056",
+      "question": "3.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.600",
+        "0.650",
+        "0.550",
+        "0.700"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 5 = 0.600 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-057",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-058",
+      "question": "4.50 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.125",
+        "1.175",
+        "1.075",
+        "1.225"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 4 = 1.125 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-059",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-060",
+      "question": "6.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.000",
+        "1.050",
+        "0.950",
+        "1.100"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 6 = 1.000 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-061",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-062",
+      "question": "3.75 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 5 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-063",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-064",
+      "question": "5.25 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.313",
+        "1.363",
+        "1.263",
+        "1.413"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 4 = 1.313 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-065",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-066",
+      "question": "3.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.500",
+        "0.550",
+        "0.450",
+        "0.600"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 6 = 0.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-067",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-068",
+      "question": "4.50 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.900",
+        "0.950",
+        "0.850",
+        "1.000"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 5 = 0.900 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-069",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-070",
+      "question": "6.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.500",
+        "1.550",
+        "1.450",
+        "1.600"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 4 = 1.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-071",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-072",
+      "question": "3.75 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.625",
+        "0.675",
+        "0.575",
+        "0.725"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 6 = 0.625 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-073",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-074",
+      "question": "5.25 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.050",
+        "1.100",
+        "1.000",
+        "1.150"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 5 = 1.050 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-075",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-076",
+      "question": "3.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 4 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-077",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-078",
+      "question": "4.50 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 6 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-079",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-080",
+      "question": "6.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.200",
+        "1.250",
+        "1.150",
+        "1.300"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 5 = 1.200 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-081",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-082",
+      "question": "3.75 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.938",
+        "0.988",
+        "0.888",
+        "1.038"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 4 = 0.938 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-083",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-084",
+      "question": "5.25 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.875",
+        "0.925",
+        "0.825",
+        "0.975"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 6 = 0.875 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-085",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-086",
+      "question": "3.00 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.600",
+        "0.650",
+        "0.550",
+        "0.700"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 5 = 0.600 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-087",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-088",
+      "question": "4.50 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.125",
+        "1.175",
+        "1.075",
+        "1.225"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 4 = 1.125 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-089",
+      "question": "10.8 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.40",
+        "5.60",
+        "5.20",
+        "5.70"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 2 = 5.40 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-090",
+      "question": "6.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.000",
+        "1.050",
+        "0.950",
+        "1.100"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 6 = 1.000 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-091",
+      "question": "6.0 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.50",
+        "1.70",
+        "1.30",
+        "1.80"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 4 = 1.50 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-092",
+      "question": "3.75 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.750",
+        "0.800",
+        "0.700",
+        "0.850"
+      ],
+      "answer": 0,
+      "explanation": "3.75 ÷ 5 = 0.750 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-093",
+      "question": "8.4 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.20",
+        "4.40",
+        "4.00",
+        "4.50"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 2 = 4.20 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-094",
+      "question": "5.25 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.313",
+        "1.363",
+        "1.263",
+        "1.413"
+      ],
+      "answer": 0,
+      "explanation": "5.25 ÷ 4 = 1.313 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-095",
+      "question": "10.8 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.70",
+        "2.90",
+        "2.50",
+        "3.00"
+      ],
+      "answer": 0,
+      "explanation": "10.8 ÷ 4 = 2.70 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-096",
+      "question": "3.00 ÷ 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.500",
+        "0.550",
+        "0.450",
+        "0.600"
+      ],
+      "answer": 0,
+      "explanation": "3.00 ÷ 6 = 0.500 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-097",
+      "question": "6.0 ÷ 2 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.20",
+        "2.80",
+        "3.30"
+      ],
+      "answer": 0,
+      "explanation": "6.0 ÷ 2 = 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-098",
+      "question": "4.50 ÷ 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "0.900",
+        "0.950",
+        "0.850",
+        "1.000"
+      ],
+      "answer": 0,
+      "explanation": "4.50 ÷ 5 = 0.900 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-099",
+      "question": "8.4 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "2.10",
+        "2.30",
+        "1.90",
+        "2.40"
+      ],
+      "answer": 0,
+      "explanation": "8.4 ÷ 4 = 2.10 です。"
+    },
+    {
+      "id": "grade4-decimal-div-integer-100",
+      "question": "6.00 ÷ 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1.500",
+        "1.550",
+        "1.450",
+        "1.600"
+      ],
+      "answer": 0,
+      "explanation": "6.00 ÷ 4 = 1.500 です。"
+    }
+  ]
+}

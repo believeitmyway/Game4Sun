@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-fractions-mixed",
+  "unitName": "仮分数と帯分数",
+  "category": "分数",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-fractions-mixed-001",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-002",
+      "question": "帯分数 2と2/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10/4",
+        "14/4",
+        "6/4",
+        "12/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 2 + 2 = 10 なので 10/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-003",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-004",
+      "question": "帯分数 4と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "28/6",
+        "34/6",
+        "22/6",
+        "32/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 4 + 4 = 28 なので 28/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-005",
+      "question": "仮分数 11/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と5/6",
+        "2と4/6",
+        "0と6/6",
+        "1と6/6"
+      ],
+      "answer": 0,
+      "explanation": "11 ÷ 6 = 1 余り 5 なので、1と5/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-006",
+      "question": "帯分数 2と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8/3",
+        "11/3",
+        "5/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 2 + 2 = 8 なので 8/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-007",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-008",
+      "question": "帯分数 4と4/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "24/5",
+        "29/5",
+        "19/5",
+        "28/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 4 + 4 = 24 なので 24/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-009",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-010",
+      "question": "帯分数 2と4/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18/7",
+        "25/7",
+        "11/7",
+        "22/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 2 + 4 = 18 なので 18/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-011",
+      "question": "仮分数 19/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/6",
+        "4",
+        "2と2/6",
+        "3と2/6"
+      ],
+      "answer": 0,
+      "explanation": "19 ÷ 6 = 3 余り 1 なので、3と1/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-012",
+      "question": "帯分数 4と3/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "19/4",
+        "23/4",
+        "15/4",
+        "22/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 4 + 3 = 19 なので 19/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-013",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-014",
+      "question": "帯分数 2と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/6",
+        "22/6",
+        "10/6",
+        "20/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 2 + 4 = 16 なので 16/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-015",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-016",
+      "question": "帯分数 4と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14/3",
+        "17/3",
+        "11/3",
+        "16/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 4 + 2 = 14 なので 14/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-017",
+      "question": "仮分数 8/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と2/6",
+        "2と1/6",
+        "0と3/6",
+        "1と3/6"
+      ],
+      "answer": 0,
+      "explanation": "8 ÷ 6 = 1 余り 2 なので、1と2/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-018",
+      "question": "帯分数 2と2/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12/5",
+        "17/5",
+        "7/5",
+        "14/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 2 + 2 = 12 なので 12/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-019",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-020",
+      "question": "帯分数 4と2/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "30/7",
+        "37/7",
+        "23/7",
+        "32/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 4 + 2 = 30 なので 30/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-021",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-022",
+      "question": "帯分数 2と1/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9/4",
+        "13/4",
+        "5/4",
+        "10/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 2 + 1 = 9 なので 9/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-023",
+      "question": "仮分数 21/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/6",
+        "4と2/6",
+        "2と4/6",
+        "3と4/6"
+      ],
+      "answer": 0,
+      "explanation": "21 ÷ 6 = 3 余り 3 なので、3と3/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-024",
+      "question": "帯分数 4と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "28/6",
+        "34/6",
+        "22/6",
+        "32/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 4 + 4 = 28 なので 28/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-025",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-026",
+      "question": "帯分数 2と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8/3",
+        "11/3",
+        "5/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 2 + 2 = 8 なので 8/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-027",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-028",
+      "question": "帯分数 4と4/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "24/5",
+        "29/5",
+        "19/5",
+        "28/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 4 + 4 = 24 なので 24/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-029",
+      "question": "仮分数 10/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と4/6",
+        "2と3/6",
+        "0と5/6",
+        "1と5/6"
+      ],
+      "answer": 0,
+      "explanation": "10 ÷ 6 = 1 余り 4 なので、1と4/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-030",
+      "question": "帯分数 2と6/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "20/7",
+        "27/7",
+        "13/7",
+        "26/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 2 + 6 = 20 なので 20/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-031",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-032",
+      "question": "帯分数 4と2/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18/4",
+        "22/4",
+        "14/4",
+        "20/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 4 + 2 = 18 なので 18/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-033",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-034",
+      "question": "帯分数 2と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/6",
+        "22/6",
+        "10/6",
+        "20/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 2 + 4 = 16 なので 16/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-035",
+      "question": "仮分数 23/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と5/6",
+        "4と4/6",
+        "2と6/6",
+        "3と6/6"
+      ],
+      "answer": 0,
+      "explanation": "23 ÷ 6 = 3 余り 5 なので、3と5/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-036",
+      "question": "帯分数 4と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14/3",
+        "17/3",
+        "11/3",
+        "16/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 4 + 2 = 14 なので 14/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-037",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-038",
+      "question": "帯分数 2と2/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12/5",
+        "17/5",
+        "7/5",
+        "14/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 2 + 2 = 12 なので 12/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-039",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-040",
+      "question": "帯分数 4と4/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "32/7",
+        "39/7",
+        "25/7",
+        "36/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 4 + 4 = 32 なので 32/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-041",
+      "question": "仮分数 7/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/6",
+        "2",
+        "0と2/6",
+        "1と2/6"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 6 = 1 余り 1 なので、1と1/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-042",
+      "question": "帯分数 2と3/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "11/4",
+        "15/4",
+        "7/4",
+        "14/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 2 + 3 = 11 なので 11/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-043",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-044",
+      "question": "帯分数 4と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "28/6",
+        "34/6",
+        "22/6",
+        "32/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 4 + 4 = 28 なので 28/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-045",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-046",
+      "question": "帯分数 2と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8/3",
+        "11/3",
+        "5/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 2 + 2 = 8 なので 8/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-047",
+      "question": "仮分数 20/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と2/6",
+        "4と1/6",
+        "2と3/6",
+        "3と3/6"
+      ],
+      "answer": 0,
+      "explanation": "20 ÷ 6 = 3 余り 2 なので、3と2/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-048",
+      "question": "帯分数 4と4/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "24/5",
+        "29/5",
+        "19/5",
+        "28/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 4 + 4 = 24 なので 24/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-049",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-050",
+      "question": "帯分数 2と2/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/7",
+        "23/7",
+        "9/7",
+        "18/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 2 + 2 = 16 なので 16/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-051",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-052",
+      "question": "帯分数 4と1/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "17/4",
+        "21/4",
+        "13/4",
+        "18/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 4 + 1 = 17 なので 17/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-053",
+      "question": "仮分数 9/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/6",
+        "2と2/6",
+        "0と4/6",
+        "1と4/6"
+      ],
+      "answer": 0,
+      "explanation": "9 ÷ 6 = 1 余り 3 なので、1と3/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-054",
+      "question": "帯分数 2と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/6",
+        "22/6",
+        "10/6",
+        "20/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 2 + 4 = 16 なので 16/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-055",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-056",
+      "question": "帯分数 4と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14/3",
+        "17/3",
+        "11/3",
+        "16/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 4 + 2 = 14 なので 14/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-057",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-058",
+      "question": "帯分数 2と2/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12/5",
+        "17/5",
+        "7/5",
+        "14/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 2 + 2 = 12 なので 12/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-059",
+      "question": "仮分数 22/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と4/6",
+        "4と3/6",
+        "2と5/6",
+        "3と5/6"
+      ],
+      "answer": 0,
+      "explanation": "22 ÷ 6 = 3 余り 4 なので、3と4/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-060",
+      "question": "帯分数 4と6/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "34/7",
+        "41/7",
+        "27/7",
+        "40/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 4 + 6 = 34 なので 34/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-061",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-062",
+      "question": "帯分数 2と2/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10/4",
+        "14/4",
+        "6/4",
+        "12/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 2 + 2 = 10 なので 10/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-063",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-064",
+      "question": "帯分数 4と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "28/6",
+        "34/6",
+        "22/6",
+        "32/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 4 + 4 = 28 なので 28/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-065",
+      "question": "仮分数 11/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と5/6",
+        "2と4/6",
+        "0と6/6",
+        "1と6/6"
+      ],
+      "answer": 0,
+      "explanation": "11 ÷ 6 = 1 余り 5 なので、1と5/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-066",
+      "question": "帯分数 2と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8/3",
+        "11/3",
+        "5/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 2 + 2 = 8 なので 8/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-067",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-068",
+      "question": "帯分数 4と4/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "24/5",
+        "29/5",
+        "19/5",
+        "28/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 4 + 4 = 24 なので 24/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-069",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-070",
+      "question": "帯分数 2と4/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18/7",
+        "25/7",
+        "11/7",
+        "22/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 2 + 4 = 18 なので 18/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-071",
+      "question": "仮分数 19/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/6",
+        "4",
+        "2と2/6",
+        "3と2/6"
+      ],
+      "answer": 0,
+      "explanation": "19 ÷ 6 = 3 余り 1 なので、3と1/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-072",
+      "question": "帯分数 4と3/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "19/4",
+        "23/4",
+        "15/4",
+        "22/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 4 + 3 = 19 なので 19/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-073",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-074",
+      "question": "帯分数 2と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/6",
+        "22/6",
+        "10/6",
+        "20/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 2 + 4 = 16 なので 16/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-075",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-076",
+      "question": "帯分数 4と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14/3",
+        "17/3",
+        "11/3",
+        "16/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 4 + 2 = 14 なので 14/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-077",
+      "question": "仮分数 8/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と2/6",
+        "2と1/6",
+        "0と3/6",
+        "1と3/6"
+      ],
+      "answer": 0,
+      "explanation": "8 ÷ 6 = 1 余り 2 なので、1と2/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-078",
+      "question": "帯分数 2と2/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12/5",
+        "17/5",
+        "7/5",
+        "14/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 2 + 2 = 12 なので 12/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-079",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-080",
+      "question": "帯分数 4と2/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "30/7",
+        "37/7",
+        "23/7",
+        "32/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 4 + 2 = 30 なので 30/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-081",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-082",
+      "question": "帯分数 2と1/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9/4",
+        "13/4",
+        "5/4",
+        "10/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 2 + 1 = 9 なので 9/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-083",
+      "question": "仮分数 21/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/6",
+        "4と2/6",
+        "2と4/6",
+        "3と4/6"
+      ],
+      "answer": 0,
+      "explanation": "21 ÷ 6 = 3 余り 3 なので、3と3/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-084",
+      "question": "帯分数 4と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "28/6",
+        "34/6",
+        "22/6",
+        "32/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 4 + 4 = 28 なので 28/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-085",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-086",
+      "question": "帯分数 2と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8/3",
+        "11/3",
+        "5/3",
+        "10/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 2 + 2 = 8 なので 8/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-087",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-088",
+      "question": "帯分数 4と4/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "24/5",
+        "29/5",
+        "19/5",
+        "28/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 4 + 4 = 24 なので 24/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-089",
+      "question": "仮分数 10/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と4/6",
+        "2と3/6",
+        "0と5/6",
+        "1と5/6"
+      ],
+      "answer": 0,
+      "explanation": "10 ÷ 6 = 1 余り 4 なので、1と4/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-090",
+      "question": "帯分数 2と6/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "20/7",
+        "27/7",
+        "13/7",
+        "26/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 2 + 6 = 20 なので 20/7 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-091",
+      "question": "仮分数 7/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と1/2",
+        "4",
+        "2と2/2",
+        "3と2/2"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 2 = 3 余り 1 なので、3と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-092",
+      "question": "帯分数 4と2/4 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18/4",
+        "22/4",
+        "14/4",
+        "20/4"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 4 × 4 + 2 = 18 なので 18/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-093",
+      "question": "仮分数 7/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と3/4",
+        "2と2/4",
+        "0と4/4",
+        "1と4/4"
+      ],
+      "answer": 0,
+      "explanation": "7 ÷ 4 = 1 余り 3 なので、1と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-094",
+      "question": "帯分数 2と4/6 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16/6",
+        "22/6",
+        "10/6",
+        "20/6"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 6 × 2 + 4 = 16 なので 16/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-095",
+      "question": "仮分数 23/6 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と5/6",
+        "4と4/6",
+        "2と6/6",
+        "3と6/6"
+      ],
+      "answer": 0,
+      "explanation": "23 ÷ 6 = 3 余り 5 なので、3と5/6 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-096",
+      "question": "帯分数 4と2/3 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14/3",
+        "17/3",
+        "11/3",
+        "16/3"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 3 × 4 + 2 = 14 なので 14/3 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-097",
+      "question": "仮分数 3/2 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "1と1/2",
+        "2",
+        "0と2/2",
+        "1と2/2"
+      ],
+      "answer": 0,
+      "explanation": "3 ÷ 2 = 1 余り 1 なので、1と1/2 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-098",
+      "question": "帯分数 2と2/5 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12/5",
+        "17/5",
+        "7/5",
+        "14/5"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 5 × 2 + 2 = 12 なので 12/5 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-099",
+      "question": "仮分数 15/4 を帯分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3と3/4",
+        "4と2/4",
+        "2と4/4",
+        "3と4/4"
+      ],
+      "answer": 0,
+      "explanation": "15 ÷ 4 = 3 余り 3 なので、3と3/4 です。"
+    },
+    {
+      "id": "grade4-fractions-mixed-100",
+      "question": "帯分数 4と4/7 を仮分数で表しなさい。",
+      "type": "multiple",
+      "choices": [
+        "32/7",
+        "39/7",
+        "25/7",
+        "36/7"
+      ],
+      "answer": 0,
+      "explanation": "仮分数にすると 7 × 4 + 4 = 32 なので 32/7 です。"
+    }
+  ]
+}

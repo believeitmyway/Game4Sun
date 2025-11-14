@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-decimal-times-integer",
+  "unitName": "小数×整数",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-decimal-times-integer-001",
+      "question": "1.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.50",
+        "2.50",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "1.0 を 3 倍すると 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-002",
+      "question": "0.50 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.500",
+        "4.750",
+        "4.250",
+        "5.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 9 = 4.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-003",
+      "question": "1.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.00",
+        "7.50",
+        "6.50",
+        "8.00"
+      ],
+      "answer": 0,
+      "explanation": "1.4 を 5 倍すると 7.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-004",
+      "question": "1.00 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.000",
+        "6.250",
+        "5.750",
+        "6.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 6 = 6.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-005",
+      "question": "1.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.60",
+        "13.10",
+        "12.10",
+        "13.60"
+      ],
+      "answer": 0,
+      "explanation": "1.8 を 7 倍すると 12.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-006",
+      "question": "1.50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.000",
+        "12.250",
+        "11.750",
+        "12.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 8 = 12.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-007",
+      "question": "2.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.80",
+        "9.30",
+        "8.30",
+        "9.80"
+      ],
+      "answer": 0,
+      "explanation": "2.2 を 4 倍すると 8.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-008",
+      "question": "2.00 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "20.000",
+        "20.250",
+        "19.750",
+        "20.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 10 = 20.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-009",
+      "question": "2.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.60",
+        "16.10",
+        "15.10",
+        "16.60"
+      ],
+      "answer": 0,
+      "explanation": "2.6 を 6 倍すると 15.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-010",
+      "question": "0.50 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.500",
+        "3.750",
+        "3.250",
+        "4.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 7 = 3.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-011",
+      "question": "3.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.00",
+        "9.50",
+        "8.50",
+        "10.00"
+      ],
+      "answer": 0,
+      "explanation": "3.0 を 3 倍すると 9.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-012",
+      "question": "1.00 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 9 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-013",
+      "question": "3.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.00",
+        "17.50",
+        "16.50",
+        "18.00"
+      ],
+      "answer": 0,
+      "explanation": "3.4 を 5 倍すると 17.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-014",
+      "question": "1.50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 6 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-015",
+      "question": "3.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "26.60",
+        "27.10",
+        "26.10",
+        "27.60"
+      ],
+      "answer": 0,
+      "explanation": "3.8 を 7 倍すると 26.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-016",
+      "question": "2.00 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.000",
+        "16.250",
+        "15.750",
+        "16.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 8 = 16.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-017",
+      "question": "1.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.80",
+        "5.30",
+        "4.30",
+        "5.80"
+      ],
+      "answer": 0,
+      "explanation": "1.2 を 4 倍すると 4.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-018",
+      "question": "0.50 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.000",
+        "5.250",
+        "4.750",
+        "5.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 10 = 5.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-019",
+      "question": "1.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.60",
+        "10.10",
+        "9.10",
+        "10.60"
+      ],
+      "answer": 0,
+      "explanation": "1.6 を 6 倍すると 9.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-020",
+      "question": "1.00 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.000",
+        "7.250",
+        "6.750",
+        "7.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 7 = 7.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-021",
+      "question": "2.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.00",
+        "6.50",
+        "5.50",
+        "7.00"
+      ],
+      "answer": 0,
+      "explanation": "2.0 を 3 倍すると 6.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-022",
+      "question": "1.50 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.500",
+        "13.750",
+        "13.250",
+        "14.000"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 9 = 13.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-023",
+      "question": "2.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.00",
+        "12.50",
+        "11.50",
+        "13.00"
+      ],
+      "answer": 0,
+      "explanation": "2.4 を 5 倍すると 12.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-024",
+      "question": "2.00 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.000",
+        "12.250",
+        "11.750",
+        "12.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 6 = 12.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-025",
+      "question": "2.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "19.60",
+        "20.10",
+        "19.10",
+        "20.60"
+      ],
+      "answer": 0,
+      "explanation": "2.8 を 7 倍すると 19.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-026",
+      "question": "0.50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.000",
+        "4.250",
+        "3.750",
+        "4.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 8 = 4.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-027",
+      "question": "3.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.80",
+        "13.30",
+        "12.30",
+        "13.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 を 4 倍すると 12.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-028",
+      "question": "1.00 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.000",
+        "10.250",
+        "9.750",
+        "10.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 10 = 10.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-029",
+      "question": "3.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "21.60",
+        "22.10",
+        "21.10",
+        "22.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 を 6 倍すると 21.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-030",
+      "question": "1.50 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.500",
+        "10.750",
+        "10.250",
+        "11.000"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 7 = 10.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-031",
+      "question": "1.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.50",
+        "2.50",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "1.0 を 3 倍すると 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-032",
+      "question": "2.00 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18.000",
+        "18.250",
+        "17.750",
+        "18.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 9 = 18.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-033",
+      "question": "1.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.00",
+        "7.50",
+        "6.50",
+        "8.00"
+      ],
+      "answer": 0,
+      "explanation": "1.4 を 5 倍すると 7.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-034",
+      "question": "0.50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.000",
+        "3.250",
+        "2.750",
+        "3.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 6 = 3.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-035",
+      "question": "1.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.60",
+        "13.10",
+        "12.10",
+        "13.60"
+      ],
+      "answer": 0,
+      "explanation": "1.8 を 7 倍すると 12.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-036",
+      "question": "1.00 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.000",
+        "8.250",
+        "7.750",
+        "8.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 8 = 8.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-037",
+      "question": "2.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.80",
+        "9.30",
+        "8.30",
+        "9.80"
+      ],
+      "answer": 0,
+      "explanation": "2.2 を 4 倍すると 8.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-038",
+      "question": "1.50 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.000",
+        "15.250",
+        "14.750",
+        "15.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 10 = 15.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-039",
+      "question": "2.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.60",
+        "16.10",
+        "15.10",
+        "16.60"
+      ],
+      "answer": 0,
+      "explanation": "2.6 を 6 倍すると 15.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-040",
+      "question": "2.00 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.000",
+        "14.250",
+        "13.750",
+        "14.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 7 = 14.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-041",
+      "question": "3.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.00",
+        "9.50",
+        "8.50",
+        "10.00"
+      ],
+      "answer": 0,
+      "explanation": "3.0 を 3 倍すると 9.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-042",
+      "question": "0.50 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.500",
+        "4.750",
+        "4.250",
+        "5.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 9 = 4.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-043",
+      "question": "3.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.00",
+        "17.50",
+        "16.50",
+        "18.00"
+      ],
+      "answer": 0,
+      "explanation": "3.4 を 5 倍すると 17.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-044",
+      "question": "1.00 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.000",
+        "6.250",
+        "5.750",
+        "6.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 6 = 6.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-045",
+      "question": "3.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "26.60",
+        "27.10",
+        "26.10",
+        "27.60"
+      ],
+      "answer": 0,
+      "explanation": "3.8 を 7 倍すると 26.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-046",
+      "question": "1.50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.000",
+        "12.250",
+        "11.750",
+        "12.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 8 = 12.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-047",
+      "question": "1.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.80",
+        "5.30",
+        "4.30",
+        "5.80"
+      ],
+      "answer": 0,
+      "explanation": "1.2 を 4 倍すると 4.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-048",
+      "question": "2.00 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "20.000",
+        "20.250",
+        "19.750",
+        "20.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 10 = 20.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-049",
+      "question": "1.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.60",
+        "10.10",
+        "9.10",
+        "10.60"
+      ],
+      "answer": 0,
+      "explanation": "1.6 を 6 倍すると 9.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-050",
+      "question": "0.50 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.500",
+        "3.750",
+        "3.250",
+        "4.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 7 = 3.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-051",
+      "question": "2.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.00",
+        "6.50",
+        "5.50",
+        "7.00"
+      ],
+      "answer": 0,
+      "explanation": "2.0 を 3 倍すると 6.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-052",
+      "question": "1.00 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 9 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-053",
+      "question": "2.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.00",
+        "12.50",
+        "11.50",
+        "13.00"
+      ],
+      "answer": 0,
+      "explanation": "2.4 を 5 倍すると 12.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-054",
+      "question": "1.50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 6 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-055",
+      "question": "2.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "19.60",
+        "20.10",
+        "19.10",
+        "20.60"
+      ],
+      "answer": 0,
+      "explanation": "2.8 を 7 倍すると 19.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-056",
+      "question": "2.00 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.000",
+        "16.250",
+        "15.750",
+        "16.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 8 = 16.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-057",
+      "question": "3.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.80",
+        "13.30",
+        "12.30",
+        "13.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 を 4 倍すると 12.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-058",
+      "question": "0.50 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.000",
+        "5.250",
+        "4.750",
+        "5.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 10 = 5.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-059",
+      "question": "3.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "21.60",
+        "22.10",
+        "21.10",
+        "22.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 を 6 倍すると 21.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-060",
+      "question": "1.00 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.000",
+        "7.250",
+        "6.750",
+        "7.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 7 = 7.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-061",
+      "question": "1.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.50",
+        "2.50",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "1.0 を 3 倍すると 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-062",
+      "question": "1.50 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "13.500",
+        "13.750",
+        "13.250",
+        "14.000"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 9 = 13.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-063",
+      "question": "1.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.00",
+        "7.50",
+        "6.50",
+        "8.00"
+      ],
+      "answer": 0,
+      "explanation": "1.4 を 5 倍すると 7.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-064",
+      "question": "2.00 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.000",
+        "12.250",
+        "11.750",
+        "12.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 6 = 12.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-065",
+      "question": "1.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.60",
+        "13.10",
+        "12.10",
+        "13.60"
+      ],
+      "answer": 0,
+      "explanation": "1.8 を 7 倍すると 12.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-066",
+      "question": "0.50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.000",
+        "4.250",
+        "3.750",
+        "4.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 8 = 4.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-067",
+      "question": "2.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.80",
+        "9.30",
+        "8.30",
+        "9.80"
+      ],
+      "answer": 0,
+      "explanation": "2.2 を 4 倍すると 8.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-068",
+      "question": "1.00 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.000",
+        "10.250",
+        "9.750",
+        "10.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 10 = 10.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-069",
+      "question": "2.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.60",
+        "16.10",
+        "15.10",
+        "16.60"
+      ],
+      "answer": 0,
+      "explanation": "2.6 を 6 倍すると 15.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-070",
+      "question": "1.50 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "10.500",
+        "10.750",
+        "10.250",
+        "11.000"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 7 = 10.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-071",
+      "question": "3.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.00",
+        "9.50",
+        "8.50",
+        "10.00"
+      ],
+      "answer": 0,
+      "explanation": "3.0 を 3 倍すると 9.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-072",
+      "question": "2.00 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "18.000",
+        "18.250",
+        "17.750",
+        "18.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 9 = 18.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-073",
+      "question": "3.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "17.00",
+        "17.50",
+        "16.50",
+        "18.00"
+      ],
+      "answer": 0,
+      "explanation": "3.4 を 5 倍すると 17.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-074",
+      "question": "0.50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.000",
+        "3.250",
+        "2.750",
+        "3.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 6 = 3.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-075",
+      "question": "3.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "26.60",
+        "27.10",
+        "26.10",
+        "27.60"
+      ],
+      "answer": 0,
+      "explanation": "3.8 を 7 倍すると 26.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-076",
+      "question": "1.00 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.000",
+        "8.250",
+        "7.750",
+        "8.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 8 = 8.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-077",
+      "question": "1.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.80",
+        "5.30",
+        "4.30",
+        "5.80"
+      ],
+      "answer": 0,
+      "explanation": "1.2 を 4 倍すると 4.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-078",
+      "question": "1.50 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.000",
+        "15.250",
+        "14.750",
+        "15.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 10 = 15.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-079",
+      "question": "1.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.60",
+        "10.10",
+        "9.10",
+        "10.60"
+      ],
+      "answer": 0,
+      "explanation": "1.6 を 6 倍すると 9.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-080",
+      "question": "2.00 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "14.000",
+        "14.250",
+        "13.750",
+        "14.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 7 = 14.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-081",
+      "question": "2.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.00",
+        "6.50",
+        "5.50",
+        "7.00"
+      ],
+      "answer": 0,
+      "explanation": "2.0 を 3 倍すると 6.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-082",
+      "question": "0.50 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "4.500",
+        "4.750",
+        "4.250",
+        "5.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 9 = 4.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-083",
+      "question": "2.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.00",
+        "12.50",
+        "11.50",
+        "13.00"
+      ],
+      "answer": 0,
+      "explanation": "2.4 を 5 倍すると 12.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-084",
+      "question": "1.00 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "6.000",
+        "6.250",
+        "5.750",
+        "6.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 6 = 6.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-085",
+      "question": "2.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "19.60",
+        "20.10",
+        "19.10",
+        "20.60"
+      ],
+      "answer": 0,
+      "explanation": "2.8 を 7 倍すると 19.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-086",
+      "question": "1.50 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.000",
+        "12.250",
+        "11.750",
+        "12.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 8 = 12.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-087",
+      "question": "3.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.80",
+        "13.30",
+        "12.30",
+        "13.80"
+      ],
+      "answer": 0,
+      "explanation": "3.2 を 4 倍すると 12.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-088",
+      "question": "2.00 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "20.000",
+        "20.250",
+        "19.750",
+        "20.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 10 = 20.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-089",
+      "question": "3.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "21.60",
+        "22.10",
+        "21.10",
+        "22.60"
+      ],
+      "answer": 0,
+      "explanation": "3.6 を 6 倍すると 21.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-090",
+      "question": "0.50 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.500",
+        "3.750",
+        "3.250",
+        "4.000"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 7 = 3.500 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-091",
+      "question": "1.0 × 3 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "3.00",
+        "3.50",
+        "2.50",
+        "4.00"
+      ],
+      "answer": 0,
+      "explanation": "1.0 を 3 倍すると 3.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-092",
+      "question": "1.00 × 9 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 9 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-093",
+      "question": "1.4 × 5 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.00",
+        "7.50",
+        "6.50",
+        "8.00"
+      ],
+      "answer": 0,
+      "explanation": "1.4 を 5 倍すると 7.00 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-094",
+      "question": "1.50 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "9.000",
+        "9.250",
+        "8.750",
+        "9.500"
+      ],
+      "answer": 0,
+      "explanation": "1.50 × 6 = 9.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-095",
+      "question": "1.8 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "12.60",
+        "13.10",
+        "12.10",
+        "13.60"
+      ],
+      "answer": 0,
+      "explanation": "1.8 を 7 倍すると 12.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-096",
+      "question": "2.00 × 8 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "16.000",
+        "16.250",
+        "15.750",
+        "16.500"
+      ],
+      "answer": 0,
+      "explanation": "2.00 × 8 = 16.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-097",
+      "question": "2.2 × 4 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "8.80",
+        "9.30",
+        "8.30",
+        "9.80"
+      ],
+      "answer": 0,
+      "explanation": "2.2 を 4 倍すると 8.80 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-098",
+      "question": "0.50 × 10 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "5.000",
+        "5.250",
+        "4.750",
+        "5.500"
+      ],
+      "answer": 0,
+      "explanation": "0.50 × 10 = 5.000 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-099",
+      "question": "2.6 × 6 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "15.60",
+        "16.10",
+        "15.10",
+        "16.60"
+      ],
+      "answer": 0,
+      "explanation": "2.6 を 6 倍すると 15.60 です。"
+    },
+    {
+      "id": "grade4-decimal-times-integer-100",
+      "question": "1.00 × 7 を計算しなさい。",
+      "type": "multiple",
+      "choices": [
+        "7.000",
+        "7.250",
+        "6.750",
+        "7.500"
+      ],
+      "answer": 0,
+      "explanation": "1.00 × 7 = 7.000 です。"
+    }
+  ]
+}

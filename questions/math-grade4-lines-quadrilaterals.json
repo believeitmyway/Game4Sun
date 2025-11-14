@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "算数",
+  "unitId": "grade4-lines-quadrilaterals",
+  "unitName": "直線と四角形",
+  "category": "図形",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "grade4-lines-quadrilaterals-001",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-002",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-003",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-004",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-005",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-006",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-007",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-008",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-009",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-010",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-011",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-012",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-013",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-014",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-015",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-016",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-017",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-018",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-019",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-020",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-021",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-022",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-023",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-024",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-025",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-026",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-027",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-028",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-029",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-030",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-031",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-032",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-033",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-034",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-035",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-036",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-037",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-038",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-039",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-040",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-041",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-042",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-043",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-044",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-045",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-046",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-047",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-048",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-049",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-050",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-051",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-052",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-053",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-054",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-055",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-056",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-057",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-058",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-059",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-060",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-061",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-062",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-063",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-064",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-065",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-066",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-067",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-068",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-069",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-070",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-071",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-072",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-073",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-074",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-075",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-076",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-077",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-078",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-079",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-080",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-081",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-082",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-083",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-084",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-085",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-086",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-087",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-088",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-089",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-090",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-091",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-092",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-093",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-094",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-095",
+      "question": "四角形の内角が順に 100°、60°、80°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (100° + 60° + 80°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-096",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-097",
+      "question": "四角形の内角が順に 60°、80°、100°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (60° + 80° + 100°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-098",
+      "question": "直角四角形（長方形）について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4つの角がすべて直角である",
+        "向かい合う辺が常に異なる長さである",
+        "隣り合う辺は必ず等しい",
+        "対角線は交わらない"
+      ],
+      "answer": 0,
+      "explanation": "長方形は4つの角がすべて直角であることが特徴です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-099",
+      "question": "四角形の内角が順に 80°、100°、60°、∠D のとき、∠D を求めなさい。",
+      "type": "multiple",
+      "choices": [
+        "120°",
+        "130°",
+        "110°",
+        "135°"
+      ],
+      "answer": 0,
+      "explanation": "四角形の内角の和は360°なので、360° - (80° + 100° + 60°) = 120° です。"
+    },
+    {
+      "id": "grade4-lines-quadrilaterals-100",
+      "question": "正方形について正しいものを選びなさい。",
+      "type": "multiple",
+      "choices": [
+        "4辺が等しく、4つの角が直角である",
+        "4つの角がすべて鋭角である",
+        "長さの異なる辺を2本ずつ持つ",
+        "対角線は必ず垂直に交わらない"
+      ],
+      "answer": 0,
+      "explanation": "正方形は4辺が等しく、4つの角が直角です。"
+    }
+  ]
+}
