@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "change-pattern",
+  "unitName": "変わり方調べ",
+  "category": "データの活用",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "math-change-pattern-001",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 6、x が 2 のとき y は 10、x が 3 のとき y は 14 です。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "26",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 5 のとき y = 22 です。"
+    },
+    {
+      "id": "math-change-pattern-002",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 30 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 10x",
+        "y = 11x",
+        "y = 10x + 1",
+        "y = 9x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 10 増えるので、y = 10x です。"
+    },
+    {
+      "id": "math-change-pattern-003",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 52 です。",
+      "type": "multiple",
+      "choices": [
+        "416",
+        "429",
+        "403",
+        "832"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 416 です。"
+    },
+    {
+      "id": "math-change-pattern-004",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 12、x が 3 のとき y は 15 です。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "33",
+        "27",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 8 のとき y = 30 です。"
+    },
+    {
+      "id": "math-change-pattern-005",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 39 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 13x",
+        "y = 14x",
+        "y = 13x + 1",
+        "y = 12x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 13 増えるので、y = 13x です。"
+    },
+    {
+      "id": "math-change-pattern-006",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 16、x が 2 のとき y は 32、x が 3 のとき y は 64 です。",
+      "type": "multiple",
+      "choices": [
+        "128",
+        "144",
+        "112",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 128 です。"
+    },
+    {
+      "id": "math-change-pattern-007",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 18、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "48",
+        "36",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 6 のとき y = 42 です。"
+    },
+    {
+      "id": "math-change-pattern-008",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 16、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 8x",
+        "y = 9x",
+        "y = 8x + 1",
+        "y = 7x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 8 増えるので、y = 8x です。"
+    },
+    {
+      "id": "math-change-pattern-009",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 19、x が 2 のとき y は 38、x が 3 のとき y は 76 です。",
+      "type": "multiple",
+      "choices": [
+        "1216",
+        "1235",
+        "1197",
+        "2432"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 1216 です。"
+    },
+    {
+      "id": "math-change-pattern-010",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 5、x が 2 のとき y は 10、x が 3 のとき y は 15 です。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "15",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 4 のとき y = 20 です。"
+    },
+    {
+      "id": "math-change-pattern-011",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 33 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 11x",
+        "y = 12x",
+        "y = 11x + 1",
+        "y = 10x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 11 増えるので、y = 11x です。"
+    },
+    {
+      "id": "math-change-pattern-012",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 48 です。",
+      "type": "multiple",
+      "choices": [
+        "192",
+        "204",
+        "180",
+        "384"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 192 です。"
+    },
+    {
+      "id": "math-change-pattern-013",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 12、x が 3 のとき y は 16 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "36",
+        "28",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 7 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-014",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 42 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 14x",
+        "y = 15x",
+        "y = 14x + 1",
+        "y = 13x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 14 増えるので、y = 14x です。"
+    },
+    {
+      "id": "math-change-pattern-015",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 60 です。",
+      "type": "multiple",
+      "choices": [
+        "60",
+        "75",
+        "45",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 60 です。"
+    },
+    {
+      "id": "math-change-pattern-016",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 14、x が 3 のとき y は 17 です。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "26",
+        "20",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 5 のとき y = 23 です。"
+    },
+    {
+      "id": "math-change-pattern-017",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 18、x が 3 のとき y は 27 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 9x",
+        "y = 10x",
+        "y = 9x + 1",
+        "y = 8x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 9 増えるので、y = 9x です。"
+    },
+    {
+      "id": "math-change-pattern-018",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 18、x が 2 のとき y は 36、x が 3 のとき y は 72 です。",
+      "type": "multiple",
+      "choices": [
+        "576",
+        "594",
+        "558",
+        "1152"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 576 です。"
+    },
+    {
+      "id": "math-change-pattern-019",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 20、x が 3 のとき y は 26 です。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "62",
+        "50",
+        "70"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 8 のとき y = 56 です。"
+    },
+    {
+      "id": "math-change-pattern-020",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 36 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 12x",
+        "y = 13x",
+        "y = 12x + 1",
+        "y = 11x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 12 増えるので、y = 12x です。"
+    },
+    {
+      "id": "math-change-pattern-021",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 44 です。",
+      "type": "multiple",
+      "choices": [
+        "88",
+        "99",
+        "77",
+        "176"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 88 です。"
+    },
+    {
+      "id": "math-change-pattern-022",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 7、x が 2 のとき y は 12、x が 3 のとき y は 17 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "37",
+        "27",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 6 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-023",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 45 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 15x",
+        "y = 16x",
+        "y = 15x + 1",
+        "y = 14x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 15 増えるので、y = 15x です。"
+    },
+    {
+      "id": "math-change-pattern-024",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 56 です。",
+      "type": "multiple",
+      "choices": [
+        "896",
+        "910",
+        "882",
+        "1792"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 896 です。"
+    },
+    {
+      "id": "math-change-pattern-025",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 14、x が 3 のとき y は 18 です。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "26",
+        "18",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 4 のとき y = 22 です。"
+    },
+    {
+      "id": "math-change-pattern-026",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 30 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 10x",
+        "y = 11x",
+        "y = 10x + 1",
+        "y = 9x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 10 増えるので、y = 10x です。"
+    },
+    {
+      "id": "math-change-pattern-027",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 17、x が 2 のとき y は 34、x が 3 のとき y は 68 です。",
+      "type": "multiple",
+      "choices": [
+        "272",
+        "289",
+        "255",
+        "544"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 272 です。"
+    },
+    {
+      "id": "math-change-pattern-028",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 16、x が 3 のとき y は 19 です。",
+      "type": "multiple",
+      "choices": [
+        "31",
+        "34",
+        "28",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 7 のとき y = 31 です。"
+    },
+    {
+      "id": "math-change-pattern-029",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 39 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 13x",
+        "y = 14x",
+        "y = 13x + 1",
+        "y = 12x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 13 増えるので、y = 13x です。"
+    },
+    {
+      "id": "math-change-pattern-030",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 40 です。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 40 です。"
+    },
+    {
+      "id": "math-change-pattern-031",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 6、x が 2 のとき y は 12、x が 3 のとき y は 18 です。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "36",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 5 のとき y = 30 です。"
+    },
+    {
+      "id": "math-change-pattern-032",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 16、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 8x",
+        "y = 9x",
+        "y = 8x + 1",
+        "y = 7x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 8 増えるので、y = 8x です。"
+    },
+    {
+      "id": "math-change-pattern-033",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 52 です。",
+      "type": "multiple",
+      "choices": [
+        "416",
+        "429",
+        "403",
+        "832"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 416 です。"
+    },
+    {
+      "id": "math-change-pattern-034",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 14、x が 3 のとき y は 19 です。",
+      "type": "multiple",
+      "choices": [
+        "44",
+        "49",
+        "39",
+        "53"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 8 のとき y = 44 です。"
+    },
+    {
+      "id": "math-change-pattern-035",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 33 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 11x",
+        "y = 12x",
+        "y = 11x + 1",
+        "y = 10x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 11 増えるので、y = 11x です。"
+    },
+    {
+      "id": "math-change-pattern-036",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 16、x が 2 のとき y は 32、x が 3 のとき y は 64 です。",
+      "type": "multiple",
+      "choices": [
+        "128",
+        "144",
+        "112",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 128 です。"
+    },
+    {
+      "id": "math-change-pattern-037",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 16、x が 3 のとき y は 20 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "36",
+        "28",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 6 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-038",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 42 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 14x",
+        "y = 15x",
+        "y = 14x + 1",
+        "y = 13x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 14 増えるので、y = 14x です。"
+    },
+    {
+      "id": "math-change-pattern-039",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 19、x が 2 のとき y は 38、x が 3 のとき y は 76 です。",
+      "type": "multiple",
+      "choices": [
+        "1216",
+        "1235",
+        "1197",
+        "2432"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 1216 です。"
+    },
+    {
+      "id": "math-change-pattern-040",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 5、x が 2 のとき y は 8、x が 3 のとき y は 11 です。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "17",
+        "11",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 4 のとき y = 14 です。"
+    },
+    {
+      "id": "math-change-pattern-041",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 18、x が 3 のとき y は 27 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 9x",
+        "y = 10x",
+        "y = 9x + 1",
+        "y = 8x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 9 増えるので、y = 9x です。"
+    },
+    {
+      "id": "math-change-pattern-042",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 48 です。",
+      "type": "multiple",
+      "choices": [
+        "192",
+        "204",
+        "180",
+        "384"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 192 です。"
+    },
+    {
+      "id": "math-change-pattern-043",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 14、x が 3 のとき y は 20 です。",
+      "type": "multiple",
+      "choices": [
+        "44",
+        "50",
+        "38",
+        "52"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 7 のとき y = 44 です。"
+    },
+    {
+      "id": "math-change-pattern-044",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 36 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 12x",
+        "y = 13x",
+        "y = 12x + 1",
+        "y = 11x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 12 増えるので、y = 12x です。"
+    },
+    {
+      "id": "math-change-pattern-045",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 60 です。",
+      "type": "multiple",
+      "choices": [
+        "60",
+        "75",
+        "45",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 60 です。"
+    },
+    {
+      "id": "math-change-pattern-046",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 16、x が 3 のとき y は 21 です。",
+      "type": "multiple",
+      "choices": [
+        "31",
+        "36",
+        "26",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 5 のとき y = 31 です。"
+    },
+    {
+      "id": "math-change-pattern-047",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 45 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 15x",
+        "y = 16x",
+        "y = 15x + 1",
+        "y = 14x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 15 増えるので、y = 15x です。"
+    },
+    {
+      "id": "math-change-pattern-048",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 18、x が 2 のとき y は 36、x が 3 のとき y は 72 です。",
+      "type": "multiple",
+      "choices": [
+        "576",
+        "594",
+        "558",
+        "1152"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 576 です。"
+    },
+    {
+      "id": "math-change-pattern-049",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 18、x が 3 のとき y は 22 です。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "46",
+        "38",
+        "56"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 8 のとき y = 42 です。"
+    },
+    {
+      "id": "math-change-pattern-050",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 30 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 10x",
+        "y = 11x",
+        "y = 10x + 1",
+        "y = 9x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 10 増えるので、y = 10x です。"
+    },
+    {
+      "id": "math-change-pattern-051",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 44 です。",
+      "type": "multiple",
+      "choices": [
+        "88",
+        "99",
+        "77",
+        "176"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 88 です。"
+    },
+    {
+      "id": "math-change-pattern-052",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 7、x が 2 のとき y は 10、x が 3 のとき y は 13 です。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "25",
+        "19",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 6 のとき y = 22 です。"
+    },
+    {
+      "id": "math-change-pattern-053",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 39 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 13x",
+        "y = 14x",
+        "y = 13x + 1",
+        "y = 12x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 13 増えるので、y = 13x です。"
+    },
+    {
+      "id": "math-change-pattern-054",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 56 です。",
+      "type": "multiple",
+      "choices": [
+        "896",
+        "910",
+        "882",
+        "1792"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 896 です。"
+    },
+    {
+      "id": "math-change-pattern-055",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 16、x が 3 のとき y は 22 です。",
+      "type": "multiple",
+      "choices": [
+        "28",
+        "34",
+        "22",
+        "38"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 4 のとき y = 28 です。"
+    },
+    {
+      "id": "math-change-pattern-056",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 16、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 8x",
+        "y = 9x",
+        "y = 8x + 1",
+        "y = 7x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 8 増えるので、y = 8x です。"
+    },
+    {
+      "id": "math-change-pattern-057",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 17、x が 2 のとき y は 34、x が 3 のとき y は 68 です。",
+      "type": "multiple",
+      "choices": [
+        "272",
+        "289",
+        "255",
+        "544"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 272 です。"
+    },
+    {
+      "id": "math-change-pattern-058",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 18、x が 3 のとき y は 23 です。",
+      "type": "multiple",
+      "choices": [
+        "43",
+        "48",
+        "38",
+        "56"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 7 のとき y = 43 です。"
+    },
+    {
+      "id": "math-change-pattern-059",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 33 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 11x",
+        "y = 12x",
+        "y = 11x + 1",
+        "y = 10x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 11 増えるので、y = 11x です。"
+    },
+    {
+      "id": "math-change-pattern-060",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 40 です。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 40 です。"
+    },
+    {
+      "id": "math-change-pattern-061",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 6、x が 2 のとき y は 10、x が 3 のとき y は 14 です。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "26",
+        "18",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 5 のとき y = 22 です。"
+    },
+    {
+      "id": "math-change-pattern-062",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 42 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 14x",
+        "y = 15x",
+        "y = 14x + 1",
+        "y = 13x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 14 増えるので、y = 14x です。"
+    },
+    {
+      "id": "math-change-pattern-063",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 52 です。",
+      "type": "multiple",
+      "choices": [
+        "416",
+        "429",
+        "403",
+        "832"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 416 です。"
+    },
+    {
+      "id": "math-change-pattern-064",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 12、x が 3 のとき y は 15 です。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "33",
+        "27",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 8 のとき y = 30 です。"
+    },
+    {
+      "id": "math-change-pattern-065",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 18、x が 3 のとき y は 27 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 9x",
+        "y = 10x",
+        "y = 9x + 1",
+        "y = 8x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 9 増えるので、y = 9x です。"
+    },
+    {
+      "id": "math-change-pattern-066",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 16、x が 2 のとき y は 32、x が 3 のとき y は 64 です。",
+      "type": "multiple",
+      "choices": [
+        "128",
+        "144",
+        "112",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 128 です。"
+    },
+    {
+      "id": "math-change-pattern-067",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 18、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "42",
+        "48",
+        "36",
+        "54"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 6 のとき y = 42 です。"
+    },
+    {
+      "id": "math-change-pattern-068",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 36 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 12x",
+        "y = 13x",
+        "y = 12x + 1",
+        "y = 11x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 12 増えるので、y = 12x です。"
+    },
+    {
+      "id": "math-change-pattern-069",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 19、x が 2 のとき y は 38、x が 3 のとき y は 76 です。",
+      "type": "multiple",
+      "choices": [
+        "1216",
+        "1235",
+        "1197",
+        "2432"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 1216 です。"
+    },
+    {
+      "id": "math-change-pattern-070",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 5、x が 2 のとき y は 10、x が 3 のとき y は 15 です。",
+      "type": "multiple",
+      "choices": [
+        "20",
+        "25",
+        "15",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 4 のとき y = 20 です。"
+    },
+    {
+      "id": "math-change-pattern-071",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 45 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 15x",
+        "y = 16x",
+        "y = 15x + 1",
+        "y = 14x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 15 増えるので、y = 15x です。"
+    },
+    {
+      "id": "math-change-pattern-072",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 48 です。",
+      "type": "multiple",
+      "choices": [
+        "192",
+        "204",
+        "180",
+        "384"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 192 です。"
+    },
+    {
+      "id": "math-change-pattern-073",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 12、x が 3 のとき y は 16 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "36",
+        "28",
+        "40"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 7 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-074",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 30 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 10x",
+        "y = 11x",
+        "y = 10x + 1",
+        "y = 9x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 10 増えるので、y = 10x です。"
+    },
+    {
+      "id": "math-change-pattern-075",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 60 です。",
+      "type": "multiple",
+      "choices": [
+        "60",
+        "75",
+        "45",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 60 です。"
+    },
+    {
+      "id": "math-change-pattern-076",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 14、x が 3 のとき y は 17 です。",
+      "type": "multiple",
+      "choices": [
+        "23",
+        "26",
+        "20",
+        "34"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 5 のとき y = 23 です。"
+    },
+    {
+      "id": "math-change-pattern-077",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 39 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 13x",
+        "y = 14x",
+        "y = 13x + 1",
+        "y = 12x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 13 増えるので、y = 13x です。"
+    },
+    {
+      "id": "math-change-pattern-078",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 18、x が 2 のとき y は 36、x が 3 のとき y は 72 です。",
+      "type": "multiple",
+      "choices": [
+        "576",
+        "594",
+        "558",
+        "1152"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 576 です。"
+    },
+    {
+      "id": "math-change-pattern-079",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 20、x が 3 のとき y は 26 です。",
+      "type": "multiple",
+      "choices": [
+        "56",
+        "62",
+        "50",
+        "70"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 8 のとき y = 56 です。"
+    },
+    {
+      "id": "math-change-pattern-080",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 8、x が 2 のとき y は 16、x が 3 のとき y は 24 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 8x",
+        "y = 9x",
+        "y = 8x + 1",
+        "y = 7x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 8 増えるので、y = 8x です。"
+    },
+    {
+      "id": "math-change-pattern-081",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 44 です。",
+      "type": "multiple",
+      "choices": [
+        "88",
+        "99",
+        "77",
+        "176"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 88 です。"
+    },
+    {
+      "id": "math-change-pattern-082",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 7、x が 2 のとき y は 12、x が 3 のとき y は 17 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "37",
+        "27",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 6 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-083",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 11、x が 2 のとき y は 22、x が 3 のとき y は 33 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 11x",
+        "y = 12x",
+        "y = 11x + 1",
+        "y = 10x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 11 増えるので、y = 11x です。"
+    },
+    {
+      "id": "math-change-pattern-084",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 56 です。",
+      "type": "multiple",
+      "choices": [
+        "896",
+        "910",
+        "882",
+        "1792"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 896 です。"
+    },
+    {
+      "id": "math-change-pattern-085",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 14、x が 3 のとき y は 18 です。",
+      "type": "multiple",
+      "choices": [
+        "22",
+        "26",
+        "18",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 4 のとき y = 22 です。"
+    },
+    {
+      "id": "math-change-pattern-086",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 14、x が 2 のとき y は 28、x が 3 のとき y は 42 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 14x",
+        "y = 15x",
+        "y = 14x + 1",
+        "y = 13x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 14 増えるので、y = 14x です。"
+    },
+    {
+      "id": "math-change-pattern-087",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 17、x が 2 のとき y は 34、x が 3 のとき y は 68 です。",
+      "type": "multiple",
+      "choices": [
+        "272",
+        "289",
+        "255",
+        "544"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 5 のとき y = 272 です。"
+    },
+    {
+      "id": "math-change-pattern-088",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 16、x が 3 のとき y は 19 です。",
+      "type": "multiple",
+      "choices": [
+        "31",
+        "34",
+        "28",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 7 のとき y = 31 です。"
+    },
+    {
+      "id": "math-change-pattern-089",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 18、x が 3 のとき y は 27 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 9x",
+        "y = 10x",
+        "y = 9x + 1",
+        "y = 8x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 9 増えるので、y = 9x です。"
+    },
+    {
+      "id": "math-change-pattern-090",
+      "question": "表を見て、x が 3 のときの y の値を求めなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 40 です。",
+      "type": "multiple",
+      "choices": [
+        "40",
+        "50",
+        "30",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 3 のとき y = 40 です。"
+    },
+    {
+      "id": "math-change-pattern-091",
+      "question": "表を見て、x が 5 のときの y の値を求めなさい。\n表: x が 1 のとき y は 6、x が 2 のとき y は 12、x が 3 のとき y は 18 です。",
+      "type": "multiple",
+      "choices": [
+        "30",
+        "36",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 6 増えるので、x が 5 のとき y = 30 です。"
+    },
+    {
+      "id": "math-change-pattern-092",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 24、x が 3 のとき y は 36 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 12x",
+        "y = 13x",
+        "y = 12x + 1",
+        "y = 11x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 12 増えるので、y = 12x です。"
+    },
+    {
+      "id": "math-change-pattern-093",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 13、x が 2 のとき y は 26、x が 3 のとき y は 52 です。",
+      "type": "multiple",
+      "choices": [
+        "416",
+        "429",
+        "403",
+        "832"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 6 のとき y = 416 です。"
+    },
+    {
+      "id": "math-change-pattern-094",
+      "question": "表を見て、x が 8 のときの y の値を求めなさい。\n表: x が 1 のとき y は 9、x が 2 のとき y は 14、x が 3 のとき y は 19 です。",
+      "type": "multiple",
+      "choices": [
+        "44",
+        "49",
+        "39",
+        "53"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 5 増えるので、x が 8 のとき y = 44 です。"
+    },
+    {
+      "id": "math-change-pattern-095",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 15、x が 2 のとき y は 30、x が 3 のとき y は 45 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 15x",
+        "y = 16x",
+        "y = 15x + 1",
+        "y = 14x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 15 増えるので、y = 15x です。"
+    },
+    {
+      "id": "math-change-pattern-096",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 16、x が 2 のとき y は 32、x が 3 のとき y は 64 です。",
+      "type": "multiple",
+      "choices": [
+        "128",
+        "144",
+        "112",
+        "256"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 4 のとき y = 128 です。"
+    },
+    {
+      "id": "math-change-pattern-097",
+      "question": "表を見て、x が 6 のときの y の値を求めなさい。\n表: x が 1 のとき y は 12、x が 2 のとき y は 16、x が 3 のとき y は 20 です。",
+      "type": "multiple",
+      "choices": [
+        "32",
+        "36",
+        "28",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 4 増えるので、x が 6 のとき y = 32 です。"
+    },
+    {
+      "id": "math-change-pattern-098",
+      "question": "表を見て、x と y の関係を表す式を選びなさい。\n表: x が 1 のとき y は 10、x が 2 のとき y は 20、x が 3 のとき y は 30 です。",
+      "type": "multiple",
+      "choices": [
+        "y = 10x",
+        "y = 11x",
+        "y = 10x + 1",
+        "y = 9x"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 10 増えるので、y = 10x です。"
+    },
+    {
+      "id": "math-change-pattern-099",
+      "question": "表を見て、x が 7 のときの y の値を求めなさい。\n表: x が 1 のとき y は 19、x が 2 のとき y は 38、x が 3 のとき y は 76 です。",
+      "type": "multiple",
+      "choices": [
+        "1216",
+        "1235",
+        "1197",
+        "2432"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 2 倍になるので、x が 7 のとき y = 1216 です。"
+    },
+    {
+      "id": "math-change-pattern-100",
+      "question": "表を見て、x が 4 のときの y の値を求めなさい。\n表: x が 1 のとき y は 5、x が 2 のとき y は 8、x が 3 のとき y は 11 です。",
+      "type": "multiple",
+      "choices": [
+        "14",
+        "17",
+        "11",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "x が 1 増えると y は 3 増えるので、x が 4 のとき y = 14 です。"
+    }
+  ]
+}

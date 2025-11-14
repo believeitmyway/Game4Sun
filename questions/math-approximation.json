@@ -1,0 +1,1310 @@
+{
+  "subject": "math",
+  "subjectName": "数学",
+  "unitId": "approximation",
+  "unitName": "がい数（およその数）",
+  "category": "数と計算",
+  "grade": "小4",
+  "questions": [
+    {
+      "id": "math-approx-001",
+      "question": "1001 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1001 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-002",
+      "question": "10002 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10002 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-003",
+      "question": "103 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "100",
+        "110",
+        "90",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "103 の十の位を四捨五入すると 100 です。"
+    },
+    {
+      "id": "math-approx-004",
+      "question": "1004 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1004 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-005",
+      "question": "10005 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10005 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-006",
+      "question": "106 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "110",
+        "120",
+        "100",
+        "130"
+      ],
+      "answer": 0,
+      "explanation": "106 の十の位を四捨五入すると 110 です。"
+    },
+    {
+      "id": "math-approx-007",
+      "question": "1007 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1007 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-008",
+      "question": "10008 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10008 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-009",
+      "question": "109 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "110",
+        "120",
+        "100",
+        "130"
+      ],
+      "answer": 0,
+      "explanation": "109 の十の位を四捨五入すると 110 です。"
+    },
+    {
+      "id": "math-approx-010",
+      "question": "1010 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1010 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-011",
+      "question": "10011 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10011 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-012",
+      "question": "112 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "110",
+        "120",
+        "100",
+        "130"
+      ],
+      "answer": 0,
+      "explanation": "112 の十の位を四捨五入すると 110 です。"
+    },
+    {
+      "id": "math-approx-013",
+      "question": "1013 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1013 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-014",
+      "question": "10014 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10014 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-015",
+      "question": "115 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "120",
+        "130",
+        "110",
+        "140"
+      ],
+      "answer": 0,
+      "explanation": "115 の十の位を四捨五入すると 120 です。"
+    },
+    {
+      "id": "math-approx-016",
+      "question": "1016 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1016 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-017",
+      "question": "10017 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10017 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-018",
+      "question": "118 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "120",
+        "130",
+        "110",
+        "140"
+      ],
+      "answer": 0,
+      "explanation": "118 の十の位を四捨五入すると 120 です。"
+    },
+    {
+      "id": "math-approx-019",
+      "question": "1019 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1019 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-020",
+      "question": "10020 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10020 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-021",
+      "question": "121 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "120",
+        "130",
+        "110",
+        "140"
+      ],
+      "answer": 0,
+      "explanation": "121 の十の位を四捨五入すると 120 です。"
+    },
+    {
+      "id": "math-approx-022",
+      "question": "1022 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1022 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-023",
+      "question": "10023 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10023 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-024",
+      "question": "124 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "120",
+        "130",
+        "110",
+        "140"
+      ],
+      "answer": 0,
+      "explanation": "124 の十の位を四捨五入すると 120 です。"
+    },
+    {
+      "id": "math-approx-025",
+      "question": "1025 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1025 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-026",
+      "question": "10026 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10026 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-027",
+      "question": "127 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "130",
+        "140",
+        "120",
+        "150"
+      ],
+      "answer": 0,
+      "explanation": "127 の十の位を四捨五入すると 130 です。"
+    },
+    {
+      "id": "math-approx-028",
+      "question": "1028 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1028 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-029",
+      "question": "10029 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10029 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-030",
+      "question": "130 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "130",
+        "140",
+        "120",
+        "150"
+      ],
+      "answer": 0,
+      "explanation": "130 の十の位を四捨五入すると 130 です。"
+    },
+    {
+      "id": "math-approx-031",
+      "question": "1031 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1031 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-032",
+      "question": "10032 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10032 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-033",
+      "question": "133 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "130",
+        "140",
+        "120",
+        "150"
+      ],
+      "answer": 0,
+      "explanation": "133 の十の位を四捨五入すると 130 です。"
+    },
+    {
+      "id": "math-approx-034",
+      "question": "1034 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1034 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-035",
+      "question": "10035 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10035 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-036",
+      "question": "136 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "140",
+        "150",
+        "130",
+        "160"
+      ],
+      "answer": 0,
+      "explanation": "136 の十の位を四捨五入すると 140 です。"
+    },
+    {
+      "id": "math-approx-037",
+      "question": "1037 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1037 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-038",
+      "question": "10038 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10038 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-039",
+      "question": "139 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "140",
+        "150",
+        "130",
+        "160"
+      ],
+      "answer": 0,
+      "explanation": "139 の十の位を四捨五入すると 140 です。"
+    },
+    {
+      "id": "math-approx-040",
+      "question": "1040 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1040 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-041",
+      "question": "10041 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10041 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-042",
+      "question": "142 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "140",
+        "150",
+        "130",
+        "160"
+      ],
+      "answer": 0,
+      "explanation": "142 の十の位を四捨五入すると 140 です。"
+    },
+    {
+      "id": "math-approx-043",
+      "question": "1043 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1043 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-044",
+      "question": "10044 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10044 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-045",
+      "question": "145 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "150",
+        "160",
+        "140",
+        "170"
+      ],
+      "answer": 0,
+      "explanation": "145 の十の位を四捨五入すると 150 です。"
+    },
+    {
+      "id": "math-approx-046",
+      "question": "1046 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1046 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-047",
+      "question": "10047 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10047 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-048",
+      "question": "148 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "150",
+        "160",
+        "140",
+        "170"
+      ],
+      "answer": 0,
+      "explanation": "148 の十の位を四捨五入すると 150 です。"
+    },
+    {
+      "id": "math-approx-049",
+      "question": "1049 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1000",
+        "1100",
+        "900",
+        "1200"
+      ],
+      "answer": 0,
+      "explanation": "1049 の百の位を四捨五入すると 1000 です。"
+    },
+    {
+      "id": "math-approx-050",
+      "question": "10050 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10050 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-051",
+      "question": "151 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "150",
+        "160",
+        "140",
+        "170"
+      ],
+      "answer": 0,
+      "explanation": "151 の十の位を四捨五入すると 150 です。"
+    },
+    {
+      "id": "math-approx-052",
+      "question": "1052 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1052 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-053",
+      "question": "10053 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10053 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-054",
+      "question": "154 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "150",
+        "160",
+        "140",
+        "170"
+      ],
+      "answer": 0,
+      "explanation": "154 の十の位を四捨五入すると 150 です。"
+    },
+    {
+      "id": "math-approx-055",
+      "question": "1055 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1055 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-056",
+      "question": "10056 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10056 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-057",
+      "question": "157 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "160",
+        "170",
+        "150",
+        "180"
+      ],
+      "answer": 0,
+      "explanation": "157 の十の位を四捨五入すると 160 です。"
+    },
+    {
+      "id": "math-approx-058",
+      "question": "1058 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1058 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-059",
+      "question": "10059 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10059 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-060",
+      "question": "160 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "160",
+        "170",
+        "150",
+        "180"
+      ],
+      "answer": 0,
+      "explanation": "160 の十の位を四捨五入すると 160 です。"
+    },
+    {
+      "id": "math-approx-061",
+      "question": "1061 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1061 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-062",
+      "question": "10062 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10062 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-063",
+      "question": "163 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "160",
+        "170",
+        "150",
+        "180"
+      ],
+      "answer": 0,
+      "explanation": "163 の十の位を四捨五入すると 160 です。"
+    },
+    {
+      "id": "math-approx-064",
+      "question": "1064 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1064 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-065",
+      "question": "10065 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10065 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-066",
+      "question": "166 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "170",
+        "180",
+        "160",
+        "190"
+      ],
+      "answer": 0,
+      "explanation": "166 の十の位を四捨五入すると 170 です。"
+    },
+    {
+      "id": "math-approx-067",
+      "question": "1067 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1067 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-068",
+      "question": "10068 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10068 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-069",
+      "question": "169 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "170",
+        "180",
+        "160",
+        "190"
+      ],
+      "answer": 0,
+      "explanation": "169 の十の位を四捨五入すると 170 です。"
+    },
+    {
+      "id": "math-approx-070",
+      "question": "1070 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1070 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-071",
+      "question": "10071 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10071 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-072",
+      "question": "172 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "170",
+        "180",
+        "160",
+        "190"
+      ],
+      "answer": 0,
+      "explanation": "172 の十の位を四捨五入すると 170 です。"
+    },
+    {
+      "id": "math-approx-073",
+      "question": "1073 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1073 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-074",
+      "question": "10074 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10074 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-075",
+      "question": "175 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "190",
+        "170",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "175 の十の位を四捨五入すると 180 です。"
+    },
+    {
+      "id": "math-approx-076",
+      "question": "1076 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1076 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-077",
+      "question": "10077 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10077 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-078",
+      "question": "178 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "190",
+        "170",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "178 の十の位を四捨五入すると 180 です。"
+    },
+    {
+      "id": "math-approx-079",
+      "question": "1079 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1079 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-080",
+      "question": "10080 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10080 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-081",
+      "question": "181 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "190",
+        "170",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "181 の十の位を四捨五入すると 180 です。"
+    },
+    {
+      "id": "math-approx-082",
+      "question": "1082 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1082 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-083",
+      "question": "10083 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10083 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-084",
+      "question": "184 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "180",
+        "190",
+        "170",
+        "200"
+      ],
+      "answer": 0,
+      "explanation": "184 の十の位を四捨五入すると 180 です。"
+    },
+    {
+      "id": "math-approx-085",
+      "question": "1085 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1085 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-086",
+      "question": "10086 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10086 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-087",
+      "question": "187 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "190",
+        "200",
+        "180",
+        "210"
+      ],
+      "answer": 0,
+      "explanation": "187 の十の位を四捨五入すると 190 です。"
+    },
+    {
+      "id": "math-approx-088",
+      "question": "1088 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1088 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-089",
+      "question": "10089 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10089 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-090",
+      "question": "190 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "190",
+        "200",
+        "180",
+        "210"
+      ],
+      "answer": 0,
+      "explanation": "190 の十の位を四捨五入すると 190 です。"
+    },
+    {
+      "id": "math-approx-091",
+      "question": "1091 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1091 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-092",
+      "question": "10092 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10092 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-093",
+      "question": "193 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "190",
+        "200",
+        "180",
+        "210"
+      ],
+      "answer": 0,
+      "explanation": "193 の十の位を四捨五入すると 190 です。"
+    },
+    {
+      "id": "math-approx-094",
+      "question": "1094 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1094 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-095",
+      "question": "10095 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10095 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-096",
+      "question": "196 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "210",
+        "190",
+        "220"
+      ],
+      "answer": 0,
+      "explanation": "196 の十の位を四捨五入すると 200 です。"
+    },
+    {
+      "id": "math-approx-097",
+      "question": "1097 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1097 の百の位を四捨五入すると 1100 です。"
+    },
+    {
+      "id": "math-approx-098",
+      "question": "10098 を千の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "10000",
+        "11000",
+        "9000",
+        "12000"
+      ],
+      "answer": 0,
+      "explanation": "10098 の千の位を四捨五入すると 10000 です。"
+    },
+    {
+      "id": "math-approx-099",
+      "question": "199 を十の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "200",
+        "210",
+        "190",
+        "220"
+      ],
+      "answer": 0,
+      "explanation": "199 の十の位を四捨五入すると 200 です。"
+    },
+    {
+      "id": "math-approx-100",
+      "question": "1100 を百の位までのがい数にしなさい。",
+      "type": "multiple",
+      "choices": [
+        "1100",
+        "1200",
+        "1000",
+        "1300"
+      ],
+      "answer": 0,
+      "explanation": "1100 の百の位を四捨五入すると 1100 です。"
+    }
+  ]
+}
